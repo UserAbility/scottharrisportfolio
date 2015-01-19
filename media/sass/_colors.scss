@@ -5,21 +5,10 @@ $clr-fb: 		#3b5998;
 $clr-tw: 		#00acee; 
 
 /*--- body colors ----*/
-$clr-white:		#fff;
 $clr-lightest:	#fff;
 
-/*dark blue*/
-$clr-body6:		#36566F;
-$clr-body7:		#91B6C7;
-$clr-darkest:	darken($clr-body6, 20%);
-$clr-shadow:	darken($clr-body6, 70%);
-
-/*lightbox*/
-$clr-lb2:	lighten($clr-body6, 25%); 
-$clr-lb1:	lighten($clr-lb2, 25%); 
-$clr-lb3:	#1D2E3C; /*darken($clr-lb2, 15%);*/
-
-$clr-body5:		#efefef;/*#f2f2f0;*/
+/*body*/
+$clr-body5:		#efefef;
 $clr-body4:		darken($clr-body5, 5%);
 $clr-body3:		darken($clr-body5, 10%);
 $clr-body2:		darken($clr-body5, 15%);
@@ -68,18 +57,3 @@ $clr-enabled: 	#596C73;
 $clr-enabledbg: #845B4E;
 $clr-disabled: 	#c7cbd6;
 $clr-info: 		$clr-plus3; 
-	
-
-/* -------------------------------------------------------------------
-text
-------------------------------------------------------------------- */
-$txt-h1:		#da7db3;			
-$txt-h2:		#da7db3;			
-$txt-info:		darken($clr-body5, 60%);
-$txt-body:		$clr-body;			
-$txt-active:	$clr-active;			
-$txt-enabled:	$clr-enabled;
-$txt-disabled:	$clr-disabled;
-$txt-mems:		$clr-plus2;
-$txt-special:	$clr-plus2;
-$txt-price:		#fff;
