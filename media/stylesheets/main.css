@@ -1,0 +1,65 @@
+/* -------------------------------------------------------------------
+colors
+------------------------------------------------------------------- */
+/*--- body colors ----*/
+/*dark blue*/
+/*lightbox*/
+/*darken($clr-lb2, 15%);*/
+/*#f2f2f0;*/
+/*--- color groups ---*/
+/*oranges*/
+/*greens*/
+/*reds*/
+/*yellows*/
+/*pinks*/
+/*blues*/
+/* light pink */
+/*--- color groups ---*/
+/* -------------------------------------------------------------------
+text
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------
+colors
+------------------------------------------------------------------- */
+/*--- body colors ----*/
+/*dark blue*/
+/*lightbox*/
+/*darken($clr-lb2, 15%);*/
+/*#f2f2f0;*/
+/*--- color groups ---*/
+/*oranges*/
+/*greens*/
+/*reds*/
+/*yellows*/
+/*pinks*/
+/*blues*/
+/* light pink */
+/*--- color groups ---*/
+/* -------------------------------------------------------------------
+text
+------------------------------------------------------------------- */
+/*------- scott ---------*/
+/* line 4, ../sass/main.scss */
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: orange;
+}
+
+/*--------------------
+fonts
+--------------------*/
+/* line 13, ../sass/main.scss */
+.txt-hand {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+/* line 16, ../sass/main.scss */
+.txt-sketch {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+/* line 19, ../sass/main.scss */
+.txt-code {
+  font-family: 'Open Sans', sans-serif;
+}

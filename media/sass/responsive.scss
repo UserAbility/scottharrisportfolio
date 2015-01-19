@@ -1,0 +1,8 @@
+@import "colors";
+@import "mixins";
+
+@media screen and (max-width: 480px) {
+	body {
+		background: pink;
+	}
+}

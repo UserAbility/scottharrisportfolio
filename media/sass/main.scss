@@ -1,0 +1,21 @@
+@import "colors";
+@import "mixins";
+
+#wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: orange;
+}
+
+/*--------------------
+fonts
+--------------------*/
+.txt-hand{
+	font-family: 'Nothing You Could Do', cursive;
+}
+.txt-sketch{
+	font-family: 'Cabin Sketch', cursive; 
+}
+.txt-code{
+	font-family: 'Open Sans', sans-serif; 
+}
