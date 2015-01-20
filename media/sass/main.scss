@@ -8,19 +8,47 @@
 }
 
 /*--------------------
-fonts
+text
 --------------------*/
-.txt-hand{
-	font-family: 'Nothing You Could Do', cursive;
-}
-.txt-sketch{
-	font-family: 'Cabin Sketch', cursive; 
-}
-.txt-code{
-	font-family: 'Open Sans', sans-serif; 
-}
+.txt-hand	{font-family: 'Nothing You Could Do', cursive;}
+.txt-sketch	{font-family: 'Cabin Sketch', cursive; }
+.txt-code	{font-family: 'Open Sans', sans-serif; }
 
 h1{
 	color: $clr-pos3;
 	background-color: $clr-pos1;
 }
+
+/*--------------------
+header
+--------------------*/
+
+
+/*--------------------
+footer
+--------------------*/
+
+
+/*--------------------
+basics
+--------------------*/
+.txtc 	{text-align: center}
+.txtl 	{text-align: left}
+.txtr 	{text-align: right}
+
+.fc		{margin: 0 auto}
+.fl 	{float: left;}
+.fr 	{float: right;}
+.fv		{vertical-align:middle;}
+
+.mit 	{margin: 1rem}
+.ml		{margin-left: 1rem}
+.mr		{margin-right: 1rem}
+.mw		{margin: 0 1rem}
+.mh 	{margin: 1rem 0}
+
+.pit 	{padding: 1rem}
+.pl		{padding-left: 1rem}
+.pr		{padding-right: 1rem}
+.pw		{padding: 0 1rem}
+.ph 	{padding: 1rem 0}

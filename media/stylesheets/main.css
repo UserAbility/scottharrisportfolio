@@ -35,25 +35,119 @@ colors
 }
 
 /*--------------------
-fonts
+text
 --------------------*/
 /* line 13, ../sass/main.scss */
 .txt-hand {
   font-family: 'Nothing You Could Do', cursive;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 14, ../sass/main.scss */
 .txt-sketch {
   font-family: 'Cabin Sketch', cursive;
 }
 
-/* line 19, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 .txt-code {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 23, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 h1 {
   color: #1e6232;
   background-color: #c5edd1;
+}
+
+/*--------------------
+header
+--------------------*/
+/*--------------------
+footer
+--------------------*/
+/*--------------------
+basics
+--------------------*/
+/* line 35, ../sass/main.scss */
+.txtc {
+  text-align: center;
+}
+
+/* line 36, ../sass/main.scss */
+.txtl {
+  text-align: left;
+}
+
+/* line 37, ../sass/main.scss */
+.txtr {
+  text-align: right;
+}
+
+/* line 39, ../sass/main.scss */
+.fc {
+  margin: 0 auto;
+}
+
+/* line 40, ../sass/main.scss */
+.fl {
+  float: left;
+}
+
+/* line 41, ../sass/main.scss */
+.fr {
+  float: right;
+}
+
+/* line 42, ../sass/main.scss */
+.fv {
+  vertical-align: middle;
+}
+
+/* line 44, ../sass/main.scss */
+.mit {
+  margin: 1rem;
+}
+
+/* line 45, ../sass/main.scss */
+.ml {
+  margin-left: 1rem;
+}
+
+/* line 46, ../sass/main.scss */
+.mr {
+  margin-right: 1rem;
+}
+
+/* line 47, ../sass/main.scss */
+.mw {
+  margin: 0 1rem;
+}
+
+/* line 48, ../sass/main.scss */
+.mh {
+  margin: 1rem 0;
+}
+
+/* line 50, ../sass/main.scss */
+.pit {
+  padding: 1rem;
+}
+
+/* line 51, ../sass/main.scss */
+.pl {
+  padding-left: 1rem;
+}
+
+/* line 52, ../sass/main.scss */
+.pr {
+  padding-right: 1rem;
+}
+
+/* line 53, ../sass/main.scss */
+.pw {
+  padding: 0 1rem;
+}
+
+/* line 54, ../sass/main.scss */
+.ph {
+  padding: 1rem 0;
 }
