@@ -153,7 +153,7 @@
 @mixin border-radius-b {@include border-radius(0 0 5px 5px); }
 @mixin border-radius-l {@include border-radius(5px 0 0 5px); }
 @mixin border-radius-r {@include border-radius(0 5px 5px 0); }
-@mixin circle-border-radius {@include border-radius(50%); }
+@mixin roundit {@include border-radius(50%); }
 @mixin no-radius {@include border-radius(0%); }
 
 @mixin modal-border($size: 1em) { border: $size $clr-body6 solid; }

@@ -39,51 +39,50 @@ html, body {
 
 /* line 10, ../sass/main.scss */
 #wrapper {
-  max-width: 1000px;
-  background-color: #ccc;
   min-height: 100%;
   margin: 0 auto -4rem;
   /* the bottom margin is the negative value of the footer's height */
+  background-color: white;
 }
 
 /*--------------------
 text
 --------------------*/
-/* line 20, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 .txt-hand {
   font-family: 'Nothing You Could Do', cursive;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
 .txt-sketch {
   font-family: 'Cabin Sketch', cursive;
 }
 
-/* line 22, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 .txt-code {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 24, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 h1, h2, h3 {
-  color: white;
+  color: #999;
   text-align: center;
   clear: both;
 }
 
-/* line 29, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 h1 {
   font-size: 2rem;
   margin: .25rem 0;
 }
 
-/* line 33, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 h2 {
   font-size: 1.25rem;
   margin: .5rem 0;
 }
 
-/* line 37, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 h3 {
   display: block;
   text-align: left;
@@ -93,7 +92,7 @@ h3 {
 /*--------------------
 containers
 --------------------*/
-/* line 49, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 ul.halves li {
   display: inline-block;
   float: left;
@@ -101,12 +100,12 @@ ul.halves li {
   margin: 0 1% 1% 0;
   background-color: pink;
 }
-/* line 55, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 ul.halves li:nth-child(2n+2) {
   margin: 0 0 1% 0;
 }
 
-/* line 61, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 ul.thirds li {
   display: inline-block;
   float: left;
@@ -114,12 +113,12 @@ ul.thirds li {
   margin: 0 1% 1% 0;
   background-color: pink;
 }
-/* line 67, ../sass/main.scss */
+/* line 68, ../sass/main.scss */
 ul.thirds li:nth-child(3n+3) {
   margin: 0 0 1% 0;
 }
 
-/* line 73, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 ul.fourths li {
   display: inline-block;
   float: left;
@@ -127,7 +126,7 @@ ul.fourths li {
   margin: 0 1% 1% 0;
   background-color: pink;
 }
-/* line 79, ../sass/main.scss */
+/* line 80, ../sass/main.scss */
 ul.fourths li:nth-child(4n+4) {
   margin: 0 0 1% 0;
 }
@@ -135,25 +134,38 @@ ul.fourths li:nth-child(4n+4) {
 /*--------------------
 header
 --------------------*/
-/* line 88, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 25%;
-  max-width: 300px;
-  background-color: #00acee;
-  height: 100%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  max-height: 300px;
+  padding: 1rem;
+  background-color: white;
 }
-/* line 97, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
+header img {
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+/* line 106, ../sass/main.scss */
 header ul.nav {
   padding: 10%;
 }
-/* line 99, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 header ul.nav h3 {
   color: #88deff;
 }
-/* line 102, ../sass/main.scss */
+/* line 111, ../sass/main.scss */
 header ul.nav li, header ul.nav li a {
   color: white;
   display: block;
@@ -161,24 +173,68 @@ header ul.nav li, header ul.nav li a {
 }
 
 /*--------------------
-section
+sections
 --------------------*/
+/* line 122, ../sass/main.scss */
+section {
+  position: relative;
+  display: inline-block;
+  width: 75%;
+}
+
+/* line 128, ../sass/main.scss */
+.bblock {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background: #003d55;
+  height: 400px;
+}
+/* line 136, ../sass/main.scss */
+.bblock h1, .bblock h2, .bblock h3 {
+  z-index: 3;
+  text-align: left;
+  margin-left: 1rem;
+}
+/* line 142, ../sass/main.scss */
+.bblock img.bg, .bblock img.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+/* line 150, ../sass/main.scss */
+.bblock img.logo {
+  z-index: 2;
+  max-width: 75%;
+  max-height: 150px;
+}
+/* line 155, ../sass/main.scss */
+.bblock img.bg {
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  opacity: .25;
+}
+
 /*--------------------
 footer
 --------------------*/
-/* line 118, ../sass/main.scss */
+/* line 167, ../sass/main.scss */
 .footer, .push {
   height: 4rem;
   /* '.push' must be the same height as 'footer' */
 }
 
-/* line 121, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 .footer {
-  max-width: 1000px;
   margin: 0 auto;
-  background-color: purple;
+  background-color: white;
 }
-/* line 125, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 .footer p {
   padding-top: 1.5rem;
   text-align: center;
@@ -187,7 +243,7 @@ footer
 /*--------------------
 space and place
 --------------------*/
-/* line 134, ../sass/main.scss */
+/* line 182, ../sass/main.scss */
 .clearfix:after {
   content: "\0020";
   display: block;
@@ -197,102 +253,109 @@ space and place
   overflow: hidden;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .clearfix {
   display: block;
 }
 
-/* line 136, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 137, ../sass/main.scss */
+/* line 185, ../sass/main.scss */
 .outline {
   outline: 1px solid pink;
 }
 
-/* line 139, ../sass/main.scss */
+/* line 187, ../sass/main.scss */
 .txtc {
   text-align: center;
 }
 
-/* line 140, ../sass/main.scss */
+/* line 188, ../sass/main.scss */
 .txtl {
   text-align: left;
 }
 
-/* line 141, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 .txtr {
   text-align: right;
 }
 
-/* line 143, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 .fc {
   margin: 0 auto;
 }
 
-/* line 144, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
+.fcc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 193, ../sass/main.scss */
 .fl {
   float: left;
 }
 
-/* line 145, ../sass/main.scss */
+/* line 194, ../sass/main.scss */
 .fr {
   float: right;
 }
 
-/* line 146, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 .fv {
   vertical-align: middle;
 }
 
-/* line 148, ../sass/main.scss */
+/* line 197, ../sass/main.scss */
 .mit {
   margin: 1rem;
 }
 
-/* line 149, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 .ml {
   margin-left: 1rem;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 199, ../sass/main.scss */
 .mr {
   margin-right: 1rem;
 }
 
-/* line 151, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .mw {
   margin: 0 1rem;
 }
 
-/* line 152, ../sass/main.scss */
+/* line 201, ../sass/main.scss */
 .mh {
   margin: 1rem 0;
 }
 
-/* line 154, ../sass/main.scss */
+/* line 203, ../sass/main.scss */
 .pit {
   padding: 1rem;
 }
 
-/* line 155, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 .pl {
   padding-left: 1rem;
 }
 
-/* line 156, ../sass/main.scss */
+/* line 205, ../sass/main.scss */
 .pr {
   padding-right: 1rem;
 }
 
-/* line 157, ../sass/main.scss */
+/* line 206, ../sass/main.scss */
 .pw {
   padding: 0 1rem;
 }
 
-/* line 158, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 .ph {
   padding: 1rem 0;
 }
