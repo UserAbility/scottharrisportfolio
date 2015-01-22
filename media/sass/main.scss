@@ -125,38 +125,55 @@ section{
 	width: 75%;
 }
 
-.bblock{
-	position: relative;
-	display: block;
-	width: 100%;
-	overflow: hidden;
-	background: $clr-plus3;
-	height: 400px; 
-	
-	h1, h2, h3{
-		z-index: 3;
-		text-align: left;
-		margin-left: 1rem;
+.jobblocks{
+	max-width: 1000px;
+	li{
+		position: relative;
+		float: left;
+		overflow: hidden;
+		height: 300px;
+		margin-bottom: 2%;
+		background: #eee;
+		
+		h1, h2, h3{
+			z-index: 4;
+			text-align: left;
+			margin-left: 1rem;
+		}
+		img.bg, img.logo{
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+			margin: 0;
+		    margin-right: -50%;
+		    transform: translate(-50%, -50%)
+		}
+		img.logo{
+			z-index: 2;
+			max-height: 100px;
+			max-width: 100%;
+		}
+		img.bg{
+			z-index: 1;
+			width: 100%;
+			height: auto;
+			opacity: 1;
+		}
 	}
-
-	img.bg, img.logo{
-	    position: absolute;
-	    top: 50%;
-	    left: 50%;
-		margin: 0;
-	    margin-right: -50%;
-	    transform: translate(-50%, -50%)
+	.gigya{
+		img.logo{
+			max-height: 70px;
+		}
 	}
-	img.logo{
-		z-index: 2;
-		max-width: 75%;
-		max-height: 150px;
+	.gigya, .mediarecords{
+		width: 32%;
+		margin-right: 2%;
 	}
-	img.bg{
-		z-index: 1;
+	.shuttercal, .nickelodeon{
+		width: 66%;
+	}
+	.moey, .amnh{
 		width: 100%;
-		height: auto;
-		opacity: .25;
 	}
 }
 
