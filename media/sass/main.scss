@@ -7,12 +7,12 @@
 html, body {
 	height: 100%;
 }
-#wrapper{
+#wrapper {
 	min-height: 100%;
 	margin: 0 auto -4rem; /* the bottom margin is the negative value of the footer's height */
 	background-color: $clr-lightest;
 }
-#wrapper, .footer{
+#wrapper, .footer {
 }
 
 /*--------------------
@@ -23,7 +23,6 @@ text
 .txt-code	{font-family: 'Open Sans', sans-serif; }
 
 h1, h2, h3{
-	color: #999;
 	text-align: center;
 	clear: both;
 }
@@ -40,8 +39,12 @@ h3{
 	text-align: left;
 	margin: 0 0 .5rem 0;
 }
-
-
+p {
+	margin-bottom: 1rem;
+}
+.fa{
+	font-size: 2.5rem;
+}
 
 /*--------------------
 containers
@@ -86,15 +89,16 @@ ul.fourths{
 /*--------------------
 header
 --------------------*/
+
 header{
 	position: relative;
-	display: inline-block;
+	display: block;
 	overflow: hidden;
-	width: 100%;
+	width: 96%;
 	max-height: 300px;
-	padding: 1rem;
+	padding: 2%;
 	background-color: $clr-lightest;
-
+	
 	img{
 		max-height: 200px;
 		display: block;
@@ -116,6 +120,14 @@ header{
 	}
 }
 
+.contactbox {
+	position: absolute;
+	right: 2%;
+	a.fa {
+		clear: right;
+		margin-right: .5rem;
+	}	
+}
 /*--------------------
 sections
 --------------------*/
@@ -157,7 +169,7 @@ section{
 			z-index: 1;
 			width: 100%;
 			height: auto;
-			opacity: 1;
+			opacity: .12;
 		}
 	}
 	.gigya{
@@ -199,6 +211,8 @@ space and place
 .clearfix:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
 .clearfix {display:block;}
 .clear {clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
 .outline{outline: 1px solid pink;}
 
 .txtc 	{text-align: center}
@@ -212,12 +226,16 @@ space and place
 .fv		{vertical-align:middle;}
 
 .mit 	{margin: 1rem}
+.mt 	{margin-top: 1rem}
+.mb 	{margin-bottom: 1rem}
 .ml		{margin-left: 1rem}
 .mr		{margin-right: 1rem}
 .mw		{margin: 0 1rem}
 .mh 	{margin: 1rem 0}
 
 .pit 	{padding: 1rem}
+.pt 	{padding-top: 1rem}
+.pb 	{padding-bottom: 1rem}
 .pl		{padding-left: 1rem}
 .pr		{padding-right: 1rem}
 .pw		{padding: 0 1rem}

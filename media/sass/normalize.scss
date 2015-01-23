@@ -1,3 +1,5 @@
+@import "colors";
+@import "mixins";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -32,7 +34,7 @@ body {
 
 html {margin:0;padding:0;border:0;}
 body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section 
-{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;color:$clr-body;}
 article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
 
 article,
@@ -423,8 +425,6 @@ th {
 
 /* additions
    ========================================================================== */
-@import "colors";
-@import "mixins";
 
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td {margin:0; padding:0;}
 strong {font-weight:bold;}
