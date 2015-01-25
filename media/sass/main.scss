@@ -8,6 +8,7 @@ html, body {
 	height: 100%;
 }
 #wrapper {
+	overflow: hidden;
 	min-height: 100%;
 	margin: 0 auto -4rem; /* the bottom margin is the negative value of the footer's height */
 	background-color: $clr-lightest;
@@ -25,22 +26,23 @@ text
 h1, h2, h3{
 	text-align: center;
 	clear: both;
+	margin: 0 0 .5rem 0;
 }
 h1{
 	font-size: 2rem;
-  	margin: .25rem 0;
 }
 h2{
 	font-size: 1.25rem;
-	margin: .5rem 0;
 }
 h3{
+	font-size: 1.25rem;
 	display: block;
 	text-align: left;
-	margin: 0 0 .5rem 0;
 }
 p {
 	margin-bottom: 1rem;
+	line-height: 1.6rem;
+	max-width: 500px;
 }
 .fa{
 	font-size: 2.5rem;
@@ -49,41 +51,71 @@ p {
 /*--------------------
 containers
 --------------------*/
-ul.halves{
-	li{
+.bblock{
+	width: 96%;
+	padding: 2%;
+	background-color: $clr-lightest;
+}
+
+.gridbox{
+	position: relative;
+	display: inline-block;
+	padding: 1%;
+	
+	.halves li, .thirds li, .fourths li{
 		display: inline-block;
+		position: relative;
 		float: left;
-		width: 49.5%;
 		margin: 0 1% 1% 0;
-		background-color: pink;
+		background-color: #eee;
+	}
+	.halves li{
+		display: inline-block;
+		position: relative;
+		width: 48.5%;
 		&:nth-child(2n+2) {
 		    margin: 0 0 1% 0;
 		}	
 	}
-}
-ul.thirds{
-	li{
+	.thirds li{
 		display: inline-block;
-		float: left;
+		position: relative;
 		width: 32.66%;
-		margin: 0 1% 1% 0;
-		background-color: pink;
 		&:nth-child(3n+3) {
 		    margin: 0 0 1% 0;
 		}
 	}
-}
-ul.fourths{
-	li{
+	.fourths li{
 		display: inline-block;
-		float: left;
+		position: relative;
 		width: 24.25%;
-		margin: 0 1% 1% 0;
-		background-color: pink;
 		&:nth-child(4n+4) {
 		    margin: 0 0 1% 0;
 		}	
 	}
+}
+
+.projbox1{
+	width: 50%;
+	padding: 5% 3%;
+	background-color: #eee;
+
+	h1{
+		float: left;
+		width: 40%;
+	}
+	p {
+		float: right;
+		width: 60%;
+	}
+}
+
+.nicktv{
+	position: absolute;
+	top: 165px;
+	right: 0;
+	width: 50%;
+	float: right;
 }
 
 /*--------------------
@@ -99,7 +131,7 @@ header{
 	padding: 2%;
 	background-color: $clr-lightest;
 	
-	img{
+	img.profile{
 		max-height: 200px;
 		display: block;
 		margin-left: auto;
@@ -132,9 +164,6 @@ header{
 sections
 --------------------*/
 section{
-	position: relative;
-	display: inline-block;
-	width: 75%;
 }
 
 .jobblocks{
@@ -161,9 +190,9 @@ section{
 		    transform: translate(-50%, -50%)
 		}
 		img.logo{
-			z-index: 2;
+			z-index: 3;
 			max-height: 100px;
-			max-width: 100%;
+			max-width: 90%;
 		}
 		img.bg{
 			z-index: 1;
@@ -189,6 +218,40 @@ section{
 	}
 }
 
+.projectheader{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+
+	img.bg, img.logo{
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+		margin: 0;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%)
+	}
+	img.logo{
+		max-height: 150px;
+		max-width: 90%;
+	}
+	img.bg{
+		width: 100%;
+		height: auto;
+		opacity: 1;
+	}
+}
+.projblock1{
+	h1{
+		display: inline-block;
+		float: left;
+		text-align: left;
+		max-width: 300px;
+	}
+}
+
 /*--------------------
 footer
 --------------------*/
@@ -198,10 +261,11 @@ footer
 }
 .footer{
 	margin: 0 auto;
-	background-color: $clr-lightest;
+	background-color: #eee;
+	
 	p{
 		padding-top: 1.5rem;
-		text-align: center;
+		margin: 0 auto;
 	}	
 }
 
