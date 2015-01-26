@@ -55,9 +55,9 @@ a.linkbox{
 	width: 100%;
 	height: 100%;
 	color: $clr-lightest;
-	opacity: .5;
+	opacity: 1;
 	&:hover{
-		opacity: 1;
+		opacity: .5;
 	}
 }
 
@@ -187,7 +187,6 @@ section{
 		img.bg, .bg-nick{
 			width: 100%;
 			height: auto;
-			opacity: .3;
 		}
 	}
 	.gigya{
@@ -208,8 +207,6 @@ section{
 }
 
 .bg-nick{
-	position: absolute;
-	top: 0;
 	width: 100%;
 	min-height: 100%;
 	background: #eee url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat center / 100% border-box;
