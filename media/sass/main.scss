@@ -50,6 +50,16 @@ p {
 .fa{
 	font-size: 2.5rem;
 }
+a.linkbox{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: $clr-lightest;
+	opacity: .5;
+	&:hover{
+		opacity: 1;
+	}
+}
 
 /*--------------------
 containers
@@ -170,15 +180,14 @@ section{
 		    transform: translate(-50%, -50%)
 		}
 		img.logo{
-			z-index: 3;
+			z-index: 2;
 			max-height: 100px;
 			max-width: 90%;
 		}
-		img.bg{
-			z-index: 1;
+		img.bg, .bg-nick{
 			width: 100%;
 			height: auto;
-			opacity: .12;
+			opacity: .3;
 		}
 	}
 	.gigya{
@@ -198,10 +207,12 @@ section{
 	}
 }
 
-.bgnick{
+.bg-nick{
+	position: absolute;
+	top: 0;
 	width: 100%;
 	min-height: 100%;
-	background: #eee url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat 50% 50% / 100% border-box;
+	background: #eee url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat center / 100% border-box;
 }
 
 .projectheader{
@@ -220,7 +231,6 @@ section{
 	    transform: translate(-50%, -50%)
 	}
 	img.logo{
-		position: 50% 50%;
 		max-height: 150px;
 		max-width: 90%;
 	}
@@ -271,10 +281,10 @@ space and place
 .txtr 	{text-align: right}
 
 .fc		{margin: 0 auto}
-.fcc	{display: block; margin-left: auto; margin-right: auto;}
 .fl 	{float: left;}
 .fr 	{float: right;}
 .fv		{vertical-align:middle;}
+.fcc	{display: block; margin-left: auto; margin-right: auto; vertical-align:middle;}
 
 .mit 	{margin: 1rem}
 .mt 	{margin-top: 1rem}
