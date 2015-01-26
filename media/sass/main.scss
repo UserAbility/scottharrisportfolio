@@ -122,12 +122,15 @@ containers
 	max-width: 520px;
 	float: right;
 	z-index: 1;
+
+	img{
+		pointer-events:none;
+	}
 }
 .nickvid{
 	position: absolute;
 	top: 230px;
-	right: 230px;
-	width: 50%;
+	right: 140px;
 	float: right;
 	z-index: -2;
 }
