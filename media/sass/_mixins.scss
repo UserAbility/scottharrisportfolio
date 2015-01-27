@@ -1,17 +1,5 @@
 @import "colors";
 
-@mixin background-size ($value) {
-  -webkit-background-size: $value;
-          background-size: $value;
-}
-
-@mixin border-image ($path, $offsets, $repeats) {
-     -moz-border-image: $path $offsets $repeats;
-       -o-border-image: $path $offsets $repeats;
-  -webkit-border-image: $path $offsets $repeats;
-          border-image: $path $offsets $repeats;
-}
-
 @mixin border-radius ($radius: 5px) {
      -moz-border-radius: $radius;
   -webkit-border-radius: $radius;
@@ -19,75 +7,6 @@
              -moz-background-clip: padding;
           -webkit-background-clip: padding-box;
                   background-clip: padding-box;
-}
-
-@mixin box-shadow ($x, $y, $offset, $hex, $ie: $useIEFilters, $inset: null, $spread:null) {
-     -moz-box-shadow: $x $y $offset $spread $hex $inset;
-  -webkit-box-shadow: $x $y $offset $spread $hex $inset;
-          box-shadow: $x $y $offset $spread $hex $inset;
-
-  @if $ie == 1 {
-    $iecolor: '#' + red($hex) + green($hex) + blue($hex);
-    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=#{$x}, OffY=#{$y}, Color='#{$iecolor}');
-    -ms-filter: quote(progid:DXImageTransform.Microsoft.dropshadow(OffX=#{$x}, OffY=#{$y}, Color='#{$iecolor}'));
-  }
-}
-
-@mixin box-shadow-reset () {
-     -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-
-    filter: none;
-    -ms-filter: none;
-}
-
-@mixin box-sizing($value) {
-     -moz-box-sizing: $value;
-  -webkit-box-sizing: $value;
-          box-sizing: $value;
-}
-
-// requires sass 3.2
-//@mixin keyframes {
-//     @-moz-keyframes { @content; }
-//      @-ms-keyframes { @content; }
-//       @-o-keyframes { @content; }
-//  @-webkit-keyframes { @content; }
-//          @keyframes { @content; }
-//}
-
-@mixin linear-gradient($from, $to, $ie: $useIEFilters) {
-  @if $ie != 1 { background-color: $to; }
-
-  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, $from),color-stop(1, $to));
-  background-image: -webkit-linear-gradient(top, $from, $to);
-  background-image: -moz-linear-gradient(top, $from, $to);
-  background-image: -ms-linear-gradient(top, $from, $to);
-  background-image: -o-linear-gradient(top, $from, $to);
-  background-image: linear-gradient(top, bottom, $from, $to);
-
-  @if $ie == 1 {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
-    -ms-filter: quote(progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}'));
-  }
-}
-
-@mixin rgba-bg ($hex, $alpha, $ie: $useIEFilters) {
-  @if $ie == 1 {
-    background-color: none;
-    $hexopac: ie-hex-str(rgba($hex, $alpha));
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$hexopac}',EndColorStr='#{$hexopac}}');
-    -ms-filter: quote(progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$hexopac}',EndColorStr='#{$hexopac}'));
-  }
-  @else {
-    background-color: $hex;
-    background-color: rgba($hex, $alpha);
-  }
-}
-
-@mixin opacity ($opacity: 1.0) {
-  opacity: $opacity;
 }
 
 @mixin perspective($perspective) {
@@ -101,54 +20,17 @@
           transform-style: preserve-3d;
 }
 
-@mixin transform ($transforms) {
-	   -moz-transform: $transforms;
-	     -o-transform: $transforms;
-	    -ms-transform: $transforms;
-	-webkit-transform: $transforms;
-          transform: $transforms;
-}
-
-    @mixin matrix ($a, $b, $c, $d, $e, $f) {
-    	   -moz-transform: matrix($a, $b, $c, $d, #{$e}px, #{$f}px);
-    	     -o-transform: matrix($a, $b, $c, $d, $e, $f);
-    	    -ms-transform: matrix($a, $b, $c, $d, $e, $f);
-    	-webkit-transform: matrix($a, $b, $c, $d, $e, $f);
-              transform: matrix($a, $b, $c, $d, $e, $f);
-    }
-
-    @mixin rotate ($deg) {
-      @include transform(rotate(#{$deg}deg));
-    }
-
-    @mixin scale ($size) {
-      @include transform(scale(#{$size}));
-    }
-
-    @mixin translate ($x, $y) {
-    	@include transform(translate($x, $y));
-    }
-
-@mixin transition ($value) {
-     -moz-transition: $value;
-       -o-transition: $value;
-      -ms-transition: $value;
-  -webkit-transition: $value;
-          transition: $value;
-}
-
+/*------- custome ---------*/
 @mixin clearfix {
   content: ' ';
   display: block;
   clear:both;
 }
 
-
-/*------- scott ---------*/
 @mixin sc-box-shadow { @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.5), null); }
 @mixin no-box-shadow { @include box-shadow-reset; }
 
-@mixin field-border-radius {@include border-radius(3px); }
+@mixin field-border-radius {@include border-radius(10px); }
 @mixin border-radius-t {@include border-radius(5px 5px 0 0); }
 @mixin border-radius-b {@include border-radius(0 0 5px 5px); }
 @mixin border-radius-l {@include border-radius(5px 0 0 5px); }
@@ -166,35 +48,6 @@
            filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
        -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
              zoom: 1;
-}
-
-@mixin fluid-columns ($count: 3, $gap: 1em) {
-  -webkit-column-count: $count;
-  -moz-column-count:    $count;
-  column-count:         $count;
-  -webkit-column-gap:   $gap;
-  -moz-column-gap:      $gap;
-  column-gap:           $gap;
-  column-fill: auto;
-}
-
-@mixin button-shadow {
-  -webkit-box-shadow: 0px 2px 0px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow:    0px 2px 0px 0px rgba(50, 50, 50, 0.75);
-  box-shadow:         0px 2px 0px 0px rgba(50, 50, 50, 0.75);
-  text-shadow: 1px -1px 0px rgba(50, 50, 50, 0.25);
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-
-  &:hover {
-    text-shadow: 1px -1px 0px rgba(50, 50, 50, .1);
-  }
-
-  &:active { position: relative; top: 2px;
-    box-shadow:         inset 0px -1px 1px rgba(50, 50, 50, 0), inset 0 0px 1px rgba(50, 50, 50, 0.9);
-    -webkit-box-shadow: inset 0px -1px 1px rgba(50, 50, 50, 0), inset 0 0px 1px rgba(50, 50, 50, 0.9);
-    -moz-box-shadow:    inset 0px -1px 1px rgba(50, 50, 50, 0), inset 0 0px 1px rgba(50, 50, 50, 0.9);
-  }
 }
 
 @mixin blink ($time: 1s) {
