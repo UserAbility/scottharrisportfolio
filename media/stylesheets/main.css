@@ -286,26 +286,24 @@ home
 
 /* line 211, ../sass/main.scss */
 .bg-nick {
-  width: 100%;
-  height: 100%;
-  background: #eeeeee url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat center/100% border-box;
+  background: orange url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat center/100%;
 }
 
 /*--------------------
 footer
 --------------------*/
-/* line 221, ../sass/main.scss */
+/* line 219, ../sass/main.scss */
 .footer, .push {
   height: 4rem;
   /* '.push' must be the same height as 'footer' */
 }
 
-/* line 224, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 .footer {
   margin: 0 auto;
   background-color: #eee;
 }
-/* line 228, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 .footer p {
   padding-top: 1.5rem;
   margin: 0 auto;
@@ -314,7 +312,7 @@ footer
 /*--------------------
 space and place
 --------------------*/
-/* line 237, ../sass/main.scss */
+/* line 235, ../sass/main.scss */
 .clearfix:after {
   content: "\0020";
   display: block;
@@ -324,67 +322,67 @@ space and place
   overflow: hidden;
 }
 
-/* line 238, ../sass/main.scss */
+/* line 236, ../sass/main.scss */
 .clearfix {
   display: block;
 }
 
-/* line 239, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 240, ../sass/main.scss */
+/* line 238, ../sass/main.scss */
 .cl {
   clear: left;
 }
 
-/* line 241, ../sass/main.scss */
+/* line 239, ../sass/main.scss */
 .cr {
   clear: right;
 }
 
-/* line 242, ../sass/main.scss */
+/* line 240, ../sass/main.scss */
 .outline {
   outline: 1px solid pink;
 }
 
-/* line 244, ../sass/main.scss */
+/* line 242, ../sass/main.scss */
 .txtc {
   text-align: center;
 }
 
-/* line 245, ../sass/main.scss */
+/* line 243, ../sass/main.scss */
 .txtl {
   text-align: left;
 }
 
-/* line 246, ../sass/main.scss */
+/* line 244, ../sass/main.scss */
 .txtr {
   text-align: right;
 }
 
-/* line 248, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 .fc {
   margin: 0 auto;
 }
 
-/* line 249, ../sass/main.scss */
+/* line 247, ../sass/main.scss */
 .fl {
   float: left;
 }
 
-/* line 250, ../sass/main.scss */
+/* line 248, ../sass/main.scss */
 .fr {
   float: right;
 }
 
-/* line 251, ../sass/main.scss */
+/* line 249, ../sass/main.scss */
 .fv {
   vertical-align: middle;
 }
 
-/* line 252, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 .fcc {
   display: block;
   margin-left: auto;
@@ -392,72 +390,72 @@ space and place
   vertical-align: middle;
 }
 
-/* line 254, ../sass/main.scss */
+/* line 252, ../sass/main.scss */
 .mit {
   margin: 1rem;
 }
 
-/* line 255, ../sass/main.scss */
+/* line 253, ../sass/main.scss */
 .mt {
   margin-top: 1rem;
 }
 
-/* line 256, ../sass/main.scss */
+/* line 254, ../sass/main.scss */
 .mb {
   margin-bottom: 1rem;
 }
 
-/* line 257, ../sass/main.scss */
+/* line 255, ../sass/main.scss */
 .ml {
   margin-left: 1rem;
 }
 
-/* line 258, ../sass/main.scss */
+/* line 256, ../sass/main.scss */
 .mr {
   margin-right: 1rem;
 }
 
-/* line 259, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 .mw {
   margin: 0 1rem;
 }
 
-/* line 260, ../sass/main.scss */
+/* line 258, ../sass/main.scss */
 .mh {
   margin: 1rem 0;
 }
 
-/* line 262, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 .pit {
   padding: 1rem;
 }
 
-/* line 263, ../sass/main.scss */
+/* line 261, ../sass/main.scss */
 .pt {
   padding-top: 1rem;
 }
 
-/* line 264, ../sass/main.scss */
+/* line 262, ../sass/main.scss */
 .pb {
   padding-bottom: 1rem;
 }
 
-/* line 265, ../sass/main.scss */
+/* line 263, ../sass/main.scss */
 .pl {
   padding-left: 1rem;
 }
 
-/* line 266, ../sass/main.scss */
+/* line 264, ../sass/main.scss */
 .pr {
   padding-right: 1rem;
 }
 
-/* line 267, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 .pw {
   padding: 0 1rem;
 }
 
-/* line 268, ../sass/main.scss */
+/* line 266, ../sass/main.scss */
 .ph {
   padding: 1rem 0;
 }
@@ -465,27 +463,28 @@ space and place
 /*--------------------
 project page (nick)
 --------------------*/
-/* line 273, ../sass/main.scss */
+/* line 271, ../sass/main.scss */
 .projectheader {
   height: 300px;
   width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  resize: both;
-  overflow: hidden;
+  position: relative;
+  resize: vertical;
+  overflow: auto;
 }
 @media (max-width: 860px) {
-  /* line 273, ../sass/main.scss */
+  /* line 271, ../sass/main.scss */
   .projectheader {
     height: 230px;
   }
 }
-/* line 286, ../sass/main.scss */
+/* line 282, ../sass/main.scss */
 .projectheader img {
+  position: absolute;
+  top: 50%;
   width: 80%;
-  height: auto;
+  margin-left: 10%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
   resize: both;
   overflow: auto;
 }

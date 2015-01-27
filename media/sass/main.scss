@@ -209,9 +209,7 @@ section{
 }
 
 .bg-nick{
-	width:100%; 
-	height:100%;
-	background: #eee url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat center / 100% border-box;
+	background: orange url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat center / 100%;
 }
 
 /*--------------------
@@ -273,19 +271,21 @@ project page (nick)
 .projectheader{
 	height: 300px;
 	width: 100%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	resize: both;
-	overflow: hidden;
+	position: relative;
+	resize: vertical;
+	overflow: auto;
+
 	@media (max-width: 860px) {
 		height:230px;
 	}
 
 	img {
+		position: absolute;
+		top: 50%;
 		width: 80%;
-		height:auto;
+		margin-left: 10%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
 		resize: both;
 		overflow: auto;
 	}
