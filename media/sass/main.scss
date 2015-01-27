@@ -211,6 +211,10 @@ section{
 .bg-nick{
 	background: orange url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat center / 100%;
 }
+.bg-amnh{
+	background: lightblue url(http://scottharris.info/media/images/amnh-bg.jpg) no-repeat center / 100%;
+}
+
 
 /*--------------------
 footer
@@ -224,7 +228,7 @@ footer
 	background-color: #eee;
 	
 	p{
-		padding-top: 1.5rem;
+		padding-top: 1rem;
 		margin: 0 auto;
 	}	
 }
@@ -274,11 +278,9 @@ project page (nick)
 	position: relative;
 	resize: vertical;
 	overflow: auto;
-
 	@media (max-width: 860px) {
 		height:230px;
 	}
-
 	img {
 		position: absolute;
 		top: 50%;
@@ -292,9 +294,7 @@ project page (nick)
 }
 
 .projbox1{
-	position: relative;
 	width: 50%;
-	z-index: 1;
 	@media (max-width: 1000px) {
 		width:40%;
 	}
@@ -304,7 +304,6 @@ project page (nick)
 		margin-right: auto;
 		margin-left: auto;
 	}
-
 	h1{
 		float: left;
 		width: 40%;
@@ -334,7 +333,7 @@ project page (nick)
 	}
 }
 
-.nicktv{
+.nick-tv{
 	position: absolute;
 	top: 165px;
 	right: 0px;
@@ -345,21 +344,59 @@ project page (nick)
 	@media (max-width: 860px) {
 		display:none;
 	}
-	img{
-		pointer-events:none;
-	}
+	img{pointer-events:none;}
 }
-.nickvid{
+.nick-vid{
 	position: absolute;
 	top: 230px;
 	right: 140px;
 	float: right;
 	z-index: -2;
 }
-.nickvidfull{
+.nick-vidfull{
 	max-width: 100%;
 	margin: 0 auto;
 	@media (min-width: 861px) {
 		display:none;
 	}
 }
+
+.nick-break{
+	position: relative;
+	display: block;
+	border-top: 3px dashed orange;
+	margin-top: 3%;
+	width: 100%;
+}
+
+.toolbox{
+	position: relative;
+	float: right;
+	width: 40%;
+}
+
+.software{
+	float: right;
+	margin: 0 1% 1% 0;
+	padding-top: 22px;
+	min-width: 100px;	min-height: 78px;
+	text-align: center;
+  	white-space: nowrap;
+	color: $clr-lightest;
+  	background-color: $clr-body;
+  	@include field-border-radius;
+  	span, i{
+  		color: $clr-lightest;
+  		font-size: 2rem;
+  		display: block;
+  		clear: both;
+  	}
+  	.fa{
+  		line-height: 2rem;
+  	}
+  	&.maya{background-color: #333;}
+  	&.psd{background-color: #3DC3FB;}
+  	&.ai{background-color: #FF731B;}
+  	&.ae{background-color: #CB9DFF;}
+}
+
