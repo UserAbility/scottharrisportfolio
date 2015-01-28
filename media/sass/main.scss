@@ -115,17 +115,6 @@ header
 	position: absolute;
 	top: 2%;
 	right: 2%;
-	@media (max-width: 650px) {
-		position: relative;
-		top: 0;
-		right: 0;
-		background-color: #eeeeff;
-		a{
-			width: 19.1%;
-			text-align: center;
-			color: $clr-gigya;
-		}
-	}
 	a.fa {
 		clear: right;
 		margin-right: .5rem;
@@ -133,6 +122,22 @@ header
 			margin-right: 0;
 			padding: 5px 0;
 		}
+	}
+	.m-show{display: none;}
+
+	@media (max-width: 650px) {
+		position: relative;
+		top: 0;
+		right: 0;
+		background-color: #eeeeff;
+		a{
+			float: left;
+			color: $clr-gigya;
+			text-align: center;
+			width: 20%;
+		}
+		.m-show{display: inline;}
+		.m-hide{display: none;}
 	}
 }
 
