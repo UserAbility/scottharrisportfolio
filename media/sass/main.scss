@@ -157,7 +157,7 @@ section{
 }
 
 .projectblocks{
-	max-width: 1000px;
+	
 	@media (max-width: 650px) {
 			margin: 0 2%;
 		}
@@ -189,7 +189,8 @@ section{
 		}
 	}
 	.gigya, .mediarecords{ 
-		width: 32%; margin-right: 2%;
+		width: 32%; 
+		margin-right: 2%;
 	}
 	.mediarecords{
 		img{
@@ -203,6 +204,14 @@ section{
 	}
 	.shuttercal, .nick{
 		width: 66%;
+		img{
+			width: 65%;
+			margin-left: 17.5%;
+			@media (max-width: 650px) {
+				width: 80%;
+				margin-left: 10%;
+			}
+		}
 	}
 	.moey, .amnh{
 		width: 100%;
@@ -219,7 +228,7 @@ section{
 
 .bg-gigya			{background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center / 100%;}
 .bg-shuttercal		{background: orange url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
-.bg-moey			{background: skyblue url(../images/moey-bg3.jpg) no-repeat center / 100%;}
+.bg-moey			{background: skyblue url(../images/moey-bg.jpg) no-repeat center / 100%;}
 .bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
 .bg-mediarecords	{background: #333 url(../images/mediarecords-bg.jpg) no-repeat center / 100%;}
 .bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;}
