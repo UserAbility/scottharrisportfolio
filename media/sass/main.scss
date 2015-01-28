@@ -188,14 +188,38 @@ section{
 			}
 		}
 	}
-	.gigya, .mediarecords{ width: 32%; margin-right: 2%;}
-	.shuttercal, .nick{width: 66%;}
-	.moey, .amnh{width: 100%;}
+	.gigya, .mediarecords{ 
+		width: 32%; margin-right: 2%;
+	}
+	.mediarecords{
+		img{
+			width: 30%;
+			margin-left: 35%;
+			@media (max-width: 650px) {
+				width: 60%;
+				margin-left: 20%;
+			}
+		}
+	}
+	.shuttercal, .nick{
+		width: 66%;
+	}
+	.moey, .amnh{
+		width: 100%;
+		img{
+			width: 35%;
+			margin-left: 32.5%;
+			@media (max-width: 650px) {
+				width: 55%;
+				margin-left: 22.5%;
+			}
+		}
+	}
 }
 
 .bg-gigya			{background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center / 100%;}
-.bg-shuttercal		{background: purple url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
-.bg-moey			{background: skyblue url(../images/moey-bg2.jpg) no-repeat bottom / 100%;}
+.bg-shuttercal		{background: orange url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
+.bg-moey			{background: skyblue url(../images/moey-bg3.jpg) no-repeat center / 100%;}
 .bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
 .bg-mediarecords	{background: #333 url(../images/mediarecords-bg.jpg) no-repeat center / 100%;}
 .bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;}
