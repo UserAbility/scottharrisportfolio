@@ -111,45 +111,53 @@ a.linkbox{
 /*--------------------
 header
 --------------------*/
+.contactbox {
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	@media (max-width: 650px) {
+		position: relative;
+		top: 0;
+		right: 0;
+		background-color: #eeeeff;
+		a{
+			width: 19.1%;
+			text-align: center;
+			color: $clr-gigya;
+		}
+	}
+	a.fa {
+		clear: right;
+		margin-right: .5rem;
+		@media (max-width: 650px) {
+			margin-right: 0;
+			padding: 5px 0;
+		}
+	}
+}
 
 header{
 	position: relative;
 	display: block;
 	overflow: hidden;
-	width: 96%;
-	max-height: 300px;
-	padding: 2%;
+	padding: 0 0 4% 0;
 	background-color: $clr-lightest;
 	
-	img.profile{
-		max-height: 200px;
-		display: block;
-		margin-left: auto;
-  		margin-right: auto;
-		@include roundit;
-	}
-
-	ul.nav{
-		padding: 10%;
-		h3{
-			color: $clr-plus1; 
-		}
-		li, li a{
-			color: $clr-lightest;
+	.profile{ 
+		margin-top: 2%;
+		max-width: 400px;
+		img{
+			max-height: 200px;
 			display: block;
-			clear: both;
+			margin-left: auto;
+	  		margin-right: auto;
+	  		margin-bottom: 1rem;
+			@include roundit;
 		}
 	}
 }
 
-.contactbox {
-	position: absolute;
-	right: 2%;
-	a.fa {
-		clear: right;
-		margin-right: .5rem;
-	}	
-}
+
 /*--------------------
 home
 --------------------*/
@@ -157,10 +165,7 @@ section{
 }
 
 .projectblocks{
-	
-	@media (max-width: 650px) {
-			margin: 0 2%;
-		}
+	padding: 0 2%;
 	li{
 		height: 250px;
 		width: 100%;
@@ -168,7 +173,7 @@ section{
 		resize: vertical;
 		overflow: hidden;
 		float: left;
-		margin-top: 2%;
+		margin-bottom: 2%;
 		@media (max-width: 650px) {
 			height:150px;
 		}
@@ -213,6 +218,16 @@ section{
 			}
 		}
 	}
+	.nick{
+		img{
+			width: 75%;
+			margin-left: 12.5%;
+			@media (max-width: 650px) {
+				width: 80%;
+				margin-left: 10%;
+			}
+		}
+	}
 	.moey, .amnh{
 		width: 100%;
 		img{
@@ -230,7 +245,7 @@ section{
 .bg-shuttercal		{background: orange url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
 .bg-moey			{background: skyblue url(../images/moey-bg.jpg) no-repeat center / 100%;}
 .bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
-.bg-mediarecords	{background: #333 url(../images/mediarecords-bg.jpg) no-repeat center / 100%;}
+.bg-mediarecords	{background: #333 url(../images/mediarecords-bg.png) no-repeat center / 170%;}
 .bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;}
 
 /*--------------------
