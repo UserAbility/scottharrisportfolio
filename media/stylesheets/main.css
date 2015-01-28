@@ -205,7 +205,7 @@ header
   /* line 133, ../sass/main.scss */
   .contactbox a {
     float: left;
-    color: #1f5ba7;
+    color: #00aef3;
     text-align: center;
     width: 20%;
   }
@@ -372,7 +372,7 @@ home
 
 /* line 253, ../sass/main.scss */
 .bg-mediarecords {
-  background: #333333 url(../images/mediarecords-bg.png) no-repeat center/170%;
+  background: #333333 url(../images/mediarecords-bg.png) no-repeat center/180%;
 }
 
 /* line 254, ../sass/main.scss */
