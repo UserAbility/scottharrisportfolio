@@ -52,17 +52,6 @@ p {
 	font-size: 2.5rem;
 }
 
-a.linkbox{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	color: $clr-lightest;
-	opacity: 1;
-	&:hover{
-		opacity: .5;
-	}
-}
-
 /*--------------------
 containers
 --------------------*/
@@ -70,6 +59,15 @@ containers
 	width: 96%;
 	padding: 2%;
 	background-color: $clr-lightest;
+}
+
+a.linkbox{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	&:hover{
+	}
 }
 
 .gridbox{
@@ -158,63 +156,49 @@ home
 section{
 }
 
-.jobblocks{
+.projectblocks{
 	max-width: 1000px;
+	@media (max-width: 650px) {
+			margin: 0 2%;
+		}
 	li{
-		position: relative;
-		float: left;
-		overflow: hidden;
-		height: 300px;
-		margin-bottom: 2%;
-		background: #eee;
-		
-		h1, h2, h3{
-			z-index: 4;
-			text-align: left;
-			margin-left: 1rem;
-		}
-		img.bg, img.logo{
-		    position: absolute;
-		    top: 50%;
-		    left: 50%;
-			margin: 0;
-		    margin-right: -50%;
-		    transform: translate(-50%, -50%)
-		}
-		img.logo{
-			z-index: 2;
-			max-height: 100px;
-			max-width: 90%;
-		}
-		img.bg, .bg-nick{
-			width: 100%;
-			height: auto;
-		}
-	}
-	.gigya{
-		img.logo{
-			max-height: 70px;
-		}
-	}
-	.gigya, .mediarecords{
-		width: 32%;
-		margin-right: 2%;
-	}
-	.shuttercal, .nickelodeon{
-		width: 66%;
-	}
-	.moey, .amnh{
+		height: 250px;
 		width: 100%;
+		position: relative;
+		resize: vertical;
+		overflow: hidden;
+		float: left;
+		margin-top: 2%;
+		@media (max-width: 650px) {
+			height:150px;
+		}
+
+		img {
+			position: absolute;
+			top: 50%;
+			width: 50%;
+			margin-left: 25%;
+			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			resize: both;
+			overflow: hidden;
+			@media (max-width: 650px) {
+				width: 80%;
+				margin-left: 10%;
+			}
+		}
 	}
+	.gigya, .mediarecords{ width: 32%; margin-right: 2%;}
+	.shuttercal, .nick{width: 66%;}
+	.moey, .amnh{width: 100%;}
 }
 
-.bg-nick{
-	background: orange url(http://scottharris.info/media/images/nick-bg.jpg) no-repeat center / 100%;
-}
-.bg-amnh{
-	background: lightblue url(http://scottharris.info/media/images/amnh-bg.jpg) no-repeat center / 100%;
-}
-
+.bg-gigya			{background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center / 100%;}
+.bg-shuttercal		{background: purple url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
+.bg-moey			{background: skyblue url(../images/moey-bg2.jpg) no-repeat bottom / 100%;}
+.bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
+.bg-mediarecords	{background: #333 url(../images/mediarecords-bg.jpg) no-repeat center / 100%;}
+.bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;}
 
 /*--------------------
 footer
@@ -385,6 +369,12 @@ project page (nick)
 	color: $clr-lightest;
   	background-color: $clr-body;
   	@include field-border-radius;
+
+  	&.maya{background-color: #333;}
+  	&.psd{background-color: #3DC3FB;}
+  	&.ai{background-color: #FF731B;}
+  	&.ae{background-color: #CB9DFF;}
+
   	span, i{
   		color: $clr-lightest;
   		font-size: 2rem;
@@ -394,9 +384,4 @@ project page (nick)
   	.fa{
   		line-height: 2rem;
   	}
-  	&.maya{background-color: #333;}
-  	&.psd{background-color: #3DC3FB;}
-  	&.ai{background-color: #FF731B;}
-  	&.ae{background-color: #CB9DFF;}
 }
-
