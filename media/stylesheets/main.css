@@ -829,27 +829,52 @@ facebook
   padding: 2%;
   float: left;
 }
-/* line 516, ../sass/main.scss */
-#fb .bblock .contentblock, #fb .bblock .downloadblock {
+@media (max-width: 650px) {
+  /* line 511, ../sass/main.scss */
+  #fb .bblock .textblock {
+    width: 96%;
+  }
+}
+/* line 519, ../sass/main.scss */
+#fb .bblock .contentblock {
   width: 50%;
   float: right;
 }
-/* line 519, ../sass/main.scss */
-#fb .bblock .contentblock img, #fb .bblock .downloadblock img {
+@media (max-width: 650px) {
+  /* line 519, ../sass/main.scss */
+  #fb .bblock .contentblock {
+    width: 100%;
+  }
+}
+/* line 525, ../sass/main.scss */
+#fb .bblock .contentblock img {
   float: right;
   width: 100%;
 }
-/* line 523, ../sass/main.scss */
-#fb .bblock .contentblock iframe, #fb .bblock .downloadblock iframe {
+/* line 529, ../sass/main.scss */
+#fb .bblock .contentblock iframe {
   float: right;
 }
-/* line 526, ../sass/main.scss */
-#fb .bblock .contentblock .downloadblock, #fb .bblock .downloadblock .downloadblock {
+@media (max-width: 650px) {
+  /* line 529, ../sass/main.scss */
+  #fb .bblock .contentblock iframe {
+    width: 100%;
+  }
+}
+/* line 536, ../sass/main.scss */
+#fb .bblock .contentblock .downloadblock {
   width: 300px;
   height: 200px;
   max-width: 50%;
+  float: right;
   background-color: #00aef3;
   text-align: center;
   line-height: 50px;
   color: white;
+}
+@media (max-width: 650px) {
+  /* line 536, ../sass/main.scss */
+  #fb .bblock .contentblock .downloadblock {
+    height: 166px;
+  }
 }
