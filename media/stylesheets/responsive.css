@@ -29,9 +29,3 @@ colors
 /* light pink */
 /*--- color groups ---*/
 /*------- custome ---------*/
-@media screen and (max-width: 480px) {
-  /* line 5, ../sass/responsive.scss */
-  body {
-    background: green;
-  }
-}
