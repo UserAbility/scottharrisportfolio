@@ -51,6 +51,10 @@ p {
 .fa{
 	font-size: 2.5rem;
 }
+.alert{
+	color: red;
+	background-color: pink;
+}
 
 /*--------------------
 containers
@@ -250,7 +254,11 @@ section{
 .bg-shuttercal		{background: orange url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
 .bg-moey			{background: skyblue url(../images/moey-bg.jpg) no-repeat center / 100%;}
 .bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
-.bg-mediarecords	{background: #333 url(../images/mediarecords-bg.png) no-repeat center / 205%;}
+.bg-mediarecords	{background: #333 url(../images/mediarecords-bg.png) no-repeat center / 205%;
+					 &.bg-mediarecords{
+					 	background: #333 url(../images/mediarecords-bg2.png) no-repeat center / 110%;
+					 }
+					}
 .bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;}
 
 /*--------------------
@@ -327,6 +335,14 @@ project page (nick)
 		-webkit-transform: translateY(-50%);
 		resize: both;
 		overflow: auto;
+	}
+	&.bg-gigya img{
+		width: 60%;
+		margin-left: 20%;
+	}
+	&.bg-mediarecords img{
+		width: 15%;
+		margin-left: 42.5%;
 	}
 }
 
