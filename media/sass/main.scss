@@ -5,6 +5,7 @@
 	margin: 0;
 }
 html, body {
+	line-height: 1.6rem;
 	height: 100%;
 	background-color: $clr-lightest;
 }
@@ -48,12 +49,15 @@ p {
 	line-height: 1.6rem;
 	max-width: 500px;
 }
+a {
+	line-height: 1.6rem;
+}
 .fa{
 	font-size: 2.5rem;
 }
 .alert{
-	color: red;
-	background-color: pink;
+	color: red!important;
+	background-color: pink!important;
 }
 
 /*--------------------
@@ -339,6 +343,9 @@ space and place
 .pw		{padding: 0 1rem}
 .ph 	{padding: 1rem 0}
 
+.maxw   {min-width: 100%}
+.halfw	{max-width: 50%}
+
 /*--------------------
 project page (nick)
 --------------------*/
@@ -480,4 +487,51 @@ project page (nick)
   	.fa{
   		line-height: 2rem;
   	}
+}
+/*--------------------
+facebook
+--------------------*/
+#fb{
+	h1, h2, p, ul{
+		color: $clr-moey;
+	}
+	a{
+		color: $clr-moeyd;
+		&:hover{
+			color: $clr-brand3;
+		}
+	}
+	h1{
+		margin-bottom: 2%;
+	}
+	.bblock{
+		width:100%;
+		padding: 0;
+		background-color: $clr-moeyl;
+		.textblock{
+			width: 46%;
+			padding: 2%;
+			float: left;
+		}
+		.contentblock, .downloadblock{
+			width: 50%;
+			float: right;
+			img{
+				float: right;
+				width: 100%;
+			}
+			iframe{
+				float: right;
+			}
+			.downloadblock{
+				width: 300px;
+				height: 200px;
+				max-width: 50%;
+				background-color: $clr-moey;
+				text-align: center;
+				line-height: 50px;
+				color: $clr-lightest;
+			}
+		}
+	}
 }
