@@ -11,6 +11,7 @@ html, body {
 #wrapper {
 	max-width: 1200px;
 	min-height: 100%;
+	height: auto !important;
 	height: 100%;
 	margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
 	background-color: $clr-lightest;
@@ -277,30 +278,31 @@ footer
 		margin: 0 auto;
 	}
 	.projectnav{
-	a{
-		display: inline-block;
-		float: left;
-		text-align: center;
-		height: 100px;
-		width: 33.33%;
-		color: $clr-moeyl;
-		background-color: $clr-moey;
-		
-		&:hover{
-			background-color: $clr-moeyl;	
-			color: $clr-moey;
-			i{
+		a, .blank{
+			display: inline-block;
+			float: left;
+			text-align: center;
+			height: 100px;
+			width: 33.33%;
+			color: $clr-moeyl;
+			background-color: $clr-moey;
+		}
+		a{
+			&:hover{
+				background-color: $clr-moeyl;	
 				color: $clr-moey;
+				i{
+					color: $clr-moey;
+				}
+			}
+			i{
+				vertical-align: middle;
+				line-height: 100px;
+				height: 100px;
+				color: $clr-moeyl;
 			}
 		}
-		i{
-			vertical-align: middle;
-			line-height: 100px;
-			height: 100px;
-			color: $clr-moeyl;
-		}
 	}
-}
 }
 
 /*--------------------
@@ -408,10 +410,12 @@ project page (nick)
 		padding-top: 0;
 	}
 }
-
+.relbox{
+	position: relative;
+}
 .nick-tv{
 	position: absolute;
-	top: 165px;
+	top: -135px;
 	right: 0px;
 	width: 100%;
 	max-width: 520px;
