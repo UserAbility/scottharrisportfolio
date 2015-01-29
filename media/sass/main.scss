@@ -277,19 +277,27 @@ footer
 		margin: 0 auto;
 	}
 	.projectnav{
-	li{
+	a{
 		display: inline-block;
 		float: left;
 		text-align: center;
 		height: 100px;
 		width: 33.33%;
+		color: $clr-moeyl;
 		background-color: $clr-moey;
-
-		a, i{
+		
+		&:hover{
+			background-color: $clr-moeyl;	
+			color: $clr-moey;
+			i{
+				color: $clr-moey;
+			}
+		}
+		i{
 			vertical-align: middle;
-			color: $clr-moeyl;
 			line-height: 100px;
 			height: 100px;
+			color: $clr-moeyl;
 		}
 	}
 }
