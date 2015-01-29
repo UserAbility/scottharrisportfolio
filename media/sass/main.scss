@@ -254,11 +254,8 @@ section{
 .bg-shuttercal		{background: orange url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
 .bg-moey			{background: skyblue url(../images/moey-bg.jpg) no-repeat center / 100%;}
 .bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
-.bg-mediarecords	{background: #333 url(../images/mediarecords-bg.png) no-repeat center / 205%;
-					 &.bg-mediarecords{
-					 	background: #333 url(../images/mediarecords-bg2.png) no-repeat center / 110%;
-					 }
-					}
+.bg-mediarecords	{background: #333 url(../images/mediarecords-bg.png) no-repeat center / 205%;}
+.projectheader.bg-mediarecords {background: #333 url(../images/mediarecords-bg2.png) no-repeat center / 110%;}
 .bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;}
 
 /*--------------------
