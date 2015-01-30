@@ -854,14 +854,15 @@ facebook
 /* line 529, ../sass/main.scss */
 #fb .bblock .contentblock iframe {
   float: right;
+  max-width: 100%;
 }
-@media (max-width: 650px) {
+@media (max-width: 1200px) {
   /* line 529, ../sass/main.scss */
   #fb .bblock .contentblock iframe {
     width: 100%;
   }
 }
-/* line 536, ../sass/main.scss */
+/* line 537, ../sass/main.scss */
 #fb .bblock .contentblock .downloadblock {
   width: 300px;
   height: 200px;
@@ -873,7 +874,7 @@ facebook
   color: white;
 }
 @media (max-width: 650px) {
-  /* line 536, ../sass/main.scss */
+  /* line 537, ../sass/main.scss */
   #fb .bblock .contentblock .downloadblock {
     height: 166px;
   }
