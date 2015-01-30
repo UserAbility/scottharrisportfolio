@@ -49,8 +49,12 @@ p {
 	line-height: 1.6rem;
 	max-width: 500px;
 }
-a {
-	line-height: 1.6rem;
+
+a{
+	color: $clr-moey;
+	&:hover{
+		color: $clr-loud2;
+	}
 }
 .fa{
 	font-size: 2.5rem;
@@ -58,6 +62,7 @@ a {
 .alert{
 	color: red!important;
 	background-color: pink!important;
+	padding: .5rem;
 }
 
 /*--------------------
@@ -337,6 +342,7 @@ space and place
 .mr		{margin-right: 1rem}
 .mw		{margin: 0 1rem}
 .mh 	{margin: 1rem 0}
+.nom	{margin: 0!important}
 
 .pit 	{padding: 1rem}
 .pt 	{padding-top: 1rem}
@@ -345,6 +351,7 @@ space and place
 .pr		{padding-right: 1rem}
 .pw		{padding: 0 1rem}
 .ph 	{padding: 1rem 0}
+.nop	{padding: 0!important}
 
 .maxw   {min-width: 100%}
 .halfw	{max-width: 50%}
@@ -495,13 +502,13 @@ project page (nick)
 facebook
 --------------------*/
 #fb{
-	h1, h2, p, ul{
-		color: $clr-moey;
+	h2, p, ul{
+		color: $clr-moeyd;
 	}
 	a{
-		color: $clr-moeyd;
+		color: $clr-moey;
 		&:hover{
-			color: $clr-brand3;
+			color: $clr-loud2;
 		}
 	}
 	h1{
@@ -510,6 +517,7 @@ facebook
 	.bblock{
 		width:100%;
 		padding: 0;
+		margin-bottom: 10%;
 		background-color: $clr-moeyl;
 		.textblock{
 			width: 46%;
@@ -531,11 +539,11 @@ facebook
 			}
 			iframe{
 				float: right;
-				max-width: 100%;
-				@media (max-width: 1200px) {
-					width: 100%;
-				}
-
+				max-width: 600px;
+			}
+			.vidhalfblock{
+				float: right;
+				width: 50%;
 			}
 			.downloadblock{
 				width: 300px;
@@ -546,9 +554,6 @@ facebook
 				text-align: center;
 				line-height: 50px;
 				color: $clr-lightest;
-				@media (max-width: 650px) {
-					height: 166px;
-				}
 			}
 		}
 	}
