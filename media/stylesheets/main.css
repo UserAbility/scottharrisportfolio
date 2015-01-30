@@ -874,7 +874,7 @@ facebook
 /* line 540, ../sass/main.scss */
 #fb .bblock .contentblock iframe {
   float: right;
-  max-width: 600px;
+  max-width: 100%;
 }
 /* line 544, ../sass/main.scss */
 #fb .bblock .contentblock .vidhalfblock {
