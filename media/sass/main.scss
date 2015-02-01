@@ -124,10 +124,10 @@ a.linkbox{
 /*--------------------
 header
 --------------------*/
-.contactbox {
+.contactbox, .leftmenu {
 	position: absolute;
 	top: 2%;
-	right: 2%;
+	right: 1%;
 	a.fa {
 		clear: right;
 		margin-right: .5rem;
@@ -147,12 +147,13 @@ header
 			float: left;
 			color: $clr-moey;
 			text-align: center;
-			width: 20%;
+			width: 16.667%;
 		}
 		.m-show{display: inline;}
 		.m-hide{display: none;}
 	}
 }
+.leftmenu{left: 1%;}
 
 header{
 	position: relative;
