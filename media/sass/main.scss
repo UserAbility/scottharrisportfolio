@@ -14,7 +14,7 @@ html, body {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
+	margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
 	background-color: $clr-lightest;
 }
 #wrapper, .footer {
@@ -173,9 +173,7 @@ header{
 			@include roundit;
 		}
 	}
-	p{
-		text-align: center;
-	}
+	p {text-align: center;}
 }
 
 
@@ -186,7 +184,14 @@ section{
 }
 
 .projectblocks{
-	padding: 0 2%;
+	@media (max-width: 1250px) {
+		padding: 0 2%;
+	}
+	p{
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 2%;
+	}
 	li{
 		height: 250px;
 		width: 100%;
@@ -276,25 +281,27 @@ footer
 
 .footer, .push {
 	overflow: hidden;
-	height: 150px; /* '.push' must be the same height as 'footer' */
+	height: 100px; /* '.push' must be the same height as 'footer' */
 }
 .footer{
 	max-width: 1200px;
 	margin: 0 auto;
-	background-color: $clr-moeyl;
 	p{
-		height:50px;
-		line-height: 50px;
+		display: inline-block;
 		text-align: center;
-		color: $clr-moey;
+		line-height: 50px;
+		height:50px;
+		min-width: 100%;
 		margin: 0 auto;
+		color: $clr-moey;
+		background-color: $clr-moeyl;
 	}
 	.projectnav{
 		a, .blank{
 			display: inline-block;
 			float: left;
 			text-align: center;
-			height: 100px;
+			height: 50px;
 			width: 33.33%;
 			color: $clr-moeyl;
 			background-color: $clr-moey;
@@ -309,10 +316,13 @@ footer
 			}
 			i{
 				vertical-align: middle;
-				line-height: 100px;
-				height: 100px;
+				line-height: 50px;
+				height: 50px;
 				color: $clr-moeyl;
 			}
+		}
+		&.hide{
+			visibility: hidden;
 		}
 	}
 }
@@ -554,6 +564,8 @@ facebook
 				text-align: center;
 				line-height: 50px;
 				color: $clr-lightest;
+
+
 			}
 		}
 	}
