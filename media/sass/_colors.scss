@@ -17,19 +17,24 @@ $clr-body:		darken($clr-body5, 50%);
 
 /*--- brands ---*/
 $clr-gigya:		#1F5BA7;
-$clr-sc:		#1F5BA7;
+
+$clr-sc:		#FF9112; 
+$clr-scl:		#FCC884; 
+$clr-scd:		#FA8072; 
+
 $clr-moey:		#00AEF3;
 $clr-moeyl:		lighten($clr-moey, 46%); 
 $clr-moeyd:		darken($clr-moey, 15%);
-$clr-amnh:		#1F5BA7;
-$clr-mr:		#1F5BA7;
-$clr-nick:		#1F5BA7;
+
+$clr-amnh:		#0074BD;
+$clr-amnhl:		#7EBFE9;
+
+$clr-mr:		#333;
+
+$clr-nick:		#FF7B00;
+$clr-nickl:		lighten($clr-moey, 46%);
 
 /*--- color groups ---*/
-/*oranges*/
-$clr-brand1:	#FCC884; 
-$clr-brand2:	#FF9112; 
-$clr-brand3:	#FA8072; 
 
 /*greens*/ 
 $clr-pos2:		#4FCA74;			
