@@ -3,29 +3,687 @@ colors
 ------------------------------------------------------------------- */
 /*--- body colors ----*/
 /*body*/
-/*--- brands ---*/
+/* line 17, ../sass/_colors.scss */
+.clr-body {
+  color: #555555;
+}
+
+/* line 18, ../sass/_colors.scss */
+.clr-body1 {
+  color: #bbbbbb;
+}
+
+/* line 19, ../sass/_colors.scss */
+.clr-body2 {
+  color: #c8c8c8;
+}
+
+/* line 20, ../sass/_colors.scss */
+.clr-body3 {
+  color: #d4d4d4;
+}
+
+/* line 21, ../sass/_colors.scss */
+.clr-body4 {
+  color: #e1e1e1;
+}
+
+/* line 22, ../sass/_colors.scss */
+.clr-body5 {
+  color: #eeeeee;
+}
+
+/* line 23, ../sass/_colors.scss */
+.clr-body-bg {
+  background-color: #555555;
+}
+
+/* line 24, ../sass/_colors.scss */
+.clr-body1-bg {
+  background-color: #bbbbbb;
+}
+
+/* line 25, ../sass/_colors.scss */
+.clr-body2-bg {
+  background-color: #c8c8c8;
+}
+
+/* line 26, ../sass/_colors.scss */
+.clr-body3-bg {
+  background-color: #d4d4d4;
+}
+
+/* line 27, ../sass/_colors.scss */
+.clr-body4-bg {
+  background-color: #e1e1e1;
+}
+
+/* line 28, ../sass/_colors.scss */
+.clr-body5-bg {
+  background-color: #eeeeee;
+}
+
 /*--- color groups ---*/
-/*greens*/
 /*reds*/
+/* line 36, ../sass/_colors.scss */
+.clr-neg1 {
+  color: #f7b6b6;
+}
+
+/* line 37, ../sass/_colors.scss */
+.clr-neg2 {
+  color: #ed5a5a;
+}
+
+/* line 38, ../sass/_colors.scss */
+.clr-neg3 {
+  color: #860f0f;
+}
+
+/* line 39, ../sass/_colors.scss */
+.clr-neg1-bg {
+  background-color: #f7b6b6;
+}
+
+/* line 40, ../sass/_colors.scss */
+.clr-neg2-bg {
+  background-color: #ed5a5a;
+}
+
+/* line 41, ../sass/_colors.scss */
+.clr-neg3-bg {
+  background-color: #860f0f;
+}
+
+/*greens*/
+/* line 47, ../sass/_colors.scss */
+.clr-pos1 {
+  color: #b1e8c1;
+}
+
+/* line 48, ../sass/_colors.scss */
+.clr-pos2 {
+  color: #4fca74;
+}
+
+/* line 49, ../sass/_colors.scss */
+.clr-pos3 {
+  color: #1e6232;
+}
+
+/* line 50, ../sass/_colors.scss */
+.clr-pos1-bg {
+  background-color: #b1e8c1;
+}
+
+/* line 51, ../sass/_colors.scss */
+.clr-pos2-bg {
+  background-color: #4fca74;
+}
+
+/* line 52, ../sass/_colors.scss */
+.clr-pos3-bg {
+  background-color: #1e6232;
+}
+
 /*yellows*/
+/* line 58, ../sass/_colors.scss */
+.clr-alert1 {
+  color: #fff5cd;
+}
+
+/* line 59, ../sass/_colors.scss */
+.clr-alert2 {
+  color: #ffe167;
+}
+
+/* line 60, ../sass/_colors.scss */
+.clr-alert3 {
+  color: #9a7c00;
+}
+
+/* line 61, ../sass/_colors.scss */
+.clr-alert1-bg {
+  background-color: #fff5cd;
+}
+
+/* line 62, ../sass/_colors.scss */
+.clr-alert2-bg {
+  background-color: #ffe167;
+}
+
+/* line 63, ../sass/_colors.scss */
+.clr-alert3-bg {
+  background-color: #9a7c00;
+}
+
 /*pinks*/
+/* line 69, ../sass/_colors.scss */
+.clr-loud1 {
+  color: #eec4dd;
+}
+
+/* line 70, ../sass/_colors.scss */
+.clr-loud2 {
+  color: #da7db3;
+}
+
+/* line 71, ../sass/_colors.scss */
+.clr-loud3 {
+  color: #a83075;
+}
+
+/* line 72, ../sass/_colors.scss */
+.clr-loud1-bg {
+  background-color: #eec4dd;
+}
+
+/* line 73, ../sass/_colors.scss */
+.clr-loud2-bg {
+  background-color: #da7db3;
+}
+
+/* line 74, ../sass/_colors.scss */
+.clr-loud3-bg {
+  background-color: #a83075;
+}
+
 /*blues*/
-/* light pink */
+/* line 80, ../sass/_colors.scss */
+.clr-cool1 {
+  color: #8ddfff;
+}
+
+/* line 81, ../sass/_colors.scss */
+.clr-cool2 {
+  color: #00aef3;
+}
+
+/* line 82, ../sass/_colors.scss */
+.clr-cool3 {
+  color: #00658d;
+}
+
+/* line 83, ../sass/_colors.scss */
+.clr-cool1-bg {
+  background-color: #8ddfff;
+}
+
+/* line 84, ../sass/_colors.scss */
+.clr-cool2-bg {
+  background-color: #00aef3;
+}
+
+/* line 85, ../sass/_colors.scss */
+.clr-cool3-bg {
+  background-color: #00658d;
+}
+
 /*--- color groups ---*/
+/*--- brands ---*/
+/* line 97, ../sass/_colors.scss */
+.clr-gigya {
+  color: #1f5ba7;
+}
+
+/* line 98, ../sass/_colors.scss */
+.clr-gigya-bg {
+  background-color: #1f5ba7;
+}
+
+/* line 104, ../sass/_colors.scss */
+.clr-sc {
+  color: #ff9112;
+}
+
+/* line 105, ../sass/_colors.scss */
+.clr-scl {
+  color: #fcc884;
+}
+
+/* line 106, ../sass/_colors.scss */
+.clr-scd {
+  color: salmon;
+}
+
+/* line 107, ../sass/_colors.scss */
+.clr-sc-bg {
+  background-color: #ff9112;
+}
+
+/* line 108, ../sass/_colors.scss */
+.clr-scl-bg {
+  background-color: #fcc884;
+}
+
+/* line 109, ../sass/_colors.scss */
+.clr-scd-bg {
+  background-color: salmon;
+}
+
+/* line 115, ../sass/_colors.scss */
+.clr-moey {
+  color: #00aef3;
+}
+
+/* line 116, ../sass/_colors.scss */
+.clr-moeyl {
+  color: #c0edff;
+}
+
+/* line 117, ../sass/_colors.scss */
+.clr-moeyd {
+  color: #0077a6;
+}
+
+/* line 118, ../sass/_colors.scss */
+.clr-moey-bg {
+  background-color: #00aef3;
+}
+
+/* line 119, ../sass/_colors.scss */
+.clr-moeyl-bg {
+  background-color: #c0edff;
+}
+
+/* line 120, ../sass/_colors.scss */
+.clr-moeyd-bg {
+  background-color: #0077a6;
+}
+
+/* line 125, ../sass/_colors.scss */
+.clr-amnh {
+  color: #0074bd;
+}
+
+/* line 126, ../sass/_colors.scss */
+.clr-amnhl {
+  color: #7ebfe9;
+}
+
+/* line 127, ../sass/_colors.scss */
+.clr-amnh-bg {
+  background-color: #0074bd;
+}
+
+/* line 128, ../sass/_colors.scss */
+.clr-amnhl-bg {
+  background-color: #7ebfe9;
+}
+
+/* line 132, ../sass/_colors.scss */
+.clr-mr {
+  color: #333333;
+}
+
+/* line 133, ../sass/_colors.scss */
+.clr-mr-bg {
+  background-color: #333333;
+}
+
+/* line 138, ../sass/_colors.scss */
+.clr-nick {
+  color: #ff7b00;
+}
+
+/* line 139, ../sass/_colors.scss */
+.clr-nickl {
+  color: #ffca99;
+}
+
+/* line 140, ../sass/_colors.scss */
+.clr-nick-bg {
+  background-color: #ff7b00;
+}
+
+/* line 141, ../sass/_colors.scss */
+.clr-nickl-bg {
+  background-color: #ffca99;
+}
+
 /* -------------------------------------------------------------------
 colors
 ------------------------------------------------------------------- */
 /*--- body colors ----*/
 /*body*/
-/*--- brands ---*/
+/* line 17, ../sass/_colors.scss */
+.clr-body {
+  color: #555555;
+}
+
+/* line 18, ../sass/_colors.scss */
+.clr-body1 {
+  color: #bbbbbb;
+}
+
+/* line 19, ../sass/_colors.scss */
+.clr-body2 {
+  color: #c8c8c8;
+}
+
+/* line 20, ../sass/_colors.scss */
+.clr-body3 {
+  color: #d4d4d4;
+}
+
+/* line 21, ../sass/_colors.scss */
+.clr-body4 {
+  color: #e1e1e1;
+}
+
+/* line 22, ../sass/_colors.scss */
+.clr-body5 {
+  color: #eeeeee;
+}
+
+/* line 23, ../sass/_colors.scss */
+.clr-body-bg {
+  background-color: #555555;
+}
+
+/* line 24, ../sass/_colors.scss */
+.clr-body1-bg {
+  background-color: #bbbbbb;
+}
+
+/* line 25, ../sass/_colors.scss */
+.clr-body2-bg {
+  background-color: #c8c8c8;
+}
+
+/* line 26, ../sass/_colors.scss */
+.clr-body3-bg {
+  background-color: #d4d4d4;
+}
+
+/* line 27, ../sass/_colors.scss */
+.clr-body4-bg {
+  background-color: #e1e1e1;
+}
+
+/* line 28, ../sass/_colors.scss */
+.clr-body5-bg {
+  background-color: #eeeeee;
+}
+
 /*--- color groups ---*/
-/*greens*/
 /*reds*/
+/* line 36, ../sass/_colors.scss */
+.clr-neg1 {
+  color: #f7b6b6;
+}
+
+/* line 37, ../sass/_colors.scss */
+.clr-neg2 {
+  color: #ed5a5a;
+}
+
+/* line 38, ../sass/_colors.scss */
+.clr-neg3 {
+  color: #860f0f;
+}
+
+/* line 39, ../sass/_colors.scss */
+.clr-neg1-bg {
+  background-color: #f7b6b6;
+}
+
+/* line 40, ../sass/_colors.scss */
+.clr-neg2-bg {
+  background-color: #ed5a5a;
+}
+
+/* line 41, ../sass/_colors.scss */
+.clr-neg3-bg {
+  background-color: #860f0f;
+}
+
+/*greens*/
+/* line 47, ../sass/_colors.scss */
+.clr-pos1 {
+  color: #b1e8c1;
+}
+
+/* line 48, ../sass/_colors.scss */
+.clr-pos2 {
+  color: #4fca74;
+}
+
+/* line 49, ../sass/_colors.scss */
+.clr-pos3 {
+  color: #1e6232;
+}
+
+/* line 50, ../sass/_colors.scss */
+.clr-pos1-bg {
+  background-color: #b1e8c1;
+}
+
+/* line 51, ../sass/_colors.scss */
+.clr-pos2-bg {
+  background-color: #4fca74;
+}
+
+/* line 52, ../sass/_colors.scss */
+.clr-pos3-bg {
+  background-color: #1e6232;
+}
+
 /*yellows*/
+/* line 58, ../sass/_colors.scss */
+.clr-alert1 {
+  color: #fff5cd;
+}
+
+/* line 59, ../sass/_colors.scss */
+.clr-alert2 {
+  color: #ffe167;
+}
+
+/* line 60, ../sass/_colors.scss */
+.clr-alert3 {
+  color: #9a7c00;
+}
+
+/* line 61, ../sass/_colors.scss */
+.clr-alert1-bg {
+  background-color: #fff5cd;
+}
+
+/* line 62, ../sass/_colors.scss */
+.clr-alert2-bg {
+  background-color: #ffe167;
+}
+
+/* line 63, ../sass/_colors.scss */
+.clr-alert3-bg {
+  background-color: #9a7c00;
+}
+
 /*pinks*/
+/* line 69, ../sass/_colors.scss */
+.clr-loud1 {
+  color: #eec4dd;
+}
+
+/* line 70, ../sass/_colors.scss */
+.clr-loud2 {
+  color: #da7db3;
+}
+
+/* line 71, ../sass/_colors.scss */
+.clr-loud3 {
+  color: #a83075;
+}
+
+/* line 72, ../sass/_colors.scss */
+.clr-loud1-bg {
+  background-color: #eec4dd;
+}
+
+/* line 73, ../sass/_colors.scss */
+.clr-loud2-bg {
+  background-color: #da7db3;
+}
+
+/* line 74, ../sass/_colors.scss */
+.clr-loud3-bg {
+  background-color: #a83075;
+}
+
 /*blues*/
-/* light pink */
+/* line 80, ../sass/_colors.scss */
+.clr-cool1 {
+  color: #8ddfff;
+}
+
+/* line 81, ../sass/_colors.scss */
+.clr-cool2 {
+  color: #00aef3;
+}
+
+/* line 82, ../sass/_colors.scss */
+.clr-cool3 {
+  color: #00658d;
+}
+
+/* line 83, ../sass/_colors.scss */
+.clr-cool1-bg {
+  background-color: #8ddfff;
+}
+
+/* line 84, ../sass/_colors.scss */
+.clr-cool2-bg {
+  background-color: #00aef3;
+}
+
+/* line 85, ../sass/_colors.scss */
+.clr-cool3-bg {
+  background-color: #00658d;
+}
+
 /*--- color groups ---*/
+/*--- brands ---*/
+/* line 97, ../sass/_colors.scss */
+.clr-gigya {
+  color: #1f5ba7;
+}
+
+/* line 98, ../sass/_colors.scss */
+.clr-gigya-bg {
+  background-color: #1f5ba7;
+}
+
+/* line 104, ../sass/_colors.scss */
+.clr-sc {
+  color: #ff9112;
+}
+
+/* line 105, ../sass/_colors.scss */
+.clr-scl {
+  color: #fcc884;
+}
+
+/* line 106, ../sass/_colors.scss */
+.clr-scd {
+  color: salmon;
+}
+
+/* line 107, ../sass/_colors.scss */
+.clr-sc-bg {
+  background-color: #ff9112;
+}
+
+/* line 108, ../sass/_colors.scss */
+.clr-scl-bg {
+  background-color: #fcc884;
+}
+
+/* line 109, ../sass/_colors.scss */
+.clr-scd-bg {
+  background-color: salmon;
+}
+
+/* line 115, ../sass/_colors.scss */
+.clr-moey {
+  color: #00aef3;
+}
+
+/* line 116, ../sass/_colors.scss */
+.clr-moeyl {
+  color: #c0edff;
+}
+
+/* line 117, ../sass/_colors.scss */
+.clr-moeyd {
+  color: #0077a6;
+}
+
+/* line 118, ../sass/_colors.scss */
+.clr-moey-bg {
+  background-color: #00aef3;
+}
+
+/* line 119, ../sass/_colors.scss */
+.clr-moeyl-bg {
+  background-color: #c0edff;
+}
+
+/* line 120, ../sass/_colors.scss */
+.clr-moeyd-bg {
+  background-color: #0077a6;
+}
+
+/* line 125, ../sass/_colors.scss */
+.clr-amnh {
+  color: #0074bd;
+}
+
+/* line 126, ../sass/_colors.scss */
+.clr-amnhl {
+  color: #7ebfe9;
+}
+
+/* line 127, ../sass/_colors.scss */
+.clr-amnh-bg {
+  background-color: #0074bd;
+}
+
+/* line 128, ../sass/_colors.scss */
+.clr-amnhl-bg {
+  background-color: #7ebfe9;
+}
+
+/* line 132, ../sass/_colors.scss */
+.clr-mr {
+  color: #333333;
+}
+
+/* line 133, ../sass/_colors.scss */
+.clr-mr-bg {
+  background-color: #333333;
+}
+
+/* line 138, ../sass/_colors.scss */
+.clr-nick {
+  color: #ff7b00;
+}
+
+/* line 139, ../sass/_colors.scss */
+.clr-nickl {
+  color: #ffca99;
+}
+
+/* line 140, ../sass/_colors.scss */
+.clr-nick-bg {
+  background-color: #ff7b00;
+}
+
+/* line 141, ../sass/_colors.scss */
+.clr-nickl-bg {
+  background-color: #ffca99;
+}
+
 /*------- custome ---------*/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -35,8 +693,9 @@ colors
  */
 /* line 11, ../sass/normalize.scss */
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /* 1 */
+  font-weight: 300;
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
@@ -46,7 +705,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 21, ../sass/normalize.scss */
+/* line 22, ../sass/normalize.scss */
 body {
   margin: 0;
 }
@@ -59,14 +718,14 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 35, ../sass/normalize.scss */
+/* line 36, ../sass/normalize.scss */
 html {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 37, ../sass/normalize.scss */
+/* line 38, ../sass/normalize.scss */
 body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
   margin: 0;
   padding: 0;
@@ -74,15 +733,15 @@ body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  color: #6f6f6f;
+  color: #555555;
 }
 
-/* line 38, ../sass/normalize.scss */
+/* line 39, ../sass/normalize.scss */
 article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 52, ../sass/normalize.scss */
+/* line 53, ../sass/normalize.scss */
 article,
 aside,
 details,
@@ -103,7 +762,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 64, ../sass/normalize.scss */
+/* line 65, ../sass/normalize.scss */
 audio,
 canvas,
 progress,
@@ -118,7 +777,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 74, ../sass/normalize.scss */
+/* line 75, ../sass/normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -128,7 +787,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 85, ../sass/normalize.scss */
+/* line 86, ../sass/normalize.scss */
 [hidden],
 template {
   display: none;
@@ -139,7 +798,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 96, ../sass/normalize.scss */
+/* line 97, ../sass/normalize.scss */
 a {
   background-color: transparent;
 }
@@ -147,7 +806,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 105, ../sass/normalize.scss */
+/* line 106, ../sass/normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -158,7 +817,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 116, ../sass/normalize.scss */
+/* line 117, ../sass/normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -166,7 +825,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 125, ../sass/normalize.scss */
+/* line 126, ../sass/normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -175,7 +834,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 133, ../sass/normalize.scss */
+/* line 134, ../sass/normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -183,7 +842,7 @@ dfn {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 141, ../sass/normalize.scss */
+/* line 142, ../sass/normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -192,7 +851,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 150, ../sass/normalize.scss */
+/* line 151, ../sass/normalize.scss */
 small {
   font-size: 80%;
 }
@@ -200,7 +859,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 159, ../sass/normalize.scss */
+/* line 160, ../sass/normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -209,12 +868,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 166, ../sass/normalize.scss */
+/* line 167, ../sass/normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 170, ../sass/normalize.scss */
+/* line 171, ../sass/normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -224,7 +883,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 181, ../sass/normalize.scss */
+/* line 182, ../sass/normalize.scss */
 img {
   border: 0;
 }
@@ -232,7 +891,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 189, ../sass/normalize.scss */
+/* line 190, ../sass/normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -242,7 +901,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 200, ../sass/normalize.scss */
+/* line 201, ../sass/normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -250,7 +909,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 208, ../sass/normalize.scss */
+/* line 209, ../sass/normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -260,7 +919,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 218, ../sass/normalize.scss */
+/* line 219, ../sass/normalize.scss */
 pre {
   overflow: auto;
 }
@@ -268,7 +927,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, ../sass/normalize.scss */
+/* line 230, ../sass/normalize.scss */
 code,
 kbd,
 pre,
@@ -289,7 +948,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 253, ../sass/normalize.scss */
+/* line 254, ../sass/normalize.scss */
 button,
 input,
 optgroup,
@@ -306,7 +965,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 263, ../sass/normalize.scss */
+/* line 264, ../sass/normalize.scss */
 button {
   overflow: visible;
 }
@@ -317,7 +976,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 275, ../sass/normalize.scss */
+/* line 276, ../sass/normalize.scss */
 button,
 select {
   text-transform: none;
@@ -330,7 +989,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 290, ../sass/normalize.scss */
+/* line 291, ../sass/normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -344,7 +1003,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 300, ../sass/normalize.scss */
+/* line 301, ../sass/normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -353,7 +1012,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 309, ../sass/normalize.scss */
+/* line 310, ../sass/normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -364,7 +1023,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 319, ../sass/normalize.scss */
+/* line 320, ../sass/normalize.scss */
 input {
   line-height: normal;
 }
@@ -376,7 +1035,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 332, ../sass/normalize.scss */
+/* line 333, ../sass/normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -390,7 +1049,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 344, ../sass/normalize.scss */
+/* line 345, ../sass/normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -401,7 +1060,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 354, ../sass/normalize.scss */
+/* line 355, ../sass/normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -416,7 +1075,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 368, ../sass/normalize.scss */
+/* line 369, ../sass/normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -425,7 +1084,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 376, ../sass/normalize.scss */
+/* line 377, ../sass/normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -436,7 +1095,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 387, ../sass/normalize.scss */
+/* line 388, ../sass/normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -447,7 +1106,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 396, ../sass/normalize.scss */
+/* line 397, ../sass/normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -456,7 +1115,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 405, ../sass/normalize.scss */
+/* line 406, ../sass/normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -466,13 +1125,13 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 416, ../sass/normalize.scss */
+/* line 417, ../sass/normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 422, ../sass/normalize.scss */
+/* line 423, ../sass/normalize.scss */
 td,
 th {
   padding: 0;
@@ -480,45 +1139,45 @@ th {
 
 /* additions
    ========================================================================== */
-/* line 429, ../sass/normalize.scss */
+/* line 430, ../sass/normalize.scss */
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td {
   margin: 0;
   padding: 0;
 }
 
-/* line 430, ../sass/normalize.scss */
+/* line 431, ../sass/normalize.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 431, ../sass/normalize.scss */
+/* line 432, ../sass/normalize.scss */
 ul, li {
   list-style: none;
 }
 
-/* line 432, ../sass/normalize.scss */
+/* line 433, ../sass/normalize.scss */
 em {
   font-style: italic;
 }
 
-/* line 433, ../sass/normalize.scss */
+/* line 434, ../sass/normalize.scss */
 img {
   border: none;
 }
 
-/* line 434, ../sass/normalize.scss */
+/* line 435, ../sass/normalize.scss */
 a {
   outline: none;
   text-decoration: none;
 }
 
-/* line 435, ../sass/normalize.scss */
+/* line 436, ../sass/normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 437, ../sass/normalize.scss */
+/* line 438, ../sass/normalize.scss */
 .clearfix:after {
   content: "\0020";
   display: block;
@@ -528,17 +1187,17 @@ table {
   overflow: hidden;
 }
 
-/* line 438, ../sass/normalize.scss */
+/* line 439, ../sass/normalize.scss */
 .clearfix {
   display: block;
 }
 
-/* line 439, ../sass/normalize.scss */
+/* line 440, ../sass/normalize.scss */
 .clear {
   clear: both;
 }
 
-/* line 441, ../sass/normalize.scss */
+/* line 442, ../sass/normalize.scss */
 img {
   max-width: 100%;
 }

@@ -3,27 +3,685 @@ colors
 ------------------------------------------------------------------- */
 /*--- body colors ----*/
 /*body*/
-/*--- brands ---*/
+/* line 17, ../sass/_colors.scss */
+.clr-body {
+  color: #555555;
+}
+
+/* line 18, ../sass/_colors.scss */
+.clr-body1 {
+  color: #bbbbbb;
+}
+
+/* line 19, ../sass/_colors.scss */
+.clr-body2 {
+  color: #c8c8c8;
+}
+
+/* line 20, ../sass/_colors.scss */
+.clr-body3 {
+  color: #d4d4d4;
+}
+
+/* line 21, ../sass/_colors.scss */
+.clr-body4 {
+  color: #e1e1e1;
+}
+
+/* line 22, ../sass/_colors.scss */
+.clr-body5 {
+  color: #eeeeee;
+}
+
+/* line 23, ../sass/_colors.scss */
+.clr-body-bg {
+  background-color: #555555;
+}
+
+/* line 24, ../sass/_colors.scss */
+.clr-body1-bg {
+  background-color: #bbbbbb;
+}
+
+/* line 25, ../sass/_colors.scss */
+.clr-body2-bg {
+  background-color: #c8c8c8;
+}
+
+/* line 26, ../sass/_colors.scss */
+.clr-body3-bg {
+  background-color: #d4d4d4;
+}
+
+/* line 27, ../sass/_colors.scss */
+.clr-body4-bg {
+  background-color: #e1e1e1;
+}
+
+/* line 28, ../sass/_colors.scss */
+.clr-body5-bg {
+  background-color: #eeeeee;
+}
+
 /*--- color groups ---*/
-/*greens*/
 /*reds*/
+/* line 36, ../sass/_colors.scss */
+.clr-neg1 {
+  color: #f7b6b6;
+}
+
+/* line 37, ../sass/_colors.scss */
+.clr-neg2 {
+  color: #ed5a5a;
+}
+
+/* line 38, ../sass/_colors.scss */
+.clr-neg3 {
+  color: #860f0f;
+}
+
+/* line 39, ../sass/_colors.scss */
+.clr-neg1-bg {
+  background-color: #f7b6b6;
+}
+
+/* line 40, ../sass/_colors.scss */
+.clr-neg2-bg {
+  background-color: #ed5a5a;
+}
+
+/* line 41, ../sass/_colors.scss */
+.clr-neg3-bg {
+  background-color: #860f0f;
+}
+
+/*greens*/
+/* line 47, ../sass/_colors.scss */
+.clr-pos1 {
+  color: #b1e8c1;
+}
+
+/* line 48, ../sass/_colors.scss */
+.clr-pos2 {
+  color: #4fca74;
+}
+
+/* line 49, ../sass/_colors.scss */
+.clr-pos3 {
+  color: #1e6232;
+}
+
+/* line 50, ../sass/_colors.scss */
+.clr-pos1-bg {
+  background-color: #b1e8c1;
+}
+
+/* line 51, ../sass/_colors.scss */
+.clr-pos2-bg {
+  background-color: #4fca74;
+}
+
+/* line 52, ../sass/_colors.scss */
+.clr-pos3-bg {
+  background-color: #1e6232;
+}
+
 /*yellows*/
+/* line 58, ../sass/_colors.scss */
+.clr-alert1 {
+  color: #fff5cd;
+}
+
+/* line 59, ../sass/_colors.scss */
+.clr-alert2 {
+  color: #ffe167;
+}
+
+/* line 60, ../sass/_colors.scss */
+.clr-alert3 {
+  color: #9a7c00;
+}
+
+/* line 61, ../sass/_colors.scss */
+.clr-alert1-bg {
+  background-color: #fff5cd;
+}
+
+/* line 62, ../sass/_colors.scss */
+.clr-alert2-bg {
+  background-color: #ffe167;
+}
+
+/* line 63, ../sass/_colors.scss */
+.clr-alert3-bg {
+  background-color: #9a7c00;
+}
+
 /*pinks*/
+/* line 69, ../sass/_colors.scss */
+.clr-loud1 {
+  color: #eec4dd;
+}
+
+/* line 70, ../sass/_colors.scss */
+.clr-loud2 {
+  color: #da7db3;
+}
+
+/* line 71, ../sass/_colors.scss */
+.clr-loud3 {
+  color: #a83075;
+}
+
+/* line 72, ../sass/_colors.scss */
+.clr-loud1-bg {
+  background-color: #eec4dd;
+}
+
+/* line 73, ../sass/_colors.scss */
+.clr-loud2-bg {
+  background-color: #da7db3;
+}
+
+/* line 74, ../sass/_colors.scss */
+.clr-loud3-bg {
+  background-color: #a83075;
+}
+
 /*blues*/
-/* light pink */
+/* line 80, ../sass/_colors.scss */
+.clr-cool1 {
+  color: #8ddfff;
+}
+
+/* line 81, ../sass/_colors.scss */
+.clr-cool2 {
+  color: #00aef3;
+}
+
+/* line 82, ../sass/_colors.scss */
+.clr-cool3 {
+  color: #00658d;
+}
+
+/* line 83, ../sass/_colors.scss */
+.clr-cool1-bg {
+  background-color: #8ddfff;
+}
+
+/* line 84, ../sass/_colors.scss */
+.clr-cool2-bg {
+  background-color: #00aef3;
+}
+
+/* line 85, ../sass/_colors.scss */
+.clr-cool3-bg {
+  background-color: #00658d;
+}
+
 /*--- color groups ---*/
+/*--- brands ---*/
+/* line 97, ../sass/_colors.scss */
+.clr-gigya {
+  color: #1f5ba7;
+}
+
+/* line 98, ../sass/_colors.scss */
+.clr-gigya-bg {
+  background-color: #1f5ba7;
+}
+
+/* line 104, ../sass/_colors.scss */
+.clr-sc {
+  color: #ff9112;
+}
+
+/* line 105, ../sass/_colors.scss */
+.clr-scl {
+  color: #fcc884;
+}
+
+/* line 106, ../sass/_colors.scss */
+.clr-scd {
+  color: salmon;
+}
+
+/* line 107, ../sass/_colors.scss */
+.clr-sc-bg {
+  background-color: #ff9112;
+}
+
+/* line 108, ../sass/_colors.scss */
+.clr-scl-bg {
+  background-color: #fcc884;
+}
+
+/* line 109, ../sass/_colors.scss */
+.clr-scd-bg {
+  background-color: salmon;
+}
+
+/* line 115, ../sass/_colors.scss */
+.clr-moey {
+  color: #00aef3;
+}
+
+/* line 116, ../sass/_colors.scss */
+.clr-moeyl {
+  color: #c0edff;
+}
+
+/* line 117, ../sass/_colors.scss */
+.clr-moeyd {
+  color: #0077a6;
+}
+
+/* line 118, ../sass/_colors.scss */
+.clr-moey-bg {
+  background-color: #00aef3;
+}
+
+/* line 119, ../sass/_colors.scss */
+.clr-moeyl-bg {
+  background-color: #c0edff;
+}
+
+/* line 120, ../sass/_colors.scss */
+.clr-moeyd-bg {
+  background-color: #0077a6;
+}
+
+/* line 125, ../sass/_colors.scss */
+.clr-amnh {
+  color: #0074bd;
+}
+
+/* line 126, ../sass/_colors.scss */
+.clr-amnhl {
+  color: #7ebfe9;
+}
+
+/* line 127, ../sass/_colors.scss */
+.clr-amnh-bg {
+  background-color: #0074bd;
+}
+
+/* line 128, ../sass/_colors.scss */
+.clr-amnhl-bg {
+  background-color: #7ebfe9;
+}
+
+/* line 132, ../sass/_colors.scss */
+.clr-mr {
+  color: #333333;
+}
+
+/* line 133, ../sass/_colors.scss */
+.clr-mr-bg {
+  background-color: #333333;
+}
+
+/* line 138, ../sass/_colors.scss */
+.clr-nick {
+  color: #ff7b00;
+}
+
+/* line 139, ../sass/_colors.scss */
+.clr-nickl {
+  color: #ffca99;
+}
+
+/* line 140, ../sass/_colors.scss */
+.clr-nick-bg {
+  background-color: #ff7b00;
+}
+
+/* line 141, ../sass/_colors.scss */
+.clr-nickl-bg {
+  background-color: #ffca99;
+}
+
 /* -------------------------------------------------------------------
 colors
 ------------------------------------------------------------------- */
 /*--- body colors ----*/
 /*body*/
-/*--- brands ---*/
+/* line 17, ../sass/_colors.scss */
+.clr-body {
+  color: #555555;
+}
+
+/* line 18, ../sass/_colors.scss */
+.clr-body1 {
+  color: #bbbbbb;
+}
+
+/* line 19, ../sass/_colors.scss */
+.clr-body2 {
+  color: #c8c8c8;
+}
+
+/* line 20, ../sass/_colors.scss */
+.clr-body3 {
+  color: #d4d4d4;
+}
+
+/* line 21, ../sass/_colors.scss */
+.clr-body4 {
+  color: #e1e1e1;
+}
+
+/* line 22, ../sass/_colors.scss */
+.clr-body5 {
+  color: #eeeeee;
+}
+
+/* line 23, ../sass/_colors.scss */
+.clr-body-bg {
+  background-color: #555555;
+}
+
+/* line 24, ../sass/_colors.scss */
+.clr-body1-bg {
+  background-color: #bbbbbb;
+}
+
+/* line 25, ../sass/_colors.scss */
+.clr-body2-bg {
+  background-color: #c8c8c8;
+}
+
+/* line 26, ../sass/_colors.scss */
+.clr-body3-bg {
+  background-color: #d4d4d4;
+}
+
+/* line 27, ../sass/_colors.scss */
+.clr-body4-bg {
+  background-color: #e1e1e1;
+}
+
+/* line 28, ../sass/_colors.scss */
+.clr-body5-bg {
+  background-color: #eeeeee;
+}
+
 /*--- color groups ---*/
-/*greens*/
 /*reds*/
+/* line 36, ../sass/_colors.scss */
+.clr-neg1 {
+  color: #f7b6b6;
+}
+
+/* line 37, ../sass/_colors.scss */
+.clr-neg2 {
+  color: #ed5a5a;
+}
+
+/* line 38, ../sass/_colors.scss */
+.clr-neg3 {
+  color: #860f0f;
+}
+
+/* line 39, ../sass/_colors.scss */
+.clr-neg1-bg {
+  background-color: #f7b6b6;
+}
+
+/* line 40, ../sass/_colors.scss */
+.clr-neg2-bg {
+  background-color: #ed5a5a;
+}
+
+/* line 41, ../sass/_colors.scss */
+.clr-neg3-bg {
+  background-color: #860f0f;
+}
+
+/*greens*/
+/* line 47, ../sass/_colors.scss */
+.clr-pos1 {
+  color: #b1e8c1;
+}
+
+/* line 48, ../sass/_colors.scss */
+.clr-pos2 {
+  color: #4fca74;
+}
+
+/* line 49, ../sass/_colors.scss */
+.clr-pos3 {
+  color: #1e6232;
+}
+
+/* line 50, ../sass/_colors.scss */
+.clr-pos1-bg {
+  background-color: #b1e8c1;
+}
+
+/* line 51, ../sass/_colors.scss */
+.clr-pos2-bg {
+  background-color: #4fca74;
+}
+
+/* line 52, ../sass/_colors.scss */
+.clr-pos3-bg {
+  background-color: #1e6232;
+}
+
 /*yellows*/
+/* line 58, ../sass/_colors.scss */
+.clr-alert1 {
+  color: #fff5cd;
+}
+
+/* line 59, ../sass/_colors.scss */
+.clr-alert2 {
+  color: #ffe167;
+}
+
+/* line 60, ../sass/_colors.scss */
+.clr-alert3 {
+  color: #9a7c00;
+}
+
+/* line 61, ../sass/_colors.scss */
+.clr-alert1-bg {
+  background-color: #fff5cd;
+}
+
+/* line 62, ../sass/_colors.scss */
+.clr-alert2-bg {
+  background-color: #ffe167;
+}
+
+/* line 63, ../sass/_colors.scss */
+.clr-alert3-bg {
+  background-color: #9a7c00;
+}
+
 /*pinks*/
+/* line 69, ../sass/_colors.scss */
+.clr-loud1 {
+  color: #eec4dd;
+}
+
+/* line 70, ../sass/_colors.scss */
+.clr-loud2 {
+  color: #da7db3;
+}
+
+/* line 71, ../sass/_colors.scss */
+.clr-loud3 {
+  color: #a83075;
+}
+
+/* line 72, ../sass/_colors.scss */
+.clr-loud1-bg {
+  background-color: #eec4dd;
+}
+
+/* line 73, ../sass/_colors.scss */
+.clr-loud2-bg {
+  background-color: #da7db3;
+}
+
+/* line 74, ../sass/_colors.scss */
+.clr-loud3-bg {
+  background-color: #a83075;
+}
+
 /*blues*/
-/* light pink */
+/* line 80, ../sass/_colors.scss */
+.clr-cool1 {
+  color: #8ddfff;
+}
+
+/* line 81, ../sass/_colors.scss */
+.clr-cool2 {
+  color: #00aef3;
+}
+
+/* line 82, ../sass/_colors.scss */
+.clr-cool3 {
+  color: #00658d;
+}
+
+/* line 83, ../sass/_colors.scss */
+.clr-cool1-bg {
+  background-color: #8ddfff;
+}
+
+/* line 84, ../sass/_colors.scss */
+.clr-cool2-bg {
+  background-color: #00aef3;
+}
+
+/* line 85, ../sass/_colors.scss */
+.clr-cool3-bg {
+  background-color: #00658d;
+}
+
 /*--- color groups ---*/
+/*--- brands ---*/
+/* line 97, ../sass/_colors.scss */
+.clr-gigya {
+  color: #1f5ba7;
+}
+
+/* line 98, ../sass/_colors.scss */
+.clr-gigya-bg {
+  background-color: #1f5ba7;
+}
+
+/* line 104, ../sass/_colors.scss */
+.clr-sc {
+  color: #ff9112;
+}
+
+/* line 105, ../sass/_colors.scss */
+.clr-scl {
+  color: #fcc884;
+}
+
+/* line 106, ../sass/_colors.scss */
+.clr-scd {
+  color: salmon;
+}
+
+/* line 107, ../sass/_colors.scss */
+.clr-sc-bg {
+  background-color: #ff9112;
+}
+
+/* line 108, ../sass/_colors.scss */
+.clr-scl-bg {
+  background-color: #fcc884;
+}
+
+/* line 109, ../sass/_colors.scss */
+.clr-scd-bg {
+  background-color: salmon;
+}
+
+/* line 115, ../sass/_colors.scss */
+.clr-moey {
+  color: #00aef3;
+}
+
+/* line 116, ../sass/_colors.scss */
+.clr-moeyl {
+  color: #c0edff;
+}
+
+/* line 117, ../sass/_colors.scss */
+.clr-moeyd {
+  color: #0077a6;
+}
+
+/* line 118, ../sass/_colors.scss */
+.clr-moey-bg {
+  background-color: #00aef3;
+}
+
+/* line 119, ../sass/_colors.scss */
+.clr-moeyl-bg {
+  background-color: #c0edff;
+}
+
+/* line 120, ../sass/_colors.scss */
+.clr-moeyd-bg {
+  background-color: #0077a6;
+}
+
+/* line 125, ../sass/_colors.scss */
+.clr-amnh {
+  color: #0074bd;
+}
+
+/* line 126, ../sass/_colors.scss */
+.clr-amnhl {
+  color: #7ebfe9;
+}
+
+/* line 127, ../sass/_colors.scss */
+.clr-amnh-bg {
+  background-color: #0074bd;
+}
+
+/* line 128, ../sass/_colors.scss */
+.clr-amnhl-bg {
+  background-color: #7ebfe9;
+}
+
+/* line 132, ../sass/_colors.scss */
+.clr-mr {
+  color: #333333;
+}
+
+/* line 133, ../sass/_colors.scss */
+.clr-mr-bg {
+  background-color: #333333;
+}
+
+/* line 138, ../sass/_colors.scss */
+.clr-nick {
+  color: #ff7b00;
+}
+
+/* line 139, ../sass/_colors.scss */
+.clr-nickl {
+  color: #ffca99;
+}
+
+/* line 140, ../sass/_colors.scss */
+.clr-nick-bg {
+  background-color: #ff7b00;
+}
+
+/* line 141, ../sass/_colors.scss */
+.clr-nickl-bg {
+  background-color: #ffca99;
+}
+
 /*------- custome ---------*/

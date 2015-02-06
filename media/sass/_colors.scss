@@ -8,67 +8,140 @@ $clr-tw: 		#00acee;
 $clr-lightest:	#fff;
 
 /*body*/
-$clr-body5:		#efefef;
-$clr-body4:		darken($clr-body5, 5%);
-$clr-body3:		darken($clr-body5, 10%);
-$clr-body2:		darken($clr-body5, 15%);
-$clr-body1:		darken($clr-body5, 20%);
-$clr-body:		darken($clr-body5, 50%);
-
-/*--- brands ---*/
-$clr-gigya:		#1F5BA7;
-
-$clr-sc:		#FF9112; 
-$clr-scl:		#FCC884; 
-$clr-scd:		#FA8072; 
-
-$clr-moey:		#00AEF3;
-$clr-moeyl:		lighten($clr-moey, 46%); 
-$clr-moeyd:		darken($clr-moey, 15%);
-
-$clr-amnh:		#0074BD;
-$clr-amnhl:		#7EBFE9;
-
-$clr-mr:		#333;
-
-$clr-nick:		#FF7B00;
-$clr-nickl:		lighten($clr-moey, 46%);
+$clr-body:		#555;
+$clr-body1:		lighten($clr-body, 40%);
+$clr-body2:		lighten($clr-body, 45%);
+$clr-body3:		lighten($clr-body, 50%);
+$clr-body4:		lighten($clr-body, 55%);
+$clr-body5:		lighten($clr-body, 60%);
+.clr-body 		{color: $clr-body}
+.clr-body1 		{color: $clr-body1}
+.clr-body2		{color: $clr-body2}
+.clr-body3 		{color: $clr-body3}
+.clr-body4 		{color: $clr-body4}
+.clr-body5 		{color: $clr-body5}
+.clr-body-bg 	{background-color: $clr-body}
+.clr-body1-bg 	{background-color: $clr-body1}
+.clr-body2-bg 	{background-color: $clr-body2}
+.clr-body3-bg 	{background-color: $clr-body3}
+.clr-body4-bg 	{background-color: $clr-body4}
+.clr-body5-bg 	{background-color: $clr-body5}
 
 /*--- color groups ---*/
-
-/*greens*/ 
-$clr-pos2:		#4FCA74;			
-$clr-pos1:		lighten($clr-pos2, 30%); 
-$clr-pos3:		 darken($clr-pos2, 30%);
 
 /*reds*/ 
 $clr-neg2:		#ED5A5A;			
 $clr-neg1:		lighten($clr-neg2, 20%); 
 $clr-neg3:		 darken($clr-neg2, 35%);
+.clr-neg1 		{color: $clr-neg1}
+.clr-neg2 		{color: $clr-neg2}
+.clr-neg3 		{color: $clr-neg3}
+.clr-neg1-bg 	{background-color: $clr-neg1}
+.clr-neg2-bg 	{background-color: $clr-neg2}
+.clr-neg3-bg 	{background-color: $clr-neg3}
+
+/*greens*/ 
+$clr-pos2:		#4FCA74;			
+$clr-pos1:		lighten($clr-pos2, 25%); 
+$clr-pos3:		 darken($clr-pos2, 30%);
+.clr-pos1 		{color: $clr-pos1}
+.clr-pos2 		{color: $clr-pos2}
+.clr-pos3 		{color: $clr-pos3}
+.clr-pos1-bg 	{background-color: $clr-pos1}
+.clr-pos2-bg 	{background-color: $clr-pos2}
+.clr-pos3-bg 	{background-color: $clr-pos3}
 
 /*yellows*/
 $clr-alert2:	#FFE167;			
 $clr-alert1:	lighten($clr-alert2, 20%); 
 $clr-alert3:	 darken($clr-alert2, 40%);
+.clr-alert1 	{color: $clr-alert1}
+.clr-alert2 	{color: $clr-alert2}
+.clr-alert3 	{color: $clr-alert3}
+.clr-alert1-bg 	{background-color: $clr-alert1}
+.clr-alert2-bg 	{background-color: $clr-alert2}
+.clr-alert3-bg 	{background-color: $clr-alert3}
 	
 /*pinks*/
 $clr-loud2:		#DA7DB3;
-$clr-loud1:		lighten($clr-loud2, 20%);
+$clr-loud1:		lighten($clr-loud2, 18%);
 $clr-loud3:		 darken($clr-loud2, 25%);
+.clr-loud1 		{color: $clr-loud1}
+.clr-loud2 		{color: $clr-loud2}
+.clr-loud3 		{color: $clr-loud3}
+.clr-loud1-bg 	{background-color: $clr-loud1}
+.clr-loud2-bg 	{background-color: $clr-loud2}
+.clr-loud3-bg 	{background-color: $clr-loud3}
 
 /*blues*/
-$clr-plus2: 	#00acee;
-$clr-plus1:		lighten($clr-plus2, 30%);
-$clr-plus3:		 darken($clr-plus2, 30%);
-
-/* light pink */
-$clr-admin1:	#FFBFFF; 			 
-$clr-admin2:	#FF00FF;			
-$clr-admin3:	#660066;			
+$clr-cool2: 	#00AEF3;
+$clr-cool1:		lighten($clr-cool2, 30%);
+$clr-cool3:		darken($clr-cool2, 20%);
+.clr-cool1 		{color: $clr-cool1}
+.clr-cool2 		{color: $clr-cool2}
+.clr-cool3 		{color: $clr-cool3}
+.clr-cool1-bg 	{background-color: $clr-cool1}
+.clr-cool2-bg 	{background-color: $clr-cool2}
+.clr-cool3-bg 	{background-color: $clr-cool3}			
 
 /*--- color groups ---*/
 $clr-active:	#da7db3;
 $clr-enabled: 	#596C73;
 $clr-enabledbg: #845B4E;
 $clr-disabled: 	#c7cbd6;
-$clr-info: 		$clr-plus3; 
+$clr-info: 		$clr-cool3; 
+
+/*--- brands ---*/
+$clr-gigya:		#1F5BA7;
+
+.clr-gigya		{color: $clr-gigya}
+.clr-gigya-bg	{background-color: $clr-gigya}
+
+$clr-sc:		#FF9112; 
+$clr-scl:		#FCC884; 
+$clr-scd:		#FA8072; 
+
+.clr-sc			{color: $clr-sc}
+.clr-scl		{color: $clr-scl}
+.clr-scd		{color: $clr-scd}
+.clr-sc-bg		{background-color: $clr-sc}
+.clr-scl-bg		{background-color: $clr-scl}
+.clr-scd-bg		{background-color: $clr-scd}
+
+$clr-moey:		#00AEF3;
+$clr-moeyl:		lighten($clr-moey, 40%); 
+$clr-moeyd:		darken($clr-moey, 15%);
+
+.clr-moey		{color: $clr-moey}
+.clr-moeyl		{color: $clr-moeyl}
+.clr-moeyd		{color: $clr-moeyd}
+.clr-moey-bg	{background-color: $clr-moey}
+.clr-moeyl-bg	{background-color: $clr-moeyl}
+.clr-moeyd-bg	{background-color: $clr-moeyd}
+
+$clr-amnh:		#0074BD;
+$clr-amnhl:		#7EBFE9;
+
+.clr-amnh		{color: $clr-amnh}
+.clr-amnhl		{color: $clr-amnhl}
+.clr-amnh-bg	{background-color: $clr-amnh}
+.clr-amnhl-bg	{background-color: $clr-amnhl}
+
+$clr-mr:		#333;
+
+.clr-mr			{color: $clr-mr}
+.clr-mr-bg		{background-color: $clr-mr}
+
+$clr-nick:		#FF7B00;
+$clr-nickl:		lighten($clr-nick, 30%);
+
+.clr-nick		{color: $clr-nick}
+.clr-nickl		{color: $clr-nickl}
+.clr-nick-bg	{background-color: $clr-nick}
+.clr-nickl-bg	{background-color: $clr-nickl}
+
+
+
+
+
+
