@@ -766,7 +766,7 @@ a:hover, a .active {
 
 /* line 66, ../sass/main.scss */
 .active {
-  color: #da7db3 !important;
+  color: #da7db3;
 }
 
 /* line 70, ../sass/main.scss */
@@ -891,8 +891,8 @@ header
     padding: 5px 0;
   }
 }
-/* line 167, ../sass/main.scss */
-.contactbox .active, .leftmenu .active {
+/* line 166, ../sass/main.scss */
+.contactbox a.fa.active, .leftmenu a.fa.active {
   color: white;
 }
 /* line 170, ../sass/main.scss */
