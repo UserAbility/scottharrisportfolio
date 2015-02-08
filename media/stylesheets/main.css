@@ -765,6 +765,12 @@ a:hover, a .active {
 }
 
 /* line 66, ../sass/main.scss */
+.title {
+  font-family: 'tall_films_fineregular';
+  font-size: 5rem;
+  line-height: 5rem;
+  color: salmon;
+}
 .active {
   color: #da7db3;
 }
