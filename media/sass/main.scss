@@ -3,11 +3,12 @@
 
 * {
 	margin: 0;
+	box-sizing: border-box;
 }
 html, body {
 	line-height: 1.6rem;
 	height: 100%;
-	background-color: $clr-lightest;
+	background-color: $clr-body5;
 }
 #wrapper {
 	max-width: 1200px;
@@ -155,6 +156,13 @@ a.linkbox{
 		}	
 	}
 }
+
+.half{width: 50%;}
+.onethird{width: 33.33%;}
+.twothirds{width: 66.66%;}
+.forths{width: 25%;}
+.fifths{width: 20%;}
+.sixths{width: 18%;}
 
 /*--------------------
 header
@@ -382,62 +390,6 @@ footer
 }
 
 /*--------------------
-space and place
---------------------*/
-.clear {clear:both;}
-.cl{clear:left;}
-.cr{clear:right;}
-.outline{outline: 1px solid pink;}
-
-.txtc 	{text-align: center}
-.txtl 	{text-align: left}
-.txtr 	{text-align: right}
-
-.fc		{margin: 0 auto}
-.fl 	{float: left;}
-.fr 	{float: right;}
-.fv		{vertical-align:middle;}
-.fcc	{display: block; margin-left: auto; margin-right: auto; vertical-align:middle;}
-
-/*margin rem*/
-.mit 	{margin: 1rem}
-.mt 	{margin-top: 1rem}
-.mb 	{margin-bottom: 1rem}
-.ml		{margin-left: 1rem}
-.mr		{margin-right: 1rem}
-.mw		{margin: 0 1rem}
-.mh 	{margin: 1rem 0}
-.nom	{margin: 0!important}
-/*margin %*/
-.mitp 	{margin: 2%}
-.mtp 	{margin-top: 2%}
-.mbp 	{margin-bottom: 2%}
-.mlp	{margin-left: 2%}
-.mrp	{margin-right: 2%}
-.mwp	{margin: 0 2%}
-.mhp	{margin: 2% 0}
-/*pad rem*/
-.pit 	{padding: 1rem}
-.pt 	{padding-top: 1rem}
-.pb 	{padding-bottom: 1rem}
-.pl		{padding-left: 1rem}
-.pr		{padding-right: 1rem}
-.pw		{padding: 0 1rem}
-.ph 	{padding: 1rem 0}
-.nop	{padding: 0!important}
-/*pad %*/
-.pitp 	{padding: 2%}
-.ptp 	{padding-top: 2%}
-.pbp 	{padding-bottom: 2%}
-.plp	{padding-left: 2%}
-.prp	{padding-right: 2%}
-.pwp	{padding: 0 2%}
-.php 	{padding: 2% 0}
-
-.maxw   {min-width: 100%}
-.halfw	{max-width: 50%}
-
-/*--------------------
 project pages
 --------------------*/
 .projectheader{
@@ -520,9 +472,7 @@ project pages
 		}
 	}
 }
-.relbox{
-	position: relative;
-}
+
 .nick-tv{
 	position: absolute;
 	top: -135px;
@@ -575,7 +525,7 @@ project pages
 	width: 100px;
 	height: 100px;
 	text-align: center;
-  	white-space: nowrap;
+	float: left;
 	color: $clr-lightest;
   	background-color: $clr-body;
   	@include field-border-radius;
@@ -597,6 +547,52 @@ project pages
   		padding-top: 21px;
   	}
 }
+
+#proj-sc{
+	.bblock{
+		padding: 4rem 2rem 2rem 2rem;
+	}
+	.title{
+		text-align: left;
+		float: left;
+		width: 220px;
+		clear: none;
+	}
+	h2{
+		display: inline;
+		text-align: left;
+		padding-right: 6rem; 
+	}
+	p{
+		max-width: 770px;
+		padding-right: 6rem; 
+	}
+
+	.tools{
+		padding-top: 1rem;
+		h2{
+			display: inline-block;
+			clear: both;
+			float: left;
+		}
+		li{
+			display: inline-block;
+			float: left;
+			width: 50%;
+			padding-top: 5px;
+			span{
+				display: inline-block;
+  				vertical-align: middle;
+			}
+			img{
+				vertical-align: middle;
+				max-height: 40px;
+				padding-right: 2px;
+			}
+		}
+	}
+}
+
 /*--------------------
 facebook
 --------------------*/
@@ -707,3 +703,65 @@ animation
 		0% { -ms-transform: rotate(0deg);}
 	}
 }
+
+/*--------------------
+space and place
+--------------------*/
+.clear {clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+.outline{outline: 1px solid pink;}
+.relbox{position: relative;}
+
+.txtc 	{text-align: center}
+.txtl 	{text-align: left}
+.txtr 	{text-align: right}
+
+.bt 	{border-top: 1px $clr-body solid;}
+.br 	{border-right: 1px $clr-body solid;}
+.bb 	{border-bottom: 1px $clr-body solid;}
+.bl 	{border-left: 1px $clr-body solid;}
+
+.fc		{margin: 0 auto}
+.fl 	{float: left;}
+.fr 	{float: right;}
+.fv		{vertical-align:middle;}
+.fcc	{display: block; margin-left: auto; margin-right: auto; vertical-align:middle;}
+
+/*margin rem*/
+.mit 	{margin: 1rem}
+.mt 	{margin-top: 1rem}
+.mb 	{margin-bottom: 1rem}
+.ml		{margin-left: 1rem}
+.mr		{margin-right: 1rem}
+.mw		{margin: 0 1rem}
+.mh 	{margin: 1rem 0}
+.nom	{margin: 0!important}
+/*margin %*/
+.mitp 	{margin: 2%}
+.mtp 	{margin-top: 2%}
+.mbp 	{margin-bottom: 2%}
+.mlp	{margin-left: 2%}
+.mrp	{margin-right: 2%}
+.mwp	{margin: 0 2%}
+.mhp	{margin: 2% 0}
+/*pad rem*/
+.pit 	{padding: 1rem}
+.pt 	{padding-top: 1rem}
+.pb 	{padding-bottom: 1rem}
+.pl		{padding-left: 1rem}
+.pr		{padding-right: 1rem}
+.pw		{padding: 0 1rem}
+.ph 	{padding: 1rem 0}
+.nop	{padding: 0!important}
+/*pad %*/
+.pitp 	{padding: 2%}
+.ptp 	{padding-top: 2%}
+.pbp 	{padding-bottom: 2%}
+.plp	{padding-left: 2%}
+.prp	{padding-right: 2%}
+.pwp	{padding: 0 2%}
+.php 	{padding: 2% 0}
+
+.maxw   {min-width: 100%}
+.halfw	{max-width: 50%}
