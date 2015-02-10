@@ -80,7 +80,7 @@ a{
 }
 .alert{
 	color: red!important;
-	background-color: pink!important;
+	background-color: $clr-neg1!important;
 	padding: .5rem;
 }
 .highlighter{
@@ -414,6 +414,9 @@ project pages
 	&.bg-shuttercal img 	{width: 50%; margin-left: 25%;}
 	&.bg-mediarecords img 	{width: 15%; margin-left: 42.5%;}
 	&.bg-amnh img 			{width: 35%; margin-left: 32.5%;}
+	.leftmenu{
+		z-index: 2;
+	}
 }
 
 .nick-tv{
