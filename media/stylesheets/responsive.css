@@ -221,122 +221,132 @@ colors
 
 /*--- color groups ---*/
 /*--- brands ---*/
-/* line 97, ../sass/_colors.scss */
+/* line 98, ../sass/_colors.scss */
 .clr-gigya {
   color: #1f5ba7;
 }
 
-/* line 98, ../sass/_colors.scss */
+/* line 99, ../sass/_colors.scss */
+.clr-gigyal {
+  color: #eeeeff;
+}
+
+/* line 100, ../sass/_colors.scss */
 .clr-gigya-bg {
   background-color: #1f5ba7;
 }
 
-/* line 104, ../sass/_colors.scss */
+/* line 101, ../sass/_colors.scss */
+.clr-gigyal-bg {
+  background-color: #eeeeff;
+}
+
+/* line 107, ../sass/_colors.scss */
 .clr-sc {
   color: #ff9112;
 }
 
-/* line 105, ../sass/_colors.scss */
+/* line 108, ../sass/_colors.scss */
 .clr-scl {
   color: #fcc884;
 }
 
-/* line 106, ../sass/_colors.scss */
+/* line 109, ../sass/_colors.scss */
 .clr-scd {
   color: salmon;
 }
 
-/* line 107, ../sass/_colors.scss */
+/* line 110, ../sass/_colors.scss */
 .clr-sc-bg {
   background-color: #ff9112;
 }
 
-/* line 108, ../sass/_colors.scss */
+/* line 111, ../sass/_colors.scss */
 .clr-scl-bg {
   background-color: #fcc884;
 }
 
-/* line 109, ../sass/_colors.scss */
+/* line 112, ../sass/_colors.scss */
 .clr-scd-bg {
   background-color: salmon;
 }
 
-/* line 115, ../sass/_colors.scss */
+/* line 118, ../sass/_colors.scss */
 .clr-moey {
   color: #00aef3;
 }
 
-/* line 116, ../sass/_colors.scss */
+/* line 119, ../sass/_colors.scss */
 .clr-moeyl {
   color: #c0edff;
 }
 
-/* line 117, ../sass/_colors.scss */
+/* line 120, ../sass/_colors.scss */
 .clr-moeyd {
   color: #0077a6;
 }
 
-/* line 118, ../sass/_colors.scss */
+/* line 121, ../sass/_colors.scss */
 .clr-moey-bg {
   background-color: #00aef3;
 }
 
-/* line 119, ../sass/_colors.scss */
+/* line 122, ../sass/_colors.scss */
 .clr-moeyl-bg {
   background-color: #c0edff;
 }
 
-/* line 120, ../sass/_colors.scss */
+/* line 123, ../sass/_colors.scss */
 .clr-moeyd-bg {
   background-color: #0077a6;
 }
 
-/* line 125, ../sass/_colors.scss */
+/* line 128, ../sass/_colors.scss */
 .clr-amnh {
   color: #0074bd;
 }
 
-/* line 126, ../sass/_colors.scss */
+/* line 129, ../sass/_colors.scss */
 .clr-amnhl {
   color: #7ebfe9;
 }
 
-/* line 127, ../sass/_colors.scss */
+/* line 130, ../sass/_colors.scss */
 .clr-amnh-bg {
   background-color: #0074bd;
 }
 
-/* line 128, ../sass/_colors.scss */
+/* line 131, ../sass/_colors.scss */
 .clr-amnhl-bg {
   background-color: #7ebfe9;
 }
 
-/* line 132, ../sass/_colors.scss */
+/* line 135, ../sass/_colors.scss */
 .clr-mr {
   color: #333333;
 }
 
-/* line 133, ../sass/_colors.scss */
+/* line 136, ../sass/_colors.scss */
 .clr-mr-bg {
   background-color: #333333;
 }
 
-/* line 138, ../sass/_colors.scss */
+/* line 141, ../sass/_colors.scss */
 .clr-nick {
   color: #ff7b00;
 }
 
-/* line 139, ../sass/_colors.scss */
+/* line 142, ../sass/_colors.scss */
 .clr-nickl {
   color: #ffca99;
 }
 
-/* line 140, ../sass/_colors.scss */
+/* line 143, ../sass/_colors.scss */
 .clr-nick-bg {
   background-color: #ff7b00;
 }
 
-/* line 141, ../sass/_colors.scss */
+/* line 144, ../sass/_colors.scss */
 .clr-nickl-bg {
   background-color: #ffca99;
 }
@@ -564,122 +574,132 @@ colors
 
 /*--- color groups ---*/
 /*--- brands ---*/
-/* line 97, ../sass/_colors.scss */
+/* line 98, ../sass/_colors.scss */
 .clr-gigya {
   color: #1f5ba7;
 }
 
-/* line 98, ../sass/_colors.scss */
+/* line 99, ../sass/_colors.scss */
+.clr-gigyal {
+  color: #eeeeff;
+}
+
+/* line 100, ../sass/_colors.scss */
 .clr-gigya-bg {
   background-color: #1f5ba7;
 }
 
-/* line 104, ../sass/_colors.scss */
+/* line 101, ../sass/_colors.scss */
+.clr-gigyal-bg {
+  background-color: #eeeeff;
+}
+
+/* line 107, ../sass/_colors.scss */
 .clr-sc {
   color: #ff9112;
 }
 
-/* line 105, ../sass/_colors.scss */
+/* line 108, ../sass/_colors.scss */
 .clr-scl {
   color: #fcc884;
 }
 
-/* line 106, ../sass/_colors.scss */
+/* line 109, ../sass/_colors.scss */
 .clr-scd {
   color: salmon;
 }
 
-/* line 107, ../sass/_colors.scss */
+/* line 110, ../sass/_colors.scss */
 .clr-sc-bg {
   background-color: #ff9112;
 }
 
-/* line 108, ../sass/_colors.scss */
+/* line 111, ../sass/_colors.scss */
 .clr-scl-bg {
   background-color: #fcc884;
 }
 
-/* line 109, ../sass/_colors.scss */
+/* line 112, ../sass/_colors.scss */
 .clr-scd-bg {
   background-color: salmon;
 }
 
-/* line 115, ../sass/_colors.scss */
+/* line 118, ../sass/_colors.scss */
 .clr-moey {
   color: #00aef3;
 }
 
-/* line 116, ../sass/_colors.scss */
+/* line 119, ../sass/_colors.scss */
 .clr-moeyl {
   color: #c0edff;
 }
 
-/* line 117, ../sass/_colors.scss */
+/* line 120, ../sass/_colors.scss */
 .clr-moeyd {
   color: #0077a6;
 }
 
-/* line 118, ../sass/_colors.scss */
+/* line 121, ../sass/_colors.scss */
 .clr-moey-bg {
   background-color: #00aef3;
 }
 
-/* line 119, ../sass/_colors.scss */
+/* line 122, ../sass/_colors.scss */
 .clr-moeyl-bg {
   background-color: #c0edff;
 }
 
-/* line 120, ../sass/_colors.scss */
+/* line 123, ../sass/_colors.scss */
 .clr-moeyd-bg {
   background-color: #0077a6;
 }
 
-/* line 125, ../sass/_colors.scss */
+/* line 128, ../sass/_colors.scss */
 .clr-amnh {
   color: #0074bd;
 }
 
-/* line 126, ../sass/_colors.scss */
+/* line 129, ../sass/_colors.scss */
 .clr-amnhl {
   color: #7ebfe9;
 }
 
-/* line 127, ../sass/_colors.scss */
+/* line 130, ../sass/_colors.scss */
 .clr-amnh-bg {
   background-color: #0074bd;
 }
 
-/* line 128, ../sass/_colors.scss */
+/* line 131, ../sass/_colors.scss */
 .clr-amnhl-bg {
   background-color: #7ebfe9;
 }
 
-/* line 132, ../sass/_colors.scss */
+/* line 135, ../sass/_colors.scss */
 .clr-mr {
   color: #333333;
 }
 
-/* line 133, ../sass/_colors.scss */
+/* line 136, ../sass/_colors.scss */
 .clr-mr-bg {
   background-color: #333333;
 }
 
-/* line 138, ../sass/_colors.scss */
+/* line 141, ../sass/_colors.scss */
 .clr-nick {
   color: #ff7b00;
 }
 
-/* line 139, ../sass/_colors.scss */
+/* line 142, ../sass/_colors.scss */
 .clr-nickl {
   color: #ffca99;
 }
 
-/* line 140, ../sass/_colors.scss */
+/* line 143, ../sass/_colors.scss */
 .clr-nick-bg {
   background-color: #ff7b00;
 }
 
-/* line 141, ../sass/_colors.scss */
+/* line 144, ../sass/_colors.scss */
 .clr-nickl-bg {
   background-color: #ffca99;
 }
