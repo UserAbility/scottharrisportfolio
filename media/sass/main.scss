@@ -84,7 +84,7 @@ a{
 	padding: .5rem;
 }
 .highlighter{
-	background-color: $clr-alert2!important;
+	background-color: $clr-alert1!important;
 	padding: 3px 3px 1px 2px;
 }
 
@@ -410,67 +410,10 @@ project pages
 		resize: both;
 		overflow: auto;
 	}
-	&.bg-gigya img{
-		width: 40%;
-		margin-left: 30%;
-	}
-	&.bg-mediarecords img{
-		width: 15%;
-		margin-left: 42.5%;
-	}
-	&.bg-amnh img{
-		width: 35%;
-		margin-left: 32.5%;
-	}
-}
-
-.box-half{
-	position: relative;
-	display: inline-block;
-	width: 46%;
-	float: left;
-	padding: 6% 2% 2% 2%;
-	&.nick-intro{
-		@media (max-width: 1000px) {
-			width:40%;
-		}
-		@media (max-width: 900px) {
-			display: block;
-			width:96%;
-			margin-right: auto;
-			margin-left: auto;
-		}
-	}
-	@media (max-width: 900px) {
-		display: block;
-		width:96%;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	h1{
-		float: left;
-		width: 40%;
-		max-width: 600px;
-		@media (max-width: 1100px) {
-			float: none;
-			margin-right: auto;
-			margin-left: auto;
-			width:94%;
-		}
-		@media (max-width: 650px) {
-			margin-bottom: 6%;
-		}
-	}
-	p {
-		float: right;
-		width: 56%;
-		@media (max-width: 1100px) {
-			float: none;
-			margin-right: auto;
-			margin-left: auto;
-			width:94%;
-		}
-	}
+	&.bg-gigya img 			{width: 40%; margin-left: 30%;}
+	&.bg-shuttercal img 	{width: 50%; margin-left: 25%;}
+	&.bg-mediarecords img 	{width: 15%; margin-left: 42.5%;}
+	&.bg-amnh img 			{width: 35%; margin-left: 32.5%;}
 }
 
 .nick-tv{
@@ -481,7 +424,7 @@ project pages
 	max-width: 520px;
 	float: right;
 	z-index: 1;
-	@media (max-width: 900px) {
+	@media (max-width: 975px) {
 		display:none;
 	}
 	img{pointer-events:none;}
@@ -494,67 +437,29 @@ project pages
 	z-index: -2;
 }
 .nick-vidfull{
+	width: 600px;
 	max-width: 100%;
 	margin: 0 auto;
-	@media (min-width: 861px) {
+	@media (min-width: 975px) {
 		display:none;
 	}
 }
 
 .linebreak{
 	display: inline-block;
-	border-top: 3px dashed $clr-body;
-	margin-top: 3%;
+	border-top: 2px dotted $clr-body;
+	margin-top: 2rem;
 	width: 100%;
 	&.nick{border-color: $clr-nick;}
 }
 
-.toolbox{
-	position: relative;
-	display: inline-block;
-	@media (max-width: 900px) {
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
-
-.app{
-	position: relative;
-	display: inline-block;
-	margin: 0 2% 2% 0;
-	width: 100px;
-	height: 100px;
-	text-align: center;
-	float: left;
-	color: $clr-lightest;
-  	background-color: $clr-body;
-  	@include field-border-radius;
-
-  	&.maya{background-color: #333;}
-  	&.psd{background-color: #3DC3FB;}
-  	&.ai{background-color: #FF731B;}
-  	&.ae{background-color: #CB9DFF;}
-  	&.flash{background-color: $clr-neg2;}
-
-  	span, i{
-  		color: $clr-lightest;
-  		font-size: 1.4rem;
-  		display: block;
-  		clear: both;
-  		padding-top: 28px;
-  	}
-  	i{
-  		padding-top: 21px;
-  	}
-}
-
-#proj-sc{
+#proj-section{
 	.bblock{
 		padding: 4rem 2rem 2rem 2rem;
 		@media (max-width: 600px) {
 			padding: 2rem 1rem 1rem 1rem;}
 	}
-	.onethird, .twothirds{
+	.half, .onethird, .twothirds {
 		@media (max-width: 700px) {
 			width: 100%;}
 	}
@@ -608,14 +513,29 @@ project pages
 	  				@media (max-width: 600px) {
 						display: none;}
 				}
-				img{
+				img, i{
 					vertical-align: middle;
 					max-height: 40px;
+					width: 40px;
 					padding-right: 2px;
+				}
+				.fa{
+					font-size: 2.1rem;
+					text-align: center;
 				}
 			}
 		}
 	}
+}
+.half.nick-intro{
+	p{
+		padding-right: 0!important; 
+	}
+	@media (max-width: 1070px) {
+		width:45%;}
+	@media (max-width: 975px) {
+		width:100%;}
+	
 }
 
 /*--------------------
