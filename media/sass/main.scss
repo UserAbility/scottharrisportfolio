@@ -81,7 +81,7 @@ a{
 .alert{
 	color: red!important;
 	background-color: $clr-neg1!important;
-	padding: .5rem;
+	padding: .5rem 2px;
 }
 .highlighter{
 	background-color: $clr-alert1!important;
@@ -169,7 +169,7 @@ header
 --------------------*/
 .contactbox, .leftmenu {
 	position: absolute;
-	top: 2%;
+	top: 1.5%;
 	right: 1%;
 	a.fa {
 		clear: right;
@@ -335,7 +335,9 @@ section{
 .bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
 .bg-mediarecords	{background: #333 url(../images/mediarecords-bg.png) no-repeat center / 205%;}
 .projectheader.bg-mediarecords {background: #333 url(../images/mediarecords-bg2.png) no-repeat center / 110%;}
-.bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;}
+.bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;
+
+}
 
 /*--------------------
 footer
@@ -390,6 +392,10 @@ footer
 /*--------------------
 project pages
 --------------------*/
+.proj-menu{
+	margin: .5%;
+	&:hover{color: $clr-lightest;} 
+}
 .projectheader{
 	height: 300px;
 	width: 100%;
