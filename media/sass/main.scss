@@ -392,10 +392,6 @@ footer
 /*--------------------
 project pages
 --------------------*/
-.proj-menu{
-	margin: .5%;
-	&:hover{color: $clr-lightest;} 
-}
 .projectheader{
 	height: 300px;
 	width: 100%;
@@ -416,8 +412,9 @@ project pages
 	}
 	&.bg-gigya img 			{width: 40%; margin-left: 30%;}
 	&.bg-shuttercal img 	{width: 50%; margin-left: 25%;}
-	&.bg-mediarecords img 	{width: 15%; margin-left: 42.5%;}
+	&.bg-moey img 			{width: 50%; margin-left: 25%;}
 	&.bg-amnh img 			{width: 35%; margin-left: 32.5%;}
+	&.bg-mediarecords img 	{width: 15%; margin-left: 42.5%;}
 	.leftmenu{
 		z-index: 2;
 	}
@@ -452,6 +449,15 @@ project pages
 		display:none;
 	}
 }
+.half.nick-intro{
+	p{
+		padding-right: 0!important; 
+	}
+	@media (max-width: 1070px) {
+		width:45%;}
+	@media (max-width: 975px) {
+		width:100%;}	
+}
 
 .linebreak{
 	display: inline-block;
@@ -462,6 +468,18 @@ project pages
 }
 
 #proj-section{
+	.proj-menu{ 
+		position: absolute;
+		top: 0;
+		right: 0;
+		a{
+			float: right;
+			margin: .75rem .75rem 0 0;
+			color: $clr-lightest;
+			&:hover
+				{color: $clr-scd;}
+		}
+	}
 	.bblock{
 		padding: 4rem 2rem 2rem 2rem;
 		@media (max-width: 600px) {
@@ -533,16 +551,24 @@ project pages
 			}
 		}
 	}
-}
-.half.nick-intro{
-	p{
-		padding-right: 0!important; 
-	}
-	@media (max-width: 1070px) {
-		width:45%;}
-	@media (max-width: 975px) {
-		width:100%;}
-	
+	&.gigya{
+		.title, .fa:hover, p a{
+			color: $clr-gigya}}
+	&.sc{
+		.title, .fa:hover, p a{
+			color: $clr-scd}}
+	&.moey{
+		.title, .fa:hover, p a{
+			color: $clr-moey}}
+	&.amnh{
+		.title, .fa:hover, p a{
+			color: $clr-amnhl}}
+	&.mr{
+		.title, .fa:hover, p a{
+			color: $clr-mr}}
+	&.nick{
+		.title, .fa:hover, p a{
+			color: $clr-nick}}
 }
 
 /*--------------------
