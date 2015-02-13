@@ -229,6 +229,9 @@ header{
 			&.two 	{ top: 110px; left: 75px;  font-size: 4rem; }
 			&.three { top: 80px;  left: 270px; font-size: 5rem; }
 		}
+		h1, h2, h3 {
+			color: $clr-body1;
+		}
 	}
 	p {text-align: center;}
 }
@@ -329,7 +332,8 @@ section{
 	}
 }
 
-.bg-gigya			{background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center / 100%;}
+.bg-gigya			{background: #eeeeff url(../images/gigya-bg.jpg) no-repeat bottom / 220%;}
+#proj-section .bg-gigya {background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center -300px / 130%;}
 .bg-shuttercal		{background: orange url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
 .bg-moey			{background: skyblue url(../images/moey-bg.jpg) no-repeat center / 100%;}
 .bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
@@ -552,23 +556,29 @@ project pages
 		}
 	}
 	&.gigya{
-		.title, .fa:hover, p a{
-			color: $clr-gigya}}
+		.title, a{color: $clr-gigya;}
+		a:hover{color: $clr-lightest;}
+	}
 	&.sc{
-		.title, .fa:hover, p a{
-			color: $clr-scd}}
+		.title, a{color: $clr-scd;}
+		a:hover{color: $clr-scl;}
+	}
 	&.moey{
-		.title, .fa:hover, p a{
-			color: $clr-moey}}
+		a{color: $clr-moeyl}
+		.title, a:hover{color: $clr-moey;}
+	}
 	&.amnh{
-		.title, .fa:hover, p a{
-			color: $clr-amnhl}}
+		.title, a{color: $clr-lightest}
+		a:hover{color: $clr-amnhl;}
+	}
 	&.mr{
-		.title, .fa:hover, p a{
-			color: $clr-mr}}
+		.title, a{color: $clr-alert2}
+		a:hover{color: $clr-alert1;}
+	}
 	&.nick{
-		.title, .fa:hover, p a{
-			color: $clr-nick}}
+		.title, a{color: $clr-nick}
+		a:hover{color: $clr-nickl;}
+	}
 }
 
 /*--------------------
