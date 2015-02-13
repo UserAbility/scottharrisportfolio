@@ -332,7 +332,7 @@ section{
 	}
 }
 
-.bg-gigya			{background: #eeeeff url(../images/gigya-bg.jpg) no-repeat bottom / 220%;}
+.bg-gigya			{background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center / 250%;}
 #proj-section .bg-gigya {background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center -300px / 130%;}
 .bg-shuttercal		{background: orange url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
 .bg-moey			{background: skyblue url(../images/moey-bg.jpg) no-repeat center / 100%;}
@@ -341,56 +341,6 @@ section{
 .projectheader.bg-mediarecords {background: #333 url(../images/mediarecords-bg2.png) no-repeat center / 110%;}
 .bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;
 
-}
-
-/*--------------------
-footer
---------------------*/
-
-.footer, .push {
-	overflow: hidden;
-	height: 50px; /* '.push' must be the same height as 'footer' */
-}
-.footer{
-	max-width: 1200px;
-	margin: 0 auto;
-	p{
-		text-align: center;
-		line-height: 50px;
-		height:50px;
-		min-width: 100%;
-		color: $clr-moey;
-		background-color: $clr-moeyl;
-	}
-}
-.projectnav{
-	a, .blank{
-		display: inline-block;
-		float: left;
-		text-align: center;
-		height: 150px;
-		width: 33.333%;
-		color: $clr-moeyl;
-		background-color: $clr-moey;
-	}
-	a{
-		&:hover{
-			background-color: $clr-moeyl;	
-			color: $clr-moey;
-			i{
-				color: $clr-moey;
-			}
-		}
-		i{
-			vertical-align: middle;
-			line-height: 150px;
-			height: 150px;
-			color: $clr-moeyl;
-		}
-	}
-	&.hide{
-		visibility: hidden;
-	}
 }
 
 /*--------------------
@@ -415,7 +365,7 @@ project pages
 		overflow: auto;
 	}
 	&.bg-gigya img 			{width: 40%; margin-left: 30%;}
-	&.bg-shuttercal img 	{width: 50%; margin-left: 25%;}
+	&.bg-shuttercal img 	{width: 56.5%; margin-left: 21.25%;}
 	&.bg-moey img 			{width: 50%; margin-left: 25%;}
 	&.bg-amnh img 			{width: 35%; margin-left: 32.5%;}
 	&.bg-mediarecords img 	{width: 15%; margin-left: 42.5%;}
@@ -582,6 +532,56 @@ project pages
 }
 
 /*--------------------
+footer
+--------------------*/
+
+.footer, .push {
+	overflow: hidden;
+	height: 50px; /* '.push' must be the same height as 'footer' */
+}
+.footer{
+	max-width: 1200px;
+	margin: 0 auto;
+	p{
+		text-align: center;
+		line-height: 50px;
+		height:50px;
+		min-width: 100%;
+		color: $clr-moey;
+		background-color: $clr-moeyl;
+	}
+}
+.projectnav{
+	a, .blank{
+		display: inline-block;
+		float: left;
+		text-align: center;
+		height: 100px;
+		width: 33.333%;
+		color: $clr-moeyl;
+		background-color: $clr-moey;
+	}
+	a{
+		&:hover{
+			background-color: $clr-moeyl;	
+			color: $clr-moey;
+			i{
+				color: $clr-moey;
+			}
+		}
+		i{
+			vertical-align: middle;
+			line-height: 100px;
+			height: 100px;
+			color: $clr-moeyl;
+		}
+	}
+	&.hide{
+		visibility: hidden;
+	}
+}
+
+/*--------------------
 facebook
 --------------------*/
 #fb{
@@ -696,11 +696,14 @@ animation
 space and place
 --------------------*/
 .clear {clear:both;}
-.cl{clear:left;}
-.cr{clear:right;}
-.outline{outline: 1px solid pink;}
-.relbox{position: relative;}
-.noclick{pointer-events: none;}
+.cl {clear:left;}
+.cr {clear:right;}
+.outline {outline: 1px solid pink;}
+.relbox {position: relative;}
+.noclick {pointer-events: none;}
+
+.shadow {@include shape-shadow;}
+.noshadow {@include no-shadow;}
 
 .txtc 	{text-align: center}
 .txtl 	{text-align: left}
