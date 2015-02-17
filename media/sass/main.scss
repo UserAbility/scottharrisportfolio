@@ -42,7 +42,6 @@ h1{
 h2, h3{
 	font-weight: 600;
 	font-size: 1.4rem;
-
 }
 h3{
 	display: block;
@@ -332,14 +331,14 @@ section{
 	}
 }
 
-.bg-gigya			{background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center / 250%;}
-#proj-section .bg-gigya {background: #eeeeff url(../images/gigya-bg.jpg) no-repeat center -300px / 130%;}
-.bg-shuttercal		{background: orange url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
-.bg-moey			{background: skyblue url(../images/moey-bg.jpg) no-repeat center / 100%;}
-.bg-amnh			{background: navy url(../images/amnh-bg.jpg) no-repeat center / 100%;}
-.bg-mediarecords	{background: #333 url(../images/mediarecords-bg.png) no-repeat center / 205%;}
-.projectheader.bg-mediarecords {background: #333 url(../images/mediarecords-bg2.png) no-repeat center / 110%;}
-.bg-nick			{background: orange url(../images/nick-bg.jpg) no-repeat center / 100%;
+.bg-gigya			{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 250%;}
+#proj-section .bg-gigya {background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;}
+.bg-shuttercal		{background: $clr-scd url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
+.bg-moey			{background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 100%;}
+.bg-amnh			{background: $clr-amnhl url(../images/amnh-bg.jpg) no-repeat center / 100%;}
+.bg-mediarecords	{background: $clr-body1 url(../images/mediarecords-bg.png) no-repeat center / 205%;}
+.projectheader.bg-mediarecords {background: $clr-body1 url(../images/mediarecords-bg2.png) no-repeat center / 110%;}
+.bg-nick			{background: $clr-nick url(../images/nick-bg.jpg) no-repeat center / 100%;
 
 }
 
@@ -438,6 +437,14 @@ project pages
 		padding: 4rem 2rem 2rem 2rem;
 		@media (max-width: 600px) {
 			padding: 2rem 1rem 1rem 1rem;}
+		.title{
+			text-align: left;
+			float: left;
+			width: 220px;
+			clear: none;
+			@media (max-width: 550px) {
+				padding-top: 1rem;}
+		}
 	}
 	.half, .onethird, .twothirds {
 		@media (max-width: 700px) {
@@ -450,18 +457,14 @@ project pages
 				padding-right: 0;}
 		}
 	}
-	.title{
-		text-align: left;
-		float: left;
-		width: 220px;
-		clear: none;
-		@media (max-width: 550px) {
-			padding-top: 1rem;}
-	}
-	h2{
+	h3{
 		display: inline-block;
-		text-align: left;
 		padding-bottom: .5rem;
+		margin-bottom: 1rem;
+		span{
+			font-size: 1rem;
+			font-weight: 300;
+		}
 	}
 	.tools{
 		padding-left: 1rem;
@@ -506,28 +509,52 @@ project pages
 		}
 	}
 	&.gigya{
-		.title, a{color: $clr-gigya;}
-		a:hover{color: $clr-lightest;}
+		 .title, a {color: $clr-gigya;}
+		a:hover {color: $clr-gigyal;}
+		.projectnav a:hover {
+			color:$clr-lightest; 
+			background-color: $clr-gigya;
+		}
 	}
 	&.sc{
-		.title, a{color: $clr-scd;}
-		a:hover{color: $clr-scl;}
+		.title, a {color: $clr-scd;}
+		a:hover {color: $clr-scl;}
+		.projectnav a:hover {
+			color:$clr-lightest; 
+			background-color: $clr-scd;
+		}
 	}
 	&.moey{
-		a{color: $clr-moeyl}
-		.title, a:hover{color: $clr-moey;}
+		.title, a {color: $clr-moey}
+		a:hover {color: $clr-moeyl;}
+		.projectnav a:hover {
+			color:$clr-lightest; 
+			background-color: $clr-moey;
+		}
 	}
 	&.amnh{
-		.title, a{color: $clr-lightest}
+		.title, a {color: $clr-amnh;}
 		a:hover{color: $clr-amnhl;}
+		.projectnav a:hover {
+			color:$clr-lightest; 
+			background-color: $clr-amnh;
+		}
 	}
 	&.mr{
-		.title, a{color: $clr-alert2}
+		.title, a {color: $clr-alert2}
 		a:hover{color: $clr-alert1;}
+		.projectnav a:hover {
+			color:$clr-lightest; 
+			background-color: $clr-alert2;
+		}
 	}
 	&.nick{
-		.title, a{color: $clr-nick}
+		.title, a {color: $clr-nick}
 		a:hover{color: $clr-nickl;}
+		.projectnav a:hover {
+			color:$clr-lightest; 
+			background-color: $clr-nick;
+		}
 	}
 }
 
@@ -542,42 +569,28 @@ footer
 .footer{
 	max-width: 1200px;
 	margin: 0 auto;
+	background-color: $clr-body5;
 	p{
 		text-align: center;
 		line-height: 50px;
 		height:50px;
 		min-width: 100%;
-		color: $clr-moey;
-		background-color: $clr-moeyl;
 	}
 }
+
 .projectnav{
+	border-top: $clr-body5 5rem solid;
 	a, .blank{
 		display: inline-block;
 		float: left;
 		text-align: center;
 		height: 100px;
 		width: 33.333%;
-		color: $clr-moeyl;
-		background-color: $clr-moey;
 	}
-	a{
-		&:hover{
-			background-color: $clr-moeyl;	
-			color: $clr-moey;
-			i{
-				color: $clr-moey;
-			}
-		}
-		i{
-			vertical-align: middle;
-			line-height: 100px;
-			height: 100px;
-			color: $clr-moeyl;
-		}
-	}
-	&.hide{
-		visibility: hidden;
+	a i{
+		vertical-align: middle;
+		line-height: 100px;
+		height: 100px;
 	}
 }
 
@@ -705,7 +718,9 @@ space and place
 .shadow {@include shape-shadow;}
 .noshadow {@include no-shadow;}
 
-.txtc 	{text-align: center}
+.hide {visibility: hidden;}
+
+.txtc 	{text-align: center!important}
 .txtl 	{text-align: left}
 .txtr 	{text-align: right}
 
@@ -714,7 +729,7 @@ space and place
 .bb 	{border-bottom: 1px $clr-body solid;}
 .bl 	{border-left: 1px $clr-body solid;}
 
-.fc		{margin: 0 auto}
+.fc		{margin: 0 auto!important}
 .fl 	{float: left;}
 .fr 	{float: right;}
 .fv		{vertical-align:middle;}
