@@ -16,7 +16,7 @@ html, body {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
-	background-color: $clr-lightest;
+	background-color: $clr-body5;
 }
 /*--------------------
 colors
@@ -169,8 +169,10 @@ header
 --------------------*/
 .contactbox, .leftmenu {
 	position: absolute;
-	top: 1.5%;
-	right: 1%;
+	top: 0;
+	right: 0;
+	@media (min-width: 650px) {
+	margin: 2%;}
 	a.fa {
 		clear: right;
 		margin-right: .5rem;
@@ -484,6 +486,9 @@ project pages
 	.pblock{
 		overflow: hidden;
 		position: relative;
+		background-color: $clr-lightest;
+		@media (max-width: 1250px) {
+				margin: 0 2%;}
 		.textblock{
 			padding: 1rem 2rem 0 2rem;
 		}
@@ -704,6 +709,7 @@ footer
 
 .projectnav{
 	border-top: $clr-body5 5rem solid;
+	background-color: $clr-lightest;
 	a, .blank{
 		display: inline-block;
 		float: left;
@@ -738,7 +744,7 @@ facebook
 		width:100%;
 		padding: 0;
 		margin-bottom: 10%;
-		background-color: $clr-moeyl;
+		background-color: $clr-lightest;
 		.textblock{
 			width: 46%;
 			padding: 2%;
