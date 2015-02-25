@@ -30,9 +30,9 @@ $clr-body5:		lighten($clr-body, 60%);
 /*--- color groups ---*/
 
 /*reds*/ 
-$clr-neg2:		#ED5A5A;			
-$clr-neg1:		lighten($clr-neg2, 20%); 
-$clr-neg3:		 darken($clr-neg2, 35%);
+$clr-neg2:		red;			
+$clr-neg1:		lighten($clr-neg2, 40%); 
+$clr-neg3:		 darken($clr-neg2, 15%);
 .clr-neg1 		{color: $clr-neg1}
 .clr-neg2 		{color: $clr-neg2}
 .clr-neg3 		{color: $clr-neg3}
