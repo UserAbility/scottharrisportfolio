@@ -53,11 +53,26 @@
   -o-animation: blink $time; -o-animation-iteration-count: infinite;
 }
 
+@mixin shape-shadow0 {
+    -webkit-filter: drop-shadow(1px 1px 1.5px rgba(0,0,0,.8));
+    -moz-filter: drop-shadow(1px 1px 1.5px rgba(0,0,0,.8));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#333')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#333')";
+}
 @mixin shape-shadow {
-    -webkit-filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
+    -moz-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#333')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#333')";
+}
+@mixin shape-shadow2 {
+    -webkit-filter: drop-shadow(2px 6px 6px rgba(0,0,0,.4));
+    -moz-filter: drop-shadow(2px 6px 6px rgba(0,0,0,.4));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
 }
 @mixin no-shadow {
     -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));

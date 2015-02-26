@@ -94,7 +94,6 @@ $clr-info: 		$clr-cool3;
 /*--- brands ---*/
 $clr-gigya:		#1F5BA7;
 $clr-gigyal:	#eeeeff;
-
 .clr-gigya		{color: $clr-gigya}
 .clr-gigyal		{color: $clr-gigyal}
 .clr-gigya-bg	{background-color: $clr-gigya}
@@ -103,7 +102,6 @@ $clr-gigyal:	#eeeeff;
 $clr-sc:		#FF9112; 
 $clr-scl:		#FCC884; 
 $clr-scd:		#FA8072; 
-
 .clr-sc			{color: $clr-sc}
 .clr-scl		{color: $clr-scl}
 .clr-scd		{color: $clr-scd}
@@ -114,7 +112,6 @@ $clr-scd:		#FA8072;
 $clr-moey:		#00AEF3;
 $clr-moeyl:		lighten($clr-moey, 40%); 
 $clr-moeyd:		darken($clr-moey, 15%);
-
 .clr-moey		{color: $clr-moey}
 .clr-moeyl		{color: $clr-moeyl}
 .clr-moeyd		{color: $clr-moeyd}
@@ -124,20 +121,23 @@ $clr-moeyd:		darken($clr-moey, 15%);
 
 $clr-amnh:		#0074BD;
 $clr-amnhl:		#7EBFE9;
-
 .clr-amnh		{color: $clr-amnh}
 .clr-amnhl		{color: $clr-amnhl}
 .clr-amnh-bg	{background-color: $clr-amnh}
 .clr-amnhl-bg	{background-color: $clr-amnhl}
 
-$clr-mr:		#333;
-
-.clr-mr			{color: $clr-mr}
-.clr-mr-bg		{background-color: $clr-mr}
+$clr-mediar:	#ffb541;
+$clr-mediarl:	lighten($clr-mediar, 20%);
+$clr-mediard:	darken($clr-mediar, 20%);
+.clr-mr			{color: $clr-mediar}
+.clr-mrl		{color: $clr-mediarl}
+.clr-mrd		{color: $clr-mediard}
+.clr-mr-bg		{background-color: $clr-mediar}
+.clr-mrl-bg		{background-color: $clr-mediarl}
+.clr-mrd-bg		{background-color: $clr-mediard}
 
 $clr-nick:		#FF7B00;
 $clr-nickl:		lighten($clr-nick, 30%);
-
 .clr-nick		{color: $clr-nick}
 .clr-nickl		{color: $clr-nickl}
 .clr-nick-bg	{background-color: $clr-nick}

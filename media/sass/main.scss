@@ -38,10 +38,16 @@ h1{
 	font-weight: 900;
 	font-size: 1.8rem;
 	line-height: 2rem;
+	@media (max-width: 600px) {
+			font-size: 1.5rem;
+			line-height: 1.6rem;}
 }
 h2, h3{
 	font-weight: 600;
 	font-size: 1.4rem;
+	@media (max-width: 600px) {
+			font-size: 1.2rem;
+			line-height: 1.2rem}
 }
 h3{
 	display: block;
@@ -67,7 +73,10 @@ a{
 	font-family: 'tall_films_fineregular';
 	font-size: 5rem;
 	line-height: 5rem;
-	color: $clr-scd
+	color: $clr-scd;
+	@media (max-width: 600px) {
+		font-size: 4.5rem;
+		line-height: 4.5rem;}
 }
 
 .active{
@@ -222,6 +231,9 @@ header{
 	  		margin-right: auto;
 	  		margin-bottom: 1rem;
 			@include roundit;
+			@media (max-width: 600px) {
+				max-height: 150px;}
+
 		}
 		i.fa {
 			position: absolute;
@@ -334,13 +346,26 @@ section{
 	}
 }
 
-.bg-gigya			{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 250%;}
-#proj-section .bg-gigya {background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;}
+.bg-gigya			{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 300%;}
+.projectheader.bg-gigya {background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;
+					@media (max-width: 600px){
+						background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 250%}
+					}
 .bg-shuttercal		{background: $clr-scd url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
-.bg-moey			{background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 100%;}
-.bg-amnh			{background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat center / 100%;}
+.bg-moey			{background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 100%;
+					@media (max-width: 600px){
+						background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 150%}
+					}
+.bg-amnh			{background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat center / 100%;
+					@media (max-width: 600px){
+						background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat right / 120%}
+					}
 .bg-mediarecords	{background: $clr-body1 url(../images/mediarecords-bg.png) no-repeat center / 205%;}
-.projectheader.bg-mediarecords {background: $clr-body1 url(../images/mediarecords-bg2.png) no-repeat center / 115%;}
+.projectheader.bg-mediarecords {
+					background: $clr-body1 url(../images/mediarecords-bg2.png) no-repeat center / 105%;
+					@media (max-width: 600px){
+						background: $clr-body1 url(../images/mediarecords-bg2.png) no-repeat center / 155%;}
+					}
 .bg-nick			{background: $clr-nick url(../images/nick-bg.jpg) no-repeat center / 100%;
 
 }
@@ -469,7 +494,7 @@ project pages
 			width: 220px;
 			clear: none;
 			@media (max-width: 550px) {
-				padding-top: 1rem;}
+				width: 170px;}
 		}
 		.half, .third, .twothirds {
 			@media (max-width: 700px) {
@@ -627,8 +652,8 @@ project pages
 		}
 	}
 	&.mediarecords{
-		.title, a {color: $clr-alert2}
-		a:hover{color: $clr-alert1;}
+		.title, a {color: $clr-mediar;}
+		a:hover{color: $clr-mediarl;}
 		.projectnav a:hover {
 			color:$clr-lightest; 
 			background-color: $clr-alert2;
@@ -650,25 +675,25 @@ project pages
 			float: left;
 			width: 33.33%;
 			
-			&:nth-child(1) {z-index: 2; @include rotate( 3);		     left: 40px;	}
-			&:nth-child(2) {z-index: 3; @include rotate(-4); top: -30px; left:-40px;	}
-			&:nth-child(3) {z-index: 1; @include rotate(-1); top: -10px; 				}
-			&:nth-child(4) {z-index: 1; @include rotate( 2); top: -10px;				}
-			&:nth-child(5) {z-index: 4; @include rotate(-3); top:  20px; left: 70px;	}
-			&:nth-child(6) {z-index: 3; @include rotate( 5); top: -20px; left:  0px;	}
-			&:nth-child(7) {z-index: 1; @include rotate(-3); top:   0px; left:  0px;	}
-			&:nth-child(8) {z-index: 2; @include rotate( 5); top: -30px; left:  0px;	}
+			&:nth-child(1) {z-index: 2; @include rotate( 3);		     left: 40px;}
+			&:nth-child(2) {z-index: 3; @include rotate(-4); top: -30px; left:-40px;}
+			&:nth-child(3) {z-index: 1; @include rotate(-1); top: -10px; 			}
+			&:nth-child(4) {z-index: 1; @include rotate( 2); top: -10px;			}
+			&:nth-child(5) {z-index: 4; @include rotate(-3); top:  20px; left: 70px;}
+			&:nth-child(6) {z-index: 3; @include rotate( 5); top: -20px; left:  0px;}
+			&:nth-child(7) {z-index: 1; @include rotate(-3); top:   0px; left:  0px;}
+			&:nth-child(8) {z-index: 2; @include rotate( 5); top: -30px; left:  0px;}
 
 			@media (max-width: 800px) {
 				width: 50%;
-				&:nth-child(1) {z-index: 2; @include rotate(0);		      left: 0px;	}
-				&:nth-child(2) {z-index: 3; @include rotate(0); top: 0px; left: 0px;	}
-				&:nth-child(3) {z-index: 1; @include rotate(0); top: 0px; width: 52%	}
-				&:nth-child(4) {z-index: 1; @include rotate(0); top: 0px; width: 48%	}
-				&:nth-child(5) {z-index: 4; @include rotate(0); top: 0px; left: 0px; width: 68.5%	}
-				&:nth-child(6) {z-index: 3; @include rotate(0); top: 0px; left: 0px; width: 31.5%	}
-				&:nth-child(7) {z-index: 1; @include rotate(0); top: 0px; left: 0px;	}
-				&:nth-child(8) {z-index: 2; @include rotate(0); top: 0px; left: 0px;	}
+				&:nth-child(1) {z-index: 2; @include rotate(0);		      left: 0px;}
+				&:nth-child(2) {z-index: 3; @include rotate(0); top: 0px; left: 0px;}
+				&:nth-child(3) {z-index: 1; @include rotate(0); top: 0px; 			 width: 52%  } 
+				&:nth-child(4) {z-index: 1; @include rotate(0); top: 0px; 			 width: 48%  }
+				&:nth-child(5) {z-index: 4; @include rotate(0); top: 0px; left: 0px; width: 68.5%}
+				&:nth-child(6) {z-index: 3; @include rotate(0); top: 0px; left: 0px; width: 31.5%}
+				&:nth-child(7) {z-index: 1; @include rotate(0); top: 0px; left: 0px;}
+				&:nth-child(8) {z-index: 2; @include rotate(0); top: 0px; left: 0px;}
 			}
 			@media (max-width: 600px) {
 				width: 100%;
@@ -680,7 +705,10 @@ project pages
 			    margin-left: auto;
 			    margin-right: auto;
 				max-height: 400px;
-				@include shape-shadow;
+				@include shape-shadow0;
+				&.high{
+					@include shape-shadow2;
+				}
 			}
 		}
 	}
@@ -846,7 +874,15 @@ space and place
 .noclick {pointer-events: none;}
 .hide {display: hidden;}
 
-.shadow {@include shape-shadow;}
+
+.shadow {
+	@include shape-shadow;
+	filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
+	-moz-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
+	-ms-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
+	-o-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
+}
+
 .noshadow {@include no-shadow;}
 
 .hide {visibility: hidden;}
