@@ -243,14 +243,9 @@ header{
 			&.two 	{ top: 110px; left: 75px;  font-size: 4rem; }
 			&.three { top: 80px;  left: 270px; font-size: 5rem; }
 		}
-		h1, h2, h3 {
-			color: $clr-body1;
-		}
 	}
 	p {text-align: center;}
 }
-
-
 /*--------------------
 home
 --------------------*/
@@ -346,27 +341,18 @@ section{
 	}
 }
 
-.bg-gigya			{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 300%;}
-.projectheader.bg-gigya {background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;
-					@media (max-width: 600px){
-						background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 250%}
-					}
-.bg-shuttercal		{background: $clr-scd url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
-.bg-moey			{background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 100%;
-					@media (max-width: 600px){
-						background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 150%}
-					}
-.bg-amnh			{background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat center / 100%;
-					@media (max-width: 600px){
-						background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat right / 120%}
-					}
-.bg-mediarecords	{background: $clr-body1 url(../images/mediarecords-bg.png) no-repeat center / 205%;}
-.projectheader.bg-mediarecords {
-					background: $clr-body1 url(../images/mediarecords-bg2.png) no-repeat center / 105%;
-					@media (max-width: 600px){
-						background: $clr-body1 url(../images/mediarecords-bg2.png) no-repeat center / 155%;}
-					}
-.bg-nick			{background: $clr-nick url(../images/nick-bg.jpg) no-repeat center / 100%;
+.bg-gigya						{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 300%;}
+.projectheader.bg-gigya 		{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;
+									@media (max-width: 600px){background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 250%}}
+.bg-shuttercal					{background: $clr-scd url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
+.bg-moey						{background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 100%;
+									@media (max-width: 600px){background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 150%}}
+.bg-amnh						{background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat center / 100%;
+									@media (max-width: 600px){background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat right / 120%}}
+.bg-mediarecords				{background: $clr-body1 url(../images/mediarecords-bg.png) no-repeat center / 205%;}
+.projectheader.bg-mediarecords	{background: $clr-body1 url(../images/mediarecords-bg2.jpg) no-repeat center / 105%;
+									@media (max-width: 600px){background: $clr-body1 url(../images/mediarecords-bg2.png) no-repeat center / 155%;}}
+.bg-nick						{background: $clr-nick url(../images/nick-bg.jpg) no-repeat center / 100%;
 
 }
 
@@ -392,10 +378,12 @@ project pages
 		overflow: auto;
 	}
 	&.bg-gigya img 			{width: 40%; margin-left: 30%;}
-	&.bg-shuttercal img 	{width: 56.5%; margin-left: 21.25%;}
-	&.bg-moey img 			{width: 50%; margin-left: 25%;}
-	&.bg-amnh img 			{width: 35%; margin-left: 32.5%;}
-	&.bg-mediarecords img 	{width: 15%; margin-left: 42.5%;}
+	&.bg-shuttercal img 	{width: 56.5%; margin-left: 21.25%;		@media (max-width: 600px) {width: 65%; margin-left: 18.5%;}}
+	&.bg-moey img 			{width: 50%; margin-left: 25%;			@media (max-width: 600px) {width: 65%; margin-left: 18.5%;}}
+	&.bg-amnh img 			{width: 35%; margin-left: 32.5%; 		@media (max-width: 600px) {width: 60%; margin-left: 20%;}}
+	&.bg-mediarecords img 	{width: 15%; margin-left: 42.5%;		@media (max-width: 600px) {width: 34%; margin-left: 33%;}}
+	&.bg-nick img			{ 										@media (max-width: 600px) {width: 96%; margin-left: 2%;}}
+
 	.leftmenu{
 		z-index: 2;
 	}
@@ -515,7 +503,7 @@ project pages
 		@media (max-width: 1250px) {
 				margin: 0 2%;}
 		.textblock{
-			padding: 1rem 2rem 0 2rem;
+			padding: 2rem 2rem 1rem 2rem;
 		}
 		.textblock{
 			@media (max-width: 600px) {
@@ -756,18 +744,6 @@ footer
 facebook
 --------------------*/
 #fb{
-	h2, h3, h4, p, ul{
-		color: $clr-moeyd;
-	}
-	a{
-		color: $clr-moey;
-		&:hover{
-			color: $clr-loud2;
-		}
-	}
-	h1{
-		margin-bottom: 2%;
-	}
 	.bblock{
 		width:100%;
 		padding: 0;
@@ -801,13 +777,16 @@ facebook
 			}
 			.downloadblock{
 				width: 300px;
-				height: 200px;
+				height: 138px;
 				max-width: 50%;
 				float: right;
 				background-color: $clr-moey;
 				text-align: center;
-				line-height: 50px;
+				line-height: 34.5px;
 				color: $clr-lightest;
+			}
+			&.blue{
+				background-color: $clr-moey;
 			}
 		}
 	}
@@ -891,10 +870,10 @@ space and place
 .txtl 	{text-align: left}
 .txtr 	{text-align: right}
 
-.bt 	{border-top: 1px $clr-body solid;}
-.br 	{border-right: 1px $clr-body solid;}
-.bb 	{border-bottom: 1px $clr-body solid;}
-.bl 	{border-left: 1px $clr-body solid;}
+.bt 	{border-top: 1px $clr-body2 solid;}
+.br 	{border-right: 1px $clr-body2 solid;}
+.bb 	{border-bottom: 1px $clr-body2 solid;}
+.bl 	{border-left: 1px $clr-body2 solid;}
 
 .fc		{margin: 0 auto!important}
 .fl 	{float: left;}
