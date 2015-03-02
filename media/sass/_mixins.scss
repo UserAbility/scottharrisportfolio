@@ -30,11 +30,11 @@
 @mixin shadow { @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.5), null); }
 @mixin no-box-shadow { @include shadow-reset; }
 
-@mixin field-border-radius {@include border-radius(10px); }
-@mixin border-radius-t {@include border-radius(5px 5px 0 0); }
-@mixin border-radius-b {@include border-radius(0 0 5px 5px); }
-@mixin border-radius-l {@include border-radius(5px 0 0 5px); }
-@mixin border-radius-r {@include border-radius(0 5px 5px 0); }
+@mixin border-radius-all  {@include border-radius(.5rem); }
+@mixin border-radius-t    {@include border-radius(.5rem .5rem 0 0); }
+@mixin border-radius-b    {@include border-radius(0 0 .5rem .5rem); }
+@mixin border-radius-l    {@include border-radius(.5rem 0 0 .5rem); }
+@mixin border-radius-r    {@include border-radius(0 .5rem .5rem 0); }
 @mixin roundit {@include border-radius(50%); }
 @mixin no-radius {@include border-radius(0%); }
 
@@ -61,15 +61,22 @@
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#333')";
 }
 @mixin shape-shadow {
-    -webkit-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
-    -moz-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
+    -webkit-filter: drop-shadow(0px 3px 4px rgba(0,0,0,.7));
+    -moz-filter: drop-shadow(0px 3px 4px rgba(0,0,0,.7));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#333')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#333')";
 }
 @mixin shape-shadow2 {
-    -webkit-filter: drop-shadow(2px 6px 6px rgba(0,0,0,.4));
-    -moz-filter: drop-shadow(2px 6px 6px rgba(0,0,0,.4));
+    -webkit-filter: drop-shadow(0px 5px 6px rgba(0,0,0,.6));
+    -moz-filter: drop-shadow(0px 5px 6px rgba(0,0,0,.6));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
+}
+@mixin shape-shadow3 {
+    -webkit-filter: drop-shadow(0px 0px 50px rgba(0,0,0,.4));
+    -moz-filter: drop-shadow(0px 0px 50px rgba(0,0,0,.4));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";

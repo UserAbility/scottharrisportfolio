@@ -389,6 +389,19 @@ project pages
 	}
 }
 
+.tools{
+	img, i{
+		vertical-align: middle;
+		max-height: 40px;
+		width: 40px;
+		padding-right: 2px;
+	}
+	.fa{
+		font-size: 2.1rem;
+		text-align: center;
+	}
+}
+
 .nick-tv{
 	position: absolute;
 	top: -135px;
@@ -460,6 +473,7 @@ project pages
 			float: right;
 			margin: .75rem .75rem 0 0;
 			color: $clr-lightest;
+			@include shape-shadow0;
 			&:hover
 				{color: $clr-scd;}
 		}
@@ -593,16 +607,6 @@ project pages
 	  				vertical-align: middle;
 	  				@media (max-width: 600px) {
 						display: none;}
-				}
-				img, i{
-					vertical-align: middle;
-					max-height: 40px;
-					width: 40px;
-					padding-right: 2px;
-				}
-				.fa{
-					font-size: 2.1rem;
-					text-align: center;
 				}
 			}
 		}
@@ -843,8 +847,77 @@ animation
 }
 
 /*--------------------
+modal
+--------------------*/
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(240,240,240,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 200ms ease-in;
+	-moz-transition: opacity 200ms ease-in;
+	transition: opacity 200ms ease-in;
+	pointer-events: none;
+	&:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+	> div {
+		width: 90%;
+		max-width: 1000px;
+		position: relative;
+		margin: 2% auto;
+		padding: 2rem;
+		background: #fff;
+		@include border-radius-all;
+		@include shape-shadow3;
+	}
+	.years{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		align-content: center;
+		li{
+			display: inline-block;
+			text-align: center;
+			padding: 1rem;
+			line-height: 2rem;
+		}
+	}
+	.tools{
+		width: 10%;
+		float: left;
+		li{
+			padding-top: .5rem;
+		}
+	}
+}
+
+.close {
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 2rem;
+	right: -1rem;
+	top: -1rem;
+	width: 2rem;
+	color: $clr-lightest;
+	background: $clr-neg2;
+	@include roundit;
+	&:hover { 
+		color: $clr-neg2;
+		background: $clr-neg1;
+	}
+}
+/*--------------------
 space and place
 --------------------*/
+
 .clear {clear:both;}
 .cl {clear:left;}
 .cr {clear:right;}
@@ -861,7 +934,6 @@ space and place
 	-ms-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
 	-o-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
 }
-
 .noshadow {@include no-shadow;}
 
 .hide {visibility: hidden;}
