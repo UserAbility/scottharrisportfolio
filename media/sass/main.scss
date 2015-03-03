@@ -850,24 +850,25 @@ animation
 modal
 --------------------*/
 .modalDialog {
-	position: fixed;
-	top: 0;
+	position: absolute;
+	top: 2rem;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	background: rgba(240,240,240,0.8);
 	z-index: 99999;
 	opacity:0;
-	-webkit-transition: opacity 200ms ease-in;
-	-moz-transition: opacity 200ms ease-in;
-	transition: opacity 200ms ease-in;
 	pointer-events: none;
+	-webkit-transition: opacity 100ms ease-in;
+	-moz-transition: opacity 100ms ease-in;
+	transition: opacity 100ms ease-in;
 	&:target {
 		opacity:1;
 		pointer-events: auto;
 	}
 	> div {
 		width: 90%;
+		min-width: 530px;
 		max-width: 1000px;
 		position: relative;
 		margin: 2% auto;
@@ -875,24 +876,43 @@ modal
 		background: #fff;
 		@include border-radius-all;
 		@include shape-shadow3;
-	}
-	.years{
-		display: flex;
-		justify-content: space-between;
-		align-items: flex-end;
-		align-content: center;
-		li{
-			display: inline-block;
-			text-align: center;
+		@media (max-width: 600px) {
 			padding: 1rem;
-			line-height: 2rem;
+		}
+	}
+	.timeline{
+		clear: both;
+		margin-top: 5%;
+		.years{
+			display: block;
+			float: right;
+			width: 90%;
+			li{
+				width: 20%;
+				display: inline-block;
+				text-align: center;
+			}
 		}
 	}
 	.tools{
-		width: 10%;
-		float: left;
-		li{
-			padding-top: .5rem;
+		clear: both;
+		p{
+			margin: 1rem 0 0 0;
+		}
+		li{	
+			width: 100%;
+			height: 40px;
+			margin-top: 1px;
+			background-color: $clr-body5;
+			img{
+				min-height: 40px;
+			}
+			span{
+				display: inline-block;
+				height: 40px;
+				float: right;
+				background-color: $clr-pos1!important;
+			}
 		}
 	}
 }
@@ -900,8 +920,6 @@ modal
 .close {
 	position: absolute;
 	text-align: center;
-	text-decoration: none;
-	font-weight: bold;
 	line-height: 2rem;
 	right: -1rem;
 	top: -1rem;
@@ -934,7 +952,14 @@ space and place
 	-ms-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
 	-o-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
 }
-.noshadow {@include no-shadow;}
+.noshadow {
+	@include no-shadow;
+	filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
+	-moz-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
+	-ms-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
+	-o-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
+}
+
 
 .hide {visibility: hidden;}
 
