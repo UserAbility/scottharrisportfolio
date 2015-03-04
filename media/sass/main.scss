@@ -945,15 +945,11 @@ space and place
 .hide {display: hidden;}
 
 
-.shadow {
-	@include shape-shadow;
-	filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
-	-moz-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
-	-ms-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
-	-o-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
-}
-.noshadow {
-	@include no-shadow;
+.shadow1 {@include shape-shadow1;}
+.shadow2 {@include shape-shadow2;}
+.shadow3 {@include shape-shadow3;}
+
+.noshadow {@include no-shadow;
 	filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
 	-moz-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
 	-ms-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
