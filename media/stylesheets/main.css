@@ -1516,11 +1516,11 @@ project pages
   float: right;
   margin: .75rem .75rem 0 0;
   color: white;
-  -webkit-filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.8));
-  -moz-filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.8));
-  filter: url(#drop-shadow);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#333')";
-  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#333')";
+  -webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.8));
+  filter: url(shadow.svg#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
 }
 /* line 478, ../sass/main.scss */
 #proj-section .proj-menu a:hover {
@@ -2045,19 +2045,19 @@ project pages
   margin-left: auto;
   margin-right: auto;
   max-height: 400px;
-  -webkit-filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.8));
-  -moz-filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.8));
-  filter: url(#drop-shadow);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#333')";
-  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=6, OffY=6, Color='#333')";
+  -webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.8));
+  filter: url(shadow.svg#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
 }
 /* line 701, ../sass/main.scss */
 #proj-section .pinboard li img.high {
   -webkit-filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.6));
   -moz-filter: drop-shadow(0px 5px 6px rgba(0, 0, 0, 0.6));
-  filter: url(#drop-shadow);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
-  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
+  filter: url(shadow.svg#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#333')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#333')";
 }
 
 /*--------------------
@@ -2321,11 +2321,9 @@ modal
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.4));
-  -moz-filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.4));
-  filter: url(#drop-shadow);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
-  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=20, OffY=20, Color='#333')";
+  -webkit-box-shadow: 1px 0px 50px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 0px 50px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 0px 50px rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 600px) {
   /* line 869, ../sass/main.scss */
@@ -2442,9 +2440,9 @@ space and place
 .shadow {
   -webkit-filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.7));
   -moz-filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.7));
-  filter: url(#drop-shadow);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#333')";
-  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#333')";
+  filter: url(shadow.svg#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=0, Color='#333')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=0, Color='#333')";
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
   -moz-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
   -ms-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
@@ -2455,7 +2453,7 @@ space and place
 .noshadow {
   -webkit-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
   -moz-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
-  filter: url(#drop-shadow);
+  filter: url(shadow.svg#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#fff')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#fff')";
   filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0)) !important;

@@ -875,7 +875,7 @@ modal
 		padding: 2rem;
 		background: #fff;
 		@include border-radius-all;
-		@include shape-shadow3;
+		@include shadow3;
 		@media (max-width: 600px) {
 			padding: 1rem;
 		}
