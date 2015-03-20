@@ -293,6 +293,23 @@ section{
 			}
 		}
 	}
+	.ibm{
+		img{
+			width: 16%;
+			margin-left: 42%;
+			@media (max-width: 650px) {
+				width: 20%;
+				margin-left: 40%;
+			}
+		}
+		p{
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 1%;
+			color: $clr-lightest;
+		}
+	}
 	.gigya, .mediarecords{ 
 		width: 32%; 
 		margin-right: 2%;
@@ -341,6 +358,8 @@ section{
 	}
 }
 
+.bg-ibm							{background: $clr-gigya url(../images/ibm-bg2.jpg) no-repeat right / 170%;
+									@media (max-width: 1100px){background: $clr-gigya url(../images/ibm-bg2.jpg) no-repeat center bottom / 300%}}
 .bg-gigya						{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 300%;}
 .projectheader.bg-gigya 		{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;
 									@media (max-width: 600px){background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 250%}}
@@ -611,6 +630,14 @@ project pages
 			}
 		}
 	}
+	&.ibm{
+		 .title, a {color: $clr-gigya;}
+		a:hover {color: $clr-gigyal;}
+		.projectnav a:hover {
+			color:$clr-gigya; 
+			background-color: $clr-lightest;
+		}
+	}
 	&.gigya{
 		 .title, a {color: $clr-gigya;}
 		a:hover {color: $clr-gigyal;}
@@ -851,11 +878,11 @@ modal
 --------------------*/
 .modalDialog {
 	position: absolute;
-	top: 2rem;
+	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(240,240,240,0.8);
+	background: rgba(240,240,240,0.9);
 	z-index: 99999;
 	opacity:0;
 	pointer-events: none;
@@ -871,7 +898,7 @@ modal
 		min-width: 530px;
 		max-width: 1000px;
 		position: relative;
-		margin: 2% auto;
+		margin: auto auto;
 		padding: 2rem;
 		background: #fff;
 		@include border-radius-all;
@@ -946,18 +973,18 @@ space and place
 
 
 .shadow {
-	@include shape-shadow;
 	filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
 	-moz-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
 	-ms-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
 	-o-filter: drop-shadow(2px 2px 4px rgba(0,0,0,.6));
+	@include shape-shadow;
 }
 .noshadow {
-	@include no-shadow;
 	filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
 	-moz-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
 	-ms-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
 	-o-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0))!important;
+	@include no-shadow;
 }
 
 
