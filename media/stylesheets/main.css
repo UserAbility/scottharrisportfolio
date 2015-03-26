@@ -2737,3 +2737,9 @@ space and place
 .maxh {
   min-height: 100%;
 }
+
+/* line 1047, ../sass/main.scss */
+.js h2 {
+  color: red;
+  padding: 2rem;
+}
