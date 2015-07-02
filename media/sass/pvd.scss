@@ -1,6 +1,8 @@
 @import "colors";
 @import "mixins";
 
-.bg-persona1	{background: $clr-gigya url(../images/pvd-personas-01.png) no-repeat right / 100%;
-					@media (max-width: 1100px){background: no-repeat center bottom / 360%}
-				}
+.bg-persona1{
+	background: $clr-gigya url(../images/pvd-personas-01.png) no-repeat right / 50%;
+	height: 300px;
+		@media (max-width: 1100px){background: no-repeat center bottom / 360%}
+}

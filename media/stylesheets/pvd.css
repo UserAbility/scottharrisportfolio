@@ -747,7 +747,8 @@ colors
 /*------- custome ---------*/
 /* line 4, ../sass/pvd.scss */
 .bg-persona1 {
-  background: #1f5ba7 url(../images/pvd-personas-01.png) no-repeat right/100%;
+  background: #1f5ba7 url(../images/pvd-personas-01.png) no-repeat right/50%;
+  height: 300px;
 }
 @media (max-width: 1100px) {
   /* line 4, ../sass/pvd.scss */
