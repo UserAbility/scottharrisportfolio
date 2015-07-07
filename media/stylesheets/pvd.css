@@ -752,7 +752,7 @@ colors
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 35px;
+  height: 5%;
   background-color: white;
 }
 /* line 13, ../sass/pvd.scss */
@@ -781,7 +781,7 @@ colors
   color: white;
   background-color: white;
   width: 10%;
-  height: 100%;
+  height: 95%;
 }
 /* line 38, ../sass/pvd.scss */
 .persona-nav li {
@@ -793,7 +793,30 @@ colors
   height: 16%;
 }
 /* line 45, ../sass/pvd.scss */
-.persona-nav li a .fa {
+.persona-nav li a.fa {
   padding-top: 10px;
   height: 10%;
+}
+
+/* line 52, ../sass/pvd.scss */
+.storybox {
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 90%;
+  min-height: 100%;
+}
+
+/* line 60, ../sass/pvd.scss */
+.joanne {
+  background-color: #e9af7f !important;
+}
+
+/* line 62, ../sass/pvd.scss */
+.profile-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 2rem;
+  width: 40%;
 }
