@@ -1004,7 +1004,11 @@ space and place
 .fr 	{float: right;}
 .fv		{vertical-align:middle;}
 .fcc	{display: block; margin-left: auto; margin-right: auto; vertical-align:middle;}
-
+.cc 	{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
 /*margin rem*/
 .mit 	{margin: 1rem}
 .mt 	{margin-top: 1rem}

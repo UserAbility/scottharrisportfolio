@@ -2569,176 +2569,183 @@ space and place
   vertical-align: middle;
 }
 
+/* line 1007, ../sass/main.scss */
+.cc {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
 /*margin rem*/
-/* line 1009, ../sass/main.scss */
+/* line 1013, ../sass/main.scss */
 .mit {
   margin: 1rem;
 }
 
-/* line 1010, ../sass/main.scss */
+/* line 1014, ../sass/main.scss */
 .mt {
   margin-top: 1rem;
 }
 
-/* line 1011, ../sass/main.scss */
+/* line 1015, ../sass/main.scss */
 .mb {
   margin-bottom: 1rem;
 }
 
-/* line 1012, ../sass/main.scss */
+/* line 1016, ../sass/main.scss */
 .ml {
   margin-left: 1rem;
 }
 
-/* line 1013, ../sass/main.scss */
+/* line 1017, ../sass/main.scss */
 .mr {
   margin-right: 1rem;
 }
 
-/* line 1014, ../sass/main.scss */
+/* line 1018, ../sass/main.scss */
 .mw {
   margin: 0 1rem;
 }
 
-/* line 1015, ../sass/main.scss */
+/* line 1019, ../sass/main.scss */
 .mh {
   margin: 1rem 0;
 }
 
-/* line 1016, ../sass/main.scss */
+/* line 1020, ../sass/main.scss */
 .nom {
   margin: 0 !important;
 }
 
 /*margin %*/
-/* line 1018, ../sass/main.scss */
+/* line 1022, ../sass/main.scss */
 .mitp {
   margin: 2%;
 }
 
-/* line 1019, ../sass/main.scss */
+/* line 1023, ../sass/main.scss */
 .mtp {
   margin-top: 2%;
 }
 
-/* line 1020, ../sass/main.scss */
+/* line 1024, ../sass/main.scss */
 .mbp {
   margin-bottom: 2%;
 }
 
-/* line 1021, ../sass/main.scss */
+/* line 1025, ../sass/main.scss */
 .mlp {
   margin-left: 2%;
 }
 
-/* line 1022, ../sass/main.scss */
+/* line 1026, ../sass/main.scss */
 .mrp {
   margin-right: 2%;
 }
 
-/* line 1023, ../sass/main.scss */
+/* line 1027, ../sass/main.scss */
 .mwp {
   margin: 0 2%;
 }
 
-/* line 1024, ../sass/main.scss */
+/* line 1028, ../sass/main.scss */
 .mhp {
   margin: 2% 0;
 }
 
 /*pad rem*/
-/* line 1026, ../sass/main.scss */
+/* line 1030, ../sass/main.scss */
 .pit {
   padding: 1rem;
 }
 
-/* line 1027, ../sass/main.scss */
+/* line 1031, ../sass/main.scss */
 .pt {
   padding-top: 1rem;
 }
 
-/* line 1028, ../sass/main.scss */
+/* line 1032, ../sass/main.scss */
 .pb {
   padding-bottom: 1rem;
 }
 
-/* line 1029, ../sass/main.scss */
+/* line 1033, ../sass/main.scss */
 .pl {
   padding-left: 1rem;
 }
 
-/* line 1030, ../sass/main.scss */
+/* line 1034, ../sass/main.scss */
 .pr {
   padding-right: 1rem;
 }
 
-/* line 1031, ../sass/main.scss */
+/* line 1035, ../sass/main.scss */
 .pw {
   padding: 0 1rem;
 }
 
-/* line 1032, ../sass/main.scss */
+/* line 1036, ../sass/main.scss */
 .ph {
   padding: 1rem 0;
 }
 
-/* line 1033, ../sass/main.scss */
+/* line 1037, ../sass/main.scss */
 .nop {
   padding: 0 !important;
 }
 
 /*pad %*/
-/* line 1035, ../sass/main.scss */
+/* line 1039, ../sass/main.scss */
 .pitp {
   padding: 2%;
 }
 
-/* line 1036, ../sass/main.scss */
+/* line 1040, ../sass/main.scss */
 .ptp {
   padding-top: 2%;
 }
 
-/* line 1037, ../sass/main.scss */
+/* line 1041, ../sass/main.scss */
 .pbp {
   padding-bottom: 2%;
 }
 
-/* line 1038, ../sass/main.scss */
+/* line 1042, ../sass/main.scss */
 .plp {
   padding-left: 2%;
 }
 
-/* line 1039, ../sass/main.scss */
+/* line 1043, ../sass/main.scss */
 .prp {
   padding-right: 2%;
 }
 
-/* line 1040, ../sass/main.scss */
+/* line 1044, ../sass/main.scss */
 .pwp {
   padding: 0 2%;
 }
 
-/* line 1041, ../sass/main.scss */
+/* line 1045, ../sass/main.scss */
 .php {
   padding: 2% 0;
 }
 
-/* line 1043, ../sass/main.scss */
+/* line 1047, ../sass/main.scss */
 .maxw {
   min-width: 100%;
 }
 
-/* line 1044, ../sass/main.scss */
+/* line 1048, ../sass/main.scss */
 .halfw {
   max-width: 50%;
 }
 
-/* line 1045, ../sass/main.scss */
+/* line 1049, ../sass/main.scss */
 .maxh {
   min-height: 100%;
 }
 
-/* line 1047, ../sass/main.scss */
+/* line 1051, ../sass/main.scss */
 .js h2 {
   color: red;
   padding: 2rem;
