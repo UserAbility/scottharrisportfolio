@@ -819,7 +819,7 @@ colors
   background-color: #c3bc85 !important;
 }
 /* line 64, ../sass/pvd.scss */
-.manuel h1 {
+.manuel h1, .manuel h2 {
   color: white;
 }
 
@@ -828,7 +828,7 @@ colors
   background-color: #00aeef !important;
 }
 /* line 68, ../sass/pvd.scss */
-.simon h1 {
+.simon h1, .simon h2 {
   color: white;
 }
 
@@ -837,7 +837,7 @@ colors
   background-color: #f3b91e !important;
 }
 /* line 72, ../sass/pvd.scss */
-.lily h1 {
+.lily h1, .lily h2 {
   color: white;
 }
 
@@ -846,7 +846,7 @@ colors
   background-color: #92445a !important;
 }
 /* line 76, ../sass/pvd.scss */
-.hanna h1 {
+.hanna h1, .hanna h2 {
   color: white;
 }
 
@@ -860,6 +860,18 @@ colors
 }
 
 /* line 87, ../sass/pvd.scss */
+.test-pic {
+  float: left;
+  width: 33%;
+}
+@media (max-width: 600px) {
+  /* line 87, ../sass/pvd.scss */
+  .test-pic {
+    width: 100%;
+  }
+}
+
+/* line 96, ../sass/pvd.scss */
 .fc {
   position: absolute;
   top: 40%;

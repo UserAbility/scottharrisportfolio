@@ -57,23 +57,23 @@
 
 .joanne {
 	background-color: #E9AF7F!important;
-	h1, h2{color: white;}
+	h1, h2 {color: white;}
 }
 .manuel	{
 	background-color: #C3BC85!important;
-	h1{color: white;}
+	h1, h2 {color: white;}
 }
 .simon 	{
 	background-color: #00AEEF!important;
-	h1{color: white;}
+	h1, h2 {color: white;}
 }
 .lily 	{
 	background-color: #F3B91E!important;
-	h1{color: white;}
+	h1, h2 {color: white;}
 }
 .hanna 	{
 	background-color: #92445A!important;
-	h1{color: white;}
+	h1, h2 {color: white;}
 }
 
 .profile-image{
@@ -82,6 +82,15 @@
 	top: 0;
 	padding: 2rem;
 	width: 40%;
+}
+
+.test-pic{
+	float: left;
+	width: 33%;
+	@media (max-width: 600px) {
+		width: 100%;
+	}
+
 }
 
 .fc{
