@@ -751,9 +751,10 @@ colors
   position: absolute;
   background-color: white;
   width: 8%;
+  min-width: 50px;
   height: 100%;
 }
-/* line 10, ../sass/pvd.scss */
+/* line 11, ../sass/pvd.scss */
 .persona-nav li {
   display: inline-block;
   text-align: center;
@@ -762,13 +763,13 @@ colors
   padding-left: 5%;
   height: 16%;
 }
-/* line 17, ../sass/pvd.scss */
+/* line 18, ../sass/pvd.scss */
 .persona-nav li a.fa {
   padding-top: 10px;
   height: 10%;
 }
 
-/* line 24, ../sass/pvd.scss */
+/* line 25, ../sass/pvd.scss */
 .time-nav {
   z-index: 1;
   position: absolute;
@@ -778,7 +779,7 @@ colors
   height: 5%;
   background-color: white;
 }
-/* line 33, ../sass/pvd.scss */
+/* line 34, ../sass/pvd.scss */
 .time-nav li {
   display: inline-block;
   text-align: center;
@@ -790,13 +791,13 @@ colors
   border-right: solid 1px #00AEEF;
 }
 
-/* line 45, ../sass/pvd.scss */
+/* line 46, ../sass/pvd.scss */
 .visited {
   background-color: #00AEEF;
   border-left: solid 1px #ffffff;
 }
 
-/* line 50, ../sass/pvd.scss */
+/* line 51, ../sass/pvd.scss */
 .profilebox {
   position: relative;
   display: inline-block;
@@ -805,52 +806,52 @@ colors
   min-height: 100%;
 }
 
-/* line 58, ../sass/pvd.scss */
+/* line 59, ../sass/pvd.scss */
 .joanne {
   background-color: #e9af7f !important;
 }
-/* line 60, ../sass/pvd.scss */
+/* line 61, ../sass/pvd.scss */
 .joanne h1, .joanne h2 {
   color: white;
 }
 
-/* line 62, ../sass/pvd.scss */
+/* line 63, ../sass/pvd.scss */
 .manuel {
   background-color: #c3bc85 !important;
 }
-/* line 64, ../sass/pvd.scss */
+/* line 65, ../sass/pvd.scss */
 .manuel h1, .manuel h2 {
   color: white;
 }
 
-/* line 66, ../sass/pvd.scss */
+/* line 67, ../sass/pvd.scss */
 .simon {
   background-color: #00aeef !important;
 }
-/* line 68, ../sass/pvd.scss */
+/* line 69, ../sass/pvd.scss */
 .simon h1, .simon h2 {
   color: white;
 }
 
-/* line 70, ../sass/pvd.scss */
+/* line 71, ../sass/pvd.scss */
 .lily {
   background-color: #f3b91e !important;
 }
-/* line 72, ../sass/pvd.scss */
+/* line 73, ../sass/pvd.scss */
 .lily h1, .lily h2 {
   color: white;
 }
 
-/* line 74, ../sass/pvd.scss */
+/* line 75, ../sass/pvd.scss */
 .hanna {
   background-color: #92445a !important;
 }
-/* line 76, ../sass/pvd.scss */
+/* line 77, ../sass/pvd.scss */
 .hanna h1, .hanna h2 {
   color: white;
 }
 
-/* line 79, ../sass/pvd.scss */
+/* line 80, ../sass/pvd.scss */
 .profile-image {
   position: absolute;
   left: 0;
@@ -859,19 +860,20 @@ colors
   width: 40%;
 }
 
-/* line 87, ../sass/pvd.scss */
+/* line 88, ../sass/pvd.scss */
 .test-pic {
-  float: left;
-  width: 33%;
+  float: right;
+  width: 25%;
+  padding: 4%;
 }
 @media (max-width: 600px) {
-  /* line 87, ../sass/pvd.scss */
+  /* line 88, ../sass/pvd.scss */
   .test-pic {
     width: 100%;
   }
 }
 
-/* line 96, ../sass/pvd.scss */
+/* line 98, ../sass/pvd.scss */
 .fc {
   position: absolute;
   top: 40%;

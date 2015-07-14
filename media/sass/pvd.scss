@@ -6,6 +6,7 @@
 	position: absolute;
 	background-color: white;
 	width: 8%;
+	min-width: 50px;
 	height: 100%;
 	li{
 		display: inline-block;
@@ -85,8 +86,9 @@
 }
 
 .test-pic{
-	float: left;
-	width: 33%;
+	float: right;
+	width: 25%;
+	padding: 4%;
 	@media (max-width: 600px) {
 		width: 100%;
 	}
