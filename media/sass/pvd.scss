@@ -1,10 +1,27 @@
 @import "colors";
 @import "mixins";
 
+$clr-lily: 	#F3B91E;
+$clr-lilyl:	#FFECCA;
+
+h2, h3{
+	font-size: 1.15rem;
+	line-height: 1.45rem;
+}
+
+.maxwidth{
+	width: 100% !important;
+}
+
+#proj-section h3 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
 .persona-nav{
 	z-index: 2;
 	position: absolute;
-	background-color: white;
+	background-color: #E6E7E8;
 	width: 8%;
 	min-width: 50px;
 	height: 100%;
@@ -12,19 +29,20 @@
 		display: inline-block;
 		text-align: center;
 		vertical-align: middle;
-		width: 90%;
+		margin: 0 auto;
+		width: 100%;
 		padding-left: 5%;
 		height: 16%;
 		a.fa{
-			padding-top: 10px;
-			height: 10%;
+			padding-top: 1rem;
+			height: 1rem;
 		}
 	}
 }
 
 .time-nav{
 	z-index: 1;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	right: 0;
 	width: 92.1%;
@@ -39,13 +57,15 @@
 		height: 35px;
 		float: left;
 		line-height: 35px;
-		border-right: solid 1px #00AEEF;
 	}
+	&.lily li{
+		width: 6.66%;
+	}
+
 }
 
 .visited {
 	background-color: #00AEEF;
-	border-left: solid 1px #ffffff;
 }
 
 .profilebox{
@@ -54,35 +74,78 @@
 	float: right;
 	width: 92%;
 	min-height: 100%;
+	background-color: #ffffff;
+
+	h1, h2 {
+		color: white;
+	}
+	&.joanne 	{background-color: #E9AF7F!important;}
+	&.manuel	{background-color: #C3BC85!important;}
+	&.simon 	{background-color: #00AEEF!important;}
+	&.lily 		{background-color: $clr-lily!important;}
+	&.hannah 	{background-color: #92445A!important;}
 }
 
-.joanne {
-	background-color: #E9AF7F!important;
-	h1, h2 {color: white;}
+.chapterbox{
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 92%;
+	min-height: 100%;
+	background-color: #ffffff;
+
+	.chapter-bg{
+		position: fixed;
+		top: 0;
+	}
+	.fa-align-justify{
+		position: fixed;
+		left: 1rem;
+		top: 1rem;
+	}
+	.fa-volume-up{
+		position: fixed;
+		left: 5rem;
+		top: 1rem;
+	}
 }
-.manuel	{
-	background-color: #C3BC85!important;
-	h1, h2 {color: white;}
-}
-.simon 	{
-	background-color: #00AEEF!important;
-	h1, h2 {color: white;}
-}
-.lily 	{
-	background-color: #F3B91E!important;
-	h1, h2 {color: white;}
-}
-.hanna 	{
-	background-color: #92445A!important;
-	h1, h2 {color: white;}
+
+.proj-menu {
+	position: fixed;
+	top: 43%;
+	right: 0;
+	width: 100%;
+
+	.fa{
+		position: relative;
+		float: right;
+		margin: 1rem 1rem 1rem 0;
+	}
 }
 
 .profile-image{
-	position: absolute;
-	left: 0;
-	top: 0;
-	padding: 2rem;
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 2% 5%;
 	width: 40%;
+}
+.profile-text{
+	position: relative;
+	display: inline-block;
+	float: left;
+	max-width: 50%;
+	padding: 3% 5%;
+	color: white;
+	h3{
+		margin-bottom: 0;
+		color: white;
+	}
+	h3, p{
+		clear: none;
+		padding: 0;
+		color: white;
+	}
 }
 
 .test-pic{
@@ -96,7 +159,35 @@
 }
 
 .fc{
-		  position: absolute;
-		  top: 40%;
-		  left: 40%;
-		}	
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.chapter-text{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 2.5%;
+	padding: 1% 1% 0 1%;
+	z-index: 999;
+	background-color: white;
+	p{
+		color: black;
+	}
+}
+
+#lily{
+	.profilebox .fa{
+		color: $clr-lilyl;
+	}
+	.fa {
+		color: $clr-lily;
+	}
+	.chapter-text {
+		background-color: $clr-lilyl;
+	}	
+}
+
+
+

@@ -1000,15 +1000,11 @@ space and place
 .bl 	{border-left: 1px $clr-body2 solid;}
 
 .fc		{margin: 0 auto!important}
-.fl 	{float: left;}
-.fr 	{float: right;}
+.fl 	{float: left!important;}
+.fr 	{float: right!important;}
 .fv		{vertical-align:middle;}
 .fcc	{display: block; margin-left: auto; margin-right: auto; vertical-align:middle;}
-.cc 	{
-  position: absolute;
-  top: 40%;
-  left: 40%;
-}
+
 /*margin rem*/
 .mit 	{margin: 1rem}
 .mt 	{margin-top: 1rem}
@@ -1044,9 +1040,9 @@ space and place
 .pwp	{padding: 0 2%}
 .php 	{padding: 2% 0}
 
-.maxw   {min-width: 100%}
-.halfw	{max-width: 50%}
-.maxh 	{min-height: 100%}
+.maxw   {min-width: 100%!important}
+.halfw	{max-width: 50%!important}
+.maxh 	{min-height: 100%!important}
 
 .js h2 {
 	color: red;
