@@ -1,8 +1,10 @@
 @import "colors";
 @import "mixins";
-
-$clr-lily: 	#F3B91E;
-$clr-lilyl:	#FFECCA;
+	
+$clr-lily: 		#F3B91E;
+$clr-lilyl:		#FFECCA;
+$clr-simon: 	#00AEEF;
+$clr-simonl: 	#A4DEF9;
 
 h2, h3{
 	font-size: 1.15rem;
@@ -61,6 +63,9 @@ h2, h3{
 	&.lily li{
 		width: 6.66%;
 	}
+	&.simon li{
+		width: 8.33%;
+	}
 
 }
 
@@ -81,7 +86,7 @@ h2, h3{
 	}
 	&.joanne 	{background-color: #E9AF7F!important;}
 	&.manuel	{background-color: #C3BC85!important;}
-	&.simon 	{background-color: #00AEEF!important;}
+	&.simon 	{background-color: $clr-simon!important;}
 	&.lily 		{background-color: $clr-lily!important;}
 	&.hannah 	{background-color: #92445A!important;}
 }
@@ -178,15 +183,14 @@ h2, h3{
 }
 
 #lily{
-	.profilebox .fa{
-		color: $clr-lilyl;
-	}
-	.fa {
-		color: $clr-lily;
-	}
-	.chapter-text {
-		background-color: $clr-lilyl;
-	}	
+	.profilebox .fa{color: $clr-lilyl;}
+	.fa {color: $clr-lily;}
+	.chapter-text {background-color: $clr-lilyl;}	
+}
+#simon{
+	.profilebox .fa{color: $clr-simonl;}
+	.fa {color: $clr-simon;}
+	.chapter-text {background-color: $clr-simonl;}	
 }
 
 
