@@ -1048,3 +1048,9 @@ space and place
 	color: red;
 	padding: 2rem;
 }
+
+.m-show{display: none!important;}
+@media (max-width: 650px) {
+	.m-show{display: inline!important;}
+	.m-hide{display: none!important;}
+}

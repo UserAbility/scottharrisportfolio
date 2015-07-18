@@ -5,6 +5,9 @@ $clr-lily: 		#F3B91E;
 $clr-lilyl:		#FFECCA;
 $clr-simon: 	#00AEEF;
 $clr-simonl: 	#A4DEF9;
+$clr-joanne:	#E9AF7F;
+$clr-manuel:	#C3BC85;
+$clr-hannah:	#92445A;
 
 h2, h3{
 	font-size: 1.15rem;
@@ -66,7 +69,6 @@ h2, h3{
 	&.simon li{
 		width: 8.33%;
 	}
-
 }
 
 .visited {
@@ -79,16 +81,18 @@ h2, h3{
 	float: right;
 	width: 92%;
 	min-height: 100%;
-	background-color: #ffffff;
+	background-color: white;
 
 	h1, h2 {
 		color: white;
 	}
-	&.joanne 	{background-color: #E9AF7F!important;}
-	&.manuel	{background-color: #C3BC85!important;}
-	&.simon 	{background-color: $clr-simon!important;}
-	&.lily 		{background-color: $clr-lily!important;}
-	&.hannah 	{background-color: #92445A!important;}
+	@media (min-width: 650px) {
+		&.joanne 	{background-color: $clr-joanne;}
+		&.manuel	{background-color: $clr-manuel;}
+		&.simon 	{background-color: $clr-simon;}
+		&.lily 		{background-color: $clr-lily;}
+		&.hannah 	{background-color: $clr-hannah;}
+	}
 }
 
 .chapterbox{
@@ -139,17 +143,29 @@ h2, h3{
 	position: relative;
 	display: inline-block;
 	float: left;
-	max-width: 50%;
+	width: 50%;
 	padding: 3% 5%;
 	color: white;
 	h3{
 		margin-bottom: 0;
-		color: white;
 	}
-	h3, p{
+	h1, h2, h3, p{
 		clear: none;
 		padding: 0;
 		color: white;
+
+		@media (max-width: 650px) {
+			color: $clr-body;
+		}
+	}
+	@media (max-width: 650px) {
+		float: right;
+		width: 100%;
+		padding: 2% 10%;
+
+		h1{font-size: 1.15rem;}
+		h2, {font-size: .75rem; font-weight: normal;}
+		h2, h3{font-size: 1rem;}
 	}
 }
 

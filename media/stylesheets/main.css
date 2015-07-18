@@ -2743,3 +2743,20 @@ space and place
   color: red;
   padding: 2rem;
 }
+
+/* line 1052, ../sass/main.scss */
+.m-show {
+  display: none !important;
+}
+
+@media (max-width: 650px) {
+  /* line 1054, ../sass/main.scss */
+  .m-show {
+    display: inline !important;
+  }
+
+  /* line 1055, ../sass/main.scss */
+  .m-hide {
+    display: none !important;
+  }
+}
