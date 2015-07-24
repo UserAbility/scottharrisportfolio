@@ -1,13 +1,16 @@
 @import "colors";
 @import "mixins";
 	
-$clr-lily: 		#F3B91E;
-$clr-lilyl:		#FFECCA;
-$clr-simon: 	#00AEEF;
-$clr-simonl: 	#A4DEF9;
-$clr-joanne:	#E9AF7F;
-$clr-manuel:	#C3BC85;
-$clr-hannah:	#92445A;
+$clr-lily: 		#F3B91E;		.clr-lily		{color: $clr-lily;}
+$clr-lilyl:		#FFECCA;		.clr-lilyl		{color: $clr-lilyl;}
+$clr-simon: 	#00AEEF;		.clr-simon		{color: $clr-simon;}
+$clr-simonl: 	#A4DEF9;		.clr-simonl		{color: $clr-simonl;}
+$clr-joanne:	#E9AF7F;		.clr-joanne		{color: $clr-joanne;}
+$clr-joannel:	#E9AF7F;		.clr-joanne		{color: $clr-joannel;}
+$clr-manuel:	#C3BC85;		.clr-manuel		{color: $clr-manuel;}
+$clr-manuell:	#C3BC85;		.clr-manuell	{color: $clr-manuell;}
+$clr-hannah:	#92445A;		.clr-hannah		{color: $clr-hannah;}
+$clr-hannahl:	#92445A;		.clr-hannahl	{color: $clr-hannahl;}
 
 h2, h3{
 	font-size: 1.15rem;
@@ -207,6 +210,54 @@ h2, h3{
 	.profilebox .fa{color: $clr-simonl;}
 	.fa {color: $clr-simon;}
 	.chapter-text {background-color: $clr-simonl;}	
+}
+
+ul.circlemenu{
+	li{
+		display: inline-block;
+		float: left;
+		width: 20%;
+		margin-top: 1rem;
+		.full {
+			width: 100%;
+		}
+		.half {
+			width: 50%;
+		}
+		.forth {
+			width: 25%;
+		}
+	}
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background: $clr-simonl;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	overflow: hidden;
+
+	&.joanne 	{background: $clr-joanne 	url(../images/pvd/pvd_icon-joanne.png) no-repeat center / 100%;}
+	&.manuel	{background: $clr-manuel 	url(../images/pvd/pvd_icon-manuel.png) no-repeat center / 100%;}
+	&.simon 	{background: $clr-simon 	url(../images/pvd/pvd_icon-simon.png) no-repeat center / 100%;}
+	&.lily 		{background: $clr-lily 		url(../images/pvd/pvd_icon-lily.png) no-repeat center / 100%;}
+	&.hannah 	{background: $clr-hannah 	url(../images/pvd/pvd_icon-hannah.png) no-repeat center / 100%;}
+
+	&.joanne h2 	{background-color: $clr-joanne;}
+	&.manuel h2		{background-color: $clr-manuel;}
+	&.simon h2 		{background-color: $clr-simon;}
+	&.lily h2 		{background-color: $clr-lily;}
+	&.hannah h2 	{background-color: $clr-hannah;}
+
+	h2{
+		position: relative;
+		top: 78%;
+		padding: 4%;
+		color: white;
+	}
 }
 
 
