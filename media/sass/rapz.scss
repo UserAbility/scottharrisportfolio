@@ -1,7 +1,10 @@
 @import "colors";
 @import "mixins";
 	
-$clr-lily: 		#F3B91E;		.clr-lily		{color: $clr-lily;}
+$clr-menu1: 	#125c66;		.clr-menu1		{color: $clr-menu1;}
+$clr-menu2: 	#11bcd8;		.clr-menu2		{color: $clr-menu2;}
+
+
 $clr-lilyl:		#FFECCA;		.clr-lilyl		{color: $clr-lilyl;}
 $clr-simon: 	#00AEEF;		.clr-simon		{color: $clr-simon;}
 $clr-simonl: 	#A4DEF9;		.clr-simonl		{color: $clr-simonl;}
@@ -12,9 +15,39 @@ $clr-manuell:	#C3BC85;		.clr-manuell	{color: $clr-manuell;}
 $clr-hannah:	#92445A;		.clr-hannah		{color: $clr-hannah;}
 $clr-hannahl:	#92445A;		.clr-hannahl	{color: $clr-hannahl;}
 
+.active{
+	color: $clr-lightest!important;
+	background-color: $clr-menu2!important;
+}
+
+#wrapper, header{
+	max-width: 414px!important;
+}
+
 h2, h3{
 	font-size: 1.15rem;
 	line-height: 1.45rem;
+}
+h6{
+	font-size: .70rem;
+}
+
+.fa{
+	font-size: 2rem!important;
+}
+
+.contactbox{
+	background-color: $clr-menu1;
+	a{
+		color: $clr-menu2;
+	}
+}
+.submenu{
+	background-color: $clr-menu2;
+	a{
+		color: $clr-menu1;
+		margin-right: 1rem;
+	}
 }
 
 
