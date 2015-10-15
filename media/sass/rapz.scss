@@ -1,0 +1,21 @@
+@import "colors";
+@import "mixins";
+	
+$clr-lily: 		#F3B91E;		.clr-lily		{color: $clr-lily;}
+$clr-lilyl:		#FFECCA;		.clr-lilyl		{color: $clr-lilyl;}
+$clr-simon: 	#00AEEF;		.clr-simon		{color: $clr-simon;}
+$clr-simonl: 	#A4DEF9;		.clr-simonl		{color: $clr-simonl;}
+$clr-joanne:	#E9AF7F;		.clr-joanne		{color: $clr-joanne;}
+$clr-joannel:	#E9AF7F;		.clr-joanne		{color: $clr-joannel;}
+$clr-manuel:	#C3BC85;		.clr-manuel		{color: $clr-manuel;}
+$clr-manuell:	#C3BC85;		.clr-manuell	{color: $clr-manuell;}
+$clr-hannah:	#92445A;		.clr-hannah		{color: $clr-hannah;}
+$clr-hannahl:	#92445A;		.clr-hannahl	{color: $clr-hannahl;}
+
+h2, h3{
+	font-size: 1.15rem;
+	line-height: 1.45rem;
+}
+
+
+
