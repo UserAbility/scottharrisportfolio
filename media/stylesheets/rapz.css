@@ -845,3 +845,8 @@ h6 {
   color: #125c66;
   margin-right: 1rem;
 }
+
+/* line 53, ../sass/rapz.scss */
+.profile img {
+  width: 150px;
+}
