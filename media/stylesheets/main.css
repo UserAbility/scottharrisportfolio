@@ -371,6 +371,11 @@ colors
   background-color: #ffca99;
 }
 
+/* line 147, ../sass/_colors.scss */
+.clr-ibml {
+  color: #2677c8;
+}
+
 /* -------------------------------------------------------------------
 colors
 ------------------------------------------------------------------- */
@@ -742,6 +747,11 @@ colors
 /* line 144, ../sass/_colors.scss */
 .clr-nickl-bg {
   background-color: #ffca99;
+}
+
+/* line 147, ../sass/_colors.scss */
+.clr-ibml {
+  color: #2677c8;
 }
 
 /*------- custome ---------*/
@@ -1264,7 +1274,7 @@ home
 
 /* line 361, ../sass/main.scss */
 .bg-ibm {
-  background: #1f5ba7 url(../images/ibm-bg2.jpg) no-repeat right/200%;
+  background: #2677c8 url(../images/ibm-bg2.jpg) no-repeat right/180%;
 }
 @media (max-width: 1100px) {
   /* line 361, ../sass/main.scss */

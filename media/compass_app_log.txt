@@ -824,3 +824,34 @@
 2016-02-17 20:42:59 identical stylesheets/main.css 
 2016-02-17 20:46:22 overwrite stylesheets/main.css 
 2016-02-17 20:46:38 identical stylesheets/main.css 
+2016-02-17 20:48:34 overwrite stylesheets/main.css 
+2016-02-17 20:50:25     error sass/main.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:25 overwrite stylesheets/main.css 
+2016-02-17 20:50:25     error sass/normalize.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:25 overwrite stylesheets/normalize.css 
+2016-02-17 20:50:26     error sass/pvd.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:26 overwrite stylesheets/pvd.css 
+2016-02-17 20:50:26     error sass/rapz.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:26 overwrite stylesheets/rapz.css 
+2016-02-17 20:50:26     error sass/responsive.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:26 overwrite stylesheets/responsive.css 
+2016-02-17 20:50:27     error sass/main.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:27 identical stylesheets/main.css 
+2016-02-17 20:50:27     error sass/normalize.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:27 identical stylesheets/normalize.css 
+2016-02-17 20:50:27     error sass/pvd.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:27 identical stylesheets/pvd.css 
+2016-02-17 20:50:27     error sass/rapz.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:27 identical stylesheets/rapz.css 
+2016-02-17 20:50:28     error sass/responsive.scss (Line 147 of sass/_colors.scss: Invalid CSS after ".clr-ibml:": expected pseudoclass or pseudoelement, was "		{color: $clr-...")
+2016-02-17 20:50:28 identical stylesheets/responsive.css 
+2016-02-17 20:50:53 overwrite stylesheets/main.css 
+2016-02-17 20:50:53 overwrite stylesheets/normalize.css 
+2016-02-17 20:50:53 overwrite stylesheets/pvd.css 
+2016-02-17 20:50:53 overwrite stylesheets/rapz.css 
+2016-02-17 20:50:54 overwrite stylesheets/responsive.css 
+2016-02-17 20:51:21 overwrite stylesheets/main.css 
+2016-02-17 20:51:45     error sass/main.scss (Line 362: Invalid CSS after "...ound: $clr-ibml": expected ";", was "@media (max-wid...")
+2016-02-17 20:51:45 overwrite stylesheets/main.css 
+2016-02-17 20:52:12 overwrite stylesheets/main.css 
+2016-02-17 20:52:20 overwrite stylesheets/main.css 

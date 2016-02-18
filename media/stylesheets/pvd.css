@@ -371,6 +371,11 @@ colors
   background-color: #ffca99;
 }
 
+/* line 147, ../sass/_colors.scss */
+.clr-ibml {
+  color: #2677c8;
+}
+
 /* -------------------------------------------------------------------
 colors
 ------------------------------------------------------------------- */
@@ -742,6 +747,11 @@ colors
 /* line 144, ../sass/_colors.scss */
 .clr-nickl-bg {
   background-color: #ffca99;
+}
+
+/* line 147, ../sass/_colors.scss */
+.clr-ibml {
+  color: #2677c8;
 }
 
 /*------- custome ---------*/
