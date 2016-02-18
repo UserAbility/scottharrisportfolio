@@ -1264,7 +1264,7 @@ home
 
 /* line 361, ../sass/main.scss */
 .bg-ibm {
-  background: #1f5ba7 url(../images/ibm-bg2.jpg) no-repeat right/170%;
+  background: #1f5ba7 url(../images/ibm-bg2.jpg) no-repeat right/180%;
 }
 @media (max-width: 1100px) {
   /* line 361, ../sass/main.scss */
@@ -1368,8 +1368,8 @@ project pages
 .projectheader img {
   position: absolute;
   top: 50%;
-  width: 80%;
-  margin-left: 10%;
+  width: 25%;
+  margin-left: 37.5%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   resize: both;
@@ -1439,6 +1439,11 @@ project pages
     width: 34%;
     margin-left: 33%;
   }
+}
+/* line 407, ../sass/main.scss */
+.projectheader.bg-nick img {
+  width: 80%;
+  margin-left: 10%;
 }
 @media (max-width: 600px) {
   /* line 407, ../sass/main.scss */
