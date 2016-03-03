@@ -1,0 +1,42 @@
+/* ----------------------------------------------
+colors
+-----------------------------------------------*/
+
+/*--- defaults colors ----*/
+$clr-lightest:		#FFFFFF;
+$clr-darkest:		#000000;
+$clr-tevagreen:		#00A785;
+
+/*Backgrounds*/
+$clr-bgdarkest:		#2D3E50;
+$clr-bgdark:		#34495E;
+$clr-bglight:		#F0F4F5;
+$clr-bglighest:		#FFFFFF;
+
+/*body*/
+$clr-body:			#BDC3C8;
+$clr-body2:			#9A9A9A;
+$clr-body3:			#676767;
+$clr-body4:			#3D3D3D;
+
+$clr-link:			#3498DB;
+$clr-linkbg:		#D7EAF7;
+
+/*Warm*/
+$clr-warm1:			#EEC417;
+$clr-warm2:			#F09E11;
+$clr-warm3:			#E67F22;
+$clr-warm4:			#D05300;
+$clr-warm5:			#BF3930;
+
+/*positive / negative*/
+$clr-pos:			#2ECC71;
+$clr-posdark:		$clr-tevagreen;
+$clr-neg:			#E74C3C;
+$clr-neglight:		#F4938B;
+
+/*spectrum*/
+$clr-yellow1:		#f1c40f;
+$clr-green1:		$clr-pos;
+$clr-aqua1:			#1abc9c;
+$clr-purple1:		#9b59b6;

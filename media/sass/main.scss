@@ -108,7 +108,7 @@ ul.colors{
 		vertical-align: center;
 		line-height: 40px;
 		color: $clr-lightest;
-		height: 40px;
+		min-height: 40px;
 		@include border-radius;
 	}
 }

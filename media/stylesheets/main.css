@@ -902,7 +902,7 @@ ul.colors li {
   vertical-align: center;
   line-height: 40px;
   color: white;
-  height: 40px;
+  min-height: 40px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;

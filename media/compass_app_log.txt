@@ -855,3 +855,128 @@
 2016-02-17 20:51:45 overwrite stylesheets/main.css 
 2016-02-17 20:52:12 overwrite stylesheets/main.css 
 2016-02-17 20:52:20 overwrite stylesheets/main.css 
+2016-03-02 01:52:54     error sass/teva-main.scss (Line 54: Invalid CSS after "	color": expected ";", was ": $clr-aqua1;")
+2016-03-02 01:52:54    create stylesheets/teva-main.css 
+2016-03-02 01:56:37    create stylesheets/teva.css 
+2016-03-02 01:57:18     error sass/teva.scss (Line 54: Invalid CSS after "	color": expected ";", was ": $clr-aqua1;")
+2016-03-02 01:57:18 overwrite stylesheets/teva.css 
+2016-03-02 01:57:57     error sass/teva.scss (Line 54: Invalid CSS after "	color": expected ";", was ": $clr-aqua1;")
+2016-03-02 01:57:57 identical stylesheets/teva.css 
+2016-03-02 01:58:10 overwrite stylesheets/teva.css 
+2016-03-02 01:58:27 overwrite stylesheets/teva.css 
+2016-03-02 01:59:51 overwrite stylesheets/teva.css 
+2016-03-02 02:06:15 overwrite stylesheets/teva.css 
+2016-03-02 02:06:22 overwrite stylesheets/teva.css 
+2016-03-02 12:52:41     error sass/teva.scss (Line 11: Invalid CSS after ".clr-lightest:": expected pseudoclass or pseudoelement, was "		$clr-lightest;")
+2016-03-02 12:52:41 overwrite stylesheets/teva.css 
+2016-03-02 12:53:05 overwrite stylesheets/teva.css 
+2016-03-02 13:14:10 overwrite stylesheets/teva.css 
+2016-03-02 13:18:46 overwrite stylesheets/teva.css 
+2016-03-02 14:13:07 identical stylesheets/teva.css 
+2016-03-02 14:27:55 overwrite stylesheets/main.css 
+2016-03-02 15:53:58 overwrite stylesheets/main.css 
+2016-03-02 15:54:50 overwrite stylesheets/main.css 
+2016-03-02 15:55:50 overwrite stylesheets/main.css 
+2016-03-02 15:55:57 overwrite stylesheets/main.css 
+2016-03-02 15:56:10 overwrite stylesheets/main.css 
+2016-03-02 15:56:22 overwrite stylesheets/main.css 
+2016-03-02 15:56:29 overwrite stylesheets/main.css 
+2016-03-02 17:39:57 overwrite stylesheets/main.css 
+2016-03-02 17:40:37 overwrite stylesheets/main.css 
+2016-03-02 17:40:52 overwrite stylesheets/main.css 
+2016-03-02 17:51:54 overwrite stylesheets/teva.css 
+2016-03-02 18:01:53     error sass/teva.scss (Line 24: Undefined variable: "$clr-bgdarkest".)
+2016-03-02 18:01:53 overwrite stylesheets/teva.css 
+2016-03-02 18:02:24 overwrite stylesheets/teva.css 
+2016-03-02 18:02:34 identical stylesheets/teva.css 
+2016-03-02 18:05:52     error sass/teva.scss (Line 23: Undefined variable: "$clr-bgdark".)
+2016-03-02 18:05:52 overwrite stylesheets/teva.css 
+2016-03-02 18:19:58     error sass/teva.scss (Line 40: Invalid CSS after "...			{$clr-linkbg": expected ":", was "}")
+2016-03-02 18:19:58 overwrite stylesheets/teva.css 
+2016-03-02 18:21:21     error sass/teva.scss (Line 40: Invalid CSS after "...			{$clr-linkbg": expected ":", was "}")
+2016-03-02 18:21:21 identical stylesheets/teva.css 
+2016-03-02 18:21:39     error sass/teva.scss (Line 23: Undefined variable: "$clr-bgdark".)
+2016-03-02 18:21:39 overwrite stylesheets/teva.css 
+2016-03-02 18:21:47     error sass/teva.scss (Line 23: Undefined variable: "$clr-bgdark".)
+2016-03-02 18:21:47 identical stylesheets/teva.css 
+2016-03-02 18:21:55     error sass/teva.scss (Line 23: Undefined variable: "$clr-bgdark".)
+2016-03-02 18:21:55 identical stylesheets/teva.css 
+2016-03-02 18:22:09     error sass/teva.scss (Line 40: Undefined variable: "$clr-linkbg".)
+2016-03-02 18:22:09 overwrite stylesheets/teva.css 
+2016-03-02 18:22:17 overwrite stylesheets/teva.css 
+2016-03-02 18:22:25 identical stylesheets/teva.css 
+2016-03-02 18:28:03 overwrite stylesheets/teva.css 
+2016-03-02 18:29:12 identical stylesheets/teva.css 
+2016-03-02 18:29:23 identical stylesheets/teva.css 
+2016-03-02 18:30:26 overwrite stylesheets/teva.css 
+2016-03-02 18:31:01 overwrite stylesheets/teva.css 
+2016-03-02 18:31:31 overwrite stylesheets/teva.css 
+2016-03-02 18:31:47 identical stylesheets/teva.css 
+2016-03-02 18:32:07 overwrite stylesheets/teva.css 
+2016-03-02 18:32:58 overwrite stylesheets/teva.css 
+2016-03-02 18:33:07 identical stylesheets/teva.css 
+2016-03-02 18:33:15 overwrite stylesheets/teva.css 
+2016-03-02 18:33:35 overwrite stylesheets/teva.css 
+2016-03-02 18:34:21 overwrite stylesheets/teva.css 
+2016-03-02 18:34:42 overwrite stylesheets/teva.css 
+2016-03-02 18:34:55 overwrite stylesheets/teva.css 
+2016-03-02 18:35:06 overwrite stylesheets/teva.css 
+2016-03-02 18:35:17 overwrite stylesheets/teva.css 
+2016-03-02 18:36:10 overwrite stylesheets/teva.css 
+2016-03-02 18:36:38 overwrite stylesheets/teva.css 
+2016-03-02 18:45:33 identical stylesheets/teva.css 
+2016-03-02 18:46:06 identical stylesheets/teva.css 
+2016-03-02 18:46:14     error sass/teva.scss (Line 26: Undefined variable: "$clr-bg-ligher".)
+2016-03-02 18:46:14 overwrite stylesheets/teva.css 
+2016-03-02 18:46:26     error sass/teva.scss (Line 26: Undefined variable: "$clr-bg-ligher".)
+2016-03-02 18:46:26 identical stylesheets/teva.css 
+2016-03-02 18:46:36 overwrite stylesheets/teva.css 
+2016-03-02 18:48:49 overwrite stylesheets/teva.css 
+2016-03-02 18:49:07 identical stylesheets/teva.css 
+2016-03-02 18:49:36 overwrite stylesheets/teva.css 
+2016-03-02 18:51:56     error sass/teva.scss (Line 70: Undefined variable: "$clr-pos".)
+2016-03-02 18:51:56 overwrite stylesheets/teva.css 
+2016-03-02 18:52:18     error sass/teva.scss (Line 81: Undefined variable: "$clr-pos".)
+2016-03-02 18:52:18 overwrite stylesheets/teva.css 
+2016-03-02 18:52:28 overwrite stylesheets/teva.css 
+2016-03-02 18:53:34     error sass/teva.scss (Line 66: Colors must have either three or six digits: '#c')
+2016-03-02 18:53:34 overwrite stylesheets/teva.css 
+2016-03-02 18:53:46     error sass/teva.scss (Line 66: Colors must have either three or six digits: '#c')
+2016-03-02 18:53:46 identical stylesheets/teva.css 
+2016-03-02 18:53:50 overwrite stylesheets/teva.css 
+2016-03-02 18:54:09 overwrite stylesheets/teva.css 
+2016-03-02 19:12:41 overwrite stylesheets/teva.css 
+2016-03-02 19:18:10 overwrite stylesheets/teva.css 
+2016-03-02 19:23:16 overwrite stylesheets/teva.css 
+2016-03-02 19:24:16 overwrite stylesheets/teva.css 
+2016-03-02 19:24:26 overwrite stylesheets/teva.css 
+2016-03-02 19:25:09 overwrite stylesheets/teva.css 
+2016-03-02 19:33:22     error sass/teva.scss (Line 105: Invalid CSS after "	color": expected ";", was ": $clr-body3;")
+2016-03-02 19:33:22 overwrite stylesheets/teva.css 
+2016-03-02 19:33:35 overwrite stylesheets/teva.css 
+2016-03-02 20:19:35 overwrite stylesheets/teva.css 
+2016-03-02 20:20:16 overwrite stylesheets/teva.css 
+2016-03-02 20:22:17 overwrite stylesheets/teva.css 
+2016-03-02 20:22:34 overwrite stylesheets/teva.css 
+2016-03-02 20:22:36 identical stylesheets/teva.css 
+2016-03-02 20:23:18 overwrite stylesheets/teva.css 
+2016-03-02 20:25:11 overwrite stylesheets/teva.css 
+2016-03-02 20:25:52 overwrite stylesheets/teva.css 
+2016-03-02 20:26:02 identical stylesheets/teva.css 
+2016-03-02 20:26:06 overwrite stylesheets/teva.css 
+2016-03-02 20:26:15 overwrite stylesheets/teva.css 
+2016-03-02 20:26:53 overwrite stylesheets/teva.css 
+2016-03-02 20:34:27 overwrite stylesheets/teva.css 
+2016-03-02 20:34:40 overwrite stylesheets/teva.css 
+2016-03-02 20:46:56 overwrite stylesheets/teva.css 
+2016-03-02 20:47:17 overwrite stylesheets/teva.css 
+2016-03-02 20:47:31 overwrite stylesheets/teva.css 
+2016-03-02 20:47:49 overwrite stylesheets/teva.css 
+2016-03-02 20:47:56 overwrite stylesheets/teva.css 
+2016-03-02 20:48:13 overwrite stylesheets/teva.css 
+2016-03-02 20:48:30 overwrite stylesheets/teva.css 
+2016-03-02 20:48:44 overwrite stylesheets/teva.css 
+2016-03-02 20:49:06 overwrite stylesheets/teva.css 
+2016-03-02 20:49:12 overwrite stylesheets/teva.css 
+2016-03-02 20:49:20 overwrite stylesheets/teva.css 
+2016-03-03 11:02:51 overwrite stylesheets/teva.css 
