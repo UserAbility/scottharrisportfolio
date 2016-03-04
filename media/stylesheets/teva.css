@@ -1154,7 +1154,7 @@ header .menubox {
   /* line 203, ../sass/teva.scss */
   header .menubox {
     width: 90%;
-    padding: 0 5%;
+    padding: 0 1% 0 5%;
   }
 }
 /* line 213, ../sass/teva.scss */
