@@ -2,6 +2,53 @@
 @import "mixins";
 
 /* ----------------------------------------------
+resets
+-----------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-transform: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------------------------------------
 colors
 -----------------------------------------------*/
 /*--- defaults colors ----*/
@@ -113,16 +160,16 @@ html, body {
 /* ----------------------------------------------
 text
 -----------------------------------------------*/
-
 body{font-size: 12px;}
-h1, h2, h3, h4, h5, h6, p{
-	font-family: Helvetica; 
+body, h1, h2, h3, h4, h5, h6, p, button, a{
+	font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	text-align: left;
 	color: $clr-body4;
 }
 h1{
 	font-size: 24px;
+	font-weight: lighter;
 }
 h2{
 	font-size: 18px;
@@ -135,25 +182,24 @@ h3{
 	font-weight: lighter;
 }
 h4{
-	font-size: 15px;
+	font-size: 12.75px;
 	font-weight: normal;
 }
 h5{
 }
-h6, a{
+h6, a, button{
 	font-size: 12px;
 	color: $clr-link;
 	text-transform: uppercase;
 	font-weight: 500;
-}
-a:hover{
-	color: $clr-link;
+	cursor: pointer;
+	&:hover{
+		color: $clr-link;
+	}
 }
 .fa{
 	font-size: 26px;
-	&:hover{
-		color: $clr-linkl;
-	}
+	color: $clr-link;
 }
 p{
 	font-size: 12px;
@@ -161,19 +207,27 @@ p{
 
 button {
 	display: inline-block;
-	font-size: 1rem;
-	line-height: 1em;
+	font-size: 12px;
 	text-align: center;
 	text-transform: uppercase;
+	line-height: 12px;
+	height: 40px;
+	margin: 0;
+	padding: 0 1rem;
 	border: none;
-	border-radius: 4px;
 	color: $clr-lightest;
 	background-color: $clr-link;
-	height: 46px;
-	min-width: 140px;
-	margin: 0;
-	padding: 0 1.25rem;
+	border-radius: 4px;
 	cursor: pointer;
+	&:hover{
+		color: $clr-lightest;
+	}
+}
+
+.box{
+	min-height: 100px;
+	background-color: $clr-bg-light;
+	outline: 1px solid $clr-body1;
 }
 
 header{
@@ -226,8 +280,29 @@ header{
 		float: right;
 		margin-left: 3%;
 		transform: translate(0, -50%);
+		&:hover{
+			color: $clr-linkl;
+		}
+	}
+	.selected{
+		color: $clr-lightest;
 	}
 }
+
+.dose{
+	width: 12px;
+	height: 12px;
+	background-color: $clr-link;
+	border-radius: 50% 50%;
+}
+.taken			{background-color: $clr-link;}
+.missed 		{background-color: $clr-body1;}
+.invalid		{background-color: $clr-darkest;}
+.morning		{background-color: $clr-warm1;}
+.noon			{background-color: $clr-warm2;}
+.evening		{background-color: $clr-warm4;}
+.night 			{background-color: $clr-bg-dark;}
+.coached 		{background-color: $clr-pos1;}
 
 .listcontainer{
 	position: relative;
@@ -235,13 +310,10 @@ header{
     margin-left: auto;
     margin-right: auto;
 	width: 80%;
+	min-width: 600px;
 	margin-top: 40px;
 	@media (max-width: 800px) {
 			width: 98%;
-		}
-	
-	div{
-		clear: both;
 	}
 	
 	.listheader{
@@ -252,6 +324,9 @@ header{
 		padding: 0 1rem;
 		background-color: $clr-bg-dark;
 		color: $clr-lightest;
+		p{
+			color: $clr-lightest;
+		}
 	}
 	.siteheader{
 		position: relative;
@@ -264,26 +339,175 @@ header{
 			clear: none;
 		}
 	}
-	.listitem, .listitemb{
+	.listitem{
 		position: relative;
 		display: block;
 		height: 30px;
 		padding: 0 1rem;
+		margin: 0 1px;
+		top: -1px;
 		background-color: $clr-bg-light;
 		outline: 1px solid $clr-body1;
+		&:nth-child(even){
+			background-color: $clr-bg-lighter;
+		}
 		.fa{
 			color: $clr-body1;
+			float: left;
 		}
-		&:hover{
+		&:hover, &.selected{
 			background-color: $clr-linkl;
 			outline: 1px solid $clr-link;
+			z-index: 2;
 			.fa{
 				color: $clr-link;
 			}
 		}
-
 	}
-	.listitemb{
-		background-color: $clr-bg-lighter;
+	.patientprofile{
+		position: relative;
+		display: block;
+		height: 960px;
+		top: -1rem;
+		.contactbar{
+			padding-top: 2rem;
+			width: 100%
+		}
+		.leftstack{
+			position: relative;
+			display: inline-block;
+			float: left;
+			clear: none;
+			width: 66%;
+			height: 100px;
+
+			.calbox{
+				width: 100%;
+				height: 100px;
+				.datebar{
+					display: inline-block;
+					width: 100%;
+					height: 72px;
+					button{
+						float: right;
+					}
+					h1, .fa{
+						float: left;
+						clear: none;
+						padding-right: .5rem;
+					}
+				}
+				.weekbar{
+					li{
+						float: left;
+						position: relative;
+						width: 14.285%;
+						text-align: center;
+					}
+				}
+				.monthbox{
+					position: relative;
+					display: inline-block;
+					width: 100%;
+				}
+				.daybox{
+					position: relative;
+					width: 14.285%;
+					min-height: 88px;
+					float: left;
+					background-color: $clr-bg-light;
+					outline: 1px solid $clr-body1;
+					&:hover{
+						background-color: $clr-linkl;
+						outline: 1px solid $clr-link;
+						z-index: 2;
+					}
+					h1{
+						position: relative;
+						top: 1rem;
+						color: $clr-neg2;
+						text-align: center;
+					}
+					h6{
+						position: absolute;
+						top: 0;
+						right: 0;
+						padding: 0 .25rem;
+					}
+					.dayfeeling{
+						position: relative;
+						top: 1rem;
+						height: 5px;
+						width: 100%;
+						background-color: $clr-warm1;
+					}
+					.d2{background-color: $clr-warm2;}
+					.d3{background-color: $clr-warm3;}
+					.d4{background-color: $clr-warm4;}
+					.d5{background-color: $clr-warm5;}
+					.doses{
+						position: relative;
+						display: inline-block;
+						top: 1rem;
+						width: 100%;
+						padding-top: 5px;
+						.dose{
+							width: 12px;
+							height: 12px;
+							margin-right: auto;
+							margin-left: auto;
+							border-radius: 50% 50%;
+						}
+					}
+				}
+			}
+		}
+		.rightstack{
+			position: relative;
+			display: inline-block;
+			float: right;
+			clear: right;
+			width: 32.5%;
+			height: 100px;
+			.maintbox, .rescuebox, .coachbox{
+				padding: 1rem;
+				margin-bottom: 1rem;
+				h1{
+					padding-bottom: .33rem;
+				}
+				h2{
+					padding-top: 1rem;
+				}
+				h4{
+					position: relative;
+					display: inline-block;
+					clear: none;
+					padding: 0 .5rem;
+					top: -3px;
+				}
+				.medstats{
+					position: relative;
+					display: inline-block;
+					float: right;
+					padding-top: 1rem;
+					width: 100px;
+					.dose{
+						position: relative;
+						display: inline-block;
+					}	
+					li h4{
+						top: -1px;
+					}
+					span{
+						padding: 0 .33rem;
+						color: $clr-darkest;
+					}
+				}
+				.fa-moon-o{color: $clr-bg-dark}
+				.fa-sun-o{color: $clr-warm1}
+			}
+			.rescuebox .fa{color: $clr-neg2;}
+			.coachbox .fa{color: $clr-pos1;}
+		}
 	}
 }
