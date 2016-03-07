@@ -27,7 +27,7 @@
 			</header>
 
 			<div class="listcontainer clearfix">
-				<div>
+				<div class="clearfix">
 					<a class="fa fa-user-plus fr pl" 	href="" 	target="_blank"></a>
 					<a class="fr">invite new patient</a>
 				</div>
@@ -40,10 +40,9 @@
 					<h2 class="fl">site1</h2>
 					<h2 class="fr">5 patients</h2>
 				</div>
+
 				<ul class="pb">
-					<li class="listitem">
-						<div class="fa fa-user"></div>
-					</li>
+					<li class="listitem"><div class="fa fa-user"></div></li>
 					<li class="listitem"><div class="fa fa-user"></div></li>
 					<li class="listitem"><div class="fa fa-user"></div></li>
 					<li class="listitem"><div class="fa fa-user"></div></li>
@@ -144,6 +143,9 @@
 								<li class="box daybox"><h6>28</h6></li>
 							</ul>
 						</div>
+						<div class="box pit clearfix">
+							<button class="fr">show all</button>
+						</div>
 					</div>
 
 					<div class="rightstack clearfix">
@@ -187,28 +189,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="siteheader">
-					<h2 class="fl">site2</h2>
-					<h2 class="fr">5 patients</h2>
-				</div>
-				<ul class="pb">
-					<li class="listitem">
-						<div class="fa fa-user"></div>
-					</li>
-					<li class="listitem"><div class="fa fa-user"></div></li>
-					<li class="listitem"><div class="fa fa-user"></div></li>
-					<li class="listitem"><div class="fa fa-user"></div></li>
-					<li class="listitem"><div class="fa fa-user"></div></li>
-					<li class="listitem"><div class="fa fa-user"></div></li>
-				</ul>
 			</div>
 
 			<section class="pit">
-				<h1>h1 - TEVA Style Sheet</h1>
-				<h2>h2 - TEVA Style Sheet</h2>
-				<h3>h3 - TEVA Style Sheet</h3>
-				<h4>h4 - TEVA Style Sheet</h4>
-				<h6>h6 - TEVA Style Sheet</h6>
+				<h1>h1 - {font-family: "ProximaNova-Regular"; font-size: 24px; font-weight: lighter;}</h1>
+				<h2>h2 - {font-size: 18px; color: $clr-body3; font-weight: lighter;}</h2>
+				<h3>h3 - {font-size: 16px; color: $clr-body2; font-weight: lighter;}</h3>
+				<h4>h4 - {font-size: 12.75px; font-weight: normal;}</h4>
+				<h6>h6, a, button - {font-size: 12px; color: $clr-link; text-transform: uppercase; font-weight: 500; cursor: pointer;}</h6>
+				<br>
+				<button>This is a Button</button>
+				<br>
 				<br>
 				<p>
 					P - TEVA Style Sheet paragraphs have a max width of 550px. Line setting where things may run long or be highlighted. They may also be just a few lines or so. And <a href="">links are this color</a>.

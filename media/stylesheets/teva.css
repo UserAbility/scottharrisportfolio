@@ -1181,7 +1181,7 @@ button:hover {
 
 /* line 227, ../sass/teva.scss */
 .box {
-  min-height: 100px;
+  min-height: 10px;
   background-color: #f0f4f5;
   outline: 1px solid #bdc3c8;
 }
@@ -1313,7 +1313,7 @@ header .selected {
   margin-right: auto;
   width: 80%;
   min-width: 600px;
-  margin-top: 40px;
+  margin-top: 2rem;
 }
 @media (max-width: 800px) {
   /* line 307, ../sass/teva.scss */
@@ -1382,58 +1382,63 @@ header .selected {
 .listcontainer .patientprofile {
   position: relative;
   display: block;
-  height: 960px;
   top: -1rem;
 }
-/* line 372, ../sass/teva.scss */
+/* line 371, ../sass/teva.scss */
 .listcontainer .patientprofile .contactbar {
   padding-top: 2rem;
   width: 100%;
 }
-/* line 376, ../sass/teva.scss */
+/* line 375, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack {
   position: relative;
   display: inline-block;
   float: left;
   clear: none;
   width: 66%;
-  height: 100px;
 }
-/* line 384, ../sass/teva.scss */
+/* line 382, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox {
   width: 100%;
-  height: 100px;
+  margin-bottom: 1rem;
 }
-/* line 387, ../sass/teva.scss */
+/* line 385, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar {
   display: inline-block;
   width: 100%;
   height: 72px;
 }
-/* line 391, ../sass/teva.scss */
+/* line 389, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar button {
   float: right;
 }
-/* line 394, ../sass/teva.scss */
+/* line 392, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar h1, .listcontainer .patientprofile .leftstack .calbox .datebar .fa {
   float: left;
   clear: none;
   padding-right: .5rem;
 }
-/* line 401, ../sass/teva.scss */
+/* line 398, ../sass/teva.scss */
+.listcontainer .patientprofile .leftstack .calbox .weekbar {
+  position: relative;
+  display: block;
+  top: 9px;
+}
+/* line 402, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .weekbar li {
   float: left;
   position: relative;
   width: 14.285%;
   text-align: center;
 }
-/* line 408, ../sass/teva.scss */
+/* line 409, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .monthbox {
   position: relative;
   display: inline-block;
   width: 100%;
+  top: 9px;
 }
-/* line 413, ../sass/teva.scss */
+/* line 416, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox {
   position: relative;
   width: 14.285%;
@@ -1442,27 +1447,27 @@ header .selected {
   background-color: #f0f4f5;
   outline: 1px solid #bdc3c8;
 }
-/* line 420, ../sass/teva.scss */
+/* line 423, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox:hover {
   background-color: #d7eaf7;
   outline: 1px solid #3498db;
   z-index: 2;
 }
-/* line 425, ../sass/teva.scss */
+/* line 428, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox h1 {
   position: relative;
   top: 1rem;
   color: #e74c3c;
   text-align: center;
 }
-/* line 431, ../sass/teva.scss */
+/* line 434, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox h6 {
   position: absolute;
   top: 0;
   right: 0;
   padding: 0 .25rem;
 }
-/* line 437, ../sass/teva.scss */
+/* line 440, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .dayfeeling {
   position: relative;
   top: 1rem;
@@ -1470,23 +1475,23 @@ header .selected {
   width: 100%;
   background-color: #eec417;
 }
-/* line 444, ../sass/teva.scss */
+/* line 447, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d2 {
   background-color: #f09e11;
 }
-/* line 445, ../sass/teva.scss */
+/* line 448, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d3 {
   background-color: #e67f22;
 }
-/* line 446, ../sass/teva.scss */
+/* line 449, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d4 {
   background-color: #d05300;
 }
-/* line 447, ../sass/teva.scss */
+/* line 450, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d5 {
   background-color: #bf3930;
 }
-/* line 448, ../sass/teva.scss */
+/* line 451, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .doses {
   position: relative;
   display: inline-block;
@@ -1494,7 +1499,7 @@ header .selected {
   width: 100%;
   padding-top: 5px;
 }
-/* line 454, ../sass/teva.scss */
+/* line 457, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .doses .dose {
   width: 12px;
   height: 12px;
@@ -1502,29 +1507,28 @@ header .selected {
   margin-left: auto;
   border-radius: 50% 50%;
 }
-/* line 465, ../sass/teva.scss */
+/* line 468, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack {
   position: relative;
   display: inline-block;
   float: right;
   clear: right;
   width: 32.5%;
-  height: 100px;
 }
-/* line 472, ../sass/teva.scss */
+/* line 474, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox, .listcontainer .patientprofile .rightstack .rescuebox, .listcontainer .patientprofile .rightstack .coachbox {
   padding: 1rem;
   margin-bottom: 1rem;
 }
-/* line 475, ../sass/teva.scss */
+/* line 477, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox h1, .listcontainer .patientprofile .rightstack .rescuebox h1, .listcontainer .patientprofile .rightstack .coachbox h1 {
   padding-bottom: .33rem;
 }
-/* line 478, ../sass/teva.scss */
+/* line 480, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox h2, .listcontainer .patientprofile .rightstack .rescuebox h2, .listcontainer .patientprofile .rightstack .coachbox h2 {
   padding-top: 1rem;
 }
-/* line 481, ../sass/teva.scss */
+/* line 483, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox h4, .listcontainer .patientprofile .rightstack .rescuebox h4, .listcontainer .patientprofile .rightstack .coachbox h4 {
   position: relative;
   display: inline-block;
@@ -1532,7 +1536,7 @@ header .selected {
   padding: 0 .5rem;
   top: -3px;
 }
-/* line 488, ../sass/teva.scss */
+/* line 490, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats, .listcontainer .patientprofile .rightstack .rescuebox .medstats, .listcontainer .patientprofile .rightstack .coachbox .medstats {
   position: relative;
   display: inline-block;
@@ -1540,33 +1544,33 @@ header .selected {
   padding-top: 1rem;
   width: 100px;
 }
-/* line 494, ../sass/teva.scss */
+/* line 496, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats .dose, .listcontainer .patientprofile .rightstack .rescuebox .medstats .dose, .listcontainer .patientprofile .rightstack .coachbox .medstats .dose {
   position: relative;
   display: inline-block;
 }
-/* line 498, ../sass/teva.scss */
+/* line 500, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats li h4, .listcontainer .patientprofile .rightstack .rescuebox .medstats li h4, .listcontainer .patientprofile .rightstack .coachbox .medstats li h4 {
   top: -1px;
 }
-/* line 501, ../sass/teva.scss */
+/* line 503, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats span, .listcontainer .patientprofile .rightstack .rescuebox .medstats span, .listcontainer .patientprofile .rightstack .coachbox .medstats span {
   padding: 0 .33rem;
   color: black;
 }
-/* line 506, ../sass/teva.scss */
+/* line 508, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .fa-moon-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-moon-o, .listcontainer .patientprofile .rightstack .coachbox .fa-moon-o {
   color: #34495e;
 }
-/* line 507, ../sass/teva.scss */
+/* line 509, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .fa-sun-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-sun-o, .listcontainer .patientprofile .rightstack .coachbox .fa-sun-o {
   color: #eec417;
 }
-/* line 509, ../sass/teva.scss */
+/* line 511, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .rescuebox .fa {
   color: #e74c3c;
 }
-/* line 510, ../sass/teva.scss */
+/* line 512, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .coachbox .fa {
   color: #2ecc71;
 }
