@@ -366,10 +366,10 @@ section{
 									@media (max-width: 600px){background: $clr-moey url(../images/ibm-bg5.png) no-repeat -280px center / 300%}
 								}
 .bg-gigya						{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 315%;
-									@media (max-width: 650px){background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat left center / 360% }
+									@media (max-width: 650px){background: $clr-gigyal url(../images/gigya-bg.jpg) no-repeat left center / 360% }
 								}
 .projectheader.bg-gigya 		{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;
-									@media (max-width: 600px){background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 250%}
+									@media (max-width: 600px){background: $clr-gigyal url(../images/gigya-bg.jpg) no-repeat center / 250%}
 								}
 .bg-shuttercal					{background: $clr-scd url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
 
@@ -380,10 +380,10 @@ section{
 									@media (max-width: 600px){background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat right / 120%}
 								}
 .bg-mediarecords				{background: $clr-body1 url(../images/mediarecords-bg.png) no-repeat center / 210%;
-									@media (max-width: 600px){background: $clr-gigya url(../images/mediarecords-bg.png) no-repeat center / 250%}
+									@media (max-width: 600px){background: black url(../images/mediarecords-bg.png) no-repeat center / 250%}
 								}
 .projectheader.bg-mediarecords	{background: $clr-body1 url(../images/mediarecords-bg2.jpg) no-repeat center / 105%;
-									@media (max-width: 600px){background: $clr-body1 url(../images/mediarecords-bg2.png) no-repeat center / 155%;}
+									@media (max-width: 600px){background: black url(../images/mediarecords-bg2.png) no-repeat center / 155%;}
 								}
 .bg-nick						{background: $clr-nick url(../images/nick-bg.jpg) no-repeat center / 100%;}
 

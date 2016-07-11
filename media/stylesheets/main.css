@@ -1307,7 +1307,7 @@ home
 @media (max-width: 650px) {
   /* line 368, ../sass/main.scss */
   .bg-gigya {
-    background: #1f5ba7 url(../images/gigya-bg.jpg) no-repeat left center/360%;
+    background: #cae7f9 url(../images/gigya-bg.jpg) no-repeat left center/360%;
   }
 }
 
@@ -1318,7 +1318,7 @@ home
 @media (max-width: 600px) {
   /* line 371, ../sass/main.scss */
   .projectheader.bg-gigya {
-    background: #1f5ba7 url(../images/gigya-bg.jpg) no-repeat center/250%;
+    background: #cae7f9 url(../images/gigya-bg.jpg) no-repeat center/250%;
   }
 }
 
@@ -1356,7 +1356,7 @@ home
 @media (max-width: 600px) {
   /* line 382, ../sass/main.scss */
   .bg-mediarecords {
-    background: #1f5ba7 url(../images/mediarecords-bg.png) no-repeat center/250%;
+    background: black url(../images/mediarecords-bg.png) no-repeat center/250%;
   }
 }
 
@@ -1367,7 +1367,7 @@ home
 @media (max-width: 600px) {
   /* line 385, ../sass/main.scss */
   .projectheader.bg-mediarecords {
-    background: #7b7b7b url(../images/mediarecords-bg2.png) no-repeat center/155%;
+    background: black url(../images/mediarecords-bg2.png) no-repeat center/155%;
   }
 }
 
