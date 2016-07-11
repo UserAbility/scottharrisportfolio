@@ -1279,7 +1279,7 @@ home
 @media (max-width: 650px) {
   /* line 361, ../sass/main.scss */
   .bg-ibm {
-    background: #1f5ba7 url(../images/ibm-bg5.png) no-repeat left center/200%;
+    background: #1f5ba7 url(../images/ibm-bg5.png) no-repeat left center/210%;
   }
 }
 
@@ -1296,7 +1296,7 @@ home
 
 /* line 365, ../sass/main.scss */
 .bg-gigya {
-  background: #1f5ba7 url(../images/gigya-bg.jpg) no-repeat center/300%;
+  background: #1f5ba7 url(../images/gigya-bg.jpg) no-repeat center/310%;
 }
 
 /* line 366, ../sass/main.scss */
@@ -1339,7 +1339,7 @@ home
 
 /* line 373, ../sass/main.scss */
 .bg-mediarecords {
-  background: #7b7b7b url(../images/mediarecords-bg.png) no-repeat center/205%;
+  background: #7b7b7b url(../images/mediarecords-bg.png) no-repeat center/210%;
 }
 
 /* line 374, ../sass/main.scss */
