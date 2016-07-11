@@ -228,7 +228,7 @@ colors
 
 /* line 98, ../sass/_colors.scss */
 .clr-gigyal {
-  color: #eeeeff;
+  color: #cae7f9;
 }
 
 /* line 99, ../sass/_colors.scss */
@@ -238,7 +238,7 @@ colors
 
 /* line 100, ../sass/_colors.scss */
 .clr-gigyal-bg {
-  background-color: #eeeeff;
+  background-color: #cae7f9;
 }
 
 /* line 105, ../sass/_colors.scss */
@@ -606,7 +606,7 @@ colors
 
 /* line 98, ../sass/_colors.scss */
 .clr-gigyal {
-  color: #eeeeff;
+  color: #cae7f9;
 }
 
 /* line 99, ../sass/_colors.scss */
@@ -616,7 +616,7 @@ colors
 
 /* line 100, ../sass/_colors.scss */
 .clr-gigyal-bg {
-  background-color: #eeeeff;
+  background-color: #cae7f9;
 }
 
 /* line 105, ../sass/_colors.scss */
@@ -1100,41 +1100,41 @@ body {
   font-size: 12px;
 }
 
-/* line 164, ../sass/teva.scss */
-body, h1, h2, h3, h4, h5, h6, p, button, a {
+/* line 165, ../sass/teva.scss */
+body, h1, h2, h3, h4, h5, h6, p, a, button {
   font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-align: left;
   color: #3d3d3d;
 }
 
-/* line 170, ../sass/teva.scss */
+/* line 171, ../sass/teva.scss */
 h1 {
   font-size: 24px;
   font-weight: lighter;
 }
 
-/* line 174, ../sass/teva.scss */
+/* line 175, ../sass/teva.scss */
 h2 {
   font-size: 18px;
   color: #676767;
   font-weight: lighter;
 }
 
-/* line 179, ../sass/teva.scss */
+/* line 180, ../sass/teva.scss */
 h3 {
   font-size: 16px;
   color: #9a9a9a;
   font-weight: lighter;
 }
 
-/* line 184, ../sass/teva.scss */
+/* line 185, ../sass/teva.scss */
 h4 {
   font-size: 12.75px;
   font-weight: normal;
 }
 
-/* line 190, ../sass/teva.scss */
+/* line 191, ../sass/teva.scss */
 h6, a, button {
   font-size: 12px;
   color: #3498db;
@@ -1142,23 +1142,23 @@ h6, a, button {
   font-weight: 500;
   cursor: pointer;
 }
-/* line 196, ../sass/teva.scss */
+/* line 197, ../sass/teva.scss */
 h6:hover, a:hover, button:hover {
   color: #3498db;
 }
 
-/* line 200, ../sass/teva.scss */
+/* line 202, ../sass/teva.scss */
+p {
+  font-size: 12px;
+}
+
+/* line 206, ../sass/teva.scss */
 .fa {
   font-size: 26px;
   color: #3498db;
 }
 
-/* line 204, ../sass/teva.scss */
-p {
-  font-size: 12px;
-}
-
-/* line 208, ../sass/teva.scss */
+/* line 212, ../sass/teva.scss */
 button {
   display: inline-block;
   font-size: 12px;
@@ -1174,19 +1174,19 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-/* line 222, ../sass/teva.scss */
+/* line 226, ../sass/teva.scss */
 button:hover {
   color: white;
 }
 
-/* line 227, ../sass/teva.scss */
+/* line 231, ../sass/teva.scss */
 .box {
   min-height: 10px;
   background-color: #f0f4f5;
   outline: 1px solid #bdc3c8;
 }
 
-/* line 233, ../sass/teva.scss */
+/* line 237, ../sass/teva.scss */
 header {
   position: relative;
   display: inline-block;
@@ -1194,7 +1194,7 @@ header {
   background-color: #2d3e50;
   height: 70px;
 }
-/* line 240, ../sass/teva.scss */
+/* line 244, ../sass/teva.scss */
 header .logobox {
   position: relative;
   display: inline-block;
@@ -1202,7 +1202,7 @@ header .logobox {
   height: 70px;
   float: left;
 }
-/* line 247, ../sass/teva.scss */
+/* line 251, ../sass/teva.scss */
 header .logobox img {
   position: relative;
   top: 50%;
@@ -1212,7 +1212,7 @@ header .logobox img {
   width: 90%;
   max-width: 70px;
 }
-/* line 257, ../sass/teva.scss */
+/* line 261, ../sass/teva.scss */
 header .menubox {
   position: relative;
   display: inline-block;
@@ -1220,13 +1220,13 @@ header .menubox {
   height: 70px;
 }
 @media (max-width: 800px) {
-  /* line 257, ../sass/teva.scss */
+  /* line 261, ../sass/teva.scss */
   header .menubox {
     width: 90%;
     padding: 0 1% 0 5%;
   }
 }
-/* line 267, ../sass/teva.scss */
+/* line 271, ../sass/teva.scss */
 header .username {
   position: absolute;
   top: 50%;
@@ -1235,12 +1235,12 @@ header .username {
   color: white;
 }
 @media (max-width: 800px) {
-  /* line 267, ../sass/teva.scss */
+  /* line 271, ../sass/teva.scss */
   header .username {
     left: 5%;
   }
 }
-/* line 277, ../sass/teva.scss */
+/* line 281, ../sass/teva.scss */
 header .fa {
   position: relative;
   top: 50%;
@@ -1248,16 +1248,16 @@ header .fa {
   margin-left: 3%;
   transform: translate(0, -50%);
 }
-/* line 283, ../sass/teva.scss */
+/* line 287, ../sass/teva.scss */
 header .fa:hover {
   color: #d7eaf7;
 }
-/* line 287, ../sass/teva.scss */
+/* line 291, ../sass/teva.scss */
 header .selected {
   color: white;
 }
 
-/* line 292, ../sass/teva.scss */
+/* line 296, ../sass/teva.scss */
 .dose {
   width: 12px;
   height: 12px;
@@ -1265,47 +1265,47 @@ header .selected {
   border-radius: 50% 50%;
 }
 
-/* line 298, ../sass/teva.scss */
+/* line 302, ../sass/teva.scss */
 .taken {
   background-color: #3498db;
 }
 
-/* line 299, ../sass/teva.scss */
+/* line 303, ../sass/teva.scss */
 .missed {
   background-color: #bdc3c8;
 }
 
-/* line 300, ../sass/teva.scss */
+/* line 304, ../sass/teva.scss */
 .invalid {
   background-color: black;
 }
 
-/* line 301, ../sass/teva.scss */
+/* line 305, ../sass/teva.scss */
 .morning {
   background-color: #eec417;
 }
 
-/* line 302, ../sass/teva.scss */
+/* line 306, ../sass/teva.scss */
 .noon {
   background-color: #f09e11;
 }
 
-/* line 303, ../sass/teva.scss */
+/* line 307, ../sass/teva.scss */
 .evening {
   background-color: #d05300;
 }
 
-/* line 304, ../sass/teva.scss */
+/* line 308, ../sass/teva.scss */
 .night {
   background-color: #34495e;
 }
 
-/* line 305, ../sass/teva.scss */
+/* line 309, ../sass/teva.scss */
 .coached {
   background-color: #2ecc71;
 }
 
-/* line 307, ../sass/teva.scss */
+/* line 311, ../sass/teva.scss */
 .listcontainer {
   position: relative;
   display: block;
@@ -1316,12 +1316,12 @@ header .selected {
   margin-top: 2rem;
 }
 @media (max-width: 800px) {
-  /* line 307, ../sass/teva.scss */
+  /* line 311, ../sass/teva.scss */
   .listcontainer {
     width: 98%;
   }
 }
-/* line 319, ../sass/teva.scss */
+/* line 323, ../sass/teva.scss */
 .listcontainer .listheader {
   position: relative;
   display: block;
@@ -1331,11 +1331,11 @@ header .selected {
   background-color: #34495e;
   color: white;
 }
-/* line 327, ../sass/teva.scss */
+/* line 331, ../sass/teva.scss */
 .listcontainer .listheader p {
   color: white;
 }
-/* line 331, ../sass/teva.scss */
+/* line 335, ../sass/teva.scss */
 .listcontainer .siteheader {
   position: relative;
   display: block;
@@ -1343,12 +1343,12 @@ header .selected {
   padding: 0 1rem;
   background-color: #2d3e50;
 }
-/* line 337, ../sass/teva.scss */
+/* line 341, ../sass/teva.scss */
 .listcontainer .siteheader h2 {
   color: white;
   clear: none;
 }
-/* line 342, ../sass/teva.scss */
+/* line 346, ../sass/teva.scss */
 .listcontainer .listitem {
   position: relative;
   display: block;
@@ -1359,37 +1359,37 @@ header .selected {
   background-color: #f0f4f5;
   outline: 1px solid #bdc3c8;
 }
-/* line 351, ../sass/teva.scss */
+/* line 355, ../sass/teva.scss */
 .listcontainer .listitem:nth-child(even) {
   background-color: white;
 }
-/* line 354, ../sass/teva.scss */
+/* line 358, ../sass/teva.scss */
 .listcontainer .listitem .fa {
   color: #bdc3c8;
   float: left;
 }
-/* line 358, ../sass/teva.scss */
+/* line 362, ../sass/teva.scss */
 .listcontainer .listitem:hover, .listcontainer .listitem.selected {
   background-color: #d7eaf7;
   outline: 1px solid #3498db;
   z-index: 2;
 }
-/* line 362, ../sass/teva.scss */
+/* line 366, ../sass/teva.scss */
 .listcontainer .listitem:hover .fa, .listcontainer .listitem.selected .fa {
   color: #3498db;
 }
-/* line 367, ../sass/teva.scss */
+/* line 371, ../sass/teva.scss */
 .listcontainer .patientprofile {
   position: relative;
   display: block;
   top: -1rem;
 }
-/* line 371, ../sass/teva.scss */
+/* line 375, ../sass/teva.scss */
 .listcontainer .patientprofile .contactbar {
   padding-top: 2rem;
   width: 100%;
 }
-/* line 375, ../sass/teva.scss */
+/* line 379, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack {
   position: relative;
   display: inline-block;
@@ -1397,48 +1397,48 @@ header .selected {
   clear: none;
   width: 66%;
 }
-/* line 382, ../sass/teva.scss */
+/* line 386, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox {
   width: 100%;
   margin-bottom: 1rem;
 }
-/* line 385, ../sass/teva.scss */
+/* line 389, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar {
   display: inline-block;
   width: 100%;
   height: 72px;
 }
-/* line 389, ../sass/teva.scss */
+/* line 393, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar button {
   float: right;
 }
-/* line 392, ../sass/teva.scss */
+/* line 396, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar h1, .listcontainer .patientprofile .leftstack .calbox .datebar .fa {
   float: left;
   clear: none;
   padding-right: .5rem;
 }
-/* line 398, ../sass/teva.scss */
+/* line 402, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .weekbar {
   position: relative;
   display: block;
   top: 9px;
 }
-/* line 402, ../sass/teva.scss */
+/* line 406, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .weekbar li {
   float: left;
   position: relative;
   width: 14.285%;
   text-align: center;
 }
-/* line 409, ../sass/teva.scss */
+/* line 413, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .monthbox {
   position: relative;
   display: inline-block;
   width: 100%;
   top: 9px;
 }
-/* line 416, ../sass/teva.scss */
+/* line 420, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox {
   position: relative;
   width: 14.285%;
@@ -1447,27 +1447,27 @@ header .selected {
   background-color: #f0f4f5;
   outline: 1px solid #bdc3c8;
 }
-/* line 423, ../sass/teva.scss */
+/* line 427, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox:hover {
   background-color: #d7eaf7;
   outline: 1px solid #3498db;
   z-index: 2;
 }
-/* line 428, ../sass/teva.scss */
+/* line 432, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox h1 {
   position: relative;
   top: 1rem;
   color: #e74c3c;
   text-align: center;
 }
-/* line 434, ../sass/teva.scss */
+/* line 438, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox h6 {
   position: absolute;
   top: 0;
   right: 0;
   padding: 0 .25rem;
 }
-/* line 440, ../sass/teva.scss */
+/* line 444, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .dayfeeling {
   position: relative;
   top: 1rem;
@@ -1475,23 +1475,23 @@ header .selected {
   width: 100%;
   background-color: #eec417;
 }
-/* line 447, ../sass/teva.scss */
+/* line 451, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d2 {
   background-color: #f09e11;
 }
-/* line 448, ../sass/teva.scss */
+/* line 452, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d3 {
   background-color: #e67f22;
 }
-/* line 449, ../sass/teva.scss */
+/* line 453, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d4 {
   background-color: #d05300;
 }
-/* line 450, ../sass/teva.scss */
+/* line 454, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d5 {
   background-color: #bf3930;
 }
-/* line 451, ../sass/teva.scss */
+/* line 455, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .doses {
   position: relative;
   display: inline-block;
@@ -1499,7 +1499,7 @@ header .selected {
   width: 100%;
   padding-top: 5px;
 }
-/* line 457, ../sass/teva.scss */
+/* line 461, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .doses .dose {
   width: 12px;
   height: 12px;
@@ -1507,7 +1507,7 @@ header .selected {
   margin-left: auto;
   border-radius: 50% 50%;
 }
-/* line 468, ../sass/teva.scss */
+/* line 472, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack {
   position: relative;
   display: inline-block;
@@ -1515,20 +1515,20 @@ header .selected {
   clear: right;
   width: 32.5%;
 }
-/* line 474, ../sass/teva.scss */
+/* line 478, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox, .listcontainer .patientprofile .rightstack .rescuebox, .listcontainer .patientprofile .rightstack .coachbox {
   padding: 1rem;
   margin-bottom: 1rem;
 }
-/* line 477, ../sass/teva.scss */
+/* line 481, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox h1, .listcontainer .patientprofile .rightstack .rescuebox h1, .listcontainer .patientprofile .rightstack .coachbox h1 {
   padding-bottom: .33rem;
 }
-/* line 480, ../sass/teva.scss */
+/* line 484, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox h2, .listcontainer .patientprofile .rightstack .rescuebox h2, .listcontainer .patientprofile .rightstack .coachbox h2 {
   padding-top: 1rem;
 }
-/* line 483, ../sass/teva.scss */
+/* line 487, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox h4, .listcontainer .patientprofile .rightstack .rescuebox h4, .listcontainer .patientprofile .rightstack .coachbox h4 {
   position: relative;
   display: inline-block;
@@ -1536,7 +1536,7 @@ header .selected {
   padding: 0 .5rem;
   top: -3px;
 }
-/* line 490, ../sass/teva.scss */
+/* line 494, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats, .listcontainer .patientprofile .rightstack .rescuebox .medstats, .listcontainer .patientprofile .rightstack .coachbox .medstats {
   position: relative;
   display: inline-block;
@@ -1544,33 +1544,33 @@ header .selected {
   padding-top: 1rem;
   width: 100px;
 }
-/* line 496, ../sass/teva.scss */
+/* line 500, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats .dose, .listcontainer .patientprofile .rightstack .rescuebox .medstats .dose, .listcontainer .patientprofile .rightstack .coachbox .medstats .dose {
   position: relative;
   display: inline-block;
 }
-/* line 500, ../sass/teva.scss */
+/* line 504, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats li h4, .listcontainer .patientprofile .rightstack .rescuebox .medstats li h4, .listcontainer .patientprofile .rightstack .coachbox .medstats li h4 {
   top: -1px;
 }
-/* line 503, ../sass/teva.scss */
+/* line 507, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats span, .listcontainer .patientprofile .rightstack .rescuebox .medstats span, .listcontainer .patientprofile .rightstack .coachbox .medstats span {
   padding: 0 .33rem;
   color: black;
 }
-/* line 508, ../sass/teva.scss */
+/* line 512, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .fa-moon-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-moon-o, .listcontainer .patientprofile .rightstack .coachbox .fa-moon-o {
   color: #34495e;
 }
-/* line 509, ../sass/teva.scss */
+/* line 513, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .fa-sun-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-sun-o, .listcontainer .patientprofile .rightstack .coachbox .fa-sun-o {
   color: #eec417;
 }
-/* line 511, ../sass/teva.scss */
+/* line 515, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .rescuebox .fa {
   color: #e74c3c;
 }
-/* line 512, ../sass/teva.scss */
+/* line 516, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .coachbox .fa {
   color: #2ecc71;
 }

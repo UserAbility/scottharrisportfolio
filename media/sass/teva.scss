@@ -161,7 +161,8 @@ html, body {
 text
 -----------------------------------------------*/
 body{font-size: 12px;}
-body, h1, h2, h3, h4, h5, h6, p, button, a{
+
+body, h1, h2, h3, h4, h5, h6, p, a, button{
 	font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	text-align: left;
@@ -197,13 +198,16 @@ h6, a, button{
 		color: $clr-link;
 	}
 }
+
+p{
+	font-size: 12px;
+}
+
 .fa{
 	font-size: 26px;
 	color: $clr-link;
 }
-p{
-	font-size: 12px;
-}
+
 
 button {
 	display: inline-block;
