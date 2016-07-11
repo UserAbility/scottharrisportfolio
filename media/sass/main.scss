@@ -359,10 +359,11 @@ section{
 }
 
 .bg-ibm							{background: $clr-ibml url(../images/ibm-bg5.png) no-repeat center center;
-									@media (max-width: 650px){background: $clr-gigya url(../images/ibm-bg5.png) no-repeat left center / 210% }
+									@media (max-width: 650px){background: $clr-moey url(../images/ibm-bg5.png) no-repeat left center / 220%}
 								}
-.projectheader.bg-ibm 			{background: $clr-gigya url(../images/ibm-bg5.png) no-repeat center center / 120%;
-									@media (max-width: 1100px){background: $clr-moey url(../images/ibm-bg5.png) no-repeat center center / 290%}
+.projectheader.bg-ibm 			{background: $clr-gigya url(../images/ibm-bg5.png) no-repeat center center / 160%;
+									@media (max-width: 900px){background: $clr-moey url(../images/ibm-bg5.png) no-repeat -280px center / 200%}
+									@media (max-width: 600px){background: $clr-moey url(../images/ibm-bg5.png) no-repeat -280px center / 300%}
 								}
 .bg-gigya						{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 315%;
 									@media (max-width: 650px){background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat left center / 360% }
