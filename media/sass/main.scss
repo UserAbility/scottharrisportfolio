@@ -358,34 +358,45 @@ section{
 	}
 }
 
-.bg-ibm							{background: $clr-ibml url(../images/ibm-bg5.png) no-repeat center center;
-									@media (max-width: 650px){background: $clr-moey url(../images/ibm-bg5.png) no-repeat left center / 220%}
-								}
-.projectheader.bg-ibm 			{background: $clr-gigya url(../images/ibm-bg5.png) no-repeat center center / 160%;
-									@media (max-width: 900px){background: $clr-moey url(../images/ibm-bg5.png) no-repeat -280px center / 200%}
-									@media (max-width: 600px){background: $clr-moey url(../images/ibm-bg5.png) no-repeat -280px center / 300%}
-								}
-.bg-gigya						{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 315%;
-									@media (max-width: 650px){background: $clr-gigyal url(../images/gigya-bg.jpg) no-repeat left center / 360% }
-								}
-.projectheader.bg-gigya 		{background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;
-									@media (max-width: 600px){background: $clr-gigyal url(../images/gigya-bg.jpg) no-repeat center / 250%}
-								}
-.bg-shuttercal					{background: $clr-scd url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;}
-
-.bg-moey						{background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 100%;
-									@media (max-width: 600px){background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 150%}
-								}
-.bg-amnh						{background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat center / 100%;
-									@media (max-width: 600px){background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat right / 120%}
-								}
-.bg-mediarecords				{background: $clr-body1 url(../images/mediarecords-bg.png) no-repeat center / 210%;
-									@media (max-width: 600px){background: black url(../images/mediarecords-bg.png) no-repeat center / 250%}
-								}
-.projectheader.bg-mediarecords	{background: $clr-body1 url(../images/mediarecords-bg2.jpg) no-repeat center / 105%;
-									@media (max-width: 600px){background: black url(../images/mediarecords-bg2.png) no-repeat center / 155%;}
-								}
-.bg-nick						{background: $clr-nick url(../images/nick-bg.jpg) no-repeat center / 100%;}
+.bg-ibm	{
+	background: $clr-gigya url(../images/ibm-bg5.png) no-repeat center center;
+		@media (max-width: 650px){background: url(../images/ibm-bg5.png) no-repeat left center / 220%}
+}
+.projectheader.bg-ibm {
+	background: $clr-gigyam url(../images/ibm-bg5.png) no-repeat center center / 160%;
+		@media (max-width: 900px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 200%;}
+		@media (max-width: 600px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 300%;}	
+}
+.bg-gigya {
+	background: $clr-gigyam url(../images/gigya-bg.jpg) no-repeat center / 315%;
+		@media (max-width: 650px){background: $clr-gigyam url(../images/gigya-bg.jpg) no-repeat left center / 360%}
+}
+.projectheader.bg-gigya {
+	background: $clr-gigyam url(../images/gigya-bg.jpg) no-repeat center / 130%;
+		@media (max-width: 600px){background: url(../images/gigya-bg.jpg) no-repeat center / 250%}
+}
+.bg-shuttercal {
+	background: $clr-scd url(../images/shuttercal-bg2.jpg) no-repeat center / 100%;
+}
+.bg-moey {
+	background: $clr-moeyl url(../images/moey-bg.jpg) no-repeat center / 100%;
+		@media (max-width: 600px){background: url(../images/moey-bg.jpg) no-repeat center / 150%}
+}
+.bg-amnh {
+	background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat center / 100%;
+		@media (max-width: 600px){background: url(../images/amnh-bg.jpg) no-repeat right / 120%}
+}
+.bg-mediarecords {
+	background: black url(../images/mediarecords-bg.png) no-repeat center / 210%;
+		@media (max-width: 600px){background: url(../images/mediarecords-bg.png) no-repeat center / 250%}
+}
+.projectheader.bg-mediarecords {
+	background: black url(../images/mediarecords-bg2.jpg) no-repeat center / 105%;
+		@media (max-width: 600px){background: url(../images/mediarecords-bg2.png) no-repeat center / 155%;}
+}
+.bg-nick {
+	background: $clr-nick url(../images/nick-bg.jpg) no-repeat center / 100%;
+}
 
 /*--------------------
 project pages

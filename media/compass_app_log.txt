@@ -1759,3 +1759,63 @@
 2016-07-11 14:21:28 overwrite stylesheets/main.css 
 2016-07-11 14:23:15 overwrite stylesheets/main.css 
 2016-07-11 14:33:06 overwrite stylesheets/main.css 
+2016-07-11 14:42:39 overwrite stylesheets/main.css 
+2016-07-11 14:42:39 overwrite stylesheets/normalize.css 
+2016-07-11 14:42:39 overwrite stylesheets/pvd.css 
+2016-07-11 14:42:39 overwrite stylesheets/rapz.css 
+2016-07-11 14:42:40 overwrite stylesheets/responsive.css 
+2016-07-11 14:42:40 overwrite stylesheets/teva.css 
+2016-07-11 14:43:16 overwrite stylesheets/main.css 
+2016-07-11 14:43:16 overwrite stylesheets/normalize.css 
+2016-07-11 14:43:16 overwrite stylesheets/pvd.css 
+2016-07-11 14:43:16 overwrite stylesheets/rapz.css 
+2016-07-11 14:43:16 overwrite stylesheets/responsive.css 
+2016-07-11 14:43:16 overwrite stylesheets/teva.css 
+2016-07-11 14:45:32     error sass/main.scss (Line 367: Invalid CSS after "...dth: 900px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:45:32 overwrite stylesheets/main.css 
+2016-07-11 14:45:38     error sass/main.scss (Line 367: Invalid CSS after "...dth: 900px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:45:38 identical stylesheets/main.css 
+2016-07-11 14:45:38 identical stylesheets/normalize.css 
+2016-07-11 14:45:38 identical stylesheets/pvd.css 
+2016-07-11 14:45:38 identical stylesheets/rapz.css 
+2016-07-11 14:45:38 identical stylesheets/responsive.css 
+2016-07-11 14:45:38 identical stylesheets/teva.css 
+2016-07-11 14:45:55     error sass/main.scss (Line 367: Invalid CSS after "...dth: 900px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:45:55 identical stylesheets/main.css 
+2016-07-11 14:46:55     error sass/main.scss (Line 367: Invalid CSS after "...dth: 900px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:46:55 identical stylesheets/main.css 
+2016-07-11 14:47:16     error sass/main.scss (Line 367: Invalid CSS after "...dth: 900px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:47:16 identical stylesheets/main.css 
+2016-07-11 14:48:57     error sass/main.scss (Line 367: Invalid CSS after "...dth: 900px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:48:57 identical stylesheets/main.css 
+2016-07-11 14:49:44     error sass/main.scss (Line 367: Invalid CSS after "...dth: 900px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:49:44 identical stylesheets/main.css 
+2016-07-11 14:50:44     error sass/main.scss (Line 368: Invalid CSS after "			url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:50:44 overwrite stylesheets/main.css 
+2016-07-11 14:51:19     error sass/main.scss (Line 368: Invalid CSS after "			url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:51:19 identical stylesheets/main.css 
+2016-07-11 14:52:32     error sass/main.scss (Line 368: Invalid CSS after "			url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:52:32 identical stylesheets/main.css 
+2016-07-11 14:52:48     error sass/main.scss (Line 368: Invalid CSS after "			url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:52:48 identical stylesheets/main.css 
+2016-07-11 14:53:17 overwrite stylesheets/main.css 
+2016-07-11 14:54:03     error sass/main.scss (Line 367: Invalid CSS after "...dth: 650px){url": expected "{", was "(../images/gigy...")
+2016-07-11 14:54:03 overwrite stylesheets/main.css 
+2016-07-11 14:55:50     error sass/main.scss (Line 367: Invalid CSS after "...dth: 600px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:55:50 overwrite stylesheets/main.css 
+2016-07-11 14:56:01     error sass/main.scss (Line 367: Invalid CSS after "...dth: 600px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:56:01 identical stylesheets/main.css 
+2016-07-11 14:57:13     error sass/main.scss (Line 363: Invalid CSS after "...dth: 650px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:57:13 overwrite stylesheets/main.css 
+2016-07-11 14:57:20     error sass/main.scss (Line 363: Invalid CSS after "...dth: 650px){url": expected "{", was "(../images/ibm-...")
+2016-07-11 14:57:20 identical stylesheets/main.css 
+2016-07-11 14:57:59     error sass/main.scss (Line 1120: Invalid CSS after "}": expected "}", was "")
+2016-07-11 14:57:59 overwrite stylesheets/main.css 
+2016-07-11 14:58:17     error sass/main.scss (Line 1120: Invalid CSS after "...one!important;}": expected "}", was "")
+2016-07-11 14:58:17 overwrite stylesheets/main.css 
+2016-07-11 14:58:58 overwrite stylesheets/main.css 
+2016-07-11 14:59:00 identical stylesheets/main.css 
+2016-07-11 14:59:07 identical stylesheets/main.css 
+2016-07-11 14:59:30 overwrite stylesheets/main.css 
+2016-07-11 15:05:36 overwrite stylesheets/main.css 
+2016-07-11 15:06:11 identical stylesheets/main.css 
