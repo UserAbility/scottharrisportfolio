@@ -291,6 +291,10 @@ section{
 				width: 80%;
 				margin-left: 10%;
 			}
+			&.giggy{
+				width: 65%;
+				margin-left: 17.5%;
+			}
 		}
 	}
 	.ibm{
@@ -420,7 +424,7 @@ project pages
 		overflow: auto;
 	}
 	&.bg-ibm img 			{width: 25%; margin-left: 37.5%;		@media (max-width: 600px) {width: 50%; margin-left: 25%;}}
-	&.bg-gigya img 			{width: 40%; margin-left: 30%;}
+	&.bg-gigya img 			{width: 30%; margin-left: 35%;}
 	&.bg-shuttercal img 	{width: 56.5%; margin-left: 21.25%;		@media (max-width: 600px) {width: 65%; margin-left: 18.5%;}}
 	&.bg-moey img 			{width: 50%; margin-left: 25%;			@media (max-width: 600px) {width: 65%; margin-left: 18.5%;}}
 	&.bg-amnh img 			{width: 35%; margin-left: 32.5%; 		@media (max-width: 600px) {width: 60%; margin-left: 20%;}}
