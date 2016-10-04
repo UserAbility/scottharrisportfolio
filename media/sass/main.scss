@@ -363,7 +363,7 @@ section{
 		@media (max-width: 650px){background: url(../images/ibm-bg5.png) no-repeat left center / 220%}
 }
 .projectheader.bg-ibm {
-	background: $clr-gigyam url(../images/ibm-bg5.png) no-repeat center center / 160%;
+	background: $clr-darkest /*--url(../images/ibm-bg5.png)--*/ no-repeat center center / 160%;
 		@media (max-width: 900px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 200%;}
 		@media (max-width: 600px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 300%;}	
 }
