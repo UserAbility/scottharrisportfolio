@@ -1291,7 +1291,7 @@ home
 /* line 369, ../sass/main.scss */
 .projectheader.bg-ibm {
   background: black no-repeat center center/160%;
-  height: 500px;
+  height: 600px;
   /*--
   @media (max-width: 900px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 200%;}
   @media (max-width: 600px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 300%;}	
