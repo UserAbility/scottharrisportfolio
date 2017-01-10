@@ -1880,3 +1880,6 @@
 2017-01-10 10:21:17 overwrite stylesheets/main.css 
 2017-01-10 10:22:48 overwrite stylesheets/main.css 
 2017-01-10 11:54:02 overwrite stylesheets/main.css 
+2017-01-10 11:57:25     error sass/main.scss (Line 372: Invalid CSS after "	overflow hidden": expected "{", was ";")
+2017-01-10 11:57:25 overwrite stylesheets/main.css 
+2017-01-10 11:57:34 overwrite stylesheets/main.css 

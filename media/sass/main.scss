@@ -369,6 +369,7 @@ section{
 .projectheader.bg-ibm {
 	background: $clr-darkest /*--url(../images/ibm-bg5.png)--*/ no-repeat center center / 160%;
 	height: 600px;
+	overflow: hidden;
 		/*--
 		@media (max-width: 900px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 200%;}
 		@media (max-width: 600px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 300%;}	
