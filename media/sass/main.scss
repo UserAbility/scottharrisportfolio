@@ -366,16 +366,7 @@ section{
 	background: $clr-gigya url(../images/ibm-bg5.png) no-repeat center center;
 		@media (max-width: 650px){background: url(../images/ibm-bg5.png) no-repeat left center / 220%}
 }
-.projectheader.bg-ibm {
-	background: $clr-darkest /*--url(../images/ibm-bg5.png)--*/ no-repeat center center / 160%;
-	height: 600px;
-	overflow: hidden;
-		/*--
-		@media (max-width: 900px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 200%;}
-		@media (max-width: 600px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 300%;}	
-		--*/
-	@media (max-width: 650px){height: 230px;}
-}
+
 .bg-gigya {
 	background: $clr-gigyam url(../images/gigya-bg.jpg) no-repeat center / 315%;
 		@media (max-width: 650px){background: $clr-gigyam url(../images/gigya-bg.jpg) no-repeat left center / 360%}
@@ -438,6 +429,17 @@ project pages
 
 	.leftmenu{
 		z-index: 2;
+	}
+	&.bg-ibm {
+		background: $clr-darkest /*--url(../images/ibm-bg5.png) no-repeat center center / 160%;--*/;
+		height: 500px;
+		overflow: hidden;
+
+			/*--
+			@media (max-width: 900px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 200%;}
+			@media (max-width: 600px){background: url(../images/ibm-bg5.png) no-repeat -280px center / 300%;}	
+			--*/
+		@media (max-width: 650px){height: 230px;}
 	}
 }
 
