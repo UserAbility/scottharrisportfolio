@@ -1,0 +1,1591 @@
+/* -------------------------------------------------------------------
+colors
+------------------------------------------------------------------- */
+/*--- body colors ----*/
+/*body*/
+/* line 18, ../sass/_colors.scss */
+.clr-body {
+  color: #555555;
+}
+
+/* line 19, ../sass/_colors.scss */
+.clr-body1 {
+  color: #7b7b7b;
+}
+
+/* line 20, ../sass/_colors.scss */
+.clr-body2 {
+  color: #c8c8c8;
+}
+
+/* line 21, ../sass/_colors.scss */
+.clr-body3 {
+  color: #d4d4d4;
+}
+
+/* line 22, ../sass/_colors.scss */
+.clr-body4 {
+  color: #e1e1e1;
+}
+
+/* line 23, ../sass/_colors.scss */
+.clr-body5 {
+  color: #eeeeee;
+}
+
+/* line 24, ../sass/_colors.scss */
+.clr-body-bg {
+  background-color: #555555;
+}
+
+/* line 25, ../sass/_colors.scss */
+.clr-body1-bg {
+  background-color: #7b7b7b;
+}
+
+/* line 26, ../sass/_colors.scss */
+.clr-body2-bg {
+  background-color: #c8c8c8;
+}
+
+/* line 27, ../sass/_colors.scss */
+.clr-body3-bg {
+  background-color: #d4d4d4;
+}
+
+/* line 28, ../sass/_colors.scss */
+.clr-body4-bg {
+  background-color: #e1e1e1;
+}
+
+/* line 29, ../sass/_colors.scss */
+.clr-body5-bg {
+  background-color: #eeeeee;
+}
+
+/*--- color groups ---*/
+/*reds*/
+/* line 37, ../sass/_colors.scss */
+.clr-neg1 {
+  color: #ffcccc;
+}
+
+/* line 38, ../sass/_colors.scss */
+.clr-neg2 {
+  color: red;
+}
+
+/* line 39, ../sass/_colors.scss */
+.clr-neg3 {
+  color: #b30000;
+}
+
+/* line 40, ../sass/_colors.scss */
+.clr-neg1-bg {
+  background-color: #ffcccc;
+}
+
+/* line 41, ../sass/_colors.scss */
+.clr-neg2-bg {
+  background-color: red;
+}
+
+/* line 42, ../sass/_colors.scss */
+.clr-neg3-bg {
+  background-color: #b30000;
+}
+
+/*greens*/
+/* line 48, ../sass/_colors.scss */
+.clr-pos1 {
+  color: #b1e8c1;
+}
+
+/* line 49, ../sass/_colors.scss */
+.clr-pos2 {
+  color: #4fca74;
+}
+
+/* line 50, ../sass/_colors.scss */
+.clr-pos3 {
+  color: #1e6232;
+}
+
+/* line 51, ../sass/_colors.scss */
+.clr-pos1-bg {
+  background-color: #b1e8c1;
+}
+
+/* line 52, ../sass/_colors.scss */
+.clr-pos2-bg {
+  background-color: #4fca74;
+}
+
+/* line 53, ../sass/_colors.scss */
+.clr-pos3-bg {
+  background-color: #1e6232;
+}
+
+/*yellows*/
+/* line 59, ../sass/_colors.scss */
+.clr-alert1 {
+  color: #fff5cd;
+}
+
+/* line 60, ../sass/_colors.scss */
+.clr-alert2 {
+  color: #ffe167;
+}
+
+/* line 61, ../sass/_colors.scss */
+.clr-alert3 {
+  color: #9a7c00;
+}
+
+/* line 62, ../sass/_colors.scss */
+.clr-alert1-bg {
+  background-color: #fff5cd;
+}
+
+/* line 63, ../sass/_colors.scss */
+.clr-alert2-bg {
+  background-color: #ffe167;
+}
+
+/* line 64, ../sass/_colors.scss */
+.clr-alert3-bg {
+  background-color: #9a7c00;
+}
+
+/*pinks*/
+/* line 70, ../sass/_colors.scss */
+.clr-loud1 {
+  color: #eec4dd;
+}
+
+/* line 71, ../sass/_colors.scss */
+.clr-loud2 {
+  color: #da7db3;
+}
+
+/* line 72, ../sass/_colors.scss */
+.clr-loud3 {
+  color: #a83075;
+}
+
+/* line 73, ../sass/_colors.scss */
+.clr-loud1-bg {
+  background-color: #eec4dd;
+}
+
+/* line 74, ../sass/_colors.scss */
+.clr-loud2-bg {
+  background-color: #da7db3;
+}
+
+/* line 75, ../sass/_colors.scss */
+.clr-loud3-bg {
+  background-color: #a83075;
+}
+
+/*blues*/
+/* line 81, ../sass/_colors.scss */
+.clr-cool1 {
+  color: #8ddfff;
+}
+
+/* line 82, ../sass/_colors.scss */
+.clr-cool2 {
+  color: #00aef3;
+}
+
+/* line 83, ../sass/_colors.scss */
+.clr-cool3 {
+  color: #00658d;
+}
+
+/* line 84, ../sass/_colors.scss */
+.clr-cool1-bg {
+  background-color: #8ddfff;
+}
+
+/* line 85, ../sass/_colors.scss */
+.clr-cool2-bg {
+  background-color: #00aef3;
+}
+
+/* line 86, ../sass/_colors.scss */
+.clr-cool3-bg {
+  background-color: #00658d;
+}
+
+/*--- color groups ---*/
+/*--- brands ---*/
+/* line 99, ../sass/_colors.scss */
+.clr-gigya {
+  color: #1f5ba7;
+}
+
+/* line 100, ../sass/_colors.scss */
+.clr-gigyal {
+  color: #cae7f9;
+}
+
+/* line 101, ../sass/_colors.scss */
+.clr-gigya-bg {
+  background-color: #1f5ba7;
+}
+
+/* line 102, ../sass/_colors.scss */
+.clr-gigyal-bg {
+  background-color: #cae7f9;
+}
+
+/* line 107, ../sass/_colors.scss */
+.clr-sc {
+  color: #ff9112;
+}
+
+/* line 108, ../sass/_colors.scss */
+.clr-scl {
+  color: #fcc884;
+}
+
+/* line 109, ../sass/_colors.scss */
+.clr-scd {
+  color: salmon;
+}
+
+/* line 110, ../sass/_colors.scss */
+.clr-sc-bg {
+  background-color: #ff9112;
+}
+
+/* line 111, ../sass/_colors.scss */
+.clr-scl-bg {
+  background-color: #fcc884;
+}
+
+/* line 112, ../sass/_colors.scss */
+.clr-scd-bg {
+  background-color: salmon;
+}
+
+/* line 117, ../sass/_colors.scss */
+.clr-moey {
+  color: #00aef3;
+}
+
+/* line 118, ../sass/_colors.scss */
+.clr-moeyl {
+  color: #c0edff;
+}
+
+/* line 119, ../sass/_colors.scss */
+.clr-moeyd {
+  color: #0077a6;
+}
+
+/* line 120, ../sass/_colors.scss */
+.clr-moey-bg {
+  background-color: #00aef3;
+}
+
+/* line 121, ../sass/_colors.scss */
+.clr-moeyl-bg {
+  background-color: #c0edff;
+}
+
+/* line 122, ../sass/_colors.scss */
+.clr-moeyd-bg {
+  background-color: #0077a6;
+}
+
+/* line 126, ../sass/_colors.scss */
+.clr-amnh {
+  color: #0074bd;
+}
+
+/* line 127, ../sass/_colors.scss */
+.clr-amnhl {
+  color: #7ebfe9;
+}
+
+/* line 128, ../sass/_colors.scss */
+.clr-amnh-bg {
+  background-color: #0074bd;
+}
+
+/* line 129, ../sass/_colors.scss */
+.clr-amnhl-bg {
+  background-color: #7ebfe9;
+}
+
+/* line 134, ../sass/_colors.scss */
+.clr-mr {
+  color: #ffb541;
+}
+
+/* line 135, ../sass/_colors.scss */
+.clr-mrl {
+  color: #ffdda7;
+}
+
+/* line 136, ../sass/_colors.scss */
+.clr-mrd {
+  color: #da8500;
+}
+
+/* line 137, ../sass/_colors.scss */
+.clr-mr-bg {
+  background-color: #ffb541;
+}
+
+/* line 138, ../sass/_colors.scss */
+.clr-mrl-bg {
+  background-color: #ffdda7;
+}
+
+/* line 139, ../sass/_colors.scss */
+.clr-mrd-bg {
+  background-color: #da8500;
+}
+
+/* line 143, ../sass/_colors.scss */
+.clr-nick {
+  color: #ff7b00;
+}
+
+/* line 144, ../sass/_colors.scss */
+.clr-nickl {
+  color: #ffca99;
+}
+
+/* line 145, ../sass/_colors.scss */
+.clr-nick-bg {
+  background-color: #ff7b00;
+}
+
+/* line 146, ../sass/_colors.scss */
+.clr-nickl-bg {
+  background-color: #ffca99;
+}
+
+/* line 149, ../sass/_colors.scss */
+.clr-ibml {
+  color: #2677c8;
+}
+
+/* -------------------------------------------------------------------
+colors
+------------------------------------------------------------------- */
+/*--- body colors ----*/
+/*body*/
+/* line 18, ../sass/_colors.scss */
+.clr-body {
+  color: #555555;
+}
+
+/* line 19, ../sass/_colors.scss */
+.clr-body1 {
+  color: #7b7b7b;
+}
+
+/* line 20, ../sass/_colors.scss */
+.clr-body2 {
+  color: #c8c8c8;
+}
+
+/* line 21, ../sass/_colors.scss */
+.clr-body3 {
+  color: #d4d4d4;
+}
+
+/* line 22, ../sass/_colors.scss */
+.clr-body4 {
+  color: #e1e1e1;
+}
+
+/* line 23, ../sass/_colors.scss */
+.clr-body5 {
+  color: #eeeeee;
+}
+
+/* line 24, ../sass/_colors.scss */
+.clr-body-bg {
+  background-color: #555555;
+}
+
+/* line 25, ../sass/_colors.scss */
+.clr-body1-bg {
+  background-color: #7b7b7b;
+}
+
+/* line 26, ../sass/_colors.scss */
+.clr-body2-bg {
+  background-color: #c8c8c8;
+}
+
+/* line 27, ../sass/_colors.scss */
+.clr-body3-bg {
+  background-color: #d4d4d4;
+}
+
+/* line 28, ../sass/_colors.scss */
+.clr-body4-bg {
+  background-color: #e1e1e1;
+}
+
+/* line 29, ../sass/_colors.scss */
+.clr-body5-bg {
+  background-color: #eeeeee;
+}
+
+/*--- color groups ---*/
+/*reds*/
+/* line 37, ../sass/_colors.scss */
+.clr-neg1 {
+  color: #ffcccc;
+}
+
+/* line 38, ../sass/_colors.scss */
+.clr-neg2 {
+  color: red;
+}
+
+/* line 39, ../sass/_colors.scss */
+.clr-neg3 {
+  color: #b30000;
+}
+
+/* line 40, ../sass/_colors.scss */
+.clr-neg1-bg {
+  background-color: #ffcccc;
+}
+
+/* line 41, ../sass/_colors.scss */
+.clr-neg2-bg {
+  background-color: red;
+}
+
+/* line 42, ../sass/_colors.scss */
+.clr-neg3-bg {
+  background-color: #b30000;
+}
+
+/*greens*/
+/* line 48, ../sass/_colors.scss */
+.clr-pos1 {
+  color: #b1e8c1;
+}
+
+/* line 49, ../sass/_colors.scss */
+.clr-pos2 {
+  color: #4fca74;
+}
+
+/* line 50, ../sass/_colors.scss */
+.clr-pos3 {
+  color: #1e6232;
+}
+
+/* line 51, ../sass/_colors.scss */
+.clr-pos1-bg {
+  background-color: #b1e8c1;
+}
+
+/* line 52, ../sass/_colors.scss */
+.clr-pos2-bg {
+  background-color: #4fca74;
+}
+
+/* line 53, ../sass/_colors.scss */
+.clr-pos3-bg {
+  background-color: #1e6232;
+}
+
+/*yellows*/
+/* line 59, ../sass/_colors.scss */
+.clr-alert1 {
+  color: #fff5cd;
+}
+
+/* line 60, ../sass/_colors.scss */
+.clr-alert2 {
+  color: #ffe167;
+}
+
+/* line 61, ../sass/_colors.scss */
+.clr-alert3 {
+  color: #9a7c00;
+}
+
+/* line 62, ../sass/_colors.scss */
+.clr-alert1-bg {
+  background-color: #fff5cd;
+}
+
+/* line 63, ../sass/_colors.scss */
+.clr-alert2-bg {
+  background-color: #ffe167;
+}
+
+/* line 64, ../sass/_colors.scss */
+.clr-alert3-bg {
+  background-color: #9a7c00;
+}
+
+/*pinks*/
+/* line 70, ../sass/_colors.scss */
+.clr-loud1 {
+  color: #eec4dd;
+}
+
+/* line 71, ../sass/_colors.scss */
+.clr-loud2 {
+  color: #da7db3;
+}
+
+/* line 72, ../sass/_colors.scss */
+.clr-loud3 {
+  color: #a83075;
+}
+
+/* line 73, ../sass/_colors.scss */
+.clr-loud1-bg {
+  background-color: #eec4dd;
+}
+
+/* line 74, ../sass/_colors.scss */
+.clr-loud2-bg {
+  background-color: #da7db3;
+}
+
+/* line 75, ../sass/_colors.scss */
+.clr-loud3-bg {
+  background-color: #a83075;
+}
+
+/*blues*/
+/* line 81, ../sass/_colors.scss */
+.clr-cool1 {
+  color: #8ddfff;
+}
+
+/* line 82, ../sass/_colors.scss */
+.clr-cool2 {
+  color: #00aef3;
+}
+
+/* line 83, ../sass/_colors.scss */
+.clr-cool3 {
+  color: #00658d;
+}
+
+/* line 84, ../sass/_colors.scss */
+.clr-cool1-bg {
+  background-color: #8ddfff;
+}
+
+/* line 85, ../sass/_colors.scss */
+.clr-cool2-bg {
+  background-color: #00aef3;
+}
+
+/* line 86, ../sass/_colors.scss */
+.clr-cool3-bg {
+  background-color: #00658d;
+}
+
+/*--- color groups ---*/
+/*--- brands ---*/
+/* line 99, ../sass/_colors.scss */
+.clr-gigya {
+  color: #1f5ba7;
+}
+
+/* line 100, ../sass/_colors.scss */
+.clr-gigyal {
+  color: #cae7f9;
+}
+
+/* line 101, ../sass/_colors.scss */
+.clr-gigya-bg {
+  background-color: #1f5ba7;
+}
+
+/* line 102, ../sass/_colors.scss */
+.clr-gigyal-bg {
+  background-color: #cae7f9;
+}
+
+/* line 107, ../sass/_colors.scss */
+.clr-sc {
+  color: #ff9112;
+}
+
+/* line 108, ../sass/_colors.scss */
+.clr-scl {
+  color: #fcc884;
+}
+
+/* line 109, ../sass/_colors.scss */
+.clr-scd {
+  color: salmon;
+}
+
+/* line 110, ../sass/_colors.scss */
+.clr-sc-bg {
+  background-color: #ff9112;
+}
+
+/* line 111, ../sass/_colors.scss */
+.clr-scl-bg {
+  background-color: #fcc884;
+}
+
+/* line 112, ../sass/_colors.scss */
+.clr-scd-bg {
+  background-color: salmon;
+}
+
+/* line 117, ../sass/_colors.scss */
+.clr-moey {
+  color: #00aef3;
+}
+
+/* line 118, ../sass/_colors.scss */
+.clr-moeyl {
+  color: #c0edff;
+}
+
+/* line 119, ../sass/_colors.scss */
+.clr-moeyd {
+  color: #0077a6;
+}
+
+/* line 120, ../sass/_colors.scss */
+.clr-moey-bg {
+  background-color: #00aef3;
+}
+
+/* line 121, ../sass/_colors.scss */
+.clr-moeyl-bg {
+  background-color: #c0edff;
+}
+
+/* line 122, ../sass/_colors.scss */
+.clr-moeyd-bg {
+  background-color: #0077a6;
+}
+
+/* line 126, ../sass/_colors.scss */
+.clr-amnh {
+  color: #0074bd;
+}
+
+/* line 127, ../sass/_colors.scss */
+.clr-amnhl {
+  color: #7ebfe9;
+}
+
+/* line 128, ../sass/_colors.scss */
+.clr-amnh-bg {
+  background-color: #0074bd;
+}
+
+/* line 129, ../sass/_colors.scss */
+.clr-amnhl-bg {
+  background-color: #7ebfe9;
+}
+
+/* line 134, ../sass/_colors.scss */
+.clr-mr {
+  color: #ffb541;
+}
+
+/* line 135, ../sass/_colors.scss */
+.clr-mrl {
+  color: #ffdda7;
+}
+
+/* line 136, ../sass/_colors.scss */
+.clr-mrd {
+  color: #da8500;
+}
+
+/* line 137, ../sass/_colors.scss */
+.clr-mr-bg {
+  background-color: #ffb541;
+}
+
+/* line 138, ../sass/_colors.scss */
+.clr-mrl-bg {
+  background-color: #ffdda7;
+}
+
+/* line 139, ../sass/_colors.scss */
+.clr-mrd-bg {
+  background-color: #da8500;
+}
+
+/* line 143, ../sass/_colors.scss */
+.clr-nick {
+  color: #ff7b00;
+}
+
+/* line 144, ../sass/_colors.scss */
+.clr-nickl {
+  color: #ffca99;
+}
+
+/* line 145, ../sass/_colors.scss */
+.clr-nick-bg {
+  background-color: #ff7b00;
+}
+
+/* line 146, ../sass/_colors.scss */
+.clr-nickl-bg {
+  background-color: #ffca99;
+}
+
+/* line 149, ../sass/_colors.scss */
+.clr-ibml {
+  color: #2677c8;
+}
+
+/*------- custome ---------*/
+/* ----------------------------------------------
+resets
+-----------------------------------------------*/
+/* line 9, ../sass/cmi.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-transform: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 19, ../sass/cmi.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 22, ../sass/cmi.scss */
+body {
+  line-height: 1;
+}
+
+/* line 25, ../sass/cmi.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 28, ../sass/cmi.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 32, ../sass/cmi.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 36, ../sass/cmi.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ----------------------------------------------
+colors
+-----------------------------------------------*/
+/*--- defaults colors ----*/
+/* line 48, ../sass/cmi.scss */
+.clr-lightest {
+  color: white;
+}
+
+/* line 49, ../sass/cmi.scss */
+.clr-darkest {
+  color: #414141;
+}
+
+/* line 50, ../sass/cmi.scss */
+.clr-cmibrand {
+  color: #f4b90b;
+}
+
+/* line 51, ../sass/cmi.scss */
+.clr-cmibrand {
+  color: #f4b90b;
+}
+
+/* line 52, ../sass/cmi.scss */
+.clr-bg-lightest {
+  background-color: white;
+}
+
+/* line 53, ../sass/cmi.scss */
+.clr-bg-darkest {
+  background-color: #414141;
+}
+
+/* line 54, ../sass/cmi.scss */
+.clr-bg-cmibrand {
+  background-color: #f4b90b;
+}
+
+/*Backgrounds*/
+/* line 61, ../sass/cmi.scss */
+.clr-bg-dark {
+  background-color: #535353;
+}
+
+/* line 62, ../sass/cmi.scss */
+.clr-bg-darker {
+  background-color: #2f2f2f;
+}
+
+/* line 63, ../sass/cmi.scss */
+.clr-bg-light {
+  background-color: #f3f3f3;
+}
+
+/* line 64, ../sass/cmi.scss */
+.clr-bg-lighter {
+  background-color: white;
+}
+
+/*body*/
+/* line 73, ../sass/cmi.scss */
+.clr-body1 {
+  color: #bcc4b9;
+}
+
+/* line 74, ../sass/cmi.scss */
+.clr-body2 {
+  color: #535353;
+}
+
+/* line 75, ../sass/cmi.scss */
+.clr-body3 {
+  color: #2a2a2a;
+}
+
+/* line 76, ../sass/cmi.scss */
+.clr-body4 {
+  color: #303030;
+}
+
+/* line 77, ../sass/cmi.scss */
+.clr-link {
+  color: #b77e05;
+}
+
+/* line 78, ../sass/cmi.scss */
+.clr-linkl {
+  color: #f4b90b;
+}
+
+/* line 79, ../sass/cmi.scss */
+.clr-bg-body1 {
+  background-color: #bcc4b9;
+}
+
+/* line 80, ../sass/cmi.scss */
+.clr-bg-body2 {
+  background-color: #535353;
+}
+
+/* line 81, ../sass/cmi.scss */
+.clr-bg-body3 {
+  background-color: #2a2a2a;
+}
+
+/* line 82, ../sass/cmi.scss */
+.clr-bg-body4 {
+  background-color: #303030;
+}
+
+/* line 83, ../sass/cmi.scss */
+.clr-bg-link {
+  background-color: #b77e05;
+}
+
+/* line 84, ../sass/cmi.scss */
+.clr-bg-linkl {
+  background-color: #f4b90b;
+}
+
+/*Warm*/
+/* line 92, ../sass/cmi.scss */
+.clr-warm1 {
+  color: #f4b90b;
+}
+
+/* line 93, ../sass/cmi.scss */
+.clr-warm2 {
+  color: #f09e11;
+}
+
+/* line 94, ../sass/cmi.scss */
+.clr-warm3 {
+  color: #e67f22;
+}
+
+/* line 95, ../sass/cmi.scss */
+.clr-warm4 {
+  color: #d05300;
+}
+
+/* line 96, ../sass/cmi.scss */
+.clr-warm5 {
+  color: #bf3930;
+}
+
+/* line 97, ../sass/cmi.scss */
+.clr-bg-warm1 {
+  background-color: #f4b90b;
+}
+
+/* line 98, ../sass/cmi.scss */
+.clr-bg-warm2 {
+  background-color: #f09e11;
+}
+
+/* line 99, ../sass/cmi.scss */
+.clr-bg-warm3 {
+  background-color: #e67f22;
+}
+
+/* line 100, ../sass/cmi.scss */
+.clr-bg-warm4 {
+  background-color: #d05300;
+}
+
+/* line 101, ../sass/cmi.scss */
+.clr-bg-warm5 {
+  background-color: #bf3930;
+}
+
+/*positive/negative*/
+/* line 108, ../sass/cmi.scss */
+.clr-pos1 {
+  color: #2ecc71;
+}
+
+/* line 109, ../sass/cmi.scss */
+.clr-pos2 {
+  color: #00a785;
+}
+
+/* line 110, ../sass/cmi.scss */
+.clr-neg1 {
+  color: #f4938b;
+}
+
+/* line 111, ../sass/cmi.scss */
+.clr-neg2 {
+  color: #e74c3c;
+}
+
+/* line 112, ../sass/cmi.scss */
+.clr-bg-pos1 {
+  background-color: #2ecc71;
+}
+
+/* line 113, ../sass/cmi.scss */
+.clr-bg-pos2 {
+  background-color: #00a785;
+}
+
+/* line 114, ../sass/cmi.scss */
+.clr-bg-neg1 {
+  background-color: #f4938b;
+}
+
+/* line 115, ../sass/cmi.scss */
+.clr-bg-neg2 {
+  background-color: #e74c3c;
+}
+
+/*spectrum*/
+/* line 122, ../sass/cmi.scss */
+.clr-yellow1 {
+  color: #f4b90b;
+}
+
+/* line 123, ../sass/cmi.scss */
+.clr-green1 {
+  color: #2ecc71;
+}
+
+/* line 124, ../sass/cmi.scss */
+.clr-aqua1 {
+  color: #1abc9c;
+}
+
+/* line 125, ../sass/cmi.scss */
+.clr-purple1 {
+  color: #9b59b6;
+}
+
+/* line 126, ../sass/cmi.scss */
+.clr-bg-yellow1 {
+  background-color: #f4b90b;
+}
+
+/* line 127, ../sass/cmi.scss */
+.clr-bg-green1 {
+  background-color: #2ecc71;
+}
+
+/* line 128, ../sass/cmi.scss */
+.clr-bg-aqua1 {
+  background-color: #1abc9c;
+}
+
+/* line 129, ../sass/cmi.scss */
+.clr-bg-purple1 {
+  background-color: #9b59b6;
+}
+
+/* ----------------------------------------------
+containers
+-----------------------------------------------*/
+/* line 134, ../sass/cmi.scss */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 138, ../sass/cmi.scss */
+html, body {
+  line-height: 1.6rem;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+/* line 143, ../sass/cmi.scss */
+#wrapper {
+  max-width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto 0;
+  /* the bottom margin is the negative value of the footer's height */
+  background-color: #eeeeee;
+}
+
+/* ----------------------------------------------
+text
+-----------------------------------------------*/
+/* line 155, ../sass/cmi.scss */
+h1, h2, h3, h4, h5, h6, body {
+  font-family: 'Raleway','Open Sans',Arial,Helvetica,sans-serif;
+  font-weight: 600;
+  color: #414141;
+  margin: 0 0 30px 0;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 164, ../sass/cmi.scss */
+h1 {
+  font-size: 36px;
+  margin: 0 0 44px 0;
+}
+
+/* line 165, ../sass/cmi.scss */
+h2 {
+  font-size: 30px;
+  margin: 0 0 32px 0;
+}
+
+/* line 166, ../sass/cmi.scss */
+h3 {
+  font-size: 24px;
+  margin: 0 0 32px 0;
+  letter-spacing: normal;
+}
+
+/* line 167, ../sass/cmi.scss */
+h4 {
+  font-size: 18px;
+  margin: 0 0 14px 0;
+  letter-spacing: normal;
+}
+
+/* line 168, ../sass/cmi.scss */
+h5 {
+  font-size: 14px;
+  margin: 0 0 20px 0;
+  letter-spacing: normal;
+}
+
+/* line 169, ../sass/cmi.scss */
+h6 {
+  font-size: 12px;
+  margin: 0 0 20px 0;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+/* line 171, ../sass/cmi.scss */
+h1 > span, h2 > span, h3 > span, h4 > span, h5 > span, h6 > span {
+  color: #1ABC9C;
+}
+
+/* line 175, ../sass/cmi.scss */
+body, button, p, a {
+  font-size: 12px;
+}
+
+/* line 177, ../sass/cmi.scss */
+a, button, .fa {
+  color: #b77e05;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* line 182, ../sass/cmi.scss */
+a:hover, button:hover, .fa:hover {
+  color: #f4b90b;
+}
+
+/* line 187, ../sass/cmi.scss */
+.fa {
+  font-size: 26px;
+}
+
+/* line 191, ../sass/cmi.scss */
+button {
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 12px;
+  height: 40px;
+  margin: 0;
+  padding: 0 1rem;
+  border: none;
+  color: white;
+  background-color: #b77e05;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* line 205, ../sass/cmi.scss */
+button:hover {
+  color: white;
+  background-color: #f4b90b;
+}
+
+/* line 212, ../sass/cmi.scss */
+.box {
+  min-height: 10px;
+  background-color: #f3f3f3;
+  outline: 1px solid #bcc4b9;
+}
+
+/* line 218, ../sass/cmi.scss */
+header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background-color: #2f2f2f;
+  height: 96px;
+}
+/* line 225, ../sass/cmi.scss */
+header .logobox {
+  position: relative;
+  display: inline-block;
+  width: 15%;
+  height: 90px;
+  float: left;
+}
+/* line 232, ../sass/cmi.scss */
+header .logobox img {
+  position: relative;
+  top: 50%;
+  float: left;
+  margin: 0 5%;
+  transform: translate(0, -50%);
+  width: 90%;
+}
+/* line 241, ../sass/cmi.scss */
+header .menubox {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  height: 96px;
+}
+@media (max-width: 800px) {
+  /* line 241, ../sass/cmi.scss */
+  header .menubox {
+    width: 90%;
+    padding: 0 1% 0 5%;
+  }
+}
+/* line 251, ../sass/cmi.scss */
+header .username {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+@media (max-width: 800px) {
+  /* line 251, ../sass/cmi.scss */
+  header .username {
+    left: 5%;
+  }
+}
+/* line 260, ../sass/cmi.scss */
+header .fa {
+  position: relative;
+  top: 50%;
+  float: right;
+  margin-left: 3%;
+  transform: translate(0, -50%);
+}
+/* line 267, ../sass/cmi.scss */
+header .selected {
+  color: white;
+}
+
+/* line 271, ../sass/cmi.scss */
+.footer {
+  color: white;
+  background-color: #2f2f2f;
+  width: 100%;
+}
+/* line 275, ../sass/cmi.scss */
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6, .footer p, .footer body {
+  color: white;
+}
+
+/* line 280, ../sass/cmi.scss */
+.dose {
+  width: 12px;
+  height: 12px;
+  background-color: #b77e05;
+  border-radius: 50% 50%;
+}
+
+/* line 286, ../sass/cmi.scss */
+.taken {
+  background-color: #b77e05;
+}
+
+/* line 287, ../sass/cmi.scss */
+.missed {
+  background-color: #bcc4b9;
+}
+
+/* line 288, ../sass/cmi.scss */
+.invalid {
+  background-color: #414141;
+}
+
+/* line 289, ../sass/cmi.scss */
+.morning {
+  background-color: #f4b90b;
+}
+
+/* line 290, ../sass/cmi.scss */
+.noon {
+  background-color: #f09e11;
+}
+
+/* line 291, ../sass/cmi.scss */
+.evening {
+  background-color: #d05300;
+}
+
+/* line 292, ../sass/cmi.scss */
+.night {
+  background-color: #535353;
+}
+
+/* line 293, ../sass/cmi.scss */
+.coached {
+  background-color: #2ecc71;
+}
+
+/* line 295, ../sass/cmi.scss */
+.listcontainer {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 600px;
+  margin-top: 2rem;
+}
+@media (max-width: 800px) {
+  /* line 295, ../sass/cmi.scss */
+  .listcontainer {
+    width: 98%;
+  }
+}
+/* line 307, ../sass/cmi.scss */
+.listcontainer .listheader {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  padding: 0 1rem;
+  background-color: #535353;
+  color: white;
+}
+/* line 315, ../sass/cmi.scss */
+.listcontainer .listheader p {
+  color: white;
+}
+/* line 319, ../sass/cmi.scss */
+.listcontainer .siteheader {
+  position: relative;
+  display: block;
+  height: 30px;
+  padding: 0 1rem;
+  background-color: #2f2f2f;
+}
+/* line 325, ../sass/cmi.scss */
+.listcontainer .siteheader h2 {
+  color: white;
+  clear: none;
+}
+/* line 330, ../sass/cmi.scss */
+.listcontainer .listitem {
+  position: relative;
+  display: block;
+  height: 30px;
+  padding: 0 1rem;
+  margin: 0 1px;
+  top: -1px;
+  background-color: #f3f3f3;
+  outline: 1px solid #bcc4b9;
+}
+/* line 339, ../sass/cmi.scss */
+.listcontainer .listitem:nth-child(even) {
+  background-color: white;
+}
+/* line 342, ../sass/cmi.scss */
+.listcontainer .listitem .fa {
+  color: #bcc4b9;
+  float: left;
+}
+/* line 346, ../sass/cmi.scss */
+.listcontainer .listitem:hover, .listcontainer .listitem.selected {
+  background-color: #f4b90b;
+  outline: 1px solid #b77e05;
+  z-index: 2;
+}
+/* line 350, ../sass/cmi.scss */
+.listcontainer .listitem:hover .fa, .listcontainer .listitem.selected .fa {
+  color: #b77e05;
+}
+/* line 355, ../sass/cmi.scss */
+.listcontainer .patientprofile {
+  position: relative;
+  display: block;
+  top: -1rem;
+}
+/* line 359, ../sass/cmi.scss */
+.listcontainer .patientprofile .contactbar {
+  padding-top: 2rem;
+  width: 100%;
+}
+/* line 363, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack {
+  position: relative;
+  display: inline-block;
+  float: left;
+  clear: none;
+  width: 66%;
+}
+/* line 370, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* line 373, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .datebar {
+  display: inline-block;
+  width: 100%;
+  height: 72px;
+}
+/* line 377, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .datebar button {
+  float: right;
+}
+/* line 380, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .datebar h1, .listcontainer .patientprofile .leftstack .calbox .datebar .fa {
+  float: left;
+  clear: none;
+  padding-right: .5rem;
+}
+/* line 386, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .weekbar {
+  position: relative;
+  display: block;
+  top: 9px;
+}
+/* line 390, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .weekbar li {
+  float: left;
+  position: relative;
+  width: 14.285%;
+  text-align: center;
+}
+/* line 397, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .monthbox {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  top: 9px;
+}
+/* line 404, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox {
+  position: relative;
+  width: 14.285%;
+  min-height: 88px;
+  float: left;
+  background-color: #f3f3f3;
+  outline: 1px solid #bcc4b9;
+}
+/* line 411, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox:hover {
+  background-color: #f4b90b;
+  outline: 1px solid #b77e05;
+  z-index: 2;
+}
+/* line 416, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox h1 {
+  position: relative;
+  top: 1rem;
+  color: #e74c3c;
+  text-align: center;
+}
+/* line 422, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox h6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 .25rem;
+}
+/* line 428, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox .dayfeeling {
+  position: relative;
+  top: 1rem;
+  height: 5px;
+  width: 100%;
+  background-color: #f4b90b;
+}
+/* line 435, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox .d2 {
+  background-color: #f09e11;
+}
+/* line 436, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox .d3 {
+  background-color: #e67f22;
+}
+/* line 437, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox .d4 {
+  background-color: #d05300;
+}
+/* line 438, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox .d5 {
+  background-color: #bf3930;
+}
+/* line 439, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox .doses {
+  position: relative;
+  display: inline-block;
+  top: 1rem;
+  width: 100%;
+  padding-top: 5px;
+}
+/* line 445, ../sass/cmi.scss */
+.listcontainer .patientprofile .leftstack .calbox .daybox .doses .dose {
+  width: 12px;
+  height: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50% 50%;
+}
+/* line 456, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack {
+  position: relative;
+  display: inline-block;
+  float: right;
+  clear: right;
+  width: 32.5%;
+}
+/* line 462, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox, .listcontainer .patientprofile .rightstack .rescuebox, .listcontainer .patientprofile .rightstack .coachbox {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 465, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox h1, .listcontainer .patientprofile .rightstack .rescuebox h1, .listcontainer .patientprofile .rightstack .coachbox h1 {
+  padding-bottom: .33rem;
+}
+/* line 468, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox h2, .listcontainer .patientprofile .rightstack .rescuebox h2, .listcontainer .patientprofile .rightstack .coachbox h2 {
+  padding-top: 1rem;
+}
+/* line 471, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox h4, .listcontainer .patientprofile .rightstack .rescuebox h4, .listcontainer .patientprofile .rightstack .coachbox h4 {
+  position: relative;
+  display: inline-block;
+  clear: none;
+  padding: 0 .5rem;
+  top: -3px;
+}
+/* line 478, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox .medstats, .listcontainer .patientprofile .rightstack .rescuebox .medstats, .listcontainer .patientprofile .rightstack .coachbox .medstats {
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding-top: 1rem;
+  width: 100px;
+}
+/* line 484, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox .medstats .dose, .listcontainer .patientprofile .rightstack .rescuebox .medstats .dose, .listcontainer .patientprofile .rightstack .coachbox .medstats .dose {
+  position: relative;
+  display: inline-block;
+}
+/* line 488, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox .medstats li h4, .listcontainer .patientprofile .rightstack .rescuebox .medstats li h4, .listcontainer .patientprofile .rightstack .coachbox .medstats li h4 {
+  top: -1px;
+}
+/* line 491, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox .medstats span, .listcontainer .patientprofile .rightstack .rescuebox .medstats span, .listcontainer .patientprofile .rightstack .coachbox .medstats span {
+  padding: 0 .33rem;
+  color: #414141;
+}
+/* line 496, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox .fa-moon-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-moon-o, .listcontainer .patientprofile .rightstack .coachbox .fa-moon-o {
+  color: #535353;
+}
+/* line 497, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .maintbox .fa-sun-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-sun-o, .listcontainer .patientprofile .rightstack .coachbox .fa-sun-o {
+  color: #f4b90b;
+}
+/* line 499, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .rescuebox .fa {
+  color: #e74c3c;
+}
+/* line 500, ../sass/cmi.scss */
+.listcontainer .patientprofile .rightstack .coachbox .fa {
+  color: #2ecc71;
+}

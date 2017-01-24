@@ -1,0 +1,503 @@
+@import "colors";
+@import "mixins";
+
+/* ----------------------------------------------
+resets
+-----------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-transform: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------------------------------------
+colors
+-----------------------------------------------*/
+/*--- defaults colors ----*/
+$clr-lightest:		#FFFFFF;
+$clr-darkest:		#414141;
+$clr-tevagreen:		#00A785;
+$clr-cmibrand:		#F4B90B;
+.clr-lightest		{color: $clr-lightest;}
+.clr-darkest		{color: $clr-darkest;}
+.clr-cmibrand		{color: $clr-cmibrand;}
+.clr-cmibrand		{color: $clr-cmibrand;}
+.clr-bg-lightest	{background-color: $clr-lightest;}
+.clr-bg-darkest		{background-color: $clr-darkest;}
+.clr-bg-cmibrand	{background-color: $clr-cmibrand;}
+
+/*Backgrounds*/
+$clr-bg-dark:		#535353;
+$clr-bg-darker:		#2F2F2F;
+$clr-bg-light:		#F3F3F3;
+$clr-bg-lighter:	#FFFFFF;
+.clr-bg-dark		{background-color: $clr-bg-dark}
+.clr-bg-darker		{background-color: $clr-bg-darker}
+.clr-bg-light		{background-color: $clr-bg-light}
+.clr-bg-lighter		{background-color: $clr-bg-lighter}
+
+/*body*/
+$clr-body1:			#BCC4B9;
+$clr-body2:			#535353;
+$clr-body3:			#2A2A2A;
+$clr-body4:			#303030;
+$clr-link:			#b77e05;
+$clr-linkl:			#F4B90B;
+.clr-body1			{color: $clr-body1}
+.clr-body2			{color: $clr-body2}
+.clr-body3			{color: $clr-body3}
+.clr-body4			{color: $clr-body4}
+.clr-link			{color: $clr-link}
+.clr-linkl			{color: $clr-linkl}
+.clr-bg-body1		{background-color: $clr-body1}
+.clr-bg-body2		{background-color: $clr-body2}
+.clr-bg-body3		{background-color: $clr-body3}
+.clr-bg-body4		{background-color: $clr-body4}
+.clr-bg-link		{background-color: $clr-link}
+.clr-bg-linkl		{background-color: $clr-linkl}
+
+/*Warm*/
+$clr-warm1:			#F4B90B;
+$clr-warm2:			#F09E11;
+$clr-warm3:			#E67F22;
+$clr-warm4:			#D05300;
+$clr-warm5:			#BF3930;
+.clr-warm1			{color: $clr-warm1;}
+.clr-warm2			{color: $clr-warm2;}
+.clr-warm3			{color: $clr-warm3;}
+.clr-warm4			{color: $clr-warm4;}
+.clr-warm5			{color: $clr-warm5;}
+.clr-bg-warm1		{background-color: $clr-warm1;}
+.clr-bg-warm2		{background-color: $clr-warm2;}
+.clr-bg-warm3		{background-color: $clr-warm3;}
+.clr-bg-warm4		{background-color: $clr-warm4;}
+.clr-bg-warm5		{background-color: $clr-warm5;}
+
+/*positive/negative*/
+$clr-pos1:			#2ECC71;
+$clr-pos2:			#00A785;
+$clr-neg1:			#F4938B;
+$clr-neg2:			#E74C3C;
+.clr-pos1			{color: $clr-pos1;}
+.clr-pos2			{color: $clr-pos2;}
+.clr-neg1 			{color: $clr-neg1;}
+.clr-neg2			{color: $clr-neg2;}
+.clr-bg-pos1		{background-color: $clr-pos1;}
+.clr-bg-pos2		{background-color: $clr-pos2;}
+.clr-bg-neg1 		{background-color: $clr-neg1;}
+.clr-bg-neg2		{background-color: $clr-neg2;}
+
+/*spectrum*/
+$clr-yellow1:		#F4B90B;
+$clr-green1:		$clr-pos1;
+$clr-aqua1:			#1abc9c;
+$clr-purple1:		#9b59b6;
+.clr-yellow1		{color: $clr-yellow1;}
+.clr-green1			{color: $clr-green1;}
+.clr-aqua1			{color: $clr-aqua1;}
+.clr-purple1		{color: $clr-purple1;}
+.clr-bg-yellow1		{background-color: $clr-yellow1;}
+.clr-bg-green1		{background-color: $clr-green1;}
+.clr-bg-aqua1		{background-color: $clr-aqua1;}
+.clr-bg-purple1		{background-color: $clr-purple1;}
+
+/* ----------------------------------------------
+containers
+-----------------------------------------------*/
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body {
+	line-height: 1.6rem;
+	height: 100%;
+	background-color: $clr-body5;
+}
+#wrapper {
+	max-width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto 0; /* the bottom margin is the negative value of the footer's height */
+	background-color: $clr-body5;
+}
+/* ----------------------------------------------
+text
+-----------------------------------------------*/
+
+h1,h2,h3,h4,h5,h6,body {
+	font-family:'Raleway','Open Sans',Arial,Helvetica,sans-serif;
+	font-weight:600;
+	color:$clr-darkest;
+	margin: 0 0 30px 0;
+	line-height:1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {font-size: 36px; margin: 0 0 44px 0;}
+h2 {font-size: 30px; margin: 0 0 32px 0;}
+h3 {font-size: 24px; margin: 0 0 32px 0; letter-spacing: normal;}
+h4 {font-size: 18px; margin: 0 0 14px 0; letter-spacing: normal;}
+h5 {font-size: 14px; margin: 0 0 20px 0; letter-spacing: normal;}
+h6 {font-size: 12px; margin: 0 0 20px 0; letter-spacing: normal; text-transform: uppercase;}
+
+h1 > span,h2 > span,h3 > span,h4 > span,h5 > span,h6 > span { 
+	color: #1ABC9C; 
+}
+
+body, button, p, a,{font-size: 12px;}
+
+a, button, .fa{
+	color: $clr-link;
+	text-transform: uppercase;
+	font-weight: 500;
+	cursor: pointer;
+	&:hover{
+		color: $clr-linkl;
+	}
+}
+
+.fa{
+	font-size: 26px;
+}
+
+button {
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 12px;
+	height: 40px;
+	margin: 0;
+	padding: 0 1rem;
+	border: none;
+	color: $clr-lightest;
+	background-color: $clr-link;
+	border-radius: 4px;
+	cursor: pointer;
+	&:hover{
+		color: $clr-lightest;
+		background-color: $clr-linkl;
+
+	}
+}
+
+.box{
+	min-height: 10px;
+	background-color: $clr-bg-light;
+	outline: 1px solid $clr-body1;
+}
+
+header{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	background-color: $clr-bg-darker;
+	height: 96px;
+	
+	.logobox{
+		position: relative;
+		display: inline-block;
+		width: 15%;
+		height: 90px;
+		float: left;
+	
+		img{
+			position: relative;
+		    top: 50%;
+			float: left;
+			margin: 0 5%;
+			transform: translate(0, -50%);
+			width: 90%;
+		}
+	}
+	.menubox{
+		position: relative;
+		display: inline-block;
+		width: 80%;
+		height: 96px;
+		@media (max-width: 800px) {
+			width: 90%;
+			padding: 0 1% 0 5%;
+		}
+	}
+	.username{
+		position: absolute;
+	    top: 50%;
+	    left: 0;
+	    transform: translate(0, -50%);
+		@media (max-width: 800px) {
+			left: 5%;
+		}
+	}
+	.fa{
+		position: relative;
+	    top: 50%;
+		float: right;
+		margin-left: 3%;
+		transform: translate(0, -50%);
+	}
+	.selected{
+		color: $clr-lightest;
+	}
+}
+.footer{
+	color:$clr-lightest;
+	background-color: $clr-bg-darker;
+	width: 100%;
+	h1,h2,h3,h4,h5,h6,p,body{
+		color: $clr-lightest;
+	}
+}
+
+.dose{
+	width: 12px;
+	height: 12px;
+	background-color: $clr-link;
+	border-radius: 50% 50%;
+}
+.taken			{background-color: $clr-link;}
+.missed 		{background-color: $clr-body1;}
+.invalid		{background-color: $clr-darkest;}
+.morning		{background-color: $clr-warm1;}
+.noon			{background-color: $clr-warm2;}
+.evening		{background-color: $clr-warm4;}
+.night 			{background-color: $clr-bg-dark;}
+.coached 		{background-color: $clr-pos1;}
+
+.listcontainer{
+	position: relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+	min-width: 600px;
+	margin-top: 2rem;
+	@media (max-width: 800px) {
+			width: 98%;
+	}
+	
+	.listheader{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 60px;
+		padding: 0 1rem;
+		background-color: $clr-bg-dark;
+		color: $clr-lightest;
+		p{
+			color: $clr-lightest;
+		}
+	}
+	.siteheader{
+		position: relative;
+		display: block;
+		height: 30px;
+		padding: 0 1rem;
+		background-color: $clr-bg-darker;
+		h2{
+			color: $clr-lightest;
+			clear: none;
+		}
+	}
+	.listitem{
+		position: relative;
+		display: block;
+		height: 30px;
+		padding: 0 1rem;
+		margin: 0 1px;
+		top: -1px;
+		background-color: $clr-bg-light;
+		outline: 1px solid $clr-body1;
+		&:nth-child(even){
+			background-color: $clr-bg-lighter;
+		}
+		.fa{
+			color: $clr-body1;
+			float: left;
+		}
+		&:hover, &.selected{
+			background-color: $clr-linkl;
+			outline: 1px solid $clr-link;
+			z-index: 2;
+			.fa{
+				color: $clr-link;
+			}
+		}
+	}
+	.patientprofile{
+		position: relative;
+		display: block;
+		top: -1rem;
+		.contactbar{
+			padding-top: 2rem;
+			width: 100%
+		}
+		.leftstack{
+			position: relative;
+			display: inline-block;
+			float: left;
+			clear: none;
+			width: 66%;
+
+			.calbox{
+				width: 100%;
+				margin-bottom: 1rem; 
+				.datebar{
+					display: inline-block;
+					width: 100%;
+					height: 72px;
+					button{
+						float: right;
+					}
+					h1, .fa{
+						float: left;
+						clear: none;
+						padding-right: .5rem;
+					}
+				}
+				.weekbar{
+					position: relative;
+					display: block;
+					top: 9px;
+					li{
+						float: left;
+						position: relative;
+						width: 14.285%;
+						text-align: center;
+					}
+				}
+				.monthbox{
+					position: relative;
+					display: inline-block;
+					width: 100%;
+					top: 9px;
+
+				}
+				.daybox{
+					position: relative;
+					width: 14.285%;
+					min-height: 88px;
+					float: left;
+					background-color: $clr-bg-light;
+					outline: 1px solid $clr-body1;
+					&:hover{
+						background-color: $clr-linkl;
+						outline: 1px solid $clr-link;
+						z-index: 2;
+					}
+					h1{
+						position: relative;
+						top: 1rem;
+						color: $clr-neg2;
+						text-align: center;
+					}
+					h6{
+						position: absolute;
+						top: 0;
+						right: 0;
+						padding: 0 .25rem;
+					}
+					.dayfeeling{
+						position: relative;
+						top: 1rem;
+						height: 5px;
+						width: 100%;
+						background-color: $clr-warm1;
+					}
+					.d2{background-color: $clr-warm2;}
+					.d3{background-color: $clr-warm3;}
+					.d4{background-color: $clr-warm4;}
+					.d5{background-color: $clr-warm5;}
+					.doses{
+						position: relative;
+						display: inline-block;
+						top: 1rem;
+						width: 100%;
+						padding-top: 5px;
+						.dose{
+							width: 12px;
+							height: 12px;
+							margin-right: auto;
+							margin-left: auto;
+							border-radius: 50% 50%;
+						}
+					}
+				}
+			}
+		}
+		.rightstack{
+			position: relative;
+			display: inline-block;
+			float: right;
+			clear: right;
+			width: 32.5%;
+			.maintbox, .rescuebox, .coachbox{
+				padding: 1rem;
+				margin-bottom: 1rem;
+				h1{
+					padding-bottom: .33rem;
+				}
+				h2{
+					padding-top: 1rem;
+				}
+				h4{
+					position: relative;
+					display: inline-block;
+					clear: none;
+					padding: 0 .5rem;
+					top: -3px;
+				}
+				.medstats{
+					position: relative;
+					display: inline-block;
+					float: right;
+					padding-top: 1rem;
+					width: 100px;
+					.dose{
+						position: relative;
+						display: inline-block;
+					}	
+					li h4{
+						top: -1px;
+					}
+					span{
+						padding: 0 .33rem;
+						color: $clr-darkest;
+					}
+				}
+				.fa-moon-o{color: $clr-bg-dark}
+				.fa-sun-o{color: $clr-warm1}
+			}
+			.rescuebox .fa{color: $clr-neg2;}
+			.coachbox .fa{color: $clr-pos1;}
+		}
+	}
+}
