@@ -1,6 +1,13 @@
 @import "colors";
 @import "mixins";
 
+@mixin shadow1 {
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.8));
+    filter:         drop-shadow(1px 1px 1px rgba(0,0,0,.8));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
+    filter:     "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
+}
+
 /* ----------------------------------------------
 resets
 -----------------------------------------------*/
@@ -141,47 +148,57 @@ html, body {
 	background-color: $clr-body5;
 }
 #wrapper {
-	max-width: 100%;
+	width: 100%;
+	max-width: 1200px;
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto 0; /* the bottom margin is the negative value of the footer's height */
-	background-color: $clr-body5;
+	background-color: $clr-lightest;
 }
 /* ----------------------------------------------
 text
 -----------------------------------------------*/
 
-h1,h2,h3,h4,h5,h6,body {
+h1,h2,h3,h4,h5,h6,body,.megaheadline {
 	font-family:'Raleway','Open Sans',Arial,Helvetica,sans-serif;
 	font-weight:600;
 	color:$clr-darkest;
-	margin: 0 0 30px 0;
+	margin: 0 0 1% 0;
 	line-height:1.5;
+	letter-spacing: normal;
 	-webkit-font-smoothing: antialiased;
 }
-
-h1 {font-size: 36px; margin: 0 0 44px 0;}
-h2 {font-size: 30px; margin: 0 0 32px 0;}
-h3 {font-size: 24px; margin: 0 0 32px 0; letter-spacing: normal;}
-h4 {font-size: 18px; margin: 0 0 14px 0; letter-spacing: normal;}
-h5 {font-size: 14px; margin: 0 0 20px 0; letter-spacing: normal;}
-h6 {font-size: 12px; margin: 0 0 20px 0; letter-spacing: normal; text-transform: uppercase;}
-
-h1 > span,h2 > span,h3 > span,h4 > span,h5 > span,h6 > span { 
-	color: #1ABC9C; 
+.megaheadline{
+	color:$clr-cmibrand;
+	font-size: 75px;
+	margin: 0 0 1% 0;
+	line-height: 1;
+	@include shadow1;
 }
+h1 {font-size: 36px; margin: 0 0 2.5% 0;}
+h2 {font-size: 30px; margin: 0 0 2.2% 0;}
+h3 {font-size: 24px; margin: 0 0 2.0% 0;}
+h4 {font-size: 18px; margin: 0 0 1.2% 0;}
+h5 {font-size: 14px; margin: 0 0 1.5% 0;}
+h6 {font-size: 12px; margin: 0 0 1.5% 0; text-transform: uppercase;}
 
-body, button, p, a,{font-size: 12px;}
+body, p{
+	font-size: 14px;
+	font-weight:normal;
+}
 
 a, button, .fa{
 	color: $clr-link;
-	text-transform: uppercase;
-	font-weight: 500;
-	cursor: pointer;
 	&:hover{
 		color: $clr-linkl;
 	}
+}
+
+button, .fa{
+	text-transform: uppercase;
+	font-weight: 500;
+	cursor: pointer;
 }
 
 .fa{
@@ -251,7 +268,7 @@ header{
 	.username{
 		position: absolute;
 	    top: 50%;
-	    left: 0;
+	    right: 115px;
 	    transform: translate(0, -50%);
 		@media (max-width: 800px) {
 			left: 5%;
@@ -276,21 +293,6 @@ header{
 		color: $clr-lightest;
 	}
 }
-
-.dose{
-	width: 12px;
-	height: 12px;
-	background-color: $clr-link;
-	border-radius: 50% 50%;
-}
-.taken			{background-color: $clr-link;}
-.missed 		{background-color: $clr-body1;}
-.invalid		{background-color: $clr-darkest;}
-.morning		{background-color: $clr-warm1;}
-.noon			{background-color: $clr-warm2;}
-.evening		{background-color: $clr-warm4;}
-.night 			{background-color: $clr-bg-dark;}
-.coached 		{background-color: $clr-pos1;}
 
 .listcontainer{
 	position: relative;
@@ -501,3 +503,15 @@ header{
 		}
 	}
 }
+
+.bblock{
+	position: relative;
+	top: -5px;
+	background-color: $clr-bg-light;
+	padding: 4% 1% 1% 1%; 
+}
+
+
+
+
+
