@@ -1,49 +1,6 @@
 @import "colors";
 @import "mixins";
 
-@mixin shadow1 {
-    -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.8));
-    filter:         drop-shadow(1px 1px 1px rgba(0,0,0,.8));
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
-    filter:     "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
-}
-
-/* ----------------------------------------------
-resets
------------------------------------------------*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	text-transform: none;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 /* ----------------------------------------------
 colors
 -----------------------------------------------*/
@@ -71,7 +28,7 @@ $clr-bg-lighter:	#FFFFFF;
 .clr-bg-lighter		{background-color: $clr-bg-lighter}
 
 /*body*/
-$clr-body1:			#BCC4B9;
+$clr-body1:			#F3F3F3;
 $clr-body2:			#535353;
 $clr-body3:			#2A2A2A;
 $clr-body4:			#303030;
@@ -135,6 +92,51 @@ $clr-purple1:		#9b59b6;
 .clr-bg-aqua1		{background-color: $clr-aqua1;}
 .clr-bg-purple1		{background-color: $clr-purple1;}
 
+@mixin shadow1 {
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0,.8));
+    filter:         drop-shadow(1px 1px 1px rgba(0,0,0,.8));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
+    filter:     "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
+}
+
+/* ----------------------------------------------
+resets
+-----------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-transform: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html, body {
+	line-height: 1;
+	background-color: $clr-lightest;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* ----------------------------------------------
 containers
 -----------------------------------------------*/
@@ -143,9 +145,8 @@ containers
 	box-sizing: border-box;
 }
 html, body {
-	line-height: 1.6rem;
 	height: 100%;
-	background-color: $clr-body5;
+	background-color: $clr-lightest;
 }
 #wrapper {
 	width: 100%;
@@ -509,6 +510,89 @@ header{
 	top: -5px;
 	background-color: $clr-bg-light;
 	padding: 4% 1% 1% 1%; 
+}
+
+/*************/
+/* AR VIEWER */
+/*************/
+
+#arviewer{
+	height: 100%;
+	width: auto;
+	vertical-align: top;
+	/*background: url(../images/cmi-arbg.png) no-repeat center / 100%;*/
+	img{
+		height:100%; 
+		width:auto; 
+		vertical-align: top;
+    }
+}
+
+.arcallout {
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: $clr-cmibrand;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	h2{
+		margin: 0;
+	    position: absolute;
+	    top: 45%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%);
+	    color: $clr-lightest;
+	}
+	&.ar1{
+		position: absolute;
+		top:52%;
+		left: 2%;
+	}
+	&.ar2{
+		position: absolute;
+		top:50%;
+		left: 15%;
+	}
+	&.ar3{
+		position: absolute;
+		top:55%;
+		left: 33%;
+	}
+	&.ar4{
+		position: absolute;
+		top:55%;
+		left: 90%;
+	}
+}
+
+/*************/
+/* RFID PAGE */
+/*************/
+.rfid-itembox{
+	position: relative;
+	display: inline-block;
+	margin: 2% 2% 0 0;
+	padding: 1%;
+	width: 48.8%;
+	height: 200px;
+	background-color: $clr-body1;
+	overflow: hidden;
+	&:nth-child(even){
+    	margin-right: 0;
+	}​
+	img{
+		position: relative;
+		display: inline-block;
+		float: left;
+	}
+	h3, p{
+		position: relative;
+		display: inline-block;
+		float: left;
+	}
 }
 
 

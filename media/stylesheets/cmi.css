@@ -756,9 +756,263 @@ colors
 
 /*------- custome ---------*/
 /* ----------------------------------------------
+colors
+-----------------------------------------------*/
+/*--- defaults colors ----*/
+/* line 12, ../sass/cmi.scss */
+.clr-lightest {
+  color: white;
+}
+
+/* line 13, ../sass/cmi.scss */
+.clr-darkest {
+  color: #414141;
+}
+
+/* line 14, ../sass/cmi.scss */
+.clr-cmibrand {
+  color: #f4b90b;
+}
+
+/* line 15, ../sass/cmi.scss */
+.clr-cmibrand {
+  color: #f4b90b;
+}
+
+/* line 16, ../sass/cmi.scss */
+.clr-bg-lightest {
+  background-color: white;
+}
+
+/* line 17, ../sass/cmi.scss */
+.clr-bg-darkest {
+  background-color: #414141;
+}
+
+/* line 18, ../sass/cmi.scss */
+.clr-bg-cmibrand {
+  background-color: #f4b90b;
+}
+
+/*Backgrounds*/
+/* line 25, ../sass/cmi.scss */
+.clr-bg-dark {
+  background-color: #535353;
+}
+
+/* line 26, ../sass/cmi.scss */
+.clr-bg-darker {
+  background-color: #2f2f2f;
+}
+
+/* line 27, ../sass/cmi.scss */
+.clr-bg-light {
+  background-color: #f3f3f3;
+}
+
+/* line 28, ../sass/cmi.scss */
+.clr-bg-lighter {
+  background-color: white;
+}
+
+/*body*/
+/* line 37, ../sass/cmi.scss */
+.clr-body1 {
+  color: #f3f3f3;
+}
+
+/* line 38, ../sass/cmi.scss */
+.clr-body2 {
+  color: #535353;
+}
+
+/* line 39, ../sass/cmi.scss */
+.clr-body3 {
+  color: #2a2a2a;
+}
+
+/* line 40, ../sass/cmi.scss */
+.clr-body4 {
+  color: #303030;
+}
+
+/* line 41, ../sass/cmi.scss */
+.clr-link {
+  color: #b77e05;
+}
+
+/* line 42, ../sass/cmi.scss */
+.clr-linkl {
+  color: #f4b90b;
+}
+
+/* line 43, ../sass/cmi.scss */
+.clr-bg-body1 {
+  background-color: #f3f3f3;
+}
+
+/* line 44, ../sass/cmi.scss */
+.clr-bg-body2 {
+  background-color: #535353;
+}
+
+/* line 45, ../sass/cmi.scss */
+.clr-bg-body3 {
+  background-color: #2a2a2a;
+}
+
+/* line 46, ../sass/cmi.scss */
+.clr-bg-body4 {
+  background-color: #303030;
+}
+
+/* line 47, ../sass/cmi.scss */
+.clr-bg-link {
+  background-color: #b77e05;
+}
+
+/* line 48, ../sass/cmi.scss */
+.clr-bg-linkl {
+  background-color: #f4b90b;
+}
+
+/*Warm*/
+/* line 56, ../sass/cmi.scss */
+.clr-warm1 {
+  color: #f4b90b;
+}
+
+/* line 57, ../sass/cmi.scss */
+.clr-warm2 {
+  color: #f09e11;
+}
+
+/* line 58, ../sass/cmi.scss */
+.clr-warm3 {
+  color: #e67f22;
+}
+
+/* line 59, ../sass/cmi.scss */
+.clr-warm4 {
+  color: #d05300;
+}
+
+/* line 60, ../sass/cmi.scss */
+.clr-warm5 {
+  color: #bf3930;
+}
+
+/* line 61, ../sass/cmi.scss */
+.clr-bg-warm1 {
+  background-color: #f4b90b;
+}
+
+/* line 62, ../sass/cmi.scss */
+.clr-bg-warm2 {
+  background-color: #f09e11;
+}
+
+/* line 63, ../sass/cmi.scss */
+.clr-bg-warm3 {
+  background-color: #e67f22;
+}
+
+/* line 64, ../sass/cmi.scss */
+.clr-bg-warm4 {
+  background-color: #d05300;
+}
+
+/* line 65, ../sass/cmi.scss */
+.clr-bg-warm5 {
+  background-color: #bf3930;
+}
+
+/*positive/negative*/
+/* line 72, ../sass/cmi.scss */
+.clr-pos1 {
+  color: #2ecc71;
+}
+
+/* line 73, ../sass/cmi.scss */
+.clr-pos2 {
+  color: #00a785;
+}
+
+/* line 74, ../sass/cmi.scss */
+.clr-neg1 {
+  color: #f4938b;
+}
+
+/* line 75, ../sass/cmi.scss */
+.clr-neg2 {
+  color: #e74c3c;
+}
+
+/* line 76, ../sass/cmi.scss */
+.clr-bg-pos1 {
+  background-color: #2ecc71;
+}
+
+/* line 77, ../sass/cmi.scss */
+.clr-bg-pos2 {
+  background-color: #00a785;
+}
+
+/* line 78, ../sass/cmi.scss */
+.clr-bg-neg1 {
+  background-color: #f4938b;
+}
+
+/* line 79, ../sass/cmi.scss */
+.clr-bg-neg2 {
+  background-color: #e74c3c;
+}
+
+/*spectrum*/
+/* line 86, ../sass/cmi.scss */
+.clr-yellow1 {
+  color: #f4b90b;
+}
+
+/* line 87, ../sass/cmi.scss */
+.clr-green1 {
+  color: #2ecc71;
+}
+
+/* line 88, ../sass/cmi.scss */
+.clr-aqua1 {
+  color: #1abc9c;
+}
+
+/* line 89, ../sass/cmi.scss */
+.clr-purple1 {
+  color: #9b59b6;
+}
+
+/* line 90, ../sass/cmi.scss */
+.clr-bg-yellow1 {
+  background-color: #f4b90b;
+}
+
+/* line 91, ../sass/cmi.scss */
+.clr-bg-green1 {
+  background-color: #2ecc71;
+}
+
+/* line 92, ../sass/cmi.scss */
+.clr-bg-aqua1 {
+  background-color: #1abc9c;
+}
+
+/* line 93, ../sass/cmi.scss */
+.clr-bg-purple1 {
+  background-color: #9b59b6;
+}
+
+/* ----------------------------------------------
 resets
 -----------------------------------------------*/
-/* line 16, ../sass/cmi.scss */
+/* line 107, ../sass/cmi.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -772,310 +1026,56 @@ figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, su
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 26, ../sass/cmi.scss */
+/* line 117, ../sass/cmi.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 29, ../sass/cmi.scss */
-body {
+/* line 120, ../sass/cmi.scss */
+html, body {
   line-height: 1;
+  background-color: white;
 }
 
-/* line 32, ../sass/cmi.scss */
+/* line 124, ../sass/cmi.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 35, ../sass/cmi.scss */
+/* line 127, ../sass/cmi.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 39, ../sass/cmi.scss */
+/* line 131, ../sass/cmi.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 43, ../sass/cmi.scss */
+/* line 135, ../sass/cmi.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /* ----------------------------------------------
-colors
------------------------------------------------*/
-/*--- defaults colors ----*/
-/* line 55, ../sass/cmi.scss */
-.clr-lightest {
-  color: white;
-}
-
-/* line 56, ../sass/cmi.scss */
-.clr-darkest {
-  color: #414141;
-}
-
-/* line 57, ../sass/cmi.scss */
-.clr-cmibrand {
-  color: #f4b90b;
-}
-
-/* line 58, ../sass/cmi.scss */
-.clr-cmibrand {
-  color: #f4b90b;
-}
-
-/* line 59, ../sass/cmi.scss */
-.clr-bg-lightest {
-  background-color: white;
-}
-
-/* line 60, ../sass/cmi.scss */
-.clr-bg-darkest {
-  background-color: #414141;
-}
-
-/* line 61, ../sass/cmi.scss */
-.clr-bg-cmibrand {
-  background-color: #f4b90b;
-}
-
-/*Backgrounds*/
-/* line 68, ../sass/cmi.scss */
-.clr-bg-dark {
-  background-color: #535353;
-}
-
-/* line 69, ../sass/cmi.scss */
-.clr-bg-darker {
-  background-color: #2f2f2f;
-}
-
-/* line 70, ../sass/cmi.scss */
-.clr-bg-light {
-  background-color: #f3f3f3;
-}
-
-/* line 71, ../sass/cmi.scss */
-.clr-bg-lighter {
-  background-color: white;
-}
-
-/*body*/
-/* line 80, ../sass/cmi.scss */
-.clr-body1 {
-  color: #bcc4b9;
-}
-
-/* line 81, ../sass/cmi.scss */
-.clr-body2 {
-  color: #535353;
-}
-
-/* line 82, ../sass/cmi.scss */
-.clr-body3 {
-  color: #2a2a2a;
-}
-
-/* line 83, ../sass/cmi.scss */
-.clr-body4 {
-  color: #303030;
-}
-
-/* line 84, ../sass/cmi.scss */
-.clr-link {
-  color: #b77e05;
-}
-
-/* line 85, ../sass/cmi.scss */
-.clr-linkl {
-  color: #f4b90b;
-}
-
-/* line 86, ../sass/cmi.scss */
-.clr-bg-body1 {
-  background-color: #bcc4b9;
-}
-
-/* line 87, ../sass/cmi.scss */
-.clr-bg-body2 {
-  background-color: #535353;
-}
-
-/* line 88, ../sass/cmi.scss */
-.clr-bg-body3 {
-  background-color: #2a2a2a;
-}
-
-/* line 89, ../sass/cmi.scss */
-.clr-bg-body4 {
-  background-color: #303030;
-}
-
-/* line 90, ../sass/cmi.scss */
-.clr-bg-link {
-  background-color: #b77e05;
-}
-
-/* line 91, ../sass/cmi.scss */
-.clr-bg-linkl {
-  background-color: #f4b90b;
-}
-
-/*Warm*/
-/* line 99, ../sass/cmi.scss */
-.clr-warm1 {
-  color: #f4b90b;
-}
-
-/* line 100, ../sass/cmi.scss */
-.clr-warm2 {
-  color: #f09e11;
-}
-
-/* line 101, ../sass/cmi.scss */
-.clr-warm3 {
-  color: #e67f22;
-}
-
-/* line 102, ../sass/cmi.scss */
-.clr-warm4 {
-  color: #d05300;
-}
-
-/* line 103, ../sass/cmi.scss */
-.clr-warm5 {
-  color: #bf3930;
-}
-
-/* line 104, ../sass/cmi.scss */
-.clr-bg-warm1 {
-  background-color: #f4b90b;
-}
-
-/* line 105, ../sass/cmi.scss */
-.clr-bg-warm2 {
-  background-color: #f09e11;
-}
-
-/* line 106, ../sass/cmi.scss */
-.clr-bg-warm3 {
-  background-color: #e67f22;
-}
-
-/* line 107, ../sass/cmi.scss */
-.clr-bg-warm4 {
-  background-color: #d05300;
-}
-
-/* line 108, ../sass/cmi.scss */
-.clr-bg-warm5 {
-  background-color: #bf3930;
-}
-
-/*positive/negative*/
-/* line 115, ../sass/cmi.scss */
-.clr-pos1 {
-  color: #2ecc71;
-}
-
-/* line 116, ../sass/cmi.scss */
-.clr-pos2 {
-  color: #00a785;
-}
-
-/* line 117, ../sass/cmi.scss */
-.clr-neg1 {
-  color: #f4938b;
-}
-
-/* line 118, ../sass/cmi.scss */
-.clr-neg2 {
-  color: #e74c3c;
-}
-
-/* line 119, ../sass/cmi.scss */
-.clr-bg-pos1 {
-  background-color: #2ecc71;
-}
-
-/* line 120, ../sass/cmi.scss */
-.clr-bg-pos2 {
-  background-color: #00a785;
-}
-
-/* line 121, ../sass/cmi.scss */
-.clr-bg-neg1 {
-  background-color: #f4938b;
-}
-
-/* line 122, ../sass/cmi.scss */
-.clr-bg-neg2 {
-  background-color: #e74c3c;
-}
-
-/*spectrum*/
-/* line 129, ../sass/cmi.scss */
-.clr-yellow1 {
-  color: #f4b90b;
-}
-
-/* line 130, ../sass/cmi.scss */
-.clr-green1 {
-  color: #2ecc71;
-}
-
-/* line 131, ../sass/cmi.scss */
-.clr-aqua1 {
-  color: #1abc9c;
-}
-
-/* line 132, ../sass/cmi.scss */
-.clr-purple1 {
-  color: #9b59b6;
-}
-
-/* line 133, ../sass/cmi.scss */
-.clr-bg-yellow1 {
-  background-color: #f4b90b;
-}
-
-/* line 134, ../sass/cmi.scss */
-.clr-bg-green1 {
-  background-color: #2ecc71;
-}
-
-/* line 135, ../sass/cmi.scss */
-.clr-bg-aqua1 {
-  background-color: #1abc9c;
-}
-
-/* line 136, ../sass/cmi.scss */
-.clr-bg-purple1 {
-  background-color: #9b59b6;
-}
-
-/* ----------------------------------------------
 containers
 -----------------------------------------------*/
-/* line 141, ../sass/cmi.scss */
+/* line 143, ../sass/cmi.scss */
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
-/* line 145, ../sass/cmi.scss */
+/* line 147, ../sass/cmi.scss */
 html, body {
-  line-height: 1.6rem;
   height: 100%;
-  background-color: #eeeeee;
+  background-color: white;
 }
 
-/* line 150, ../sass/cmi.scss */
+/* line 151, ../sass/cmi.scss */
 #wrapper {
   width: 100%;
   max-width: 1200px;
@@ -1090,7 +1090,7 @@ html, body {
 /* ----------------------------------------------
 text
 -----------------------------------------------*/
-/* line 163, ../sass/cmi.scss */
+/* line 164, ../sass/cmi.scss */
 h1, h2, h3, h4, h5, h6, body, .megaheadline {
   font-family: 'Raleway','Open Sans',Arial,Helvetica,sans-serif;
   font-weight: 600;
@@ -1101,7 +1101,7 @@ h1, h2, h3, h4, h5, h6, body, .megaheadline {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 172, ../sass/cmi.scss */
+/* line 173, ../sass/cmi.scss */
 .megaheadline {
   color: #f4b90b;
   font-size: 75px;
@@ -1113,71 +1113,71 @@ h1, h2, h3, h4, h5, h6, body, .megaheadline {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
 }
 
-/* line 179, ../sass/cmi.scss */
+/* line 180, ../sass/cmi.scss */
 h1 {
   font-size: 36px;
   margin: 0 0 2.5% 0;
 }
 
-/* line 180, ../sass/cmi.scss */
+/* line 181, ../sass/cmi.scss */
 h2 {
   font-size: 30px;
   margin: 0 0 2.2% 0;
 }
 
-/* line 181, ../sass/cmi.scss */
+/* line 182, ../sass/cmi.scss */
 h3 {
   font-size: 24px;
   margin: 0 0 2.0% 0;
 }
 
-/* line 182, ../sass/cmi.scss */
+/* line 183, ../sass/cmi.scss */
 h4 {
   font-size: 18px;
   margin: 0 0 1.2% 0;
 }
 
-/* line 183, ../sass/cmi.scss */
+/* line 184, ../sass/cmi.scss */
 h5 {
   font-size: 14px;
   margin: 0 0 1.5% 0;
 }
 
-/* line 184, ../sass/cmi.scss */
+/* line 185, ../sass/cmi.scss */
 h6 {
   font-size: 12px;
   margin: 0 0 1.5% 0;
   text-transform: uppercase;
 }
 
-/* line 186, ../sass/cmi.scss */
+/* line 187, ../sass/cmi.scss */
 body, p {
   font-size: 14px;
   font-weight: normal;
 }
 
-/* line 191, ../sass/cmi.scss */
+/* line 192, ../sass/cmi.scss */
 a, button, .fa {
   color: #b77e05;
 }
-/* line 193, ../sass/cmi.scss */
+/* line 194, ../sass/cmi.scss */
 a:hover, button:hover, .fa:hover {
   color: #f4b90b;
 }
 
-/* line 198, ../sass/cmi.scss */
+/* line 199, ../sass/cmi.scss */
 button, .fa {
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
 }
 
-/* line 204, ../sass/cmi.scss */
+/* line 205, ../sass/cmi.scss */
 .fa {
   font-size: 26px;
 }
 
-/* line 208, ../sass/cmi.scss */
+/* line 209, ../sass/cmi.scss */
 button {
   display: inline-block;
   font-size: 12px;
@@ -1193,20 +1193,20 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-/* line 222, ../sass/cmi.scss */
+/* line 223, ../sass/cmi.scss */
 button:hover {
   color: white;
   background-color: #f4b90b;
 }
 
-/* line 229, ../sass/cmi.scss */
+/* line 230, ../sass/cmi.scss */
 .box {
   min-height: 10px;
   background-color: #f3f3f3;
-  outline: 1px solid #bcc4b9;
+  outline: 1px solid #f3f3f3;
 }
 
-/* line 235, ../sass/cmi.scss */
+/* line 236, ../sass/cmi.scss */
 header {
   position: relative;
   display: inline-block;
@@ -1214,7 +1214,7 @@ header {
   background-color: #2f2f2f;
   height: 96px;
 }
-/* line 242, ../sass/cmi.scss */
+/* line 243, ../sass/cmi.scss */
 header .logobox {
   position: relative;
   display: inline-block;
@@ -1222,7 +1222,7 @@ header .logobox {
   height: 90px;
   float: left;
 }
-/* line 249, ../sass/cmi.scss */
+/* line 250, ../sass/cmi.scss */
 header .logobox img {
   position: relative;
   top: 50%;
@@ -1231,7 +1231,7 @@ header .logobox img {
   transform: translate(0, -50%);
   width: 90%;
 }
-/* line 258, ../sass/cmi.scss */
+/* line 259, ../sass/cmi.scss */
 header .menubox {
   position: relative;
   display: inline-block;
@@ -1239,13 +1239,13 @@ header .menubox {
   height: 96px;
 }
 @media (max-width: 800px) {
-  /* line 258, ../sass/cmi.scss */
+  /* line 259, ../sass/cmi.scss */
   header .menubox {
     width: 90%;
     padding: 0 1% 0 5%;
   }
 }
-/* line 268, ../sass/cmi.scss */
+/* line 269, ../sass/cmi.scss */
 header .username {
   position: absolute;
   top: 50%;
@@ -1253,12 +1253,12 @@ header .username {
   transform: translate(0, -50%);
 }
 @media (max-width: 800px) {
-  /* line 268, ../sass/cmi.scss */
+  /* line 269, ../sass/cmi.scss */
   header .username {
     left: 5%;
   }
 }
-/* line 277, ../sass/cmi.scss */
+/* line 278, ../sass/cmi.scss */
 header .fa {
   position: relative;
   top: 50%;
@@ -1266,23 +1266,23 @@ header .fa {
   margin-left: 3%;
   transform: translate(0, -50%);
 }
-/* line 284, ../sass/cmi.scss */
+/* line 285, ../sass/cmi.scss */
 header .selected {
   color: white;
 }
 
-/* line 288, ../sass/cmi.scss */
+/* line 289, ../sass/cmi.scss */
 .footer {
   color: white;
   background-color: #2f2f2f;
   width: 100%;
 }
-/* line 292, ../sass/cmi.scss */
+/* line 293, ../sass/cmi.scss */
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6, .footer p, .footer body {
   color: white;
 }
 
-/* line 297, ../sass/cmi.scss */
+/* line 298, ../sass/cmi.scss */
 .listcontainer {
   position: relative;
   display: block;
@@ -1293,12 +1293,12 @@ header .selected {
   margin-top: 2rem;
 }
 @media (max-width: 800px) {
-  /* line 297, ../sass/cmi.scss */
+  /* line 298, ../sass/cmi.scss */
   .listcontainer {
     width: 98%;
   }
 }
-/* line 309, ../sass/cmi.scss */
+/* line 310, ../sass/cmi.scss */
 .listcontainer .listheader {
   position: relative;
   display: block;
@@ -1308,11 +1308,11 @@ header .selected {
   background-color: #535353;
   color: white;
 }
-/* line 317, ../sass/cmi.scss */
+/* line 318, ../sass/cmi.scss */
 .listcontainer .listheader p {
   color: white;
 }
-/* line 321, ../sass/cmi.scss */
+/* line 322, ../sass/cmi.scss */
 .listcontainer .siteheader {
   position: relative;
   display: block;
@@ -1320,12 +1320,12 @@ header .selected {
   padding: 0 1rem;
   background-color: #2f2f2f;
 }
-/* line 327, ../sass/cmi.scss */
+/* line 328, ../sass/cmi.scss */
 .listcontainer .siteheader h2 {
   color: white;
   clear: none;
 }
-/* line 332, ../sass/cmi.scss */
+/* line 333, ../sass/cmi.scss */
 .listcontainer .listitem {
   position: relative;
   display: block;
@@ -1334,39 +1334,39 @@ header .selected {
   margin: 0 1px;
   top: -1px;
   background-color: #f3f3f3;
-  outline: 1px solid #bcc4b9;
+  outline: 1px solid #f3f3f3;
 }
-/* line 341, ../sass/cmi.scss */
+/* line 342, ../sass/cmi.scss */
 .listcontainer .listitem:nth-child(even) {
   background-color: white;
 }
-/* line 344, ../sass/cmi.scss */
+/* line 345, ../sass/cmi.scss */
 .listcontainer .listitem .fa {
-  color: #bcc4b9;
+  color: #f3f3f3;
   float: left;
 }
-/* line 348, ../sass/cmi.scss */
+/* line 349, ../sass/cmi.scss */
 .listcontainer .listitem:hover, .listcontainer .listitem.selected {
   background-color: #f4b90b;
   outline: 1px solid #b77e05;
   z-index: 2;
 }
-/* line 352, ../sass/cmi.scss */
+/* line 353, ../sass/cmi.scss */
 .listcontainer .listitem:hover .fa, .listcontainer .listitem.selected .fa {
   color: #b77e05;
 }
-/* line 357, ../sass/cmi.scss */
+/* line 358, ../sass/cmi.scss */
 .listcontainer .patientprofile {
   position: relative;
   display: block;
   top: -1rem;
 }
-/* line 361, ../sass/cmi.scss */
+/* line 362, ../sass/cmi.scss */
 .listcontainer .patientprofile .contactbar {
   padding-top: 2rem;
   width: 100%;
 }
-/* line 365, ../sass/cmi.scss */
+/* line 366, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack {
   position: relative;
   display: inline-block;
@@ -1374,77 +1374,77 @@ header .selected {
   clear: none;
   width: 66%;
 }
-/* line 372, ../sass/cmi.scss */
+/* line 373, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox {
   width: 100%;
   margin-bottom: 1rem;
 }
-/* line 375, ../sass/cmi.scss */
+/* line 376, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar {
   display: inline-block;
   width: 100%;
   height: 72px;
 }
-/* line 379, ../sass/cmi.scss */
+/* line 380, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar button {
   float: right;
 }
-/* line 382, ../sass/cmi.scss */
+/* line 383, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .datebar h1, .listcontainer .patientprofile .leftstack .calbox .datebar .fa {
   float: left;
   clear: none;
   padding-right: .5rem;
 }
-/* line 388, ../sass/cmi.scss */
+/* line 389, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .weekbar {
   position: relative;
   display: block;
   top: 9px;
 }
-/* line 392, ../sass/cmi.scss */
+/* line 393, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .weekbar li {
   float: left;
   position: relative;
   width: 14.285%;
   text-align: center;
 }
-/* line 399, ../sass/cmi.scss */
+/* line 400, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .monthbox {
   position: relative;
   display: inline-block;
   width: 100%;
   top: 9px;
 }
-/* line 406, ../sass/cmi.scss */
+/* line 407, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox {
   position: relative;
   width: 14.285%;
   min-height: 88px;
   float: left;
   background-color: #f3f3f3;
-  outline: 1px solid #bcc4b9;
+  outline: 1px solid #f3f3f3;
 }
-/* line 413, ../sass/cmi.scss */
+/* line 414, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox:hover {
   background-color: #f4b90b;
   outline: 1px solid #b77e05;
   z-index: 2;
 }
-/* line 418, ../sass/cmi.scss */
+/* line 419, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox h1 {
   position: relative;
   top: 1rem;
   color: #e74c3c;
   text-align: center;
 }
-/* line 424, ../sass/cmi.scss */
+/* line 425, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox h6 {
   position: absolute;
   top: 0;
   right: 0;
   padding: 0 .25rem;
 }
-/* line 430, ../sass/cmi.scss */
+/* line 431, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .dayfeeling {
   position: relative;
   top: 1rem;
@@ -1452,23 +1452,23 @@ header .selected {
   width: 100%;
   background-color: #f4b90b;
 }
-/* line 437, ../sass/cmi.scss */
+/* line 438, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d2 {
   background-color: #f09e11;
 }
-/* line 438, ../sass/cmi.scss */
+/* line 439, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d3 {
   background-color: #e67f22;
 }
-/* line 439, ../sass/cmi.scss */
+/* line 440, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d4 {
   background-color: #d05300;
 }
-/* line 440, ../sass/cmi.scss */
+/* line 441, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d5 {
   background-color: #bf3930;
 }
-/* line 441, ../sass/cmi.scss */
+/* line 442, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .doses {
   position: relative;
   display: inline-block;
@@ -1476,7 +1476,7 @@ header .selected {
   width: 100%;
   padding-top: 5px;
 }
-/* line 447, ../sass/cmi.scss */
+/* line 448, ../sass/cmi.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .doses .dose {
   width: 12px;
   height: 12px;
@@ -1484,7 +1484,7 @@ header .selected {
   margin-left: auto;
   border-radius: 50% 50%;
 }
-/* line 458, ../sass/cmi.scss */
+/* line 459, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack {
   position: relative;
   display: inline-block;
@@ -1492,20 +1492,20 @@ header .selected {
   clear: right;
   width: 32.5%;
 }
-/* line 464, ../sass/cmi.scss */
+/* line 465, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox, .listcontainer .patientprofile .rightstack .rescuebox, .listcontainer .patientprofile .rightstack .coachbox {
   padding: 1rem;
   margin-bottom: 1rem;
 }
-/* line 467, ../sass/cmi.scss */
+/* line 468, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox h1, .listcontainer .patientprofile .rightstack .rescuebox h1, .listcontainer .patientprofile .rightstack .coachbox h1 {
   padding-bottom: .33rem;
 }
-/* line 470, ../sass/cmi.scss */
+/* line 471, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox h2, .listcontainer .patientprofile .rightstack .rescuebox h2, .listcontainer .patientprofile .rightstack .coachbox h2 {
   padding-top: 1rem;
 }
-/* line 473, ../sass/cmi.scss */
+/* line 474, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox h4, .listcontainer .patientprofile .rightstack .rescuebox h4, .listcontainer .patientprofile .rightstack .coachbox h4 {
   position: relative;
   display: inline-block;
@@ -1513,7 +1513,7 @@ header .selected {
   padding: 0 .5rem;
   top: -3px;
 }
-/* line 480, ../sass/cmi.scss */
+/* line 481, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats, .listcontainer .patientprofile .rightstack .rescuebox .medstats, .listcontainer .patientprofile .rightstack .coachbox .medstats {
   position: relative;
   display: inline-block;
@@ -1521,41 +1521,136 @@ header .selected {
   padding-top: 1rem;
   width: 100px;
 }
-/* line 486, ../sass/cmi.scss */
+/* line 487, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats .dose, .listcontainer .patientprofile .rightstack .rescuebox .medstats .dose, .listcontainer .patientprofile .rightstack .coachbox .medstats .dose {
   position: relative;
   display: inline-block;
 }
-/* line 490, ../sass/cmi.scss */
+/* line 491, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats li h4, .listcontainer .patientprofile .rightstack .rescuebox .medstats li h4, .listcontainer .patientprofile .rightstack .coachbox .medstats li h4 {
   top: -1px;
 }
-/* line 493, ../sass/cmi.scss */
+/* line 494, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats span, .listcontainer .patientprofile .rightstack .rescuebox .medstats span, .listcontainer .patientprofile .rightstack .coachbox .medstats span {
   padding: 0 .33rem;
   color: #414141;
 }
-/* line 498, ../sass/cmi.scss */
+/* line 499, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox .fa-moon-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-moon-o, .listcontainer .patientprofile .rightstack .coachbox .fa-moon-o {
   color: #535353;
 }
-/* line 499, ../sass/cmi.scss */
+/* line 500, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .maintbox .fa-sun-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-sun-o, .listcontainer .patientprofile .rightstack .coachbox .fa-sun-o {
   color: #f4b90b;
 }
-/* line 501, ../sass/cmi.scss */
+/* line 502, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .rescuebox .fa {
   color: #e74c3c;
 }
-/* line 502, ../sass/cmi.scss */
+/* line 503, ../sass/cmi.scss */
 .listcontainer .patientprofile .rightstack .coachbox .fa {
   color: #2ecc71;
 }
 
-/* line 507, ../sass/cmi.scss */
+/* line 508, ../sass/cmi.scss */
 .bblock {
   position: relative;
   top: -5px;
   background-color: #f3f3f3;
   padding: 4% 1% 1% 1%;
+}
+
+/*************/
+/* AR VIEWER */
+/*************/
+/* line 519, ../sass/cmi.scss */
+#arviewer {
+  height: 100%;
+  width: auto;
+  vertical-align: top;
+  /*background: url(../images/cmi-arbg.png) no-repeat center / 100%;*/
+}
+/* line 524, ../sass/cmi.scss */
+#arviewer img {
+  height: 100%;
+  width: auto;
+  vertical-align: top;
+}
+
+/* line 531, ../sass/cmi.scss */
+.arcallout {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #f4b90b;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 540, ../sass/cmi.scss */
+.arcallout h2 {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* line 549, ../sass/cmi.scss */
+.arcallout.ar1 {
+  position: absolute;
+  top: 52%;
+  left: 2%;
+}
+/* line 554, ../sass/cmi.scss */
+.arcallout.ar2 {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+/* line 559, ../sass/cmi.scss */
+.arcallout.ar3 {
+  position: absolute;
+  top: 55%;
+  left: 33%;
+}
+/* line 564, ../sass/cmi.scss */
+.arcallout.ar4 {
+  position: absolute;
+  top: 55%;
+  left: 90%;
+}
+
+/*************/
+/* RFID PAGE */
+/*************/
+/* line 574, ../sass/cmi.scss */
+.rfid-itembox {
+  position: relative;
+  display: inline-block;
+  margin: 2% 2% 0 0;
+  padding: 1%;
+  width: 48.8%;
+  height: 200px;
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+/* line 583, ../sass/cmi.scss */
+.rfid-itembox:nth-child(even) {
+  margin-right: 0;
+}
+/* line 586, ../sass/cmi.scss */
+.rfid-itembox ​
+img {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+/* line 591, ../sass/cmi.scss */
+.rfid-itembox h3, .rfid-itembox p {
+  position: relative;
+  display: inline-block;
+  float: left;
 }
