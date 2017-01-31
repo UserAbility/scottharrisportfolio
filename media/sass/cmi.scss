@@ -223,7 +223,6 @@ button {
 	&:hover{
 		color: $clr-lightest;
 		background-color: $clr-linkl;
-
 	}
 }
 
@@ -576,6 +575,7 @@ header{
 		position: relative;
 		display: inline-block;
 		width: 50%;
+		float: left;
 	}
 	img{
 		position: relative;
