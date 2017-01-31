@@ -1565,91 +1565,106 @@ header .selected {
 /*************/
 /* line 519, ../sass/cmi.scss */
 #arviewer {
-  height: 100%;
-  width: auto;
-  vertical-align: top;
-  /*background: url(../images/cmi-arbg.png) no-repeat center / 100%;*/
+  height: 600px;
+  width: 3000px;
 }
-/* line 524, ../sass/cmi.scss */
+@media (min-width: 1079px) {
+  /* line 519, ../sass/cmi.scss */
+  #arviewer {
+    height: 720px;
+    width: 3600px;
+  }
+}
+/* line 526, ../sass/cmi.scss */
 #arviewer img {
-  height: 100%;
-  width: auto;
-  vertical-align: top;
-}
-
-/* line 531, ../sass/cmi.scss */
-.arcallout {
   position: absolute;
-  display: block;
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+}
+/* line 533, ../sass/cmi.scss */
+#arviewer .arcallout {
+  position: relative;
+  display: inline-block;
+  margin: 0;
   width: 50px;
   height: 50px;
   background: #f4b90b;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
+  z-index: 2;
 }
-/* line 540, ../sass/cmi.scss */
-.arcallout h2 {
-  margin: 0;
+/* line 544, ../sass/cmi.scss */
+#arviewer .arcallout h2 {
   position: absolute;
+  margin: 0;
   top: 45%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   color: white;
 }
-/* line 549, ../sass/cmi.scss */
-.arcallout.ar1 {
-  position: absolute;
-  top: 52%;
-  left: 2%;
+/* line 553, ../sass/cmi.scss */
+#arviewer .arcallout.ar1 {
+  top: 68%;
+  left: 1.5%;
 }
 /* line 554, ../sass/cmi.scss */
-.arcallout.ar2 {
-  position: absolute;
-  top: 50%;
-  left: 15%;
+#arviewer .arcallout.ar2 {
+  top: 65%;
+  left: 3.2%;
 }
-/* line 559, ../sass/cmi.scss */
-.arcallout.ar3 {
-  position: absolute;
-  top: 55%;
-  left: 33%;
+/* line 555, ../sass/cmi.scss */
+#arviewer .arcallout.ar3 {
+  top: 69%;
+  left: 7.9%;
 }
-/* line 564, ../sass/cmi.scss */
-.arcallout.ar4 {
-  position: absolute;
-  top: 55%;
+/* line 556, ../sass/cmi.scss */
+#arviewer .arcallout.ar4 {
+  top: 37%;
   left: 90%;
 }
 
 /*************/
 /* RFID PAGE */
 /*************/
-/* line 574, ../sass/cmi.scss */
-.rfid-itembox {
+/* line 564, ../sass/cmi.scss */
+#rfid-itembox
+li {
   position: relative;
   display: inline-block;
   margin: 2% 2% 0 0;
-  padding: 1%;
   width: 48.8%;
   height: 200px;
   background-color: #f3f3f3;
   overflow: hidden;
 }
-/* line 583, ../sass/cmi.scss */
-.rfid-itembox:nth-child(even) {
+/* line 572, ../sass/cmi.scss */
+#rfid-itembox
+li:nth-child(even) {
   margin-right: 0;
 }
-/* line 586, ../sass/cmi.scss */
-.rfid-itembox ​
-img {
+/* line 575, ../sass/cmi.scss */
+#rfid-itembox
+li ​
+.textblock {
   position: relative;
   display: inline-block;
-  float: left;
+  width: 50%;
 }
-/* line 591, ../sass/cmi.scss */
-.rfid-itembox h3, .rfid-itembox p {
+/* line 580, ../sass/cmi.scss */
+#rfid-itembox
+li img {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+/* line 585, ../sass/cmi.scss */
+#rfid-itembox
+li h3, #rfid-itembox
+li p {
   position: relative;
   display: inline-block;
   float: left;

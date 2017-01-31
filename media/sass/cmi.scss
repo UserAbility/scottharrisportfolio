@@ -517,65 +517,54 @@ header{
 /*************/
 
 #arviewer{
-	height: 100%;
-	width: auto;
-	vertical-align: top;
-	/*background: url(../images/cmi-arbg.png) no-repeat center / 100%;*/
+	height: 600px;
+	width: 3000px;
+	@media (min-width: 1079px){
+		height: 720px;
+		width: 3600px;
+	}
 	img{
-		height:100%; 
-		width:auto; 
-		vertical-align: top;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: inherit;
+		width: inherit;
     }
-}
-
-.arcallout {
-	position: absolute;
-	display: block;
-	width: 50px;
-	height: 50px;
-	background: $clr-cmibrand;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	h2{
-		margin: 0;
-	    position: absolute;
-	    top: 45%;
-	    left: 50%;
-	    margin-right: -50%;
-	    transform: translate(-50%, -50%);
-	    color: $clr-lightest;
-	}
-	&.ar1{
-		position: absolute;
-		top:52%;
-		left: 2%;
-	}
-	&.ar2{
-		position: absolute;
-		top:50%;
-		left: 15%;
-	}
-	&.ar3{
-		position: absolute;
-		top:55%;
-		left: 33%;
-	}
-	&.ar4{
-		position: absolute;
-		top:55%;
-		left: 90%;
+    .arcallout {
+    	position: relative;
+    	display: inline-block;
+    	margin: 0;
+		width: 50px;
+		height: 50px;
+		background: $clr-cmibrand;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		z-index: 2;
+		h2{
+		    position: absolute;
+			margin: 0;
+		    top: 45%;
+		    left: 50%;
+		    margin-right: -50%;
+		    transform: translate(-50%, -50%);
+		    color: $clr-lightest;
+		}
+		&.ar1{	top:68%;	left: 1.5%;	}
+		&.ar2{ 	top:65%;	left: 3.2%;	}
+		&.ar3{	top:69%;	left: 7.9%;	}
+		&.ar4{	top:37%;	left: 90%;	}
 	}
 }
 
 /*************/
 /* RFID PAGE */
 /*************/
-.rfid-itembox{
+#rfid-itembox
+	li{
 	position: relative;
 	display: inline-block;
 	margin: 2% 2% 0 0;
-	padding: 1%;
 	width: 48.8%;
 	height: 200px;
 	background-color: $clr-body1;
@@ -583,10 +572,15 @@ header{
 	&:nth-child(even){
     	margin-right: 0;
 	}​
+	.textblock{
+		position: relative;
+		display: inline-block;
+		width: 50%;
+	}
 	img{
 		position: relative;
 		display: inline-block;
-		float: left;
+		float: right;
 	}
 	h3, p{
 		position: relative;
@@ -594,8 +588,3 @@ header{
 		float: left;
 	}
 }
-
-
-
-
-
