@@ -1594,9 +1594,8 @@ header .selected {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  z-index: 2;
 }
-/* line 543, ../sass/cmi.scss */
+/* line 542, ../sass/cmi.scss */
 #arviewer .arcallout h2 {
   position: absolute;
   margin: 0;
@@ -1606,31 +1605,106 @@ header .selected {
   transform: translate(-50%, -50%);
   color: white;
 }
-/* line 552, ../sass/cmi.scss */
+/* line 551, ../sass/cmi.scss */
 #arviewer .arcallout.ar1 {
   top: 68%;
   left: 1.5%;
 }
-/* line 553, ../sass/cmi.scss */
+/* line 552, ../sass/cmi.scss */
 #arviewer .arcallout.ar2 {
   top: 65%;
   left: 3.2%;
 }
-/* line 554, ../sass/cmi.scss */
+/* line 553, ../sass/cmi.scss */
 #arviewer .arcallout.ar3 {
   top: 69%;
   left: 7.9%;
 }
-/* line 555, ../sass/cmi.scss */
+/* line 554, ../sass/cmi.scss */
 #arviewer .arcallout.ar4 {
   top: 37%;
   left: 90%;
 }
 
+/****************/
+/*     Modal    */
+/****************/
+/* The Modal (background) */
+/* line 562, ../sass/cmi.scss */
+.modal1, .modal2 {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+/* line 576, ../sass/cmi.scss */
+.modal1-content, .modal2-content {
+  position: relative;
+  background-color: white;
+  margin: 5% auto;
+  /* 15% from the top and centered */
+  padding: 2%;
+  border: 1px solid #f4b90b;
+  width: 90%;
+  /* Could be more or less, depending on screen size */
+  height: 90%;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+/* The Close Button */
+/* line 588, ../sass/cmi.scss */
+.modal-close {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 35px;
+  height: 35px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2rem;
+  color: white;
+  background: #e74c3c;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+/* line 602, ../sass/cmi.scss */
+.modal-close:hover, .modal-close:focus {
+  color: #e74c3c;
+  background: #f4938b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /*************/
 /* RFID PAGE */
 /*************/
-/* line 563, ../sass/cmi.scss */
+/* line 614, ../sass/cmi.scss */
 #rfid-itembox
 li {
   position: relative;
@@ -1641,12 +1715,12 @@ li {
   background-color: #f3f3f3;
   overflow: hidden;
 }
-/* line 571, ../sass/cmi.scss */
+/* line 622, ../sass/cmi.scss */
 #rfid-itembox
 li:nth-child(even) {
   margin-right: 0;
 }
-/* line 574, ../sass/cmi.scss */
+/* line 625, ../sass/cmi.scss */
 #rfid-itembox
 li ​
 .textblock {
@@ -1655,14 +1729,14 @@ li ​
   width: 50%;
   float: left;
 }
-/* line 580, ../sass/cmi.scss */
+/* line 631, ../sass/cmi.scss */
 #rfid-itembox
 li img {
   position: relative;
   display: inline-block;
   float: right;
 }
-/* line 585, ../sass/cmi.scss */
+/* line 636, ../sass/cmi.scss */
 #rfid-itembox
 li h3, #rfid-itembox
 li p {

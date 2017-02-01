@@ -78,6 +78,12 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#333')";
     filter:     "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#333')";
 }
+@mixin shape-shadow3 {
+    -webkit-filter: drop-shadow(0px 0px 50px rgba(0,0,0,.9));
+    -moz-filter:    drop-shadow(0px 0px 50px rgba(0,0,0,.9));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#333')";
+    filter:     "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#333')";
+}
 @mixin no-shadow {
     -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
     -moz-filter:    drop-shadow(0px 0px 0px rgba(0,0,0,0));
