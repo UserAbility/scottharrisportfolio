@@ -1591,11 +1591,14 @@ header .selected {
   width: 50px;
   height: 50px;
   background: #f4b90b;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
-/* line 542, ../sass/cmi.scss */
+/* line 540, ../sass/cmi.scss */
 #arviewer .arcallout h2 {
   position: absolute;
   margin: 0;
@@ -1605,22 +1608,22 @@ header .selected {
   transform: translate(-50%, -50%);
   color: white;
 }
-/* line 551, ../sass/cmi.scss */
+/* line 549, ../sass/cmi.scss */
 #arviewer .arcallout.ar1 {
   top: 68%;
   left: 1.5%;
 }
-/* line 552, ../sass/cmi.scss */
+/* line 550, ../sass/cmi.scss */
 #arviewer .arcallout.ar2 {
   top: 65%;
   left: 3.2%;
 }
-/* line 553, ../sass/cmi.scss */
+/* line 551, ../sass/cmi.scss */
 #arviewer .arcallout.ar3 {
   top: 69%;
   left: 7.9%;
 }
-/* line 554, ../sass/cmi.scss */
+/* line 552, ../sass/cmi.scss */
 #arviewer .arcallout.ar4 {
   top: 37%;
   left: 90%;
@@ -1630,40 +1633,36 @@ header .selected {
 /*     Modal    */
 /****************/
 /* The Modal (background) */
-/* line 562, ../sass/cmi.scss */
-.modal1, .modal2 {
-  display: none;
-  /* Hidden by default */
+/* line 560, ../sass/cmi.scss */
+.cmi-modalDialog {
   position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  left: 0;
   top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: black;
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.6);
-  /* Black w/ opacity */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-transition: opacity 300ms ease-in;
+  -moz-transition: opacity 300ms ease-in;
+  transition: opacity 300ms ease-in;
+  pointer-events: none;
+  z-index: 99999;
 }
 
-/* Modal Content/Box */
-/* line 576, ../sass/cmi.scss */
-.modal1-content, .modal2-content {
-  position: relative;
-  background-color: white;
-  margin: 5% auto;
-  /* 15% from the top and centered */
-  padding: 2%;
-  border: 1px solid #f4b90b;
+/* line 575, ../sass/cmi.scss */
+.cmi-modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* line 580, ../sass/cmi.scss */
+.cmi-modalDialog > div {
   width: 90%;
-  /* Could be more or less, depending on screen size */
-  height: 90%;
+  position: relative;
+  margin: 5% auto;
+  padding: 2%;
+  border-radius: 1 solid #f4b90b;
+  background: white;
   -moz-border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   border-radius: 0.5rem;
@@ -1672,19 +1671,15 @@ header .selected {
   background-clip: padding-box;
 }
 
-/* The Close Button */
-/* line 588, ../sass/cmi.scss */
-.modal-close {
+/* line 590, ../sass/cmi.scss */
+.modalClose {
   position: absolute;
   top: -1rem;
   right: -1rem;
   width: 35px;
   height: 35px;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  line-height: 2rem;
-  color: white;
+  margin: 0;
+  color: #f4938b;
   background: #e74c3c;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -1693,54 +1688,70 @@ header .selected {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 602, ../sass/cmi.scss */
-.modal-close:hover, .modal-close:focus {
+/* line 600, ../sass/cmi.scss */
+.modalClose:hover {
   color: #e74c3c;
   background: #f4938b;
+}
+/* line 604, ../sass/cmi.scss */
+.modalClose.fa {
+  padding-top: 4px;
   text-decoration: none;
-  cursor: pointer;
+  text-align: center;
 }
 
 /*************/
 /* RFID PAGE */
 /*************/
-/* line 614, ../sass/cmi.scss */
-#rfid-itembox
-li {
+/* line 615, ../sass/cmi.scss */
+#rfid-itembox li, #rfid-leftovers li {
   position: relative;
   display: inline-block;
-  margin: 2% 2% 0 0;
-  width: 48.8%;
+  margin: 2% 0 0 0;
+  width: 100%;
   height: 200px;
   background-color: #f3f3f3;
   overflow: hidden;
 }
-/* line 622, ../sass/cmi.scss */
-#rfid-itembox
-li:nth-child(even) {
-  margin-right: 0;
-}
-/* line 625, ../sass/cmi.scss */
-#rfid-itembox
-li ​
-.textblock {
+/* line 623, ../sass/cmi.scss */
+#rfid-itembox li .textblock, #rfid-leftovers li .textblock {
   position: relative;
   display: inline-block;
   width: 50%;
   float: left;
 }
-/* line 631, ../sass/cmi.scss */
-#rfid-itembox
-li img {
-  position: relative;
-  display: inline-block;
-  float: right;
-}
-/* line 636, ../sass/cmi.scss */
-#rfid-itembox
-li h3, #rfid-itembox
-li p {
+/* line 629, ../sass/cmi.scss */
+#rfid-itembox li img, #rfid-leftovers li img {
   position: relative;
   display: inline-block;
   float: left;
+  max-width: 50%;
+}
+/* line 635, ../sass/cmi.scss */
+#rfid-itembox li h4, #rfid-itembox li p, #rfid-leftovers li h4, #rfid-leftovers li p {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: .5rem 0 0 1rem;
+  width: 50%;
+}
+
+/* line 646, ../sass/cmi.scss */
+#rfid-leftovers li {
+  width: 17.7%;
+  margin-right: 2%;
+  height: 312px;
+  /*@include border-radius-all;*/
+}
+/* line 651, ../sass/cmi.scss */
+#rfid-leftovers li img {
+  display: block;
+  float: left;
+  max-width: 100%;
+}
+/* line 656, ../sass/cmi.scss */
+#rfid-leftovers li h4, #rfid-leftovers li p {
+  display: block;
+  float: left;
+  width: 100%;
 }

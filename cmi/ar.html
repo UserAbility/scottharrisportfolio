@@ -34,44 +34,51 @@
 	<body>
 		<div id="arviewer" class="outline">
 			<img src="../media/images/cmi-arbg.png">
-			<button id="modleBtn1" class="arcallout ar1"><h2>1</h2></button>
-			<button id="modleBtn2" class="arcallout ar2"><h2>2</h2></button>
-			<button id="myBtn3" class="arcallout ar3"><h2>3</h2></button>
-			<button id="myBtn4" class="arcallout ar4"><h2>4</h2></button>
+			<a href="#openModal1" class="arcallout ar1"><h2>1</h2></a>
+			<a href="#openModal2" class="arcallout ar2"><h2>2</h2></a>
+			<a href="#openModal3" class="arcallout ar3"><h2>3</h2></a>
+			<a href="#openModal4" class="arcallout ar4"><h2>4</h2></a>
 		</div>
 
-
 <!-- MODAL #1 -->
-		<div id="myModal1" class="modal1">
-			<div class="modal1-content">
-				<span class="modal-close">&times;</span>
-				<h2>Item Number 1!</h2>
-				<p>Subject content here</p>
+		<div id="openModal1" class="cmi-modalDialog">
+			<div>
+			    <a href="#close" title="Close" class="fa fa-close modalClose"></a>
+			    <h2>Item #1</h2>
+			    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
+			    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
 			</div>
 		</div>
 
-		<script>
-		// Get the modal
-		var modal = document.getElementById('myModal1');
-		// Get the button that opens the modal
-		var btn = document.getElementById("modleBtn1");
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("modal-close")[0];
-		// When the user clicks the button, open the modal 
-		btn.onclick = function() {
-		    modal.style.display = "block";
-		}
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-		    modal.style.display = "none";
-		}
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-		    if (event.target == modal) {
-		        modal.style.display = "none";
-		    }
-		}
-		</script>
+<!-- MODAL #2 -->
+		<div id="openModal2" class="cmi-modalDialog">
+			<div>
+			    <a href="#close" title="Close" class="fa fa-close modalClose"></a>
+			    <h2>Item #2</h2>
+			    <p><strong>Box 2</strong></p>
+			    <p>yadda yadda</p>
+			</div>
+		</div>
+
+<!-- MODAL #3 -->
+		<div id="openModal3" class="cmi-modalDialog">
+			<div>
+			    <a href="#close" title="Close" class="fa fa-close modalClose"></a>
+			    <h2>Item #3</h2>
+			    <p><strong>Box 2</strong></p>
+			    <p>yadda yadda</p>
+			</div>
+		</div>
+
+<!-- MODAL #4 -->
+		<div id="openModal4" class="cmi-modalDialog">
+			<div>
+			    <a href="#close" title="Close" class="fa fa-close modalClose"></a>
+			    <h2>Item #4</h2>
+			    <p><strong>Box 2</strong></p>
+			    <p>yadda yadda</p>
+			</div>
+		</div>
 	</body>
 </html>
 
