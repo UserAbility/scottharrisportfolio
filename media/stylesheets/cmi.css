@@ -1,6 +1,6 @@
 /* -------------------------------------------------------------------
 colors
-------------------------------------------------------------------- */
+-------------------------------------------------------------------- */
 /*--- body colors ----*/
 /*body*/
 /* line 18, ../sass/_colors.scss */
@@ -378,7 +378,7 @@ colors
 
 /* -------------------------------------------------------------------
 colors
-------------------------------------------------------------------- */
+-------------------------------------------------------------------- */
 /*--- body colors ----*/
 /*body*/
 /* line 18, ../sass/_colors.scss */
@@ -754,7 +754,7 @@ colors
   color: #2677c8;
 }
 
-/*------- custome ---------*/
+/*------- custome ----------*/
 /* ----------------------------------------------
 colors
 -----------------------------------------------*/
@@ -1571,8 +1571,8 @@ header .selected {
 @media (min-width: 1079px) {
   /* line 518, ../sass/cmi.scss */
   #arviewer {
-    height: 720px;
-    width: 3600px;
+    height: 900px;
+    width: 4500px;
   }
 }
 /* line 525, ../sass/cmi.scss */
@@ -1632,7 +1632,7 @@ header .selected {
 /****************/
 /*     Modal    */
 /****************/
-/* The Modal (background) */
+/* The Modal (background)  */
 /* line 560, ../sass/cmi.scss */
 .cmi-modalDialog {
   position: fixed;
@@ -1658,6 +1658,7 @@ header .selected {
 /* line 580, ../sass/cmi.scss */
 .cmi-modalDialog > div {
   width: 90%;
+  min-height: 80%;
   position: relative;
   margin: 5% auto;
   padding: 2%;
@@ -1671,7 +1672,7 @@ header .selected {
   background-clip: padding-box;
 }
 
-/* line 590, ../sass/cmi.scss */
+/* line 591, ../sass/cmi.scss */
 .modalClose {
   position: absolute;
   top: -1rem;
@@ -1688,12 +1689,12 @@ header .selected {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 600, ../sass/cmi.scss */
+/* line 601, ../sass/cmi.scss */
 .modalClose:hover {
   color: #e74c3c;
   background: #f4938b;
 }
-/* line 604, ../sass/cmi.scss */
+/* line 605, ../sass/cmi.scss */
 .modalClose.fa {
   padding-top: 4px;
   text-decoration: none;
@@ -1703,7 +1704,7 @@ header .selected {
 /*************/
 /* RFID PAGE */
 /*************/
-/* line 615, ../sass/cmi.scss */
+/* line 616, ../sass/cmi.scss */
 #rfid-itembox li, #rfid-leftovers li {
   position: relative;
   display: inline-block;
@@ -1713,21 +1714,21 @@ header .selected {
   background-color: #f3f3f3;
   overflow: hidden;
 }
-/* line 623, ../sass/cmi.scss */
+/* line 624, ../sass/cmi.scss */
 #rfid-itembox li .textblock, #rfid-leftovers li .textblock {
   position: relative;
   display: inline-block;
   width: 50%;
   float: left;
 }
-/* line 629, ../sass/cmi.scss */
+/* line 630, ../sass/cmi.scss */
 #rfid-itembox li img, #rfid-leftovers li img {
   position: relative;
   display: inline-block;
   float: left;
   max-width: 50%;
 }
-/* line 635, ../sass/cmi.scss */
+/* line 636, ../sass/cmi.scss */
 #rfid-itembox li h4, #rfid-itembox li p, #rfid-leftovers li h4, #rfid-leftovers li p {
   position: relative;
   display: inline-block;
@@ -1736,20 +1737,20 @@ header .selected {
   width: 50%;
 }
 
-/* line 646, ../sass/cmi.scss */
+/* line 647, ../sass/cmi.scss */
 #rfid-leftovers li {
   width: 17.7%;
   margin-right: 2%;
   height: 312px;
   /*@include border-radius-all;*/
 }
-/* line 651, ../sass/cmi.scss */
+/* line 652, ../sass/cmi.scss */
 #rfid-leftovers li img {
   display: block;
   float: left;
   max-width: 100%;
 }
-/* line 656, ../sass/cmi.scss */
+/* line 657, ../sass/cmi.scss */
 #rfid-leftovers li h4, #rfid-leftovers li p {
   display: block;
   float: left;

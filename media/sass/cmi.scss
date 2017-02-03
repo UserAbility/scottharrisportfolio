@@ -519,8 +519,8 @@ header{
 	height: 600px;
 	width: 3000px;
 	@media (min-width: 1079px){
-		height: 720px;
-		width: 3600px;
+		height: 900px;
+		width: 4500px;
 	}
 	img{
 		position: absolute;
@@ -556,7 +556,7 @@ header{
 /****************/
 /*     Modal    */
 /****************/
-/* The Modal (background) */
+/* The Modal (background)  */
 .cmi-modalDialog {
 	position: fixed;
 	top: 0;
@@ -579,6 +579,7 @@ header{
 
 .cmi-modalDialog > div {
 	width: 90%;
+	min-height: 80%;
 	position: relative;
 	margin: 5% auto;
 	padding: 2%;
