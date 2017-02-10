@@ -2,6 +2,18 @@
 @import "mixins";
 
 /* ----------------------------------------------
+sass mixins
+-----------------------------------------------*/
+@mixin border-radius ($radius: 5px) {
+     -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+          border-radius: $radius;
+             -moz-background-clip: padding;
+          -webkit-background-clip: padding-box;
+                  background-clip: padding-box;
+}
+
+/* ----------------------------------------------
 colors
 -----------------------------------------------*/
 /*--- defaults colors ----*/
@@ -169,6 +181,7 @@ h1,h2,h3,h4,h5,h6,body,.megaheadline {
 	line-height:1.5;
 	letter-spacing: normal;
 	-webkit-font-smoothing: antialiased;
+	@media (max-width: 700px) {line-height:1.25;}
 }
 .megaheadline{
 	color:$clr-cmibrand;
@@ -176,10 +189,11 @@ h1,h2,h3,h4,h5,h6,body,.megaheadline {
 	margin: 0 0 1% 0;
 	line-height: 1;
 	@include shadow1;
+	@media (max-width: 700px) {font-size: 40px;}
 }
-h1 {font-size: 36px; margin: 0 0 2.5% 0;}
-h2 {font-size: 30px; margin: 0 0 2.2% 0;}
-h3 {font-size: 24px; margin: 0 0 2.0% 0;}
+h1 {font-size: 36px; margin: 0 0 2.5% 0; @media (max-width: 700px) {font-size: 30px;}}
+h2 {font-size: 30px; margin: 0 0 2.2% 0; @media (max-width: 700px) {font-size: 25px;}}
+h3 {font-size: 24px; margin: 0 0 2.0% 0; @media (max-width: 700px) {font-size: 20px;}}
 h4 {font-size: 18px; margin: 0 0 1.2% 0;}
 h5 {font-size: 14px; margin: 0 0 1.5% 0;}
 h6 {font-size: 12px; margin: 0 0 1.5% 0; text-transform: uppercase;}
@@ -294,216 +308,6 @@ header{
 	}
 }
 
-.listcontainer{
-	position: relative;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	width: 80%;
-	min-width: 600px;
-	margin-top: 2rem;
-	@media (max-width: 800px) {
-			width: 98%;
-	}
-	
-	.listheader{
-		position: relative;
-		display: block;
-		width: 100%;
-		height: 60px;
-		padding: 0 1rem;
-		background-color: $clr-bg-dark;
-		color: $clr-lightest;
-		p{
-			color: $clr-lightest;
-		}
-	}
-	.siteheader{
-		position: relative;
-		display: block;
-		height: 30px;
-		padding: 0 1rem;
-		background-color: $clr-bg-darker;
-		h2{
-			color: $clr-lightest;
-			clear: none;
-		}
-	}
-	.listitem{
-		position: relative;
-		display: block;
-		height: 30px;
-		padding: 0 1rem;
-		margin: 0 1px;
-		top: -1px;
-		background-color: $clr-bg-light;
-		outline: 1px solid $clr-body1;
-		&:nth-child(even){
-			background-color: $clr-bg-lighter;
-		}
-		.fa{
-			color: $clr-body1;
-			float: left;
-		}
-		&:hover, &.selected{
-			background-color: $clr-linkl;
-			outline: 1px solid $clr-link;
-			z-index: 2;
-			.fa{
-				color: $clr-link;
-			}
-		}
-	}
-	.patientprofile{
-		position: relative;
-		display: block;
-		top: -1rem;
-		.contactbar{
-			padding-top: 2rem;
-			width: 100%
-		}
-		.leftstack{
-			position: relative;
-			display: inline-block;
-			float: left;
-			clear: none;
-			width: 66%;
-
-			.calbox{
-				width: 100%;
-				margin-bottom: 1rem; 
-				.datebar{
-					display: inline-block;
-					width: 100%;
-					height: 72px;
-					button{
-						float: right;
-					}
-					h1, .fa{
-						float: left;
-						clear: none;
-						padding-right: .5rem;
-					}
-				}
-				.weekbar{
-					position: relative;
-					display: block;
-					top: 9px;
-					li{
-						float: left;
-						position: relative;
-						width: 14.285%;
-						text-align: center;
-					}
-				}
-				.monthbox{
-					position: relative;
-					display: inline-block;
-					width: 100%;
-					top: 9px;
-
-				}
-				.daybox{
-					position: relative;
-					width: 14.285%;
-					min-height: 88px;
-					float: left;
-					background-color: $clr-bg-light;
-					outline: 1px solid $clr-body1;
-					&:hover{
-						background-color: $clr-linkl;
-						outline: 1px solid $clr-link;
-						z-index: 2;
-					}
-					h1{
-						position: relative;
-						top: 1rem;
-						color: $clr-neg2;
-						text-align: center;
-					}
-					h6{
-						position: absolute;
-						top: 0;
-						right: 0;
-						padding: 0 .25rem;
-					}
-					.dayfeeling{
-						position: relative;
-						top: 1rem;
-						height: 5px;
-						width: 100%;
-						background-color: $clr-warm1;
-					}
-					.d2{background-color: $clr-warm2;}
-					.d3{background-color: $clr-warm3;}
-					.d4{background-color: $clr-warm4;}
-					.d5{background-color: $clr-warm5;}
-					.doses{
-						position: relative;
-						display: inline-block;
-						top: 1rem;
-						width: 100%;
-						padding-top: 5px;
-						.dose{
-							width: 12px;
-							height: 12px;
-							margin-right: auto;
-							margin-left: auto;
-							border-radius: 50% 50%;
-						}
-					}
-				}
-			}
-		}
-		.rightstack{
-			position: relative;
-			display: inline-block;
-			float: right;
-			clear: right;
-			width: 32.5%;
-			.maintbox, .rescuebox, .coachbox{
-				padding: 1rem;
-				margin-bottom: 1rem;
-				h1{
-					padding-bottom: .33rem;
-				}
-				h2{
-					padding-top: 1rem;
-				}
-				h4{
-					position: relative;
-					display: inline-block;
-					clear: none;
-					padding: 0 .5rem;
-					top: -3px;
-				}
-				.medstats{
-					position: relative;
-					display: inline-block;
-					float: right;
-					padding-top: 1rem;
-					width: 100px;
-					.dose{
-						position: relative;
-						display: inline-block;
-					}	
-					li h4{
-						top: -1px;
-					}
-					span{
-						padding: 0 .33rem;
-						color: $clr-darkest;
-					}
-				}
-				.fa-moon-o{color: $clr-bg-dark}
-				.fa-sun-o{color: $clr-warm1}
-			}
-			.rescuebox .fa{color: $clr-neg2;}
-			.coachbox .fa{color: $clr-pos1;}
-		}
-	}
-}
-
 .bblock{
 	position: relative;
 	top: -5px;
@@ -549,7 +353,7 @@ header{
 		&.ar1{	top:68%;	left: 1.5%;	}
 		&.ar2{ 	top:65%;	left: 3.2%;	}
 		&.ar3{	top:69%;	left: 7.9%;	}
-		&.ar4{	top:37%;	left: 90%;	}
+		&.ar4{	top:37%;	left: 89.0%;}
 	}
 }
 
@@ -569,6 +373,7 @@ header{
 	-moz-transition: opacity 300ms ease-in;
 	transition: opacity 300ms ease-in;
 	pointer-events: none;
+	overflow: scroll;
 	z-index: 99999;
 }
 
@@ -586,6 +391,9 @@ header{
 	border-radius: 1 solid $clr-cmibrand;
 	background: $clr-lightest;
 	@include border-radius-all;
+	.title{
+		background-color: $clr-bg-light;
+	}
 }
 
 .modalClose {
@@ -616,7 +424,7 @@ header{
 	li{
 		position: relative;
 		display: inline-block;
-		margin: 2% 0 0 0;
+		margin: 0 0 2% 0;
 		width: 100%;
 		height: 200px;
 		background-color: $clr-body1;
@@ -648,6 +456,13 @@ header{
 		width: 17.7%;
 		margin-right: 2%;
 		height: 312px;
+		@media (max-width: 700px) {
+			width: 24%;
+			margin-right: 0%;
+			height: 175px;
+		}
+
+
 		/*@include border-radius-all;*/
 		img{
 			display: block;
@@ -658,6 +473,9 @@ header{
 			display: block;
 			float: left;
 			width: 100%;
+			@media (max-width: 700px) {
+				font-size: .8rem;
+			}
 		}
 	}
 }
