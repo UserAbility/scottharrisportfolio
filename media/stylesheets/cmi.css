@@ -1395,7 +1395,7 @@ header .selected {
 /****************/
 /*     Modal    */
 /****************/
-/* The Modal (backgrounds)  */
+/* The Modal (backgrounds) */
 /* line 364, ../sass/cmi.scss */
 .cmi-modalDialog {
   position: fixed;
@@ -1425,7 +1425,7 @@ header .selected {
   min-height: 80%;
   position: relative;
   margin: 5% auto;
-  padding: 2%;
+  padding-bottom: 1%;
   border-radius: 1 solid #f4b90b;
   background: white;
   -moz-border-radius: 0.5rem;
@@ -1441,6 +1441,26 @@ header .selected {
 }
 
 /* line 399, ../sass/cmi.scss */
+.ar-splash {
+  padding-bottom: 1%;
+}
+
+/* line 404, ../sass/cmi.scss */
+.ar-content li {
+  position: relative;
+  display: inline-block;
+  width: 96%;
+  height: 500px;
+  margin: 1% 2% 1% 2%;
+  background-color: #f3f3f3;
+}
+/* line 411, ../sass/cmi.scss */
+.ar-content li h2, .ar-content li h3 {
+  float: left;
+  padding: 1%;
+}
+
+/* line 418, ../sass/cmi.scss */
 .modalClose {
   position: absolute;
   top: -1rem;
@@ -1457,12 +1477,12 @@ header .selected {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 409, ../sass/cmi.scss */
+/* line 428, ../sass/cmi.scss */
 .modalClose:hover {
   color: #e74c3c;
   background: #f4938b;
 }
-/* line 413, ../sass/cmi.scss */
+/* line 432, ../sass/cmi.scss */
 .modalClose.fa {
   padding-top: 4px;
   text-decoration: none;
@@ -1472,7 +1492,7 @@ header .selected {
 /*************/
 /* RFID PAGE */
 /*************/
-/* line 424, ../sass/cmi.scss */
+/* line 443, ../sass/cmi.scss */
 #rfid-itembox li, #rfid-leftovers li {
   position: relative;
   display: inline-block;
@@ -1482,21 +1502,21 @@ header .selected {
   background-color: #f3f3f3;
   overflow: hidden;
 }
-/* line 432, ../sass/cmi.scss */
+/* line 451, ../sass/cmi.scss */
 #rfid-itembox li .textblock, #rfid-leftovers li .textblock {
   position: relative;
   display: inline-block;
   width: 50%;
   float: left;
 }
-/* line 438, ../sass/cmi.scss */
+/* line 457, ../sass/cmi.scss */
 #rfid-itembox li img, #rfid-leftovers li img {
   position: relative;
   display: inline-block;
   float: left;
   max-width: 50%;
 }
-/* line 444, ../sass/cmi.scss */
+/* line 463, ../sass/cmi.scss */
 #rfid-itembox li h4, #rfid-itembox li p, #rfid-leftovers li h4, #rfid-leftovers li p {
   position: relative;
   display: inline-block;
@@ -1505,7 +1525,7 @@ header .selected {
   width: 50%;
 }
 
-/* line 455, ../sass/cmi.scss */
+/* line 474, ../sass/cmi.scss */
 #rfid-leftovers li {
   width: 17.7%;
   margin-right: 2%;
@@ -1513,27 +1533,27 @@ header .selected {
   /*@include border-radius-all;*/
 }
 @media (max-width: 700px) {
-  /* line 455, ../sass/cmi.scss */
+  /* line 474, ../sass/cmi.scss */
   #rfid-leftovers li {
     width: 24%;
     margin-right: 0%;
     height: 175px;
   }
 }
-/* line 467, ../sass/cmi.scss */
+/* line 485, ../sass/cmi.scss */
 #rfid-leftovers li img {
   display: block;
   float: left;
   max-width: 100%;
 }
-/* line 472, ../sass/cmi.scss */
+/* line 490, ../sass/cmi.scss */
 #rfid-leftovers li h4, #rfid-leftovers li p {
   display: block;
   float: left;
   width: 100%;
 }
 @media (max-width: 700px) {
-  /* line 472, ../sass/cmi.scss */
+  /* line 490, ../sass/cmi.scss */
   #rfid-leftovers li h4, #rfid-leftovers li p {
     font-size: .8rem;
   }
