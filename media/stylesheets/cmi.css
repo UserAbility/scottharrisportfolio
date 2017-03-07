@@ -931,89 +931,94 @@ colors
 }
 
 /*Cool*/
-/* line 81, ../sass/cmi.scss */
+/* line 82, ../sass/cmi.scss */
 .clr-warm1 {
-  color: #f4b90b;
+  color: #25253a;
+}
+
+/* line 83, ../sass/cmi.scss */
+.clr-warm2 {
+  color: #0071bc;
 }
 
 /*positive/negative*/
-/* line 88, ../sass/cmi.scss */
+/* line 90, ../sass/cmi.scss */
 .clr-pos1 {
   color: #2ecc71;
 }
 
-/* line 89, ../sass/cmi.scss */
+/* line 91, ../sass/cmi.scss */
 .clr-pos2 {
   color: #00a785;
 }
 
-/* line 90, ../sass/cmi.scss */
+/* line 92, ../sass/cmi.scss */
 .clr-neg1 {
   color: #f4938b;
 }
 
-/* line 91, ../sass/cmi.scss */
+/* line 93, ../sass/cmi.scss */
 .clr-neg2 {
   color: #e74c3c;
 }
 
-/* line 92, ../sass/cmi.scss */
+/* line 94, ../sass/cmi.scss */
 .clr-bg-pos1 {
   background-color: #2ecc71;
 }
 
-/* line 93, ../sass/cmi.scss */
+/* line 95, ../sass/cmi.scss */
 .clr-bg-pos2 {
   background-color: #00a785;
 }
 
-/* line 94, ../sass/cmi.scss */
+/* line 96, ../sass/cmi.scss */
 .clr-bg-neg1 {
   background-color: #f4938b;
 }
 
-/* line 95, ../sass/cmi.scss */
+/* line 97, ../sass/cmi.scss */
 .clr-bg-neg2 {
   background-color: #e74c3c;
 }
 
 /*spectrum*/
-/* line 102, ../sass/cmi.scss */
+/* line 104, ../sass/cmi.scss */
 .clr-yellow1 {
   color: #f4b90b;
 }
 
-/* line 103, ../sass/cmi.scss */
+/* line 105, ../sass/cmi.scss */
 .clr-green1 {
   color: #2ecc71;
 }
 
-/* line 104, ../sass/cmi.scss */
+/* line 106, ../sass/cmi.scss */
 .clr-aqua1 {
   color: #1abc9c;
 }
 
-/* line 105, ../sass/cmi.scss */
+/* line 107, ../sass/cmi.scss */
 .clr-purple1 {
   color: #9b59b6;
 }
 
-/* line 106, ../sass/cmi.scss */
+/* line 108, ../sass/cmi.scss */
 .clr-bg-yellow1 {
   background-color: #f4b90b;
 }
 
-/* line 107, ../sass/cmi.scss */
+/* line 109, ../sass/cmi.scss */
 .clr-bg-green1 {
   background-color: #2ecc71;
 }
 
-/* line 108, ../sass/cmi.scss */
+/* line 110, ../sass/cmi.scss */
 .clr-bg-aqua1 {
   background-color: #1abc9c;
 }
 
-/* line 109, ../sass/cmi.scss */
+/* line 111, ../sass/cmi.scss */
 .clr-bg-purple1 {
   background-color: #9b59b6;
 }
@@ -1021,7 +1026,7 @@ colors
 /* ----------------------------------------------
 resets
 -----------------------------------------------*/
-/* line 123, ../sass/cmi.scss */
+/* line 125, ../sass/cmi.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1035,35 +1040,35 @@ figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, su
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 133, ../sass/cmi.scss */
+/* line 135, ../sass/cmi.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 136, ../sass/cmi.scss */
+/* line 138, ../sass/cmi.scss */
 html, body {
   line-height: 1;
   background-color: white;
 }
 
-/* line 140, ../sass/cmi.scss */
+/* line 142, ../sass/cmi.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 143, ../sass/cmi.scss */
+/* line 145, ../sass/cmi.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 147, ../sass/cmi.scss */
+/* line 149, ../sass/cmi.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 151, ../sass/cmi.scss */
+/* line 153, ../sass/cmi.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -1072,19 +1077,19 @@ table {
 /* ----------------------------------------------
 containers
 -----------------------------------------------*/
-/* line 159, ../sass/cmi.scss */
+/* line 161, ../sass/cmi.scss */
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
-/* line 163, ../sass/cmi.scss */
+/* line 165, ../sass/cmi.scss */
 html, body {
   height: 100%;
   background-color: white;
 }
 
-/* line 167, ../sass/cmi.scss */
+/* line 169, ../sass/cmi.scss */
 #wrapper {
   width: 100%;
   max-width: 1200px;
@@ -1099,7 +1104,7 @@ html, body {
 /* ----------------------------------------------
 text
 -----------------------------------------------*/
-/* line 180, ../sass/cmi.scss */
+/* line 182, ../sass/cmi.scss */
 h1, h2, h3, h4, h5, h6, body, .megaheadline {
   font-family: 'Raleway','Open Sans',Arial,Helvetica,sans-serif;
   font-weight: 600;
@@ -1110,13 +1115,13 @@ h1, h2, h3, h4, h5, h6, body, .megaheadline {
   -webkit-font-smoothing: antialiased;
 }
 @media (max-width: 700px) {
-  /* line 180, ../sass/cmi.scss */
+  /* line 182, ../sass/cmi.scss */
   h1, h2, h3, h4, h5, h6, body, .megaheadline {
     line-height: 1.25;
   }
 }
 
-/* line 190, ../sass/cmi.scss */
+/* line 192, ../sass/cmi.scss */
 .megaheadline {
   color: #f4b90b;
   font-size: 75px;
@@ -1128,95 +1133,95 @@ h1, h2, h3, h4, h5, h6, body, .megaheadline {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#333')";
 }
 @media (max-width: 700px) {
-  /* line 190, ../sass/cmi.scss */
+  /* line 192, ../sass/cmi.scss */
   .megaheadline {
     font-size: 40px;
   }
 }
 
-/* line 198, ../sass/cmi.scss */
+/* line 200, ../sass/cmi.scss */
 h1 {
   font-size: 36px;
   margin: 0 0 2.5% 0;
 }
 @media (max-width: 700px) {
-  /* line 198, ../sass/cmi.scss */
+  /* line 200, ../sass/cmi.scss */
   h1 {
     font-size: 30px;
   }
 }
 
-/* line 199, ../sass/cmi.scss */
+/* line 201, ../sass/cmi.scss */
 h2 {
   font-size: 30px;
   margin: 0 0 2.2% 0;
 }
 @media (max-width: 700px) {
-  /* line 199, ../sass/cmi.scss */
+  /* line 201, ../sass/cmi.scss */
   h2 {
     font-size: 25px;
   }
 }
 
-/* line 200, ../sass/cmi.scss */
+/* line 202, ../sass/cmi.scss */
 h3 {
   font-size: 24px;
   margin: 0 0 2.0% 0;
 }
 @media (max-width: 700px) {
-  /* line 200, ../sass/cmi.scss */
+  /* line 202, ../sass/cmi.scss */
   h3 {
     font-size: 20px;
   }
 }
 
-/* line 201, ../sass/cmi.scss */
+/* line 203, ../sass/cmi.scss */
 h4 {
   font-size: 18px;
   margin: 0 0 1.2% 0;
 }
 
-/* line 202, ../sass/cmi.scss */
+/* line 204, ../sass/cmi.scss */
 h5 {
   font-size: 14px;
   margin: 0 0 1.5% 0;
 }
 
-/* line 203, ../sass/cmi.scss */
+/* line 205, ../sass/cmi.scss */
 h6 {
   font-size: 12px;
   margin: 0 0 1.5% 0;
   text-transform: uppercase;
 }
 
-/* line 205, ../sass/cmi.scss */
+/* line 207, ../sass/cmi.scss */
 body, p {
   font-size: 14px;
   font-weight: normal;
 }
 
-/* line 210, ../sass/cmi.scss */
+/* line 212, ../sass/cmi.scss */
 a, button, .fa {
   color: #b77e05;
 }
-/* line 212, ../sass/cmi.scss */
+/* line 214, ../sass/cmi.scss */
 a:hover, button:hover, .fa:hover {
   color: #f4b90b;
 }
 
-/* line 217, ../sass/cmi.scss */
+/* line 219, ../sass/cmi.scss */
 button, .fa {
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
 }
 
-/* line 223, ../sass/cmi.scss */
+/* line 225, ../sass/cmi.scss */
 .fa {
   font-size: 26px;
 }
 
-/* line 227, ../sass/cmi.scss */
+/* line 229, ../sass/cmi.scss */
 button {
   display: inline-block;
   font-size: 12px;
@@ -1232,20 +1237,20 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-/* line 241, ../sass/cmi.scss */
+/* line 243, ../sass/cmi.scss */
 button:hover {
   color: white;
   background-color: #f4b90b;
 }
 
-/* line 247, ../sass/cmi.scss */
+/* line 249, ../sass/cmi.scss */
 .box {
   min-height: 10px;
   background-color: #f3f3f3;
   outline: 1px solid #f3f3f3;
 }
 
-/* line 253, ../sass/cmi.scss */
+/* line 255, ../sass/cmi.scss */
 header {
   position: relative;
   display: inline-block;
@@ -1253,7 +1258,7 @@ header {
   background-color: #2f2f2f;
   height: 96px;
 }
-/* line 260, ../sass/cmi.scss */
+/* line 262, ../sass/cmi.scss */
 header .logobox {
   position: relative;
   display: inline-block;
@@ -1261,7 +1266,7 @@ header .logobox {
   height: 90px;
   float: left;
 }
-/* line 267, ../sass/cmi.scss */
+/* line 269, ../sass/cmi.scss */
 header .logobox img {
   position: relative;
   top: 50%;
@@ -1270,7 +1275,7 @@ header .logobox img {
   transform: translate(0, -50%);
   width: 90%;
 }
-/* line 276, ../sass/cmi.scss */
+/* line 278, ../sass/cmi.scss */
 header .menubox {
   position: relative;
   display: inline-block;
@@ -1278,13 +1283,13 @@ header .menubox {
   height: 96px;
 }
 @media (max-width: 800px) {
-  /* line 276, ../sass/cmi.scss */
+  /* line 278, ../sass/cmi.scss */
   header .menubox {
     width: 90%;
     padding: 0 1% 0 5%;
   }
 }
-/* line 286, ../sass/cmi.scss */
+/* line 288, ../sass/cmi.scss */
 header .username {
   position: absolute;
   top: 50%;
@@ -1292,12 +1297,12 @@ header .username {
   transform: translate(0, -50%);
 }
 @media (max-width: 800px) {
-  /* line 286, ../sass/cmi.scss */
+  /* line 288, ../sass/cmi.scss */
   header .username {
     left: 5%;
   }
 }
-/* line 295, ../sass/cmi.scss */
+/* line 297, ../sass/cmi.scss */
 header .fa {
   position: relative;
   top: 50%;
@@ -1305,23 +1310,23 @@ header .fa {
   margin-left: 3%;
   transform: translate(0, -50%);
 }
-/* line 302, ../sass/cmi.scss */
+/* line 304, ../sass/cmi.scss */
 header .selected {
   color: white;
 }
 
-/* line 306, ../sass/cmi.scss */
+/* line 308, ../sass/cmi.scss */
 .footer {
   color: white;
   background-color: #2f2f2f;
   width: 100%;
 }
-/* line 310, ../sass/cmi.scss */
+/* line 312, ../sass/cmi.scss */
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6, .footer p, .footer body {
   color: white;
 }
 
-/* line 315, ../sass/cmi.scss */
+/* line 317, ../sass/cmi.scss */
 .bblock {
   position: relative;
   top: -5px;
@@ -1332,18 +1337,18 @@ header .selected {
 /*************/
 /* AR VIEWER */
 /*************/
-/* line 326, ../sass/cmi.scss */
+/* line 328, ../sass/cmi.scss */
 #arviewer {
   height: 1920px;
   width: 9600px;
 }
-/* line 329, ../sass/cmi.scss */
+/* line 331, ../sass/cmi.scss */
 #arviewer img {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 334, ../sass/cmi.scss */
+/* line 336, ../sass/cmi.scss */
 #arviewer .arcallout {
   position: relative;
   display: inline-block;
@@ -1358,7 +1363,7 @@ header .selected {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 342, ../sass/cmi.scss */
+/* line 344, ../sass/cmi.scss */
 #arviewer .arcallout h2 {
   position: absolute;
   margin: 0;
@@ -1368,22 +1373,22 @@ header .selected {
   transform: translate(-50%, -50%);
   color: white;
 }
-/* line 351, ../sass/cmi.scss */
+/* line 353, ../sass/cmi.scss */
 #arviewer .arcallout.ar1 {
   top: 68%;
   left: 1.2%;
 }
-/* line 352, ../sass/cmi.scss */
+/* line 354, ../sass/cmi.scss */
 #arviewer .arcallout.ar2 {
   top: 67%;
   left: 5%;
 }
-/* line 353, ../sass/cmi.scss */
+/* line 355, ../sass/cmi.scss */
 #arviewer .arcallout.ar3 {
   top: 69%;
   left: 11%;
 }
-/* line 354, ../sass/cmi.scss */
+/* line 356, ../sass/cmi.scss */
 #arviewer .arcallout.ar4 {
   top: 50%;
   left: 89%;
@@ -1393,7 +1398,7 @@ header .selected {
 /*     Modal    */
 /****************/
 /* The Modal (backgrounds) */
-/* line 363, ../sass/cmi.scss */
+/* line 365, ../sass/cmi.scss */
 .cmi-modalDialog {
   position: fixed;
   top: 0;
@@ -1409,7 +1414,7 @@ header .selected {
   overflow: scroll;
   z-index: 99999;
 }
-/* line 374, ../sass/cmi.scss */
+/* line 376, ../sass/cmi.scss */
 .cmi-modalDialog ::-webkit-scrollbar {
   width: 0px;
   /* remove scrollbar space */
@@ -1417,13 +1422,13 @@ header .selected {
   /* optional: just make scrollbar invisible */
 }
 
-/* line 380, ../sass/cmi.scss */
+/* line 382, ../sass/cmi.scss */
 .cmi-modalDialog:target {
   opacity: 1;
   pointer-events: auto;
 }
 
-/* line 385, ../sass/cmi.scss */
+/* line 387, ../sass/cmi.scss */
 .cmi-modalDialog > div {
   width: 90%;
   min-height: 80%;
@@ -1431,7 +1436,7 @@ header .selected {
   margin: 5% auto;
   padding-bottom: 2%;
   border-radius: 1 solid #f4b90b;
-  background: white;
+  background: #0071bc;
   -moz-border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   border-radius: 0.5rem;
@@ -1439,33 +1444,33 @@ header .selected {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 394, ../sass/cmi.scss */
+/* line 396, ../sass/cmi.scss */
 .cmi-modalDialog > div .title {
   background-color: #f3f3f3;
 }
 
-/* line 400, ../sass/cmi.scss */
+/* line 402, ../sass/cmi.scss */
 .ar-splash iframe {
   width: 100%;
-  height: 500px;
+  height: 730px;
 }
 
-/* line 407, ../sass/cmi.scss */
+/* line 409, ../sass/cmi.scss */
 ul.ar-content h2, ul.ar-content h3 {
   padding: 1rem 1rem 0 1rem;
 }
-/* line 410, ../sass/cmi.scss */
+/* line 412, ../sass/cmi.scss */
 ul.ar-content p {
   padding: 0 1rem 1rem 1rem;
 }
-/* line 413, ../sass/cmi.scss */
+/* line 415, ../sass/cmi.scss */
 ul.ar-content li {
   width: 96%;
   height: 500px;
   margin: 2% 2% 0% 2%;
   background-color: #f3f3f3;
 }
-/* line 419, ../sass/cmi.scss */
+/* line 421, ../sass/cmi.scss */
 ul.ar-content li.ar-video iframe {
   position: relative;
   display: inline-block;
@@ -1473,14 +1478,14 @@ ul.ar-content li.ar-video iframe {
   width: 60%;
   height: 100%;
 }
-/* line 426, ../sass/cmi.scss */
+/* line 428, ../sass/cmi.scss */
 ul.ar-content li.ar-video .storyblock {
   position: relative;
   display: inline-block;
   width: 40%;
 }
 
-/* line 435, ../sass/cmi.scss */
+/* line 437, ../sass/cmi.scss */
 .modalClose {
   position: absolute;
   top: -1rem;
@@ -1497,12 +1502,12 @@ ul.ar-content li.ar-video .storyblock {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 445, ../sass/cmi.scss */
+/* line 447, ../sass/cmi.scss */
 .modalClose:hover {
   color: #e74c3c;
   background: #f4938b;
 }
-/* line 449, ../sass/cmi.scss */
+/* line 451, ../sass/cmi.scss */
 .modalClose.fa {
   padding-top: 4px;
   text-decoration: none;
@@ -1512,7 +1517,7 @@ ul.ar-content li.ar-video .storyblock {
 /*************/
 /* RFID PAGE */
 /*************/
-/* line 460, ../sass/cmi.scss */
+/* line 462, ../sass/cmi.scss */
 #rfid-itembox li, #rfid-leftovers li {
   position: relative;
   display: inline-block;
@@ -1522,21 +1527,21 @@ ul.ar-content li.ar-video .storyblock {
   background-color: #f3f3f3;
   overflow: hidden;
 }
-/* line 468, ../sass/cmi.scss */
+/* line 470, ../sass/cmi.scss */
 #rfid-itembox li .textblock, #rfid-leftovers li .textblock {
   position: relative;
   display: inline-block;
   width: 50%;
   float: left;
 }
-/* line 474, ../sass/cmi.scss */
+/* line 476, ../sass/cmi.scss */
 #rfid-itembox li img, #rfid-leftovers li img {
   position: relative;
   display: inline-block;
   float: left;
   max-width: 50%;
 }
-/* line 480, ../sass/cmi.scss */
+/* line 482, ../sass/cmi.scss */
 #rfid-itembox li h4, #rfid-itembox li p, #rfid-leftovers li h4, #rfid-leftovers li p {
   position: relative;
   display: inline-block;
@@ -1545,7 +1550,7 @@ ul.ar-content li.ar-video .storyblock {
   width: 50%;
 }
 
-/* line 491, ../sass/cmi.scss */
+/* line 493, ../sass/cmi.scss */
 #rfid-leftovers li {
   width: 17.7%;
   margin-right: 2%;
@@ -1553,27 +1558,27 @@ ul.ar-content li.ar-video .storyblock {
   /*@include border-radius-all;*/
 }
 @media (max-width: 700px) {
-  /* line 491, ../sass/cmi.scss */
+  /* line 493, ../sass/cmi.scss */
   #rfid-leftovers li {
     width: 24%;
     margin-right: 0%;
     height: 175px;
   }
 }
-/* line 502, ../sass/cmi.scss */
+/* line 504, ../sass/cmi.scss */
 #rfid-leftovers li img {
   display: block;
   float: left;
   max-width: 100%;
 }
-/* line 507, ../sass/cmi.scss */
+/* line 509, ../sass/cmi.scss */
 #rfid-leftovers li h4, #rfid-leftovers li p {
   display: block;
   float: left;
   width: 100%;
 }
 @media (max-width: 700px) {
-  /* line 507, ../sass/cmi.scss */
+  /* line 509, ../sass/cmi.scss */
   #rfid-leftovers li h4, #rfid-leftovers li p {
     font-size: .8rem;
   }

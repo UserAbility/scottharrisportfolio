@@ -78,7 +78,9 @@ $clr-warm5:			#BF3930;
 
 /*Cool*/
 $clr-cool1:			#25253A;
-.clr-warm1			{color: $clr-warm1;}
+$clr-cool2:			#0071BC;
+.clr-warm1			{color: $clr-cool1;}
+.clr-warm2			{color: $clr-cool2;}
 
 /*positive/negative*/
 $clr-pos1:			#2ECC71;
@@ -389,7 +391,7 @@ header{
 	margin: 5% auto;
 	padding-bottom: 2%;
 	border-radius: 1 solid $clr-cmibrand;
-	background: $clr-lightest;
+	background: $clr-cool2;
 	@include border-radius-all;
 	.title{
 		background-color: $clr-bg-light;
@@ -399,7 +401,7 @@ header{
 .ar-splash{
 	iframe{
 		width: 100%;
-		height: 500px;
+		height: 730px;
 	}
 }
 
