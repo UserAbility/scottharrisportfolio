@@ -76,6 +76,10 @@ $clr-warm5:			#BF3930;
 .clr-bg-warm4		{background-color: $clr-warm4;}
 .clr-bg-warm5		{background-color: $clr-warm5;}
 
+/*Cool*/
+$clr-cool1:			#25253A;
+.clr-warm1			{color: $clr-warm1;}
+
 /*positive/negative*/
 $clr-pos1:			#2ECC71;
 $clr-pos2:			#00A785;
@@ -320,18 +324,12 @@ header{
 /*************/
 
 #arviewer{
-	height: 600px;
-	width: 3000px;
-	@media (min-width: 1079px){
-		height: 900px;
-		width: 4500px;
-	}
+	height: 1920px;
+	width: 9600px;
 	img{
 		position: absolute;
 		top: 0;
 		left: 0;
-		height: inherit;
-		width: inherit;
     }
     .arcallout {
     	position: relative;
@@ -350,31 +348,33 @@ header{
 		    transform: translate(-50%, -50%);
 		    color: $clr-lightest;
 		}
-		&.ar1{	top:68%;	left: 1.5%;	}
-		&.ar2{ 	top:65%;	left: 3.2%;	}
-		&.ar3{	top:69%;	left: 7.9%;	}
-		&.ar4{	top:37%;	left: 89.0%;}
+		&.ar1{	top:68%;	left: 1.2%;	}
+		&.ar2{ 	top:67%;	left: 5%;	}
+		&.ar3{	top:69%;	left: 11%;	}
+		&.ar4{	top:50%;	left: 89%;  }
 	}
 }
 
 /****************/
 /*     Modal    */
 /****************/
+
 /* The Modal (backgrounds) */
 .cmi-modalDialog {
 	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	top: 0; right: 0; bottom: 0; left: 0;
 	opacity:0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,10,0.8);
 	-webkit-transition: opacity 300ms ease-in;
 	-moz-transition: opacity 300ms ease-in;
 	transition: opacity 300ms ease-in;
 	pointer-events: none;
 	overflow: scroll;
 	z-index: 99999;
+	::-webkit-scrollbar {
+	    width: 0px;  /* remove scrollbar space */
+	    background: transparent;  /* optional: just make scrollbar invisible */
+	}
 }
 
 .cmi-modalDialog:target {
@@ -387,7 +387,7 @@ header{
 	min-height: 80%;
 	position: relative;
 	margin: 5% auto;
-	padding-bottom: 1%;
+	padding-bottom: 2%;
 	border-radius: 1 solid $clr-cmibrand;
 	background: $clr-lightest;
 	@include border-radius-all;
@@ -397,20 +397,37 @@ header{
 }
 
 .ar-splash{
-	padding-bottom: 1%;
+	iframe{
+		width: 100%;
+		height: 500px;
+	}
 }
 
-.ar-content{
+ul.ar-content{
+	h2, h3 {
+		padding: 1rem 1rem 0 1rem;
+	}
+	p {
+		padding: 0 1rem 1rem 1rem;
+	}
 	li{
-		position: relative;
-		display: inline-block;
 		width: 96%;
 		height: 500px;
-		margin: 1% 2% 1% 2%;
+		margin: 2% 2% 0% 2%;
 		background-color: $clr-body1;
-		h2, h3{
-			float: left;
-			padding: 1%;
+		&.ar-video{
+			iframe{
+				position: relative;
+				display: inline-block;
+				float: left;
+				width: 60%;
+				height: 100%;
+			}
+			.storyblock{
+				position: relative;
+				display: inline-block;
+				width: 40%;
+			}
 		}
 	}
 }
