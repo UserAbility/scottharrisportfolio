@@ -1340,7 +1340,7 @@ header .selected {
 /* line 328, ../sass/cmi.scss */
 #arviewer {
   height: 1920px;
-  width: 9600px;
+  width: 3898px;
 }
 /* line 331, ../sass/cmi.scss */
 #arviewer img {
@@ -1353,8 +1353,8 @@ header .selected {
   position: relative;
   display: inline-block;
   margin: 0;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background: #f4b90b;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -1375,23 +1375,23 @@ header .selected {
 }
 /* line 353, ../sass/cmi.scss */
 #arviewer .arcallout.ar1 {
-  top: 68%;
-  left: 1.2%;
+  top: 1188px;
+  left: 418px;
 }
 /* line 354, ../sass/cmi.scss */
 #arviewer .arcallout.ar2 {
-  top: 67%;
-  left: 5%;
+  top: 560px;
+  left: 1520px;
 }
 /* line 355, ../sass/cmi.scss */
 #arviewer .arcallout.ar3 {
-  top: 69%;
-  left: 11%;
+  top: 560px;
+  left: 1740px;
 }
 /* line 356, ../sass/cmi.scss */
 #arviewer .arcallout.ar4 {
-  top: 50%;
-  left: 89%;
+  top: 390px;
+  left: 1890px;
 }
 
 /****************/
@@ -1430,11 +1430,11 @@ header .selected {
 
 /* line 387, ../sass/cmi.scss */
 .cmi-modalDialog > div {
-  width: 90%;
-  min-height: 80%;
+  width: 1000px;
+  min-height: 1840px;
   position: relative;
-  margin: 5% auto;
-  padding-bottom: 2%;
+  margin: 40px;
+  padding: 40px;
   border-radius: 1 solid #f4b90b;
   background: #0071bc;
   -moz-border-radius: 0.5rem;

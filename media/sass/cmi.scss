@@ -327,7 +327,7 @@ header{
 
 #arviewer{
 	height: 1920px;
-	width: 9600px;
+	width: 3898px;
 	img{
 		position: absolute;
 		top: 0;
@@ -337,8 +337,8 @@ header{
     	position: relative;
     	display: inline-block;
     	margin: 0;
-		width: 50px;
-		height: 50px;
+		width: 60px;
+		height: 60px;
 		background: $clr-cmibrand;
 		@include roundit;
 		h2{
@@ -350,10 +350,10 @@ header{
 		    transform: translate(-50%, -50%);
 		    color: $clr-lightest;
 		}
-		&.ar1{	top:68%;	left: 1.2%;	}
-		&.ar2{ 	top:67%;	left: 5%;	}
-		&.ar3{	top:69%;	left: 11%;	}
-		&.ar4{	top:50%;	left: 89%;  }
+		&.ar1{	top:1188px;	left: 418px;}
+		&.ar2{ 	top:560px;	left: 1520px;}
+		&.ar3{	top:560px;	left: 1740px;}
+		&.ar4{	top:390px;	left: 1890px;}
 	}
 }
 
@@ -385,11 +385,11 @@ header{
 }
 
 .cmi-modalDialog > div {
-	width: 90%;
-	min-height: 80%;
+	width: 1000px;
+	min-height: 1840px;
 	position: relative;
-	margin: 5% auto;
-	padding-bottom: 2%;
+	margin: 40px;
+	padding: 40px;
 	border-radius: 1 solid $clr-cmibrand;
 	background: $clr-cool2;
 	@include border-radius-all;
