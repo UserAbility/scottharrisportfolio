@@ -1375,8 +1375,8 @@ header .selected {
 }
 /* line 353, ../sass/cmi.scss */
 #arviewer .arcallout.ar1 {
-  top: 1110px;
-  left: 400px;
+  top: 850px;
+  left: 720px;
 }
 /* line 354, ../sass/cmi.scss */
 #arviewer .arcallout.ar2 {
@@ -1400,13 +1400,13 @@ header .selected {
 }
 /* line 358, ../sass/cmi.scss */
 #arviewer .arcallout.ar6 {
-  top: 370px;
-  left: 2550px;
+  top: 690px;
+  left: 2450px;
 }
 /* line 359, ../sass/cmi.scss */
 #arviewer .arcallout.ar7 {
   top: 425px;
-  left: 2850px;
+  left: 2820px;
 }
 
 /****************/
