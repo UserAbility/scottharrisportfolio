@@ -1340,7 +1340,7 @@ header .selected {
 /* line 328, ../sass/cmi.scss */
 #arviewer {
   height: 1920px;
-  width: 3898px;
+  width: 4044px;
 }
 /* line 331, ../sass/cmi.scss */
 #arviewer img {
@@ -1375,38 +1375,38 @@ header .selected {
 }
 /* line 353, ../sass/cmi.scss */
 #arviewer .arcallout.ar1 {
-  top: 870px;
-  left: 660px;
+  top: 840px;
+  left: 920px;
 }
 /* line 354, ../sass/cmi.scss */
 #arviewer .arcallout.ar2 {
-  top: 560px;
-  left: 1520px;
+  top: 550px;
+  left: 1605px;
 }
 /* line 355, ../sass/cmi.scss */
 #arviewer .arcallout.ar3 {
   top: 600px;
-  left: 1810px;
+  left: 1910px;
 }
 /* line 356, ../sass/cmi.scss */
 #arviewer .arcallout.ar4 {
-  top: 435px;
-  left: 2065px;
+  top: 434px;
+  left: 2055px;
 }
 /* line 357, ../sass/cmi.scss */
 #arviewer .arcallout.ar5 {
-  top: 675px;
-  left: 2255px;
+  top: 670px;
+  left: 2235px;
 }
 /* line 358, ../sass/cmi.scss */
 #arviewer .arcallout.ar6 {
-  top: 690px;
-  left: 2450px;
+  top: 605px;
+  left: 2415px;
 }
 /* line 359, ../sass/cmi.scss */
 #arviewer .arcallout.ar7 {
-  top: 425px;
-  left: 2820px;
+  top: 345px;
+  left: 2585px;
 }
 
 /****************/
@@ -1454,7 +1454,7 @@ video {
   min-height: 1840px;
   position: relative;
   padding-bottom: 20px;
-  margin: 40px;
+  margin: 40px 20px;
   border-radius: 1 solid #f4b90b;
   background: #25253A;
   -moz-border-radius: 0.5rem;

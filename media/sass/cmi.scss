@@ -327,7 +327,7 @@ header{
 
 #arviewer{
 	height: 1920px;
-	width: 3898px;
+	width: 4044px;
 	img{
 		position: absolute;
 		top: 0;
@@ -350,13 +350,13 @@ header{
 		    transform: translate(-50%, -50%);
 		    color: $clr-lightest;
 		}
-		&.ar1{	top:870px;	left: 660px;}
-		&.ar2{ 	top:560px;	left: 1520px;}
-		&.ar3{	top:600px;	left: 1810px;}
-		&.ar4{	top:435px;	left: 2065px;}
-		&.ar5{	top:675px;	left: 2255px;}
-		&.ar6{	top:690px;	left: 2450px;}
-		&.ar7{	top:425px;	left: 2820px;}
+		&.ar1{	top:840px;	left: 920px;}
+		&.ar2{ 	top:550px;	left: 1605px;}
+		&.ar3{	top:600px;	left: 1910px;}
+		&.ar4{	top:434px;	left: 2055px;}
+		&.ar5{	top:670px;	left: 2235px;}
+		&.ar6{	top:605px;	left: 2415px;}
+		&.ar7{	top:345px;	left: 2585px;}
 	}
 }
 
@@ -398,7 +398,7 @@ video{
 	min-height: 1840px;
 	position: relative;
 	padding-bottom: 20px;
-	margin: 40px;
+	margin: 40px 20px;
 	border-radius: 1 solid $clr-cmibrand;
 	background: #25253A;
 	@include border-radius-all;
