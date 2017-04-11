@@ -1448,7 +1448,7 @@ video {
   width: 1000px;
 }
 
-/* line 396, ../sass/cmi.scss */
+/* line 394, ../sass/cmi.scss */
 .cmi-modalDialog > div {
   width: 1040px;
   min-height: 1840px;
@@ -1464,36 +1464,51 @@ video {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 405, ../sass/cmi.scss */
+/* line 403, ../sass/cmi.scss */
 .cmi-modalDialog > div .title {
   background-color: #f3f3f3;
 }
-/* line 409, ../sass/cmi.scss */
+/* line 407, ../sass/cmi.scss */
 .cmi-modalDialog > div video.splash {
   width: 1040px;
 }
 
-/* line 414, ../sass/cmi.scss */
+/* line 412, ../sass/cmi.scss */
 .pt {
   padding-top: 20px;
 }
 
-/* line 418, ../sass/cmi.scss */
+/* line 416, ../sass/cmi.scss */
 .arp {
   margin: 20px 20px 0 20px;
   z-index: 2;
 }
-/* line 421, ../sass/cmi.scss */
+/* line 419, ../sass/cmi.scss */
 .arp img, .arp video {
   width: 100%;
 }
-/* line 424, ../sass/cmi.scss */
+/* line 422, ../sass/cmi.scss */
 .arp.npt {
   margin-top: 0;
 }
-
+/* line 425, ../sass/cmi.scss */
+.arp.connect1 {
+  position: relative;
+  top: -6px;
+}
 /* line 429, ../sass/cmi.scss */
-.ar-special1 {
+.arp.connect2 {
+  position: relative;
+  top: -12px;
+}
+/* line 433, ../sass/cmi.scss */
+.arp.connect3 {
+  position: relative;
+  top: -18px;
+}
+
+/* line 439, ../sass/cmi.scss */
+.ar-special1, .ar-special2 {
   position: absolute;
   width: 1000px;
   top: 1395px;
@@ -1501,29 +1516,42 @@ video {
   z-index: 2;
 }
 
-/* line 437, ../sass/cmi.scss */
+/* line 446, ../sass/cmi.scss */
+.ar-special2 {
+  top: 2925px;
+}
+
+/* line 450, ../sass/cmi.scss */
+.ar-vidtitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* line 457, ../sass/cmi.scss */
 .ar-front {
   position: relative;
   z-index: 999;
 }
 
-/* line 442, ../sass/cmi.scss */
+/* line 462, ../sass/cmi.scss */
 .ar-vidhalf {
   position: relative;
   float: left;
   width: 520px;
   margin-top: 20px;
 }
-/* line 447, ../sass/cmi.scss */
+/* line 467, ../sass/cmi.scss */
 .ar-vidhalf.vidleft {
   padding-left: 20px;
 }
-/* line 450, ../sass/cmi.scss */
+/* line 470, ../sass/cmi.scss */
 .ar-vidhalf.vidright {
   padding-right: 20px;
 }
 
-/* line 455, ../sass/cmi.scss */
+/* line 475, ../sass/cmi.scss */
 .ar-vidtop {
   position: relative;
   float: left;
@@ -1531,26 +1559,26 @@ video {
   margin: 20px 20px 0 20px;
 }
 
-/* line 463, ../sass/cmi.scss */
+/* line 483, ../sass/cmi.scss */
 ul.ar-content h2, ul.ar-content h3 {
   padding: 1rem 1rem 0 1rem;
 }
-/* line 466, ../sass/cmi.scss */
+/* line 486, ../sass/cmi.scss */
 ul.ar-content p {
   padding: 0 1rem 1rem 1rem;
 }
-/* line 469, ../sass/cmi.scss */
+/* line 489, ../sass/cmi.scss */
 ul.ar-content li {
   width: 96%;
   height: 700px;
   margin: 2% 2% 0% 2%;
   background-color: #f3f3f3;
 }
-/* line 474, ../sass/cmi.scss */
+/* line 494, ../sass/cmi.scss */
 ul.ar-content li.ar-video {
   height: 367px;
 }
-/* line 476, ../sass/cmi.scss */
+/* line 496, ../sass/cmi.scss */
 ul.ar-content li.ar-video iframe {
   position: relative;
   display: inline-block;
@@ -1558,14 +1586,14 @@ ul.ar-content li.ar-video iframe {
   width: 70%;
   height: 100%;
 }
-/* line 483, ../sass/cmi.scss */
+/* line 503, ../sass/cmi.scss */
 ul.ar-content li.ar-video .storyblock {
   position: relative;
   display: inline-block;
   width: 30%;
 }
 
-/* line 492, ../sass/cmi.scss */
+/* line 512, ../sass/cmi.scss */
 .modalClose {
   position: absolute;
   top: -1rem;
@@ -1582,12 +1610,12 @@ ul.ar-content li.ar-video .storyblock {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* line 502, ../sass/cmi.scss */
+/* line 522, ../sass/cmi.scss */
 .modalClose:hover {
   color: #e74c3c;
   background: #f4938b;
 }
-/* line 506, ../sass/cmi.scss */
+/* line 526, ../sass/cmi.scss */
 .modalClose.fa {
   padding-top: 4px;
   text-decoration: none;
@@ -1597,7 +1625,7 @@ ul.ar-content li.ar-video .storyblock {
 /*************/
 /* RFID PAGE */
 /*************/
-/* line 517, ../sass/cmi.scss */
+/* line 537, ../sass/cmi.scss */
 #rfid-itembox li, #rfid-leftovers li {
   position: relative;
   display: inline-block;
@@ -1607,21 +1635,21 @@ ul.ar-content li.ar-video .storyblock {
   background-color: #f3f3f3;
   overflow: hidden;
 }
-/* line 525, ../sass/cmi.scss */
+/* line 545, ../sass/cmi.scss */
 #rfid-itembox li .textblock, #rfid-leftovers li .textblock {
   position: relative;
   display: inline-block;
   width: 50%;
   float: left;
 }
-/* line 531, ../sass/cmi.scss */
+/* line 551, ../sass/cmi.scss */
 #rfid-itembox li img, #rfid-leftovers li img {
   position: relative;
   display: inline-block;
   float: left;
   max-width: 50%;
 }
-/* line 537, ../sass/cmi.scss */
+/* line 557, ../sass/cmi.scss */
 #rfid-itembox li h4, #rfid-itembox li p, #rfid-leftovers li h4, #rfid-leftovers li p {
   position: relative;
   display: inline-block;
@@ -1630,7 +1658,7 @@ ul.ar-content li.ar-video .storyblock {
   width: 50%;
 }
 
-/* line 548, ../sass/cmi.scss */
+/* line 568, ../sass/cmi.scss */
 #rfid-leftovers li {
   width: 17.7%;
   margin-right: 2%;
@@ -1638,27 +1666,27 @@ ul.ar-content li.ar-video .storyblock {
   /*@include border-radius-all;*/
 }
 @media (max-width: 700px) {
-  /* line 548, ../sass/cmi.scss */
+  /* line 568, ../sass/cmi.scss */
   #rfid-leftovers li {
     width: 24%;
     margin-right: 0%;
     height: 175px;
   }
 }
-/* line 559, ../sass/cmi.scss */
+/* line 579, ../sass/cmi.scss */
 #rfid-leftovers li img {
   display: block;
   float: left;
   max-width: 100%;
 }
-/* line 564, ../sass/cmi.scss */
+/* line 584, ../sass/cmi.scss */
 #rfid-leftovers li h4, #rfid-leftovers li p {
   display: block;
   float: left;
   width: 100%;
 }
 @media (max-width: 700px) {
-  /* line 564, ../sass/cmi.scss */
+  /* line 584, ../sass/cmi.scss */
   #rfid-leftovers li h4, #rfid-leftovers li p {
     font-size: .8rem;
   }

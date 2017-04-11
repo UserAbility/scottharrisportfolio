@@ -391,8 +391,6 @@ video{
 	width: 1000px;
 }
 
-
-
 .cmi-modalDialog > div {
 	width: 1040px;
 	min-height: 1840px;
@@ -424,12 +422,34 @@ video{
 	&.npt{
 		margin-top: 0;
 	}
+	&.connect1{
+		position: relative;
+		top: -6px;
+	}
+	&.connect2{
+		position: relative;
+		top: -12px;
+	}
+	&.connect3{
+		position: relative;
+		top: -18px;
+	}
 }
 
-.ar-special1{
+.ar-special1, .ar-special2{
 	position: absolute;
 	width: 1000px;
 	top: 1395px;
+	left: 0;
+	z-index: 2;
+}
+.ar-special2{
+	top: 2925px;
+}
+
+.ar-vidtitle{
+	position: absolute;
+	top: 0;
 	left: 0;
 	z-index: 2;
 }
