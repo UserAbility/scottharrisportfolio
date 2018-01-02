@@ -43,16 +43,15 @@ h1, h2{
 	font-size: 48px;
 	text-transform: none;
 	color: $clr-lightest;
+	@media (max-width: 800px) {
+		font-size: 36px;
+	}
 	span{
 		font-weight: 500;
 		color: $clr-lightest;
 	}
 }
-h1{
-	@media (max-width: 800px) {
-		font-size: 36px;
-	}
-}
+
 h2{
 	font-size: 32px;
 }
@@ -141,7 +140,7 @@ header{
 	background: $clr-bg0 url(../media/images/xp/hero-hex-white.png) repeat left top;
 	background-size: contain;
 	@media (max-width: 800px) {
-			height: 750px;
+			height: 700px;
 		}
 	h1, h2{
 		position: absolute;
