@@ -1142,7 +1142,7 @@ header {
   height: 250px;
   background-color: #222222;
 }
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   /* line 254, ../sass/xpfp.scss */
   .sec-buckets {
     height: 150px;
@@ -1163,25 +1163,42 @@ header {
   width: 100%;
   margin: 0;
 }
-@media (max-width: 700px) {
+/* line 275, ../sass/xpfp.scss */
+.sec-buckets li h2:hover {
+  color: #ffbb00;
+}
+@media (max-width: 770px) {
   /* line 272, ../sass/xpfp.scss */
   .sec-buckets li h2 {
     font-size: 22px;
   }
 }
 
-/* line 282, ../sass/xpfp.scss */
+/* line 285, ../sass/xpfp.scss */
+.footer, .push {
+  overflow: hidden;
+  height: 50px;
+  /* '.push' must be the same height as 'footer' */
+}
+
+/* line 290, ../sass/xpfp.scss */
 .footer {
   background-color: #111111;
 }
-/* line 284, ../sass/xpfp.scss */
+/* line 292, ../sass/xpfp.scss */
 .footer .menu-footer {
   display: flex;
   align-items: center;
   justify-content: center;
   float: none;
 }
-/* line 289, ../sass/xpfp.scss */
+@media (max-width: 800px) {
+  /* line 292, ../sass/xpfp.scss */
+  .footer .menu-footer {
+    display: block;
+  }
+}
+/* line 300, ../sass/xpfp.scss */
 .footer .menu-footer li {
   text-align: center;
   float: left;
@@ -1189,6 +1206,17 @@ header {
   margin: 0;
   width: 10%;
   color: #333333;
+}
+/* line 307, ../sass/xpfp.scss */
+.footer .menu-footer li:hover {
+  color: #ffbb00;
+}
+@media (max-width: 800px) {
+  /* line 300, ../sass/xpfp.scss */
+  .footer .menu-footer li {
+    min-width: 100%;
+    line-height: 1.5;
+  }
 }
 
 @keyframes flicker {

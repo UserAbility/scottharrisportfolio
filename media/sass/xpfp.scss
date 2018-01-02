@@ -258,7 +258,7 @@ header{
   	width: 100%;
 	height: 250px;
   	background-color: $clr-bg2;
-  	@media (max-width: 700px) {
+  	@media (max-width: 770px) {
   		height: 150px;
 	}
 	li{
@@ -272,11 +272,19 @@ header{
 		h2{
 			width: 100%;
 			margin: 0;
-			@media (max-width: 700px) {
+			&:hover{
+				color: $clr-o;
+			}
+			@media (max-width: 770px) {
 		  		font-size: 22px;
 			} 
 		}
 	}
+}
+
+.footer, .push {
+	overflow: hidden;
+	height: 50px; /* '.push' must be the same height as 'footer' */
 }
 
 .footer{
@@ -286,6 +294,9 @@ header{
 	  	align-items: center;
 	  	justify-content: center;
 	  	float: none;
+	  	@media (max-width: 800px) {
+				display: block;
+			}
 		li{
 			text-align: center;
 			float: left;
@@ -293,6 +304,13 @@ header{
 			margin: 0;
 			width: 10%;
 			color: $clr-bg3;
+			&:hover{
+				color: $clr-o;
+			}
+			@media (max-width: 800px) {
+				min-width: 100%;
+				line-height: 1.5;
+			}
 		}
 	}
 }
