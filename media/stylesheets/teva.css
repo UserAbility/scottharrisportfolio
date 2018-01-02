@@ -5,7 +5,7 @@ colors
 /*body*/
 /* line 18, ../sass/_colors.scss */
 .clr-body {
-  color: #005555;
+  color: #555;
 }
 
 /* line 19, ../sass/_colors.scss */
@@ -35,7 +35,7 @@ colors
 
 /* line 24, ../sass/_colors.scss */
 .clr-body-bg {
-  background-color: #555555;
+  background-color: #555;
 }
 
 /* line 25, ../sass/_colors.scss */
@@ -103,7 +103,7 @@ colors
 
 /* line 49, ../sass/_colors.scss */
 .clr-pos2 {
-  color: #4fca74;
+  color: #4FCA74;
 }
 
 /* line 50, ../sass/_colors.scss */
@@ -118,7 +118,7 @@ colors
 
 /* line 52, ../sass/_colors.scss */
 .clr-pos2-bg {
-  background-color: #4fca74;
+  background-color: #4FCA74;
 }
 
 /* line 53, ../sass/_colors.scss */
@@ -134,7 +134,7 @@ colors
 
 /* line 60, ../sass/_colors.scss */
 .clr-alert2 {
-  color: #ffe167;
+  color: #FFE167;
 }
 
 /* line 61, ../sass/_colors.scss */
@@ -149,7 +149,7 @@ colors
 
 /* line 63, ../sass/_colors.scss */
 .clr-alert2-bg {
-  background-color: #ffe167;
+  background-color: #FFE167;
 }
 
 /* line 64, ../sass/_colors.scss */
@@ -165,7 +165,7 @@ colors
 
 /* line 71, ../sass/_colors.scss */
 .clr-loud2 {
-  color: #da7db3;
+  color: #DA7DB3;
 }
 
 /* line 72, ../sass/_colors.scss */
@@ -180,7 +180,7 @@ colors
 
 /* line 74, ../sass/_colors.scss */
 .clr-loud2-bg {
-  background-color: #da7db3;
+  background-color: #DA7DB3;
 }
 
 /* line 75, ../sass/_colors.scss */
@@ -196,7 +196,7 @@ colors
 
 /* line 82, ../sass/_colors.scss */
 .clr-cool2 {
-  color: #00aef3;
+  color: #00AEF3;
 }
 
 /* line 83, ../sass/_colors.scss */
@@ -211,7 +211,7 @@ colors
 
 /* line 85, ../sass/_colors.scss */
 .clr-cool2-bg {
-  background-color: #00aef3;
+  background-color: #00AEF3;
 }
 
 /* line 86, ../sass/_colors.scss */
@@ -223,57 +223,57 @@ colors
 /*--- brands ---*/
 /* line 99, ../sass/_colors.scss */
 .clr-gigya {
-  color: #1f5ba7;
+  color: #1F5BA7;
 }
 
 /* line 100, ../sass/_colors.scss */
 .clr-gigyal {
-  color: #cae7f9;
+  color: #CAE7F9;
 }
 
 /* line 101, ../sass/_colors.scss */
 .clr-gigya-bg {
-  background-color: #1f5ba7;
+  background-color: #1F5BA7;
 }
 
 /* line 102, ../sass/_colors.scss */
 .clr-gigyal-bg {
-  background-color: #cae7f9;
+  background-color: #CAE7F9;
 }
 
 /* line 107, ../sass/_colors.scss */
 .clr-sc {
-  color: #ff9112;
+  color: #FF9112;
 }
 
 /* line 108, ../sass/_colors.scss */
 .clr-scl {
-  color: #fcc884;
+  color: #FCC884;
 }
 
 /* line 109, ../sass/_colors.scss */
 .clr-scd {
-  color: salmon;
+  color: #FA8072;
 }
 
 /* line 110, ../sass/_colors.scss */
 .clr-sc-bg {
-  background-color: #ff9112;
+  background-color: #FF9112;
 }
 
 /* line 111, ../sass/_colors.scss */
 .clr-scl-bg {
-  background-color: #fcc884;
+  background-color: #FCC884;
 }
 
 /* line 112, ../sass/_colors.scss */
 .clr-scd-bg {
-  background-color: salmon;
+  background-color: #FA8072;
 }
 
 /* line 117, ../sass/_colors.scss */
 .clr-moey {
-  color: #00aef3;
+  color: #00AEF3;
 }
 
 /* line 118, ../sass/_colors.scss */
@@ -288,7 +288,7 @@ colors
 
 /* line 120, ../sass/_colors.scss */
 .clr-moey-bg {
-  background-color: #00aef3;
+  background-color: #00AEF3;
 }
 
 /* line 121, ../sass/_colors.scss */
@@ -303,22 +303,22 @@ colors
 
 /* line 126, ../sass/_colors.scss */
 .clr-amnh {
-  color: #0074bd;
+  color: #0074BD;
 }
 
 /* line 127, ../sass/_colors.scss */
 .clr-amnhl {
-  color: #7ebfe9;
+  color: #7EBFE9;
 }
 
 /* line 128, ../sass/_colors.scss */
 .clr-amnh-bg {
-  background-color: #0074bd;
+  background-color: #0074BD;
 }
 
 /* line 129, ../sass/_colors.scss */
 .clr-amnhl-bg {
-  background-color: #7ebfe9;
+  background-color: #7EBFE9;
 }
 
 /* line 134, ../sass/_colors.scss */
@@ -353,7 +353,7 @@ colors
 
 /* line 143, ../sass/_colors.scss */
 .clr-nick {
-  color: #ff7b00;
+  color: #FF7B00;
 }
 
 /* line 144, ../sass/_colors.scss */
@@ -363,7 +363,7 @@ colors
 
 /* line 145, ../sass/_colors.scss */
 .clr-nick-bg {
-  background-color: #ff7b00;
+  background-color: #FF7B00;
 }
 
 /* line 146, ../sass/_colors.scss */
@@ -373,7 +373,7 @@ colors
 
 /* line 149, ../sass/_colors.scss */
 .clr-ibml {
-  color: #2677c8;
+  color: #2677C8;
 }
 
 /* -------------------------------------------------------------------
@@ -383,7 +383,7 @@ colors
 /*body*/
 /* line 18, ../sass/_colors.scss */
 .clr-body {
-  color: #555555;
+  color: #555;
 }
 
 /* line 19, ../sass/_colors.scss */
@@ -413,7 +413,7 @@ colors
 
 /* line 24, ../sass/_colors.scss */
 .clr-body-bg {
-  background-color: #555555;
+  background-color: #555;
 }
 
 /* line 25, ../sass/_colors.scss */
@@ -481,7 +481,7 @@ colors
 
 /* line 49, ../sass/_colors.scss */
 .clr-pos2 {
-  color: #4fca74;
+  color: #4FCA74;
 }
 
 /* line 50, ../sass/_colors.scss */
@@ -496,7 +496,7 @@ colors
 
 /* line 52, ../sass/_colors.scss */
 .clr-pos2-bg {
-  background-color: #4fca74;
+  background-color: #4FCA74;
 }
 
 /* line 53, ../sass/_colors.scss */
@@ -512,7 +512,7 @@ colors
 
 /* line 60, ../sass/_colors.scss */
 .clr-alert2 {
-  color: #ffe167;
+  color: #FFE167;
 }
 
 /* line 61, ../sass/_colors.scss */
@@ -527,7 +527,7 @@ colors
 
 /* line 63, ../sass/_colors.scss */
 .clr-alert2-bg {
-  background-color: #ffe167;
+  background-color: #FFE167;
 }
 
 /* line 64, ../sass/_colors.scss */
@@ -543,7 +543,7 @@ colors
 
 /* line 71, ../sass/_colors.scss */
 .clr-loud2 {
-  color: #da7db3;
+  color: #DA7DB3;
 }
 
 /* line 72, ../sass/_colors.scss */
@@ -558,7 +558,7 @@ colors
 
 /* line 74, ../sass/_colors.scss */
 .clr-loud2-bg {
-  background-color: #da7db3;
+  background-color: #DA7DB3;
 }
 
 /* line 75, ../sass/_colors.scss */
@@ -574,7 +574,7 @@ colors
 
 /* line 82, ../sass/_colors.scss */
 .clr-cool2 {
-  color: #00aef3;
+  color: #00AEF3;
 }
 
 /* line 83, ../sass/_colors.scss */
@@ -589,7 +589,7 @@ colors
 
 /* line 85, ../sass/_colors.scss */
 .clr-cool2-bg {
-  background-color: #00aef3;
+  background-color: #00AEF3;
 }
 
 /* line 86, ../sass/_colors.scss */
@@ -601,57 +601,57 @@ colors
 /*--- brands ---*/
 /* line 99, ../sass/_colors.scss */
 .clr-gigya {
-  color: #1f5ba7;
+  color: #1F5BA7;
 }
 
 /* line 100, ../sass/_colors.scss */
 .clr-gigyal {
-  color: #cae7f9;
+  color: #CAE7F9;
 }
 
 /* line 101, ../sass/_colors.scss */
 .clr-gigya-bg {
-  background-color: #1f5ba7;
+  background-color: #1F5BA7;
 }
 
 /* line 102, ../sass/_colors.scss */
 .clr-gigyal-bg {
-  background-color: #cae7f9;
+  background-color: #CAE7F9;
 }
 
 /* line 107, ../sass/_colors.scss */
 .clr-sc {
-  color: #ff9112;
+  color: #FF9112;
 }
 
 /* line 108, ../sass/_colors.scss */
 .clr-scl {
-  color: #fcc884;
+  color: #FCC884;
 }
 
 /* line 109, ../sass/_colors.scss */
 .clr-scd {
-  color: salmon;
+  color: #FA8072;
 }
 
 /* line 110, ../sass/_colors.scss */
 .clr-sc-bg {
-  background-color: #ff9112;
+  background-color: #FF9112;
 }
 
 /* line 111, ../sass/_colors.scss */
 .clr-scl-bg {
-  background-color: #fcc884;
+  background-color: #FCC884;
 }
 
 /* line 112, ../sass/_colors.scss */
 .clr-scd-bg {
-  background-color: salmon;
+  background-color: #FA8072;
 }
 
 /* line 117, ../sass/_colors.scss */
 .clr-moey {
-  color: #00aef3;
+  color: #00AEF3;
 }
 
 /* line 118, ../sass/_colors.scss */
@@ -666,7 +666,7 @@ colors
 
 /* line 120, ../sass/_colors.scss */
 .clr-moey-bg {
-  background-color: #00aef3;
+  background-color: #00AEF3;
 }
 
 /* line 121, ../sass/_colors.scss */
@@ -681,22 +681,22 @@ colors
 
 /* line 126, ../sass/_colors.scss */
 .clr-amnh {
-  color: #0074bd;
+  color: #0074BD;
 }
 
 /* line 127, ../sass/_colors.scss */
 .clr-amnhl {
-  color: #7ebfe9;
+  color: #7EBFE9;
 }
 
 /* line 128, ../sass/_colors.scss */
 .clr-amnh-bg {
-  background-color: #0074bd;
+  background-color: #0074BD;
 }
 
 /* line 129, ../sass/_colors.scss */
 .clr-amnhl-bg {
-  background-color: #7ebfe9;
+  background-color: #7EBFE9;
 }
 
 /* line 134, ../sass/_colors.scss */
@@ -731,7 +731,7 @@ colors
 
 /* line 143, ../sass/_colors.scss */
 .clr-nick {
-  color: #ff7b00;
+  color: #FF7B00;
 }
 
 /* line 144, ../sass/_colors.scss */
@@ -741,7 +741,7 @@ colors
 
 /* line 145, ../sass/_colors.scss */
 .clr-nick-bg {
-  background-color: #ff7b00;
+  background-color: #FF7B00;
 }
 
 /* line 146, ../sass/_colors.scss */
@@ -751,14 +751,14 @@ colors
 
 /* line 149, ../sass/_colors.scss */
 .clr-ibml {
-  color: #2677c8;
+  color: #2677C8;
 }
 
 /*------- custome ----------*/
 /* ----------------------------------------------
 resets
 -----------------------------------------------*/
-/* line 19, ../sass/teva.scss */
+/* line 7, ../sass/teva.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -782,7 +782,7 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 30, ../sass/teva.scss */
+/* line 29, ../sass/teva.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -803,7 +803,7 @@ blockquote, q {
   quotes: none;
 }
 
-/* line 43, ../sass/teva.scss */
+/* line 42, ../sass/teva.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -822,64 +822,64 @@ colors
 /*--- defaults colors ----*/
 /* line 58, ../sass/teva.scss */
 .clr-lightest {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* line 59, ../sass/teva.scss */
 .clr-darkest {
-  color: black;
+  color: #000000;
 }
 
 /* line 60, ../sass/teva.scss */
 .clr-tevagreen {
-  color: #00a785;
+  color: #00A785;
 }
 
 /* line 61, ../sass/teva.scss */
 .clr-bg-lightest {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 /* line 62, ../sass/teva.scss */
 .clr-bg-darkest {
-  background-color: black;
+  background-color: #000000;
 }
 
 /* line 63, ../sass/teva.scss */
 .clr-bg-tevagreen {
-  background-color: #00a785;
+  background-color: #00A785;
 }
 
 /*Backgrounds*/
 /* line 70, ../sass/teva.scss */
 .clr-bg-dark {
-  background-color: #34495e;
+  background-color: #34495E;
 }
 
 /* line 71, ../sass/teva.scss */
 .clr-bg-darker {
-  background-color: #2d3e50;
+  background-color: #2D3E50;
 }
 
 /* line 72, ../sass/teva.scss */
 .clr-bg-light {
-  background-color: #f0f4f5;
+  background-color: #F0F4F5;
 }
 
 /* line 73, ../sass/teva.scss */
 .clr-bg-lighter {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 /*body*/
 /* line 82, ../sass/teva.scss */
 .clr-body1 {
-  color: #bdc3c8;
+  color: #BDC3C8;
 }
 
 /* line 83, ../sass/teva.scss */
 .clr-body2 {
-  color: #9a9a9a;
+  color: #9A9A9A;
 }
 
 /* line 84, ../sass/teva.scss */
@@ -889,27 +889,27 @@ colors
 
 /* line 85, ../sass/teva.scss */
 .clr-body4 {
-  color: #3d3d3d;
+  color: #3D3D3D;
 }
 
 /* line 86, ../sass/teva.scss */
 .clr-link {
-  color: #3498db;
+  color: #3498DB;
 }
 
 /* line 87, ../sass/teva.scss */
 .clr-linkl {
-  color: #d7eaf7;
+  color: #D7EAF7;
 }
 
 /* line 88, ../sass/teva.scss */
 .clr-bg-body1 {
-  background-color: #bdc3c8;
+  background-color: #BDC3C8;
 }
 
 /* line 89, ../sass/teva.scss */
 .clr-bg-body2 {
-  background-color: #9a9a9a;
+  background-color: #9A9A9A;
 }
 
 /* line 90, ../sass/teva.scss */
@@ -919,109 +919,109 @@ colors
 
 /* line 91, ../sass/teva.scss */
 .clr-bg-body4 {
-  background-color: #3d3d3d;
+  background-color: #3D3D3D;
 }
 
 /* line 92, ../sass/teva.scss */
 .clr-bg-link {
-  background-color: #3498db;
+  background-color: #3498DB;
 }
 
 /* line 93, ../sass/teva.scss */
 .clr-bg-linkl {
-  background-color: #d7eaf7;
+  background-color: #D7EAF7;
 }
 
 /*Warm*/
 /* line 101, ../sass/teva.scss */
 .clr-warm1 {
-  color: #eec417;
+  color: #EEC417;
 }
 
 /* line 102, ../sass/teva.scss */
 .clr-warm2 {
-  color: #f09e11;
+  color: #F09E11;
 }
 
 /* line 103, ../sass/teva.scss */
 .clr-warm3 {
-  color: #e67f22;
+  color: #E67F22;
 }
 
 /* line 104, ../sass/teva.scss */
 .clr-warm4 {
-  color: #d05300;
+  color: #D05300;
 }
 
 /* line 105, ../sass/teva.scss */
 .clr-warm5 {
-  color: #bf3930;
+  color: #BF3930;
 }
 
 /* line 106, ../sass/teva.scss */
 .clr-bg-warm1 {
-  background-color: #eec417;
+  background-color: #EEC417;
 }
 
 /* line 107, ../sass/teva.scss */
 .clr-bg-warm2 {
-  background-color: #f09e11;
+  background-color: #F09E11;
 }
 
 /* line 108, ../sass/teva.scss */
 .clr-bg-warm3 {
-  background-color: #e67f22;
+  background-color: #E67F22;
 }
 
 /* line 109, ../sass/teva.scss */
 .clr-bg-warm4 {
-  background-color: #d05300;
+  background-color: #D05300;
 }
 
 /* line 110, ../sass/teva.scss */
 .clr-bg-warm5 {
-  background-color: #bf3930;
+  background-color: #BF3930;
 }
 
 /*positive/negative*/
 /* line 117, ../sass/teva.scss */
 .clr-pos1 {
-  color: #2ecc71;
+  color: #2ECC71;
 }
 
 /* line 118, ../sass/teva.scss */
 .clr-pos2 {
-  color: #00a785;
+  color: #00A785;
 }
 
 /* line 119, ../sass/teva.scss */
 .clr-neg1 {
-  color: #f4938b;
+  color: #F4938B;
 }
 
 /* line 120, ../sass/teva.scss */
 .clr-neg2 {
-  color: #e74c3c;
+  color: #E74C3C;
 }
 
 /* line 121, ../sass/teva.scss */
 .clr-bg-pos1 {
-  background-color: #2ecc71;
+  background-color: #2ECC71;
 }
 
 /* line 122, ../sass/teva.scss */
 .clr-bg-pos2 {
-  background-color: #00a785;
+  background-color: #00A785;
 }
 
 /* line 123, ../sass/teva.scss */
 .clr-bg-neg1 {
-  background-color: #f4938b;
+  background-color: #F4938B;
 }
 
 /* line 124, ../sass/teva.scss */
 .clr-bg-neg2 {
-  background-color: #e74c3c;
+  background-color: #E74C3C;
 }
 
 /*spectrum*/
@@ -1032,7 +1032,7 @@ colors
 
 /* line 132, ../sass/teva.scss */
 .clr-green1 {
-  color: #2ecc71;
+  color: #2ECC71;
 }
 
 /* line 133, ../sass/teva.scss */
@@ -1052,7 +1052,7 @@ colors
 
 /* line 136, ../sass/teva.scss */
 .clr-bg-green1 {
-  background-color: #2ecc71;
+  background-color: #2ECC71;
 }
 
 /* line 137, ../sass/teva.scss */
@@ -1105,7 +1105,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
   font-family: "ProximaNova-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-align: left;
-  color: #3d3d3d;
+  color: #3D3D3D;
 }
 
 /* line 171, ../sass/teva.scss */
@@ -1124,7 +1124,7 @@ h2 {
 /* line 180, ../sass/teva.scss */
 h3 {
   font-size: 16px;
-  color: #9a9a9a;
+  color: #9A9A9A;
   font-weight: lighter;
 }
 
@@ -1137,14 +1137,14 @@ h4 {
 /* line 191, ../sass/teva.scss */
 h6, a, button {
   font-size: 12px;
-  color: #3498db;
+  color: #3498DB;
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
 }
 /* line 197, ../sass/teva.scss */
 h6:hover, a:hover, button:hover {
-  color: #3498db;
+  color: #3498DB;
 }
 
 /* line 202, ../sass/teva.scss */
@@ -1155,7 +1155,7 @@ p {
 /* line 206, ../sass/teva.scss */
 .fa {
   font-size: 26px;
-  color: #3498db;
+  color: #3498DB;
 }
 
 /* line 212, ../sass/teva.scss */
@@ -1169,21 +1169,21 @@ button {
   margin: 0;
   padding: 0 1rem;
   border: none;
-  color: white;
-  background-color: #3498db;
+  color: #FFFFFF;
+  background-color: #3498DB;
   border-radius: 4px;
   cursor: pointer;
 }
 /* line 226, ../sass/teva.scss */
 button:hover {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* line 231, ../sass/teva.scss */
 .box {
   min-height: 10px;
-  background-color: #f0f4f5;
-  outline: 1px solid #bdc3c8;
+  background-color: #F0F4F5;
+  outline: 1px solid #BDC3C8;
 }
 
 /* line 237, ../sass/teva.scss */
@@ -1191,7 +1191,7 @@ header {
   position: relative;
   display: inline-block;
   width: 100%;
-  background-color: #2d3e50;
+  background-color: #2D3E50;
   height: 70px;
 }
 /* line 244, ../sass/teva.scss */
@@ -1232,7 +1232,7 @@ header .username {
   top: 50%;
   left: 0;
   transform: translate(0, -50%);
-  color: white;
+  color: #FFFFFF;
 }
 @media (max-width: 800px) {
   /* line 271, ../sass/teva.scss */
@@ -1250,59 +1250,59 @@ header .fa {
 }
 /* line 287, ../sass/teva.scss */
 header .fa:hover {
-  color: #d7eaf7;
+  color: #D7EAF7;
 }
 /* line 291, ../sass/teva.scss */
 header .selected {
-  color: white;
+  color: #FFFFFF;
 }
 
 /* line 296, ../sass/teva.scss */
 .dose {
   width: 12px;
   height: 12px;
-  background-color: #3498db;
+  background-color: #3498DB;
   border-radius: 50% 50%;
 }
 
 /* line 302, ../sass/teva.scss */
 .taken {
-  background-color: #3498db;
+  background-color: #3498DB;
 }
 
 /* line 303, ../sass/teva.scss */
 .missed {
-  background-color: #bdc3c8;
+  background-color: #BDC3C8;
 }
 
 /* line 304, ../sass/teva.scss */
 .invalid {
-  background-color: black;
+  background-color: #000000;
 }
 
 /* line 305, ../sass/teva.scss */
 .morning {
-  background-color: #eec417;
+  background-color: #EEC417;
 }
 
 /* line 306, ../sass/teva.scss */
 .noon {
-  background-color: #f09e11;
+  background-color: #F09E11;
 }
 
 /* line 307, ../sass/teva.scss */
 .evening {
-  background-color: #d05300;
+  background-color: #D05300;
 }
 
 /* line 308, ../sass/teva.scss */
 .night {
-  background-color: #34495e;
+  background-color: #34495E;
 }
 
 /* line 309, ../sass/teva.scss */
 .coached {
-  background-color: #2ecc71;
+  background-color: #2ECC71;
 }
 
 /* line 311, ../sass/teva.scss */
@@ -1328,12 +1328,12 @@ header .selected {
   width: 100%;
   height: 60px;
   padding: 0 1rem;
-  background-color: #34495e;
-  color: white;
+  background-color: #34495E;
+  color: #FFFFFF;
 }
 /* line 331, ../sass/teva.scss */
 .listcontainer .listheader p {
-  color: white;
+  color: #FFFFFF;
 }
 /* line 335, ../sass/teva.scss */
 .listcontainer .siteheader {
@@ -1341,11 +1341,11 @@ header .selected {
   display: block;
   height: 30px;
   padding: 0 1rem;
-  background-color: #2d3e50;
+  background-color: #2D3E50;
 }
 /* line 341, ../sass/teva.scss */
 .listcontainer .siteheader h2 {
-  color: white;
+  color: #FFFFFF;
   clear: none;
 }
 /* line 346, ../sass/teva.scss */
@@ -1356,27 +1356,27 @@ header .selected {
   padding: 0 1rem;
   margin: 0 1px;
   top: -1px;
-  background-color: #f0f4f5;
-  outline: 1px solid #bdc3c8;
+  background-color: #F0F4F5;
+  outline: 1px solid #BDC3C8;
 }
 /* line 355, ../sass/teva.scss */
 .listcontainer .listitem:nth-child(even) {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 /* line 358, ../sass/teva.scss */
 .listcontainer .listitem .fa {
-  color: #bdc3c8;
+  color: #BDC3C8;
   float: left;
 }
 /* line 362, ../sass/teva.scss */
 .listcontainer .listitem:hover, .listcontainer .listitem.selected {
-  background-color: #d7eaf7;
-  outline: 1px solid #3498db;
+  background-color: #D7EAF7;
+  outline: 1px solid #3498DB;
   z-index: 2;
 }
 /* line 366, ../sass/teva.scss */
 .listcontainer .listitem:hover .fa, .listcontainer .listitem.selected .fa {
-  color: #3498db;
+  color: #3498DB;
 }
 /* line 371, ../sass/teva.scss */
 .listcontainer .patientprofile {
@@ -1444,20 +1444,20 @@ header .selected {
   width: 14.285%;
   min-height: 88px;
   float: left;
-  background-color: #f0f4f5;
-  outline: 1px solid #bdc3c8;
+  background-color: #F0F4F5;
+  outline: 1px solid #BDC3C8;
 }
 /* line 427, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox:hover {
-  background-color: #d7eaf7;
-  outline: 1px solid #3498db;
+  background-color: #D7EAF7;
+  outline: 1px solid #3498DB;
   z-index: 2;
 }
 /* line 432, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox h1 {
   position: relative;
   top: 1rem;
-  color: #e74c3c;
+  color: #E74C3C;
   text-align: center;
 }
 /* line 438, ../sass/teva.scss */
@@ -1473,23 +1473,23 @@ header .selected {
   top: 1rem;
   height: 5px;
   width: 100%;
-  background-color: #eec417;
+  background-color: #EEC417;
 }
 /* line 451, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d2 {
-  background-color: #f09e11;
+  background-color: #F09E11;
 }
 /* line 452, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d3 {
-  background-color: #e67f22;
+  background-color: #E67F22;
 }
 /* line 453, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d4 {
-  background-color: #d05300;
+  background-color: #D05300;
 }
 /* line 454, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .d5 {
-  background-color: #bf3930;
+  background-color: #BF3930;
 }
 /* line 455, ../sass/teva.scss */
 .listcontainer .patientprofile .leftstack .calbox .daybox .doses {
@@ -1556,21 +1556,21 @@ header .selected {
 /* line 507, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .medstats span, .listcontainer .patientprofile .rightstack .rescuebox .medstats span, .listcontainer .patientprofile .rightstack .coachbox .medstats span {
   padding: 0 .33rem;
-  color: black;
+  color: #000000;
 }
 /* line 512, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .fa-moon-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-moon-o, .listcontainer .patientprofile .rightstack .coachbox .fa-moon-o {
-  color: #34495e;
+  color: #34495E;
 }
 /* line 513, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .maintbox .fa-sun-o, .listcontainer .patientprofile .rightstack .rescuebox .fa-sun-o, .listcontainer .patientprofile .rightstack .coachbox .fa-sun-o {
-  color: #eec417;
+  color: #EEC417;
 }
 /* line 515, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .rescuebox .fa {
-  color: #e74c3c;
+  color: #E74C3C;
 }
 /* line 516, ../sass/teva.scss */
 .listcontainer .patientprofile .rightstack .coachbox .fa {
-  color: #2ecc71;
+  color: #2ECC71;
 }
