@@ -20,7 +20,6 @@ $clr-bg2: 		#222222;		.clr-bg2		{color: $clr-bg2;}
 $clr-bg3: 		#333333;		.clr-bg3		{color: $clr-bg3;}
 $clr-bg9: 		#eae6e7;		.clr-bg9		{color: $clr-bg9;}
 
-
 ::-webkit-scrollbar { 
     display: none; 
 }
@@ -78,9 +77,9 @@ header{
 	position: absolute;
 	display: block;
 	width: 100%; height: 100%;
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,0,225,0.06) 0%, rgba(0,207,255,0.03) 100%);
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,0,225,0.06) 0%,rgba(0,207,255,0.03) 100%);
-	background: radial-gradient(ellipse at center, rgba(255,0,225,0.06) 0%,rgba(0,207,255,0.03) 100%);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,0,225,0.12) 0%, rgba(0,207,255,0.06) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,0,225,0.12) 0%,rgba(0,207,255,0.06) 100%);
+	background: radial-gradient(ellipse at center, rgba(255,0,225,0.12) 0%,rgba(0,207,255,0.06) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
 	/*--------------------
 	background: -moz-linear-gradient(left, rgba(255,0,225,0.06) 0%, rgba(0,207,255,0.03) 50%, rgba(255,0,225,0.06) 100%);
@@ -131,7 +130,7 @@ header{
 	}
 }
 
-.sec-hero, .sec-contact{
+.sec-hero, .sec-contact, .sec-rww{
 	position: relative;
 	display: inline-block;
 	background-color: $clr-bg0;
@@ -156,6 +155,18 @@ header{
 	    @media (max-width: 800px) {
 			top: 15%;
 		}
+	}
+}
+.sec-rww{
+	height: 570px;
+	h1, h2{
+		top: 10%;
+	}
+}
+.sec-contact{
+	height: 570px;
+	h1, h2{
+		top: 45%;
 	}
 }
 
@@ -306,7 +317,6 @@ header{
 			padding: 0;
 			margin: 0;
 			width: 10%;
-			color: $clr-bg3;
 			&:hover{
 				color: $clr-o;
 			}
@@ -342,4 +352,3 @@ header{
 	50%			{transform: translate(0, 5px);}
 	100%	 	{transform: translate(0, -5px);}
 }
-
