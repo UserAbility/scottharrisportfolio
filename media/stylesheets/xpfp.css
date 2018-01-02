@@ -977,7 +977,7 @@ header {
 @media (max-width: 800px) {
   /* line 134, ../sass/xpfp.scss */
   .sec-hero, .sec-contact {
-    height: 700px;
+    height: 500px;
   }
 }
 /* line 145, ../sass/xpfp.scss */
