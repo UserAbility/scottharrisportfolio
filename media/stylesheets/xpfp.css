@@ -866,7 +866,7 @@ h1, h2 {
 @media (max-width: 800px) {
   /* line 41, ../sass/xpfp.scss */
   h1, h2 {
-    font-size: 36px;
+    font-size: 34px;
   }
 }
 /* line 49, ../sass/xpfp.scss */
@@ -977,7 +977,7 @@ header {
 @media (max-width: 800px) {
   /* line 134, ../sass/xpfp.scss */
   .sec-hero, .sec-contact {
-    height: 500px;
+    height: 600px;
   }
 }
 /* line 145, ../sass/xpfp.scss */
