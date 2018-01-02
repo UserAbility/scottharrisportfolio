@@ -1,7 +1,7 @@
 @import "colors";
 @import "mixins";
 	
-$clr-lightest: 	#aaaaaa;		.clr-lightest	{color: $clr-lightest;}
+$clr-lightest: 	#cccccc;		.clr-lightest	{color: $clr-lightest;}
 $clr-menu1: 	#125c66;		.clr-menu1		{color: $clr-menu1;}
 $clr-menu2: 	#11bcd8;		.clr-menu2		{color: $clr-menu2;}
 
@@ -75,6 +75,7 @@ header{
 
 .scrim1{
 	position: absolute;
+	top: 0; left: 0;
 	display: block;
 	width: 100%; height: 100%;
 	background: -moz-radial-gradient(center, ellipse cover, rgba(255,0,225,0.12) 0%, rgba(0,207,255,0.06) 100%);
@@ -136,7 +137,7 @@ header{
 	background-color: $clr-bg0;
 	width: 100%;
 	height: 830px;
-	background: $clr-bg0 url(../media/images/xp/hero-hex-white.png) repeat left top;
+	background: $clr-bg0 url(../images/xp/hero-hex-black.png) repeat left top;
 	background-size: contain;
 	@media (max-width: 800px) {
 			height: 570px;
@@ -146,14 +147,24 @@ header{
 		width: 100%;
 		bottom: 5%;
 	}
-	.hero-hex{
+	iframe{
 		position: relative;
-		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	    top: 25%;
-	    @media (max-width: 800px) {
-			top: 15%;
+		top: 0;
+		left: 0;
+	}
+	.center-holder{
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+		img{
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		    margin-top: 240px;
+		    @media (max-width: 800px) {
+				margin-top: 100px;
+			}
 		}
 	}
 }
