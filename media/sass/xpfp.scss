@@ -14,10 +14,10 @@ $clr-b:			#00cfff;		.clr-clr-b		{color: $clr-b;}
 $clr-i:			#000000;		.clr-clr-i		{color: $clr-i;}
 $clr-v:			#ff00e1;		.clr-clr-v		{color: $clr-v;}
 
-$clr-bg0: 		#030303;		.clr-bg0		{color: $clr-bg0;}
-$clr-bg1: 		#272822;		.clr-bg1		{color: $clr-bg1;}
-$clr-bg2: 		#41423d;		.clr-bg2		{color: $clr-bg2;}
-$clr-bg3: 		#6c6d69;		.clr-bg3		{color: $clr-bg3;}
+$clr-bg0: 		#0a080f;		.clr-bg0		{color: $clr-bg0;}
+$clr-bg1: 		#111111;		.clr-bg1		{color: $clr-bg1;}
+$clr-bg2: 		#222222;		.clr-bg2		{color: $clr-bg2;}
+$clr-bg3: 		#333333;		.clr-bg3		{color: $clr-bg3;}
 $clr-bg9: 		#eae6e7;		.clr-bg9		{color: $clr-bg9;}
 
 ::-webkit-scrollbar { 
@@ -56,7 +56,7 @@ h2{
 }
 
 #wrapper, .footer{
-	max-width: 1366px;
+	max-width: 1440px;
 	background-color: $clr-bg2;
 }
 
@@ -65,7 +65,6 @@ header{
 	z-index: 999;
 	height: 48px;
 	width: 100%;
-	max-width: 1366px;
 	padding: 0;
 	background: -moz-linear-gradient(left, rgba(255,0,225,0.24) 0%, rgba(0,207,255,0.12) 50%, rgba(255,0,225,0.24) 100%);
 	background: -webkit-linear-gradient(left, rgba(255,0,225,0.24) 0%,rgba(0,207,255,0.12) 50%,rgba(255,0,225,0.24) 100%);
@@ -82,12 +81,6 @@ header{
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,0,225,0.12) 0%,rgba(0,207,255,0.06) 100%);
 	background: radial-gradient(ellipse at center, rgba(255,0,225,0.12) 0%,rgba(0,207,255,0.06) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
-	/*--------------------
-	background: -moz-linear-gradient(left, rgba(255,0,225,0.06) 0%, rgba(0,207,255,0.03) 50%, rgba(255,0,225,0.06) 100%);
-	background: -webkit-linear-gradient(left, rgba(255,0,225,0.06) 0%,rgba(0,207,255,0.03) 50%,rgba(255,0,225,0.06) 100%);
-	background: linear-gradient(to right, rgba(255,0,225,0.06) 0%,rgba(0,207,255,0.03) 50%,rgba(255,0,225,0.06) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dff00e1', endColorstr='#3dff00e1',GradientType=1 );
-	--------------------*/
 }
 
 .scrim2{
@@ -126,6 +119,18 @@ header{
 	  	text-decoration: none;
 	}
 }
+
+.fullfade-black{
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: $clr-bg0;
+	  animation: 	fadout 		4s   ease-in  1s 1 both;}
+.prob{animation: 	fadout 		1.5s ease-out 1s 1 both;}
+.solu{animation: 	fadin 		3s ease-out 2.5s 1 both;}
+
+/*	animation: name duration timing-function delay iteration-count direction fill-mode animation-play-state: */
 
 .menu-header, .menu-footer{
 	position: relative;
@@ -247,7 +252,8 @@ header{
 		.img-screen{
 			position: absolute;
 			top: 0; right: 0;
-			animation: flicker .4s ease infinite;}
+			animation: flicker .4s ease infinite;
+		}
 	}
 	.middle-ground{
 		position: absolute;
@@ -354,16 +360,31 @@ header{
 	}
 }
 
+@keyframes fadin {
+	0% 		{opacity: 0;}
+  	100% 	{opacity: 1;}
+}
+@keyframes fadout {
+	0% 		{opacity: 1;}
+  	100% 	{opacity: 0;}
+}
+@keyframes fadin-out {
+	0% 		{opacity: 0;}
+  	20% 	{opacity: 1;}
+  	80% 	{opacity: 1;}
+  	100% 	{opacity: 0;}
+}
+
 @keyframes flicker {
-  0% 	{opacity: 0.9;}
-  50% 	{opacity: 1.0;}
-  100% 	{opacity: 0.9;}
+  	0% 		{opacity: 0.9;}
+  	50% 	{opacity: 1.0;}
+  	100% 	{opacity: 0.9;}
 }
 
 @keyframes flash {
-  0% 	{opacity: 0.5;}
-  50% 	{opacity: 0.0;}
-  100% 	{opacity: 0.5;}
+  	0% 		{opacity: 0.5;}
+  	50% 	{opacity: 0.0;}
+  	100% 	{opacity: 0.5;}
 }
 
 @keyframes bob-a {

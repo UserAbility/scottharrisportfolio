@@ -812,22 +812,22 @@ colors
 
 /* line 17, ../sass/xpfp.scss */
 .clr-bg0 {
-  color: #030303;
+  color: #0a080f;
 }
 
 /* line 18, ../sass/xpfp.scss */
 .clr-bg1 {
-  color: #272822;
+  color: #111111;
 }
 
 /* line 19, ../sass/xpfp.scss */
 .clr-bg2 {
-  color: #41423d;
+  color: #222222;
 }
 
 /* line 20, ../sass/xpfp.scss */
 .clr-bg3 {
-  color: #6c6d69;
+  color: #333333;
 }
 
 /* line 21, ../sass/xpfp.scss */
@@ -842,7 +842,7 @@ colors
 
 /* line 27, ../sass/xpfp.scss */
 body, html {
-  background-color: #272822;
+  background-color: #111111;
   width: 100%;
   height: 100%;
 }
@@ -882,8 +882,8 @@ h2 {
 
 /* line 58, ../sass/xpfp.scss */
 #wrapper, .footer {
-  max-width: 1366px;
-  background-color: #41423d;
+  max-width: 1440px;
+  background-color: #222222;
 }
 
 /* line 63, ../sass/xpfp.scss */
@@ -892,7 +892,6 @@ header {
   z-index: 999;
   height: 48px;
   width: 100%;
-  max-width: 1366px;
   padding: 0;
   background: -moz-linear-gradient(left, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 50%, rgba(255, 0, 225, 0.24) 100%);
   background: -webkit-linear-gradient(left, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 50%, rgba(255, 0, 225, 0.24) 100%);
@@ -900,7 +899,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dff00e1', endColorstr='#3dff00e1',GradientType=1 );
 }
 
-/* line 76, ../sass/xpfp.scss */
+/* line 75, ../sass/xpfp.scss */
 .scrim1 {
   position: absolute;
   top: 0;
@@ -912,15 +911,9 @@ header {
   background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.12) 0%, rgba(0, 207, 255, 0.06) 100%);
   background: radial-gradient(ellipse at center, rgba(255, 0, 225, 0.12) 0%, rgba(0, 207, 255, 0.06) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
-  /*--------------------
-  background: -moz-linear-gradient(left, rgba(255,0,225,0.06) 0%, rgba(0,207,255,0.03) 50%, rgba(255,0,225,0.06) 100%);
-  background: -webkit-linear-gradient(left, rgba(255,0,225,0.06) 0%,rgba(0,207,255,0.03) 50%,rgba(255,0,225,0.06) 100%);
-  background: linear-gradient(to right, rgba(255,0,225,0.06) 0%,rgba(0,207,255,0.03) 50%,rgba(255,0,225,0.06) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dff00e1', endColorstr='#3dff00e1',GradientType=1 );
-  --------------------*/
 }
 
-/* line 93, ../sass/xpfp.scss */
+/* line 86, ../sass/xpfp.scss */
 .scrim2 {
   position: absolute;
   top: 0;
@@ -934,7 +927,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
 }
 
-/* line 104, ../sass/xpfp.scss */
+/* line 97, ../sass/xpfp.scss */
 .contact-btn {
   position: relative;
   display: inline-block;
@@ -944,7 +937,7 @@ header {
   height: 38px;
   padding: 0 20px;
   margin: 5px;
-  color: #272822;
+  color: #111111;
   border-color: #ffbb00;
   background: #ffe700;
   background-image: -webkit-linear-gradient(top, #ffe700, #ffbb00);
@@ -956,47 +949,69 @@ header {
   -moz-border-radius: 5;
   border-radius: 5px;
 }
-/* line 124, ../sass/xpfp.scss */
+/* line 117, ../sass/xpfp.scss */
 .contact-btn:hover {
   background: #ffe700;
   text-decoration: none;
 }
 
+/* line 123, ../sass/xpfp.scss */
+.fullfade-black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0a080f;
+  animation: fadout 		4s   ease-in  1s 1 both;
+}
+
 /* line 130, ../sass/xpfp.scss */
+.prob {
+  animation: fadout 		1.5s ease-out 1s 1 both;
+}
+
+/* line 131, ../sass/xpfp.scss */
+.solu {
+  animation: fadin 		3s ease-out 2.5s 1 both;
+}
+
+/*	animation: name duration timing-function delay iteration-count direction fill-mode animation-play-state: */
+/* line 135, ../sass/xpfp.scss */
 .menu-header, .menu-footer {
   position: relative;
   display: inline-block;
   top: 16px;
   float: right;
 }
-/* line 135, ../sass/xpfp.scss */
+/* line 140, ../sass/xpfp.scss */
 .menu-header li, .menu-footer li {
   padding-right: 30px;
   color: #cccccc;
   float: right;
 }
-/* line 139, ../sass/xpfp.scss */
+/* line 144, ../sass/xpfp.scss */
 .menu-header li:hover, .menu-footer li:hover {
   color: #ffbb00;
 }
 
-/* line 145, ../sass/xpfp.scss */
+/* line 150, ../sass/xpfp.scss */
 .sec-hero, .sec-contact, .sec-rww {
   position: relative;
   display: inline-block;
-  background-color: #030303;
+  background-color: #0a080f;
   width: 100%;
   height: 830px;
-  background: #030303 url(../images/xp/hero-hex-black.png) repeat left top;
+  background: #0a080f url(../images/xp/hero-hex-black.png) repeat left top;
   background-size: contain;
 }
 @media (max-width: 800px) {
-  /* line 145, ../sass/xpfp.scss */
+  /* line 150, ../sass/xpfp.scss */
   .sec-hero, .sec-contact, .sec-rww {
     height: 570px;
   }
 }
-/* line 156, ../sass/xpfp.scss */
+/* line 161, ../sass/xpfp.scss */
 .sec-hero h1, .sec-hero h2, .sec-contact h1, .sec-contact h2, .sec-rww h1, .sec-rww h2 {
   position: absolute;
   width: 100%;
@@ -1004,18 +1019,18 @@ header {
   text-shadow: 0px 0px 6px #000000;
 }
 @media (max-width: 800px) {
-  /* line 156, ../sass/xpfp.scss */
+  /* line 161, ../sass/xpfp.scss */
   .sec-hero h1, .sec-hero h2, .sec-contact h1, .sec-contact h2, .sec-rww h1, .sec-rww h2 {
     bottom: 5%;
   }
 }
-/* line 165, ../sass/xpfp.scss */
+/* line 170, ../sass/xpfp.scss */
 .sec-hero iframe, .sec-contact iframe, .sec-rww iframe {
   position: relative;
   top: 0;
   left: 0;
 }
-/* line 170, ../sass/xpfp.scss */
+/* line 175, ../sass/xpfp.scss */
 .sec-hero .center-holder, .sec-contact .center-holder, .sec-rww .center-holder {
   position: absolute;
   top: 0;
@@ -1023,7 +1038,7 @@ header {
   width: 100%;
   height: 100%;
 }
-/* line 175, ../sass/xpfp.scss */
+/* line 180, ../sass/xpfp.scss */
 .sec-hero .center-holder img, .sec-contact .center-holder img, .sec-rww .center-holder img {
   display: block;
   margin-left: auto;
@@ -1031,40 +1046,40 @@ header {
   margin-top: 240px;
 }
 @media (max-width: 800px) {
-  /* line 175, ../sass/xpfp.scss */
+  /* line 180, ../sass/xpfp.scss */
   .sec-hero .center-holder img, .sec-contact .center-holder img, .sec-rww .center-holder img {
     margin-top: 80px;
   }
 }
 
-/* line 186, ../sass/xpfp.scss */
+/* line 191, ../sass/xpfp.scss */
 .sec-rww {
   height: 570px;
 }
-/* line 188, ../sass/xpfp.scss */
+/* line 193, ../sass/xpfp.scss */
 .sec-rww h1, .sec-rww h2 {
   top: 10%;
 }
 
-/* line 192, ../sass/xpfp.scss */
+/* line 197, ../sass/xpfp.scss */
 .sec-contact {
   height: 570px;
 }
-/* line 194, ../sass/xpfp.scss */
+/* line 199, ../sass/xpfp.scss */
 .sec-contact h1, .sec-contact h2 {
   top: 45%;
 }
 
-/* line 200, ../sass/xpfp.scss */
+/* line 205, ../sass/xpfp.scss */
 .sec-showcases li {
   position: relative;
   display: inline-block;
-  background-color: #41423d;
-  border-bottom: 1px solid #272822;
+  background-color: #222222;
+  border-bottom: 1px solid #111111;
   width: 100%;
   height: 600px;
 }
-/* line 207, ../sass/xpfp.scss */
+/* line 212, ../sass/xpfp.scss */
 .sec-showcases li h1, .sec-showcases li h2 {
   position: absolute;
   bottom: 41%;
@@ -1073,7 +1088,7 @@ header {
   line-height: 1.1;
 }
 @media (max-width: 800px) {
-  /* line 207, ../sass/xpfp.scss */
+  /* line 212, ../sass/xpfp.scss */
   .sec-showcases li h1, .sec-showcases li h2 {
     bottom: 8%;
     left: 0;
@@ -1082,7 +1097,7 @@ header {
     font-size: 28px;
   }
 }
-/* line 219, ../sass/xpfp.scss */
+/* line 224, ../sass/xpfp.scss */
 .sec-showcases li .sec-visuals {
   position: absolute;
   display: inline-block;
@@ -1092,29 +1107,29 @@ header {
   height: 80%;
 }
 @media (max-width: 800px) {
-  /* line 219, ../sass/xpfp.scss */
+  /* line 224, ../sass/xpfp.scss */
   .sec-showcases li .sec-visuals {
     width: 90%;
     height: 400px;
   }
 }
 
-/* line 232, ../sass/xpfp.scss */
+/* line 237, ../sass/xpfp.scss */
 .fore-ground {
   z-index: 3;
 }
 
-/* line 233, ../sass/xpfp.scss */
+/* line 238, ../sass/xpfp.scss */
 .middle-ground {
   z-index: 2;
 }
 
-/* line 234, ../sass/xpfp.scss */
+/* line 239, ../sass/xpfp.scss */
 .back-ground {
   z-index: 4;
 }
 
-/* line 237, ../sass/xpfp.scss */
+/* line 242, ../sass/xpfp.scss */
 .sec-arena .back-ground {
   position: absolute;
   width: 80%;
@@ -1122,26 +1137,26 @@ header {
   right: 0;
 }
 @media (max-width: 600px) {
-  /* line 237, ../sass/xpfp.scss */
+  /* line 242, ../sass/xpfp.scss */
   .sec-arena .back-ground {
     width: 100%;
     height: 70%;
   }
 }
-/* line 244, ../sass/xpfp.scss */
+/* line 249, ../sass/xpfp.scss */
 .sec-arena .back-ground .img-backdrop {
   position: absolute;
   top: 0;
   right: 0;
 }
-/* line 247, ../sass/xpfp.scss */
+/* line 252, ../sass/xpfp.scss */
 .sec-arena .back-ground .img-screen {
   position: absolute;
   top: 0;
   right: 0;
   animation: flicker .4s ease infinite;
 }
-/* line 252, ../sass/xpfp.scss */
+/* line 258, ../sass/xpfp.scss */
 .sec-arena .middle-ground {
   position: absolute;
   top: 0;
@@ -1149,14 +1164,14 @@ header {
   width: 100%;
   height: 80%;
 }
-/* line 257, ../sass/xpfp.scss */
+/* line 263, ../sass/xpfp.scss */
 .sec-arena .middle-ground .img-prize1 {
   position: absolute;
   top: 0%;
   left: 18%;
   animation: bob-a 3.9s infinite, flicker .2s ease infinite;
 }
-/* line 264, ../sass/xpfp.scss */
+/* line 270, ../sass/xpfp.scss */
 .sec-arena .middle-ground .img-prize2 {
   position: absolute;
   top: 30%;
@@ -1164,7 +1179,7 @@ header {
   max-width: 50%;
   animation: bob-b 4.1s infinite, flicker .3s ease infinite;
 }
-/* line 273, ../sass/xpfp.scss */
+/* line 279, ../sass/xpfp.scss */
 .sec-arena .fore-ground {
   position: absolute;
   bottom: 0;
@@ -1173,19 +1188,19 @@ header {
   height: 80%;
 }
 @media (max-width: 600px) {
-  /* line 273, ../sass/xpfp.scss */
+  /* line 279, ../sass/xpfp.scss */
   .sec-arena .fore-ground {
     width: 100%;
     bottom: 5%;
   }
 }
-/* line 281, ../sass/xpfp.scss */
+/* line 287, ../sass/xpfp.scss */
 .sec-arena .fore-ground .img-croud, .sec-arena .fore-ground .img-glow {
   position: absolute;
   bottom: 1%;
   left: 1%;
 }
-/* line 285, ../sass/xpfp.scss */
+/* line 291, ../sass/xpfp.scss */
 .sec-arena .fore-ground .img-glow {
   position: absolute;
   bottom: 1%;
@@ -1193,22 +1208,22 @@ header {
   animation: flash 1s ease infinite;
 }
 
-/* line 294, ../sass/xpfp.scss */
+/* line 300, ../sass/xpfp.scss */
 .sec-buckets {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 250px;
-  background-color: #41423d;
+  background-color: #222222;
 }
 @media (max-width: 770px) {
-  /* line 294, ../sass/xpfp.scss */
+  /* line 300, ../sass/xpfp.scss */
   .sec-buckets {
     height: 150px;
   }
 }
-/* line 304, ../sass/xpfp.scss */
+/* line 310, ../sass/xpfp.scss */
 .sec-buckets li {
   display: flex;
   align-items: center;
@@ -1216,36 +1231,36 @@ header {
   margin: 0;
   width: 25%;
   height: 75%;
-  border-right: 1px dashed #272822;
+  border-right: 1px dashed #111111;
 }
-/* line 312, ../sass/xpfp.scss */
+/* line 318, ../sass/xpfp.scss */
 .sec-buckets li h2 {
   width: 100%;
   margin: 0;
 }
-/* line 315, ../sass/xpfp.scss */
+/* line 321, ../sass/xpfp.scss */
 .sec-buckets li h2:hover {
   color: #ffbb00;
 }
 @media (max-width: 770px) {
-  /* line 312, ../sass/xpfp.scss */
+  /* line 318, ../sass/xpfp.scss */
   .sec-buckets li h2 {
     font-size: 22px;
   }
 }
 
-/* line 325, ../sass/xpfp.scss */
+/* line 331, ../sass/xpfp.scss */
 .footer, .push {
   overflow: hidden;
   height: 50px;
   /* '.push' must be the same height as 'footer' */
 }
 
-/* line 330, ../sass/xpfp.scss */
+/* line 336, ../sass/xpfp.scss */
 .footer {
-  background-color: #272822;
+  background-color: #111111;
 }
-/* line 332, ../sass/xpfp.scss */
+/* line 338, ../sass/xpfp.scss */
 .footer .menu-footer {
   display: flex;
   align-items: center;
@@ -1253,12 +1268,12 @@ header {
   float: none;
 }
 @media (max-width: 800px) {
-  /* line 332, ../sass/xpfp.scss */
+  /* line 338, ../sass/xpfp.scss */
   .footer .menu-footer {
     display: block;
   }
 }
-/* line 340, ../sass/xpfp.scss */
+/* line 346, ../sass/xpfp.scss */
 .footer .menu-footer li {
   text-align: center;
   float: left;
@@ -1266,18 +1281,48 @@ header {
   margin: 0;
   width: 10%;
 }
-/* line 346, ../sass/xpfp.scss */
+/* line 352, ../sass/xpfp.scss */
 .footer .menu-footer li:hover {
   color: #ffbb00;
 }
 @media (max-width: 800px) {
-  /* line 340, ../sass/xpfp.scss */
+  /* line 346, ../sass/xpfp.scss */
   .footer .menu-footer li {
     min-width: 100%;
     line-height: 1.5;
   }
 }
 
+@keyframes fadin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadin-out {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @keyframes flicker {
   0% {
     opacity: 0.9;
