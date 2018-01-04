@@ -1213,25 +1213,55 @@ header {
 }
 
 /* line 308, ../sass/xpfp.scss */
+.sec-fitfly .back-ground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+}
+/* line 313, ../sass/xpfp.scss */
+.sec-fitfly .img-plane {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+}
+/* line 318, ../sass/xpfp.scss */
+.sec-fitfly .img-data {
+  position: absolute;
+  bottom: 35%;
+  left: 45%;
+  max-width: 75%;
+  animation: flicker .2s ease infinite;
+}
+/* line 325, ../sass/xpfp.scss */
+.sec-fitfly .img-runner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 75%;
+}
+
+/* line 333, ../sass/xpfp.scss */
 .sec-prefs .img-man {
   position: absolute;
   bottom: 0%;
   right: 50%;
 }
-/* line 313, ../sass/xpfp.scss */
+/* line 338, ../sass/xpfp.scss */
 .sec-prefs .back-ground .img-backLeft {
   position: absolute;
   bottom: 30px;
   left: 0;
 }
-/* line 316, ../sass/xpfp.scss */
+/* line 341, ../sass/xpfp.scss */
 .sec-prefs .back-ground .img-backMiddle {
   position: absolute;
   height: 70%;
   top: 0;
   left: 21%;
 }
-/* line 321, ../sass/xpfp.scss */
+/* line 346, ../sass/xpfp.scss */
 .sec-prefs .back-ground .img-backRight, .sec-prefs .back-ground .img-backRight2 {
   position: absolute;
   bottom: 10%;
@@ -1239,7 +1269,7 @@ header {
   height: 80%;
   vertical-align: middle;
 }
-/* line 329, ../sass/xpfp.scss */
+/* line 354, ../sass/xpfp.scss */
 .sec-prefs .back-ground .middle-ground {
   position: absolute;
   bottom: 0;
@@ -1247,7 +1277,7 @@ header {
   width: 100%;
   height: 100%;
 }
-/* line 336, ../sass/xpfp.scss */
+/* line 361, ../sass/xpfp.scss */
 .sec-prefs .fore-ground {
   position: absolute;
   bottom: 0;
@@ -1256,13 +1286,13 @@ header {
   height: 100%;
 }
 
-/* line 347, ../sass/xpfp.scss */
+/* line 372, ../sass/xpfp.scss */
 .sec-contact .tagline {
   position: absolute;
   top: 5%;
 }
 
-/* line 353, ../sass/xpfp.scss */
+/* line 378, ../sass/xpfp.scss */
 .sec-buckets {
   display: flex;
   align-items: center;
@@ -1272,12 +1302,12 @@ header {
   background-color: #222222;
 }
 @media (max-width: 770px) {
-  /* line 353, ../sass/xpfp.scss */
+  /* line 378, ../sass/xpfp.scss */
   .sec-buckets {
     height: 150px;
   }
 }
-/* line 363, ../sass/xpfp.scss */
+/* line 388, ../sass/xpfp.scss */
 .sec-buckets li {
   display: flex;
   align-items: center;
@@ -1287,34 +1317,34 @@ header {
   height: 75%;
   border-right: 1px dashed #333333;
 }
-/* line 371, ../sass/xpfp.scss */
+/* line 396, ../sass/xpfp.scss */
 .sec-buckets li h2 {
   width: 100%;
   margin: 0;
 }
-/* line 374, ../sass/xpfp.scss */
+/* line 399, ../sass/xpfp.scss */
 .sec-buckets li h2:hover {
   color: #ffbb00;
 }
 @media (max-width: 770px) {
-  /* line 371, ../sass/xpfp.scss */
+  /* line 396, ../sass/xpfp.scss */
   .sec-buckets li h2 {
     font-size: 22px;
   }
 }
 
-/* line 384, ../sass/xpfp.scss */
+/* line 409, ../sass/xpfp.scss */
 .footer, .push {
   overflow: hidden;
   height: 50px;
   /* '.push' must be the same height as 'footer' */
 }
 
-/* line 389, ../sass/xpfp.scss */
+/* line 414, ../sass/xpfp.scss */
 .footer {
   background-color: #111111;
 }
-/* line 391, ../sass/xpfp.scss */
+/* line 416, ../sass/xpfp.scss */
 .footer .menu-footer {
   display: flex;
   align-items: center;
@@ -1322,12 +1352,12 @@ header {
   float: none;
 }
 @media (max-width: 800px) {
-  /* line 391, ../sass/xpfp.scss */
+  /* line 416, ../sass/xpfp.scss */
   .footer .menu-footer {
     display: block;
   }
 }
-/* line 399, ../sass/xpfp.scss */
+/* line 424, ../sass/xpfp.scss */
 .footer .menu-footer li {
   text-align: center;
   float: left;
@@ -1335,12 +1365,12 @@ header {
   margin: 0;
   width: 10%;
 }
-/* line 405, ../sass/xpfp.scss */
+/* line 430, ../sass/xpfp.scss */
 .footer .menu-footer li:hover {
   color: #ffbb00;
 }
 @media (max-width: 800px) {
-  /* line 399, ../sass/xpfp.scss */
+  /* line 424, ../sass/xpfp.scss */
   .footer .menu-footer li {
     min-width: 100%;
     line-height: 1.5;
