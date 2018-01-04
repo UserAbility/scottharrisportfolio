@@ -1037,8 +1037,8 @@ header {
   position: absolute;
   display: inline-block;
   margin-top: 18vh;
-  width: 50%;
-  margin-left: 25%;
+  width: 66%;
+  margin-left: 16.665%;
 }
 @media (min-width: 800px) {
   /* line 180, ../sass/xpfp.scss */
