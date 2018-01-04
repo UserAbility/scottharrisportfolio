@@ -57,7 +57,7 @@ h2{
 
 #wrapper, .footer{
 	max-width: 2560px;
-	background-color: $clr-bg2;
+	background-color: $clr-bg0;
 }
 
 header{
@@ -153,8 +153,7 @@ header{
 	display: inline-block;
 	background-color: $clr-bg0;
 	width: 100%;
-	height: 90vh;
-	background: $clr-bg0 url(../images/xp/hero-hex-black.png) repeat left top;
+	height: 95vh;
 	background-size: contain;
 
 	h1, h2{
@@ -171,6 +170,7 @@ header{
 		top: 0;
 		left: 0;
 	}
+
 	.center-holder{
 	position: absolute;
 	top: 0; left: 0;
@@ -180,7 +180,9 @@ header{
 			display: block;
 		    margin-left: auto;
 		    margin-right: auto;
-		    margin-top: 240px;
+		    margin-top: 18vh;
+		    width: 66%;
+		    max-width: 400px;
 		    @media (max-width: 800px) {
 				margin-top: 80px;
 			}
@@ -204,19 +206,21 @@ header{
 	li{
 		position: relative;
 		display: inline-block;
-		background-color: $clr-bg2;
-		border-bottom: 1px solid $clr-bg1; 
+		background-color: $clr-bg1;
+		border-bottom: 1px solid $clr-bg0; 
 		width: 100%;
 		height: 600px;
 		h1, h2{
 			position: absolute;
-			bottom: 41%; right: 5%;
-			text-align: left;
+			width: 25%;
+			right: 5%; 
+			bottom: 41%;
+			text-align: center;
 			line-height: 1.1;
 			@media (max-width: 800px) {
 				bottom: 8%; left: 0;
-				width: 100%;
 				text-align: center;
+				width: 100%;
 				font-size: 28px;
 			}
 		}
@@ -225,6 +229,16 @@ header{
 			display: inline-block;
 			top: 10%; left: 5%;
 			width: 60%; height: 80%;
+			@media (max-width: 800px) {
+				width: 90%;
+				height: 400px;
+			}
+		}
+		.sec-copy{
+			position: absolute;
+			display: inline-block;
+			top: 10%; right: 5%;
+			width: 30%; height: 80%;
 			@media (max-width: 800px) {
 				width: 90%;
 				height: 400px;
@@ -296,6 +310,62 @@ header{
 	}
 }
 
+.sec-prefs{
+	.img-man{
+			position: absolute;
+			bottom: 0%; right: 50%;
+		}
+	.back-ground{
+		.img-backLeft{
+			position: absolute;
+			bottom: 30px; left: 0;}
+		.img-backMiddle, {
+			position: absolute;
+			height: 70%;
+			top: 0; left: 21%;
+			}
+		.img-backRight, .img-backRight2{
+			position: absolute;
+			bottom: 10%; right: 0;
+			height: 80%;
+			vertical-align: middle;
+			@media (max-width: 1300px) {
+		}
+	}
+	.middle-ground{
+		position: absolute;
+		bottom: 0; right: 0;
+		width: 100%;
+		height: 100%;
+		}	
+	}
+	.fore-ground{
+		position: absolute;
+		bottom: 0; left: 0;
+		width: 100%; 
+		height: 100%;
+		@media (max-width: 600px) {
+		}
+		.img-croud, .img-glow{
+			position: absolute;
+			bottom: 1%; left: 1%;
+		}
+		.img-glow{
+			position: absolute;
+			bottom: 1%; left: 1%;
+			animation: 
+				flash 1s ease infinite;
+		}
+	}
+}
+
+.sec-contact{
+	.tagline{
+		position: absolute;
+		top: 5%;
+	}
+}
+
 .sec-buckets{
 	display: flex;
   	align-items: center;
@@ -313,7 +383,7 @@ header{
 		margin: 0;
 		width: 25%;
 		height: 75%;
-		border-right: 1px dashed $clr-bg1;
+		border-right: 1px dashed $clr-bg3;
 		h2{
 			width: 100%;
 			margin: 0;
