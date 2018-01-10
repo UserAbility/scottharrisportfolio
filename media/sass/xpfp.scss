@@ -6,8 +6,8 @@ $clr-menu1: 	#125c66;		.clr-menu1		{color: $clr-menu1;}
 $clr-menu2: 	#11bcd8;		.clr-menu2		{color: $clr-menu2;}
 
 $clr-r:			#000000;		.clr-clr-r		{color: $clr-r;}
-$clr-o:			#ffbb00;		.clr-clr-o		{color: $clr-o;}
-$clr-o2:		#ffe700;		.clr-clr-o2		{color: $clr-o2;}
+$clr-o:			#f69213;		.clr-clr-o		{color: $clr-o;}
+$clr-o2:		#ffff4c;		.clr-clr-o2		{color: $clr-o2;}
 $clr-y:			#000000;		.clr-clr-y		{color: $clr-y;}
 $clr-g:			#000000;		.clr-clr-g		{color: $clr-g;}
 $clr-b:			#00cfff;		.clr-clr-b		{color: $clr-b;}
@@ -129,7 +129,7 @@ header{
 	background-color: $clr-bg0;
 	  animation: 	fadout 		4s   ease-in  1s 1 both;}
 .prob{animation: 	fadout 		1.5s ease-out 1s 1 both;}
-.solu{animation: 	fadin 		3s ease-out 2.5s 1 both;}
+.solu{animation: 	fadin 		3s ease-out 1.5s 1 both;}
 
 /*	animation: name duration timing-function delay iteration-count direction fill-mode animation-play-state: */
 
@@ -160,7 +160,7 @@ header{
 		position: absolute;
 		width: 100%;
 		bottom: 8%;
-		text-shadow: 0px 0px 6px #000000;
+		text-shadow: 0px 0px 6px $clr-bg0;
 		@media (max-width: 800px) {
 			bottom: 5%;
 		}
@@ -170,7 +170,6 @@ header{
 		top: 0;
 		left: 0;
 	}
-
 	.center-holder{
 	position: absolute;
 	top: 0; left: 0;
@@ -180,15 +179,36 @@ header{
 	.hero-hex{
 		position: absolute;
 		display: inline-block;
-	    margin-top: 18vh;
-	    width: 66%;
-	    margin-left: 16.665%;
-	    @media (min-width: 800px) {
-	    	width: 25%;
-	    	margin-left: 37.5%;
+	    margin-top: 25vh;
+	    width: 50%;
+	    margin-left: 25%;
+	    @media (min-width: 751px) {
+	    	width: 30%;
+	    	margin-left: 35%;
+		}
+	    @media (min-width: 1000px) {
+	    	width: 20%;
+	    	margin-left: 40%;
+		}
+	}
+	.horizontal {
+	    display: flex;
+	    justify-content: center;
+	    .vertical {
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		}
+		.fullv {
+			width: 100%;
+			height: 100%;
+		}
+		.hexo {
+			max-width: 200px;
 		}
 	}
 }
+
 .sec-contact{
 	height: 570px;
 	h1, h2{
@@ -216,6 +236,13 @@ header{
 				text-align: center;
 				width: 100%;
 				font-size: 28px;
+			}
+		}
+		h1{
+			top: 35%;
+			opacity: .25;
+			@media (max-width: 800px) {
+				opacity: 0;
 			}
 		}
 		.sec-visuals{
@@ -476,4 +503,75 @@ header{
 	0%	 		{transform: translate(0, -5px);}
 	50%			{transform: translate(0, 5px);}
 	100%	 	{transform: translate(0, -5px);}
+}
+
+#xplogo{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+
+	:root {
+	  --font-size: 400px;
+	}
+
+	html,
+	body {
+	  height: 100%;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	body {
+	  background: #999;
+	  color: #fff;
+	  text-align: center;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+	h1 {
+	  margin: 0;
+	  padding: 0;
+	  line-height: 1;
+	  display: inline-block;
+	  font-family: 'Open Sans';
+	  font-weight: 300;
+	  text-align: center;
+	  font-size: var(--font-size);
+	  -webkit-filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.2));
+	  filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.2));
+	  position: relative;
+	}
+
+	h1 > .x {
+	  font-size: 1.2em;
+	  -webkit-text-fill-color: transparent;
+	  -webkit-background-clip: text;
+	  background-image: linear-gradient(180deg, #ffff4c 0%, #f69213 100%);
+	}
+
+	h1:before {
+	  content: 'X';
+	  font-size: 1.2em;
+	  position: absolute;
+	  bottom: -0.2em;
+	}
+
+	h1 > .hex {
+	  position: absolute;
+	  top: 21.5%;
+	  right: 25.15%;
+	  width: 0.17em; 
+	  background-image: linear-gradient(180deg, #ffff4c 0%, #f69213 100%);
+	  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	}
+
+	h1 > .hex:after {
+	  content: '';
+	  display: block;
+	  padding-bottom: 110%;
+	}
 }
