@@ -11,14 +11,18 @@ $clr-o:			#f69213;		.clr-o			{color: $clr-o;}
 $clr-o2:		#ffff4c;		.clr-o2			{color: $clr-o2;}
 $clr-y:			#000000;		.clr-y			{color: $clr-y;}
 $clr-g:			#000000;		.clr-g			{color: $clr-g;}
+
 $clr-b:			#00cfff;		.clr-b			{color: $clr-b;}
+$clr-b2:		#16286b;		.clr-b2			{color: $clr-b2;}
+$clr-b3:		#000f45;		.clr-b3			{color: $clr-b3;}
+
 $clr-i:			#000000;		.clr-i			{color: $clr-i;}
 $clr-v:			#ff00e1;		.clr-v			{color: $clr-v;}
 
 $clr-link:		#00AEF3;		.clr-link		{color: $clr-link;}
 $clr-linka:		#DA7DB3;		.clr-linka		{color: $clr-linka;}		
 
-$clr-bg0: 		#0a080f;		.clr-bg0		{color: $clr-bg0;}
+$clr-bg0: 		#050505;		.clr-bg0		{color: $clr-bg0;}
 $clr-bg1: 		#16181A;		.clr-bg1		{color: $clr-bg1;}
 $clr-bg2: 		#1B1D1F;		.clr-bg2		{color: $clr-bg2;}
 $clr-bg3: 		#333333;		.clr-bg3		{color: $clr-bg3;}
@@ -122,10 +126,10 @@ header{
 	top: 0; left: 0;
 	display: block;
 	width: 100%; height: 100%;
-	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.03) 60%, rgba(0,0,0,1) 99%, rgba(0,0,0,1) 100%);
-	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.03) 60%,rgba(0,0,0,1) 99%,rgba(0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0.03) 60%,rgba(0,0,0,1) 99%,rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(5,5,5,1) 0%, rgba(5,5,5,0) 40%, rgba(5,5,5,0) 60%, rgba(5,5,5,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(5,5,5,1) 0%,rgba(5,5,5,0) 40%,rgba(5,5,5,0) 60%,rgba(5,5,5,1) 100%);
+	background: linear-gradient(to bottom, rgba(5,5,5,1) 0%,rgba(5,5,5,0) 40%,rgba(5,5,5,0) 60%,rgba(5,5,5,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f45', endColorstr='#000f45',GradientType=0 );
 }
 
 .contact-btn {
@@ -184,6 +188,16 @@ header{
 	}
 }
 
+.menu-header{
+	li a{
+		color: $clr-lightest;
+		opacity: 1.0;
+		&:hover{
+			color: $clr-o;
+		}
+	}	
+}
+
 .sec-hero{
 	position: relative;
 	display: inline-block;
@@ -195,7 +209,7 @@ header{
 	h1, h2{
 		position: absolute;
 		width: 100%;
-		bottom: 8%;
+		bottom: 10%;
 		text-shadow: 0px 0px 6px $clr-bg0;
 		@media (max-width: 800px) {
 			bottom: 5%;
@@ -256,22 +270,25 @@ header{
 		h1, h2{
 			position: absolute;
 			width: 25%;
-			right: 5%; 
-			bottom: 41%;
+			right: 5%;
 			text-align: center;
+			
+		}
+		h1{
+			top: 43%;
+			color: $clr-b;
+			@media (max-width: 800px) {
+				opacity: 0;
+			}
+		}
+		h2{
+			top: 50%;
 			line-height: 1.1;
 			@media (max-width: 800px) {
 				bottom: 8%; left: 0;
 				text-align: center;
 				width: 100%;
 				font-size: 28px;
-			}
-		}
-		h1{
-			top: 35%;
-			opacity: .25;
-			@media (max-width: 800px) {
-				opacity: 0;
 			}
 		}
 		.sec-visuals{
@@ -424,15 +441,19 @@ header{
 }
 
 .sec1-arena{
-	background: url(../images/xp/sec1all.png) no-repeat center center;
-	background-size: auto 100%;
+	background: url(../images/xp/sec1all-trans.png) no-repeat left center;
+	background-size: 100% auto;
+	@media (max-width: 800px) {
+		background: url(../images/xp/sec1all-trans.png) no-repeat left top;
+		background-size: auto 70%;
+	}
 }
 .sec2-fitfly{
-	background: url(../images/xp/sec2all.png) no-repeat center center;
+	background: url(../images/xp/sec2all-trans.png) no-repeat left center;
 	background-size: auto 100%;
 }
 .sec3-prefs{
-	background: url(../images/xp/sec3all.png) no-repeat center center;
+	background: url(../images/xp/sec3all-trans.png) no-repeat left center;
 	background-size: auto 100%;
 }
 
@@ -447,7 +468,7 @@ header{
 		position: relative;
 		display: inline-block;
 		width: 100%;
-		top: 3%;
+		top: 5%;
 		text-shadow: 0px 0px 6px $clr-bg0;
 	}
 	.tagline{
@@ -462,6 +483,10 @@ header{
 		left: 25%;
 		margin-top: 5%;
 		background-color: $clr-bg0;
+		@media (max-width: 770px) {
+	  		width: 80%;
+	  		left: 10%;
+		}
 		h2{
 			margin-top: 5%; 
 		}
