@@ -970,9 +970,9 @@ header {
   display: block;
   width: 100%;
   height: 100%;
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.12) 0%, rgba(0, 207, 255, 0.06) 100%);
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.12) 0%, rgba(0, 207, 255, 0.06) 100%);
-  background: radial-gradient(ellipse at center, rgba(255, 0, 225, 0.12) 0%, rgba(0, 207, 255, 0.06) 100%);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
+  background: radial-gradient(ellipse at center, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
 }
 
@@ -1416,7 +1416,7 @@ header {
   /* line 455, ../sass/xpfp2.scss */
   .sec1-arena {
     background: url(../images/xp/sec1all-trans.png) no-repeat left top;
-    background-size: auto 70%;
+    background-size: 100% auto;
   }
 }
 
@@ -1436,19 +1436,20 @@ header {
 .sec-contact {
   position: relative;
   display: inline-block;
-  background-color: #050505;
+  background-color: #000;
   width: 100%;
   height: 85vh;
-  background: url(../images/xp/bg-geo4.png) no-repeat top -50px center;
+  background: url(../images/xp/bg-geo2-orange.png) no-repeat top center;
   background-size: 100% auto;
 }
 @media (max-width: 800px) {
   /* line 472, ../sass/xpfp2.scss */
   .sec-contact {
     height: 640px;
+    background: url(../images/xp/bg-geo4.png) no-repeat top center center;
   }
 }
-/* line 484, ../sass/xpfp2.scss */
+/* line 485, ../sass/xpfp2.scss */
 .sec-contact h1, .sec-contact h2 {
   position: relative;
   display: inline-block;
@@ -1456,33 +1457,33 @@ header {
   top: 5%;
   text-shadow: 0px 0px 6px #050505;
 }
-/* line 491, ../sass/xpfp2.scss */
+/* line 492, ../sass/xpfp2.scss */
 .sec-contact .tagline {
   position: relative;
   display: inline-block;
   padding-top: 5%;
 }
-/* line 496, ../sass/xpfp2.scss */
+/* line 497, ../sass/xpfp2.scss */
 .sec-contact .contacter {
   position: relative;
-  height: 450px;
+  height: 350px;
   width: 50%;
   left: 25%;
   margin-top: 5%;
   background-color: #050505;
 }
 @media (max-width: 770px) {
-  /* line 496, ../sass/xpfp2.scss */
+  /* line 497, ../sass/xpfp2.scss */
   .sec-contact .contacter {
     width: 80%;
     left: 10%;
   }
 }
-/* line 507, ../sass/xpfp2.scss */
+/* line 508, ../sass/xpfp2.scss */
 .sec-contact .contacter h2 {
   margin-top: 5%;
 }
-/* line 510, ../sass/xpfp2.scss */
+/* line 511, ../sass/xpfp2.scss */
 .sec-contact .contacter li {
   width: 90%;
   height: 40px;
@@ -1491,11 +1492,11 @@ header {
   color: #cccccc;
   background-color: #16181A;
 }
-/* line 517, ../sass/xpfp2.scss */
+/* line 518, ../sass/xpfp2.scss */
 .sec-contact .contacter li.fewlines {
   height: 80px;
 }
-/* line 521, ../sass/xpfp2.scss */
+/* line 522, ../sass/xpfp2.scss */
 .sec-contact .contacter a {
   display: inline-block;
   position: relative;
@@ -1503,7 +1504,7 @@ header {
   margin: 1% 5% 0 0;
 }
 
-/* line 531, ../sass/xpfp2.scss */
+/* line 532, ../sass/xpfp2.scss */
 .sec-buckets {
   display: flex;
   align-items: center;
@@ -1513,12 +1514,12 @@ header {
   background-color: #1B1D1F;
 }
 @media (max-width: 770px) {
-  /* line 531, ../sass/xpfp2.scss */
+  /* line 532, ../sass/xpfp2.scss */
   .sec-buckets {
     height: 150px;
   }
 }
-/* line 541, ../sass/xpfp2.scss */
+/* line 542, ../sass/xpfp2.scss */
 .sec-buckets li {
   display: flex;
   align-items: center;
@@ -1527,30 +1528,30 @@ header {
   height: 75%;
   border-right: 1px dashed #333333;
 }
-/* line 548, ../sass/xpfp2.scss */
+/* line 549, ../sass/xpfp2.scss */
 .sec-buckets li h2 {
   width: 100%;
   margin: 0;
 }
 @media (max-width: 770px) {
-  /* line 548, ../sass/xpfp2.scss */
+  /* line 549, ../sass/xpfp2.scss */
   .sec-buckets li h2 {
     font-size: 22px;
   }
 }
 
-/* line 558, ../sass/xpfp2.scss */
+/* line 559, ../sass/xpfp2.scss */
 .footer, .push {
   overflow: hidden;
   height: 50px;
   /* '.push' must be the same height as 'footer' */
 }
 
-/* line 563, ../sass/xpfp2.scss */
+/* line 564, ../sass/xpfp2.scss */
 .footer {
   background-color: #16181A;
 }
-/* line 565, ../sass/xpfp2.scss */
+/* line 566, ../sass/xpfp2.scss */
 .footer .menu-footer {
   display: flex;
   align-items: center;
@@ -1558,12 +1559,12 @@ header {
   float: none;
 }
 @media (max-width: 800px) {
-  /* line 565, ../sass/xpfp2.scss */
+  /* line 566, ../sass/xpfp2.scss */
   .footer .menu-footer {
     display: block;
   }
 }
-/* line 573, ../sass/xpfp2.scss */
+/* line 574, ../sass/xpfp2.scss */
 .footer .menu-footer li {
   text-align: center;
   float: left;
@@ -1572,7 +1573,7 @@ header {
   width: 10%;
 }
 @media (max-width: 800px) {
-  /* line 573, ../sass/xpfp2.scss */
+  /* line 574, ../sass/xpfp2.scss */
   .footer .menu-footer li {
     min-width: 100%;
     line-height: 1.5;
@@ -1659,23 +1660,23 @@ header {
     transform: translate(0, -5px);
   }
 }
-/* line 627, ../sass/xpfp2.scss */
+/* line 628, ../sass/xpfp2.scss */
 #xplogo {
   position: absolute;
   top: 15px;
   left: 15px;
 }
-/* line 631, ../sass/xpfp2.scss */
+/* line 632, ../sass/xpfp2.scss */
 #xplogo :root {
   --font-size: 400px;
 }
-/* line 634, ../sass/xpfp2.scss */
+/* line 635, ../sass/xpfp2.scss */
 #xplogo html, #xplogo body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 639, ../sass/xpfp2.scss */
+/* line 640, ../sass/xpfp2.scss */
 #xplogo body {
   background: #999;
   color: #fff;
@@ -1685,7 +1686,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-/* line 648, ../sass/xpfp2.scss */
+/* line 649, ../sass/xpfp2.scss */
 #xplogo h1 {
   margin: 0;
   padding: 0;
@@ -1699,21 +1700,21 @@ header {
   filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.2));
   position: relative;
 }
-/* line 661, ../sass/xpfp2.scss */
+/* line 662, ../sass/xpfp2.scss */
 #xplogo h1 > .x {
   font-size: 1.2em;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-image: linear-gradient(180deg, #ffff4c 0%, #f69213 100%);
 }
-/* line 667, ../sass/xpfp2.scss */
+/* line 668, ../sass/xpfp2.scss */
 #xplogo h1:before {
   content: 'X';
   font-size: 1.2em;
   position: absolute;
   bottom: -0.2em;
 }
-/* line 673, ../sass/xpfp2.scss */
+/* line 674, ../sass/xpfp2.scss */
 #xplogo h1 > .hex {
   position: absolute;
   top: 21.5%;
@@ -1723,7 +1724,7 @@ header {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
-/* line 683, ../sass/xpfp2.scss */
+/* line 684, ../sass/xpfp2.scss */
 #xplogo h1 > .hex:after {
   content: '';
   display: block;

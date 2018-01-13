@@ -116,9 +116,9 @@ header{
 	top: 0; left: 0;
 	display: block;
 	width: 100%; height: 100%;
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,0,225,0.12) 0%, rgba(0,207,255,0.06) 100%);
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,0,225,0.12) 0%,rgba(0,207,255,0.06) 100%);
-	background: radial-gradient(ellipse at center, rgba(255,0,225,0.12) 0%,rgba(0,207,255,0.06) 100%);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,0,225,0.24) 0%, rgba(0,207,255,0.12) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,0,225,0.24) 0%,rgba(0,207,255,0.12) 100%);
+	background: radial-gradient(ellipse at center, rgba(255,0,225,0.24) 0%,rgba(0,207,255,0.12) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
 }
 
@@ -457,7 +457,7 @@ header{
 	background-size: 100% auto;
 	@media (max-width: 800px) {
 		background: url(../images/xp/sec1all-trans.png) no-repeat left top;
-		background-size: auto 70%;
+		background-size: 100% auto;
 	}
 }
 .sec2-fitfly{
@@ -472,15 +472,16 @@ header{
 .sec-contact{
 	position: relative;
 	display: inline-block;
-	background-color: $clr-bg0;
+	background-color: #000;
 	width: 100%;
 	height: 85vh;
-	background: url(../images/xp/bg-geo4.png) no-repeat top -50px center;
+	background: url(../images/xp/bg-geo2-orange.png) no-repeat top center;
 	background-size: 100% auto;
 	@media (max-width: 800px) {
 		height: 640px;
+		background: url(../images/xp/bg-geo4.png) no-repeat top center center;
 	}
-	
+
 	h1, h2{
 		position: relative;
 		display: inline-block;
@@ -495,7 +496,7 @@ header{
 	}
 	.contacter{
 		position: relative;
-		height: 450px;
+		height: 350px;
 		width: 50%;
 		left: 25%;
 		margin-top: 5%;
