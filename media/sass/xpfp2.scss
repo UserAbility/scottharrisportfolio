@@ -177,8 +177,14 @@ header{
 	height: 100%;
 	background-color: $clr-bg0;
 	  animation: 	fadout 		4s   ease-in  1s 1 both;}
-.prob{animation: 	fadout 		1.5s ease-out 1s 1 both;}
-.solu{animation: 	fadin 		3s ease-out 1.5s 1 both;}
+.prob {animation: 	fadout 		1.5s ease-out 1s 1 both;}
+.solu {animation: 	fadin 		3s ease-out 1.5s 1 both;}
+.solu2{animation: 	flicker 	3s ease infinite;}
+
+.shadowed {
+	-webkit-filter: drop-shadow(0px 10px 20px #000 );
+  	filter: drop-shadow(0px 10px 20px #000);
+}
 
 /*	animation: name duration timing-function delay iteration-count direction fill-mode animation-play-state: */
 
