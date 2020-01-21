@@ -224,11 +224,12 @@ header{
 		max-width: 400px;
 		img{
 			position: relative;
-			max-height: 200px;
+			max-height: 220px;
 			display: block;
 			margin-left: auto;
 	  		margin-right: auto;
 	  		margin-bottom: 1rem;
+	  		border: solid $clr-body4 1rem;
 			@include roundit;
 			@media (max-width: 600px) {
 				max-height: 150px;}
@@ -261,6 +262,7 @@ section{
 		position: relative;
 		float: left;
 		margin-top: 2%;
+		overflow: hidden;
 		@media (max-width: 650px) {
 			height:150px;
 		}
@@ -290,20 +292,27 @@ section{
 				width: 80%;
 				margin-left: 10%;
 			}
-			&.giggy{
+			&.gigya{
 				width: 65%;
 				margin-left: 17.5%;
 			}
 		}
 	}
-	.ibm{
-		img{
-			width: 16%;
-			margin-left: 42%;
+
+	.tri{
+		.logo{
+			width: 45%;
+			margin-left: 27.5%;
 			@media (max-width: 650px) {
-				width: 20%;
-				margin-left: 40%;
+				width: 60%;
+				margin-left: 20%;
 			}
+		}
+		.alert{
+			margin-top: .5rem;
+			padding: 0 10px;
+			transform: rotate(-10deg);
+			border-radius: 3px;
 		}
 		p{
 			position: absolute;
@@ -311,6 +320,16 @@ section{
 			left: 0;
 			padding: 1%;
 			color: $clr-lightest;
+		}
+	}
+	.ibm {
+		img{
+			width: 16%;
+			margin-left: 42%;
+			@media (max-width: 650px) {
+				width: 20%;
+				margin-left: 40%;
+			}
 		}
 	}
 	.gigya, .mediarecords{ 
@@ -360,18 +379,33 @@ section{
 		}
 	}
 }
-
+.bg-tri	{
+	background: $clr-tri url(../images/tri-bg.jpg) no-repeat top center / auto 100%;
+	.decal{
+		height: 130%;
+		width: auto !important;
+		right: 0;
+		margin: 1% -1% 0 0;
+		@media (max-width: 650px){
+			margin: 2% -20%;
+			height: 120%;
+		}
+	}
+}
+.bg-xperiel	{
+	background: $clr-xperiel url(../images/xperiel-bg.png) no-repeat center center;
+		@media (max-width: 650px){background: url(../images/xperiel-bg.png) no-repeat left center / 220%}
+}
 .bg-ibm	{
 	background: $clr-gigya url(../images/ibm-bg5.png) no-repeat center center;
-		@media (max-width: 650px){background: url(../images/ibm-bg5.png) no-repeat left center / 220%}
+		@media (max-width: 650px){background: url(../images/ibm-bg5.png) no-repeat center center / 180%}
 }
-
 .bg-gigya {
-	background: $clr-gigyam url(../images/gigya-bg.jpg) no-repeat center / 315%;
-		@media (max-width: 650px){background: $clr-gigyam url(../images/gigya-bg.jpg) no-repeat left center / 360%}
+	background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 315%;
+		@media (max-width: 650px){background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat left center / 360%}
 }
 .projectheader.bg-gigya {
-	background: $clr-gigyam url(../images/gigya-bg.jpg) no-repeat center / 130%;
+	background: $clr-gigya url(../images/gigya-bg.jpg) no-repeat center / 130%;
 		@media (max-width: 600px){background: url(../images/gigya-bg.jpg) no-repeat center / 250%}
 }
 .bg-shuttercal {
@@ -383,11 +417,11 @@ section{
 }
 .bg-amnh {
 	background: $clr-amnh url(../images/amnh-bg.jpg) no-repeat center / 100%;
-		@media (max-width: 600px){background: url(../images/amnh-bg.jpg) no-repeat right / 120%}
+		@media (max-width: 600px){background: url(../images/amnh-bg.jpg) no-repeat center right / 120%}
 }
 .bg-mediarecords {
 	background: #000 url(../images/mediarecords-bg.png) no-repeat center / 210%;
-		@media (max-width: 600px){background: url(../images/mediarecords-bg.png) no-repeat center / 260%}
+		@media (max-width: 600px){background: url(../images/mediarecords-bg.png) no-repeat center / 200%}
 }
 .projectheader.bg-mediarecords {
 	background: #000 url(../images/mediarecords-bg2.jpg) no-repeat center / 105%;
@@ -395,6 +429,7 @@ section{
 }
 .bg-nick {
 	background: $clr-nick url(../images/nick-bg.jpg) no-repeat center / 100%;
+		@media (max-width: 600px){background: url(../images/nick-bg.jpg) no-repeat center right / 180%;}
 }
 
 /*--------------------

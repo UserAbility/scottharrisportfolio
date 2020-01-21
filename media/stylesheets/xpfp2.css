@@ -5,7 +5,7 @@ colors
 /*body*/
 /* line 18, ../sass/_colors.scss */
 .clr-body {
-  color: #555;
+  color: #555555;
 }
 
 /* line 19, ../sass/_colors.scss */
@@ -35,7 +35,7 @@ colors
 
 /* line 24, ../sass/_colors.scss */
 .clr-body-bg {
-  background-color: #555;
+  background-color: #555555;
 }
 
 /* line 25, ../sass/_colors.scss */
@@ -103,7 +103,7 @@ colors
 
 /* line 49, ../sass/_colors.scss */
 .clr-pos2 {
-  color: #4FCA74;
+  color: #4fca74;
 }
 
 /* line 50, ../sass/_colors.scss */
@@ -118,7 +118,7 @@ colors
 
 /* line 52, ../sass/_colors.scss */
 .clr-pos2-bg {
-  background-color: #4FCA74;
+  background-color: #4fca74;
 }
 
 /* line 53, ../sass/_colors.scss */
@@ -134,7 +134,7 @@ colors
 
 /* line 60, ../sass/_colors.scss */
 .clr-alert2 {
-  color: #FFE167;
+  color: #ffe167;
 }
 
 /* line 61, ../sass/_colors.scss */
@@ -149,7 +149,7 @@ colors
 
 /* line 63, ../sass/_colors.scss */
 .clr-alert2-bg {
-  background-color: #FFE167;
+  background-color: #ffe167;
 }
 
 /* line 64, ../sass/_colors.scss */
@@ -165,7 +165,7 @@ colors
 
 /* line 71, ../sass/_colors.scss */
 .clr-loud2 {
-  color: #DA7DB3;
+  color: #da7db3;
 }
 
 /* line 72, ../sass/_colors.scss */
@@ -180,7 +180,7 @@ colors
 
 /* line 74, ../sass/_colors.scss */
 .clr-loud2-bg {
-  background-color: #DA7DB3;
+  background-color: #da7db3;
 }
 
 /* line 75, ../sass/_colors.scss */
@@ -196,7 +196,7 @@ colors
 
 /* line 82, ../sass/_colors.scss */
 .clr-cool2 {
-  color: #00AEF3;
+  color: #00aef3;
 }
 
 /* line 83, ../sass/_colors.scss */
@@ -211,7 +211,7 @@ colors
 
 /* line 85, ../sass/_colors.scss */
 .clr-cool2-bg {
-  background-color: #00AEF3;
+  background-color: #00aef3;
 }
 
 /* line 86, ../sass/_colors.scss */
@@ -222,158 +222,198 @@ colors
 /*--- color groups ---*/
 /*--- brands ---*/
 /* line 99, ../sass/_colors.scss */
-.clr-gigya {
-  color: #1F5BA7;
+.clr-tri {
+  color: #d61920;
 }
 
 /* line 100, ../sass/_colors.scss */
-.clr-gigyal {
-  color: #CAE7F9;
+.clr-tril {
+  color: #7b0e12;
 }
 
 /* line 101, ../sass/_colors.scss */
-.clr-gigya-bg {
-  background-color: #1F5BA7;
+.clr-tri-bg {
+  background-color: #d61920;
 }
 
 /* line 102, ../sass/_colors.scss */
-.clr-gigyal-bg {
-  background-color: #CAE7F9;
+.clr-tril-bg {
+  background-color: #7b0e12;
 }
 
 /* line 107, ../sass/_colors.scss */
-.clr-sc {
-  color: #FF9112;
+.clr-xperiel {
+  color: #d61920;
 }
 
 /* line 108, ../sass/_colors.scss */
-.clr-scl {
-  color: #FCC884;
+.clr-xperiell {
+  color: #cae7f9;
 }
 
 /* line 109, ../sass/_colors.scss */
-.clr-scd {
-  color: #FA8072;
+.clr-xperiel-bg {
+  background-color: #d61920;
 }
 
 /* line 110, ../sass/_colors.scss */
-.clr-sc-bg {
-  background-color: #FF9112;
+.clr-xperiell-bg {
+  background-color: #cae7f9;
 }
 
-/* line 111, ../sass/_colors.scss */
-.clr-scl-bg {
-  background-color: #FCC884;
+/* line 115, ../sass/_colors.scss */
+.clr-gigya {
+  color: #1f5ba7;
 }
 
-/* line 112, ../sass/_colors.scss */
-.clr-scd-bg {
-  background-color: #FA8072;
+/* line 116, ../sass/_colors.scss */
+.clr-gigyal {
+  color: #cae7f9;
 }
 
 /* line 117, ../sass/_colors.scss */
-.clr-moey {
-  color: #00AEF3;
+.clr-gigya-bg {
+  background-color: #1f5ba7;
 }
 
 /* line 118, ../sass/_colors.scss */
+.clr-gigyal-bg {
+  background-color: #cae7f9;
+}
+
+/* line 123, ../sass/_colors.scss */
+.clr-sc {
+  color: #ff9112;
+}
+
+/* line 124, ../sass/_colors.scss */
+.clr-scl {
+  color: #fcc884;
+}
+
+/* line 125, ../sass/_colors.scss */
+.clr-scd {
+  color: salmon;
+}
+
+/* line 126, ../sass/_colors.scss */
+.clr-sc-bg {
+  background-color: #ff9112;
+}
+
+/* line 127, ../sass/_colors.scss */
+.clr-scl-bg {
+  background-color: #fcc884;
+}
+
+/* line 128, ../sass/_colors.scss */
+.clr-scd-bg {
+  background-color: salmon;
+}
+
+/* line 133, ../sass/_colors.scss */
+.clr-moey {
+  color: #00aef3;
+}
+
+/* line 134, ../sass/_colors.scss */
 .clr-moeyl {
   color: #c0edff;
 }
 
-/* line 119, ../sass/_colors.scss */
+/* line 135, ../sass/_colors.scss */
 .clr-moeyd {
   color: #0077a6;
 }
 
-/* line 120, ../sass/_colors.scss */
+/* line 136, ../sass/_colors.scss */
 .clr-moey-bg {
-  background-color: #00AEF3;
+  background-color: #00aef3;
 }
 
-/* line 121, ../sass/_colors.scss */
+/* line 137, ../sass/_colors.scss */
 .clr-moeyl-bg {
   background-color: #c0edff;
 }
 
-/* line 122, ../sass/_colors.scss */
+/* line 138, ../sass/_colors.scss */
 .clr-moeyd-bg {
   background-color: #0077a6;
 }
 
-/* line 126, ../sass/_colors.scss */
+/* line 142, ../sass/_colors.scss */
 .clr-amnh {
-  color: #0074BD;
+  color: #0074bd;
 }
 
-/* line 127, ../sass/_colors.scss */
+/* line 143, ../sass/_colors.scss */
 .clr-amnhl {
-  color: #7EBFE9;
+  color: #7ebfe9;
 }
 
-/* line 128, ../sass/_colors.scss */
+/* line 144, ../sass/_colors.scss */
 .clr-amnh-bg {
-  background-color: #0074BD;
+  background-color: #0074bd;
 }
 
-/* line 129, ../sass/_colors.scss */
+/* line 145, ../sass/_colors.scss */
 .clr-amnhl-bg {
-  background-color: #7EBFE9;
+  background-color: #7ebfe9;
 }
 
-/* line 134, ../sass/_colors.scss */
+/* line 150, ../sass/_colors.scss */
 .clr-mr {
   color: #ffb541;
 }
 
-/* line 135, ../sass/_colors.scss */
+/* line 151, ../sass/_colors.scss */
 .clr-mrl {
   color: #ffdda7;
 }
 
-/* line 136, ../sass/_colors.scss */
+/* line 152, ../sass/_colors.scss */
 .clr-mrd {
   color: #da8500;
 }
 
-/* line 137, ../sass/_colors.scss */
+/* line 153, ../sass/_colors.scss */
 .clr-mr-bg {
   background-color: #ffb541;
 }
 
-/* line 138, ../sass/_colors.scss */
+/* line 154, ../sass/_colors.scss */
 .clr-mrl-bg {
   background-color: #ffdda7;
 }
 
-/* line 139, ../sass/_colors.scss */
+/* line 155, ../sass/_colors.scss */
 .clr-mrd-bg {
   background-color: #da8500;
 }
 
-/* line 143, ../sass/_colors.scss */
+/* line 159, ../sass/_colors.scss */
 .clr-nick {
-  color: #FF7B00;
+  color: #ff7b00;
 }
 
-/* line 144, ../sass/_colors.scss */
+/* line 160, ../sass/_colors.scss */
 .clr-nickl {
   color: #ffca99;
 }
 
-/* line 145, ../sass/_colors.scss */
+/* line 161, ../sass/_colors.scss */
 .clr-nick-bg {
-  background-color: #FF7B00;
+  background-color: #ff7b00;
 }
 
-/* line 146, ../sass/_colors.scss */
+/* line 162, ../sass/_colors.scss */
 .clr-nickl-bg {
   background-color: #ffca99;
 }
 
-/* line 149, ../sass/_colors.scss */
+/* line 165, ../sass/_colors.scss */
 .clr-ibml {
-  color: #2677C8;
+  color: #2677c8;
 }
 
 /* -------------------------------------------------------------------
@@ -383,7 +423,7 @@ colors
 /*body*/
 /* line 18, ../sass/_colors.scss */
 .clr-body {
-  color: #555;
+  color: #555555;
 }
 
 /* line 19, ../sass/_colors.scss */
@@ -413,7 +453,7 @@ colors
 
 /* line 24, ../sass/_colors.scss */
 .clr-body-bg {
-  background-color: #555;
+  background-color: #555555;
 }
 
 /* line 25, ../sass/_colors.scss */
@@ -481,7 +521,7 @@ colors
 
 /* line 49, ../sass/_colors.scss */
 .clr-pos2 {
-  color: #4FCA74;
+  color: #4fca74;
 }
 
 /* line 50, ../sass/_colors.scss */
@@ -496,7 +536,7 @@ colors
 
 /* line 52, ../sass/_colors.scss */
 .clr-pos2-bg {
-  background-color: #4FCA74;
+  background-color: #4fca74;
 }
 
 /* line 53, ../sass/_colors.scss */
@@ -512,7 +552,7 @@ colors
 
 /* line 60, ../sass/_colors.scss */
 .clr-alert2 {
-  color: #FFE167;
+  color: #ffe167;
 }
 
 /* line 61, ../sass/_colors.scss */
@@ -527,7 +567,7 @@ colors
 
 /* line 63, ../sass/_colors.scss */
 .clr-alert2-bg {
-  background-color: #FFE167;
+  background-color: #ffe167;
 }
 
 /* line 64, ../sass/_colors.scss */
@@ -543,7 +583,7 @@ colors
 
 /* line 71, ../sass/_colors.scss */
 .clr-loud2 {
-  color: #DA7DB3;
+  color: #da7db3;
 }
 
 /* line 72, ../sass/_colors.scss */
@@ -558,7 +598,7 @@ colors
 
 /* line 74, ../sass/_colors.scss */
 .clr-loud2-bg {
-  background-color: #DA7DB3;
+  background-color: #da7db3;
 }
 
 /* line 75, ../sass/_colors.scss */
@@ -574,7 +614,7 @@ colors
 
 /* line 82, ../sass/_colors.scss */
 .clr-cool2 {
-  color: #00AEF3;
+  color: #00aef3;
 }
 
 /* line 83, ../sass/_colors.scss */
@@ -589,7 +629,7 @@ colors
 
 /* line 85, ../sass/_colors.scss */
 .clr-cool2-bg {
-  background-color: #00AEF3;
+  background-color: #00aef3;
 }
 
 /* line 86, ../sass/_colors.scss */
@@ -600,158 +640,198 @@ colors
 /*--- color groups ---*/
 /*--- brands ---*/
 /* line 99, ../sass/_colors.scss */
-.clr-gigya {
-  color: #1F5BA7;
+.clr-tri {
+  color: #d61920;
 }
 
 /* line 100, ../sass/_colors.scss */
-.clr-gigyal {
-  color: #CAE7F9;
+.clr-tril {
+  color: #7b0e12;
 }
 
 /* line 101, ../sass/_colors.scss */
-.clr-gigya-bg {
-  background-color: #1F5BA7;
+.clr-tri-bg {
+  background-color: #d61920;
 }
 
 /* line 102, ../sass/_colors.scss */
-.clr-gigyal-bg {
-  background-color: #CAE7F9;
+.clr-tril-bg {
+  background-color: #7b0e12;
 }
 
 /* line 107, ../sass/_colors.scss */
-.clr-sc {
-  color: #FF9112;
+.clr-xperiel {
+  color: #d61920;
 }
 
 /* line 108, ../sass/_colors.scss */
-.clr-scl {
-  color: #FCC884;
+.clr-xperiell {
+  color: #cae7f9;
 }
 
 /* line 109, ../sass/_colors.scss */
-.clr-scd {
-  color: #FA8072;
+.clr-xperiel-bg {
+  background-color: #d61920;
 }
 
 /* line 110, ../sass/_colors.scss */
-.clr-sc-bg {
-  background-color: #FF9112;
+.clr-xperiell-bg {
+  background-color: #cae7f9;
 }
 
-/* line 111, ../sass/_colors.scss */
-.clr-scl-bg {
-  background-color: #FCC884;
+/* line 115, ../sass/_colors.scss */
+.clr-gigya {
+  color: #1f5ba7;
 }
 
-/* line 112, ../sass/_colors.scss */
-.clr-scd-bg {
-  background-color: #FA8072;
+/* line 116, ../sass/_colors.scss */
+.clr-gigyal {
+  color: #cae7f9;
 }
 
 /* line 117, ../sass/_colors.scss */
-.clr-moey {
-  color: #00AEF3;
+.clr-gigya-bg {
+  background-color: #1f5ba7;
 }
 
 /* line 118, ../sass/_colors.scss */
+.clr-gigyal-bg {
+  background-color: #cae7f9;
+}
+
+/* line 123, ../sass/_colors.scss */
+.clr-sc {
+  color: #ff9112;
+}
+
+/* line 124, ../sass/_colors.scss */
+.clr-scl {
+  color: #fcc884;
+}
+
+/* line 125, ../sass/_colors.scss */
+.clr-scd {
+  color: salmon;
+}
+
+/* line 126, ../sass/_colors.scss */
+.clr-sc-bg {
+  background-color: #ff9112;
+}
+
+/* line 127, ../sass/_colors.scss */
+.clr-scl-bg {
+  background-color: #fcc884;
+}
+
+/* line 128, ../sass/_colors.scss */
+.clr-scd-bg {
+  background-color: salmon;
+}
+
+/* line 133, ../sass/_colors.scss */
+.clr-moey {
+  color: #00aef3;
+}
+
+/* line 134, ../sass/_colors.scss */
 .clr-moeyl {
   color: #c0edff;
 }
 
-/* line 119, ../sass/_colors.scss */
+/* line 135, ../sass/_colors.scss */
 .clr-moeyd {
   color: #0077a6;
 }
 
-/* line 120, ../sass/_colors.scss */
+/* line 136, ../sass/_colors.scss */
 .clr-moey-bg {
-  background-color: #00AEF3;
+  background-color: #00aef3;
 }
 
-/* line 121, ../sass/_colors.scss */
+/* line 137, ../sass/_colors.scss */
 .clr-moeyl-bg {
   background-color: #c0edff;
 }
 
-/* line 122, ../sass/_colors.scss */
+/* line 138, ../sass/_colors.scss */
 .clr-moeyd-bg {
   background-color: #0077a6;
 }
 
-/* line 126, ../sass/_colors.scss */
+/* line 142, ../sass/_colors.scss */
 .clr-amnh {
-  color: #0074BD;
+  color: #0074bd;
 }
 
-/* line 127, ../sass/_colors.scss */
+/* line 143, ../sass/_colors.scss */
 .clr-amnhl {
-  color: #7EBFE9;
+  color: #7ebfe9;
 }
 
-/* line 128, ../sass/_colors.scss */
+/* line 144, ../sass/_colors.scss */
 .clr-amnh-bg {
-  background-color: #0074BD;
+  background-color: #0074bd;
 }
 
-/* line 129, ../sass/_colors.scss */
+/* line 145, ../sass/_colors.scss */
 .clr-amnhl-bg {
-  background-color: #7EBFE9;
+  background-color: #7ebfe9;
 }
 
-/* line 134, ../sass/_colors.scss */
+/* line 150, ../sass/_colors.scss */
 .clr-mr {
   color: #ffb541;
 }
 
-/* line 135, ../sass/_colors.scss */
+/* line 151, ../sass/_colors.scss */
 .clr-mrl {
   color: #ffdda7;
 }
 
-/* line 136, ../sass/_colors.scss */
+/* line 152, ../sass/_colors.scss */
 .clr-mrd {
   color: #da8500;
 }
 
-/* line 137, ../sass/_colors.scss */
+/* line 153, ../sass/_colors.scss */
 .clr-mr-bg {
   background-color: #ffb541;
 }
 
-/* line 138, ../sass/_colors.scss */
+/* line 154, ../sass/_colors.scss */
 .clr-mrl-bg {
   background-color: #ffdda7;
 }
 
-/* line 139, ../sass/_colors.scss */
+/* line 155, ../sass/_colors.scss */
 .clr-mrd-bg {
   background-color: #da8500;
 }
 
-/* line 143, ../sass/_colors.scss */
+/* line 159, ../sass/_colors.scss */
 .clr-nick {
-  color: #FF7B00;
+  color: #ff7b00;
 }
 
-/* line 144, ../sass/_colors.scss */
+/* line 160, ../sass/_colors.scss */
 .clr-nickl {
   color: #ffca99;
 }
 
-/* line 145, ../sass/_colors.scss */
+/* line 161, ../sass/_colors.scss */
 .clr-nick-bg {
-  background-color: #FF7B00;
+  background-color: #ff7b00;
 }
 
-/* line 146, ../sass/_colors.scss */
+/* line 162, ../sass/_colors.scss */
 .clr-nickl-bg {
   background-color: #ffca99;
 }
 
-/* line 149, ../sass/_colors.scss */
+/* line 165, ../sass/_colors.scss */
 .clr-ibml {
-  color: #2677C8;
+  color: #2677c8;
 }
 
 /*------- custome ----------*/
@@ -772,7 +852,7 @@ colors
 
 /* line 8, ../sass/xpfp2.scss */
 .clr-r {
-  color: #000000;
+  color: black;
 }
 
 /* line 9, ../sass/xpfp2.scss */
@@ -792,12 +872,12 @@ colors
 
 /* line 12, ../sass/xpfp2.scss */
 .clr-y {
-  color: #000000;
+  color: black;
 }
 
 /* line 13, ../sass/xpfp2.scss */
 .clr-g {
-  color: #000000;
+  color: black;
 }
 
 /* line 15, ../sass/xpfp2.scss */
@@ -817,7 +897,7 @@ colors
 
 /* line 19, ../sass/xpfp2.scss */
 .clr-i {
-  color: #000000;
+  color: black;
 }
 
 /* line 20, ../sass/xpfp2.scss */
@@ -827,12 +907,12 @@ colors
 
 /* line 22, ../sass/xpfp2.scss */
 .clr-link {
-  color: #00AEF3;
+  color: #00aef3;
 }
 
 /* line 23, ../sass/xpfp2.scss */
 .clr-linka {
-  color: #DA7DB3;
+  color: #da7db3;
 }
 
 /* line 25, ../sass/xpfp2.scss */
@@ -842,12 +922,12 @@ colors
 
 /* line 26, ../sass/xpfp2.scss */
 .clr-bg1 {
-  color: #16181A;
+  color: #16181a;
 }
 
 /* line 27, ../sass/xpfp2.scss */
 .clr-bg2 {
-  color: #1B1D1F;
+  color: #1b1d1f;
 }
 
 /* line 28, ../sass/xpfp2.scss */
@@ -872,7 +952,7 @@ colors
 
 /* line 36, ../sass/xpfp2.scss */
 body, html {
-  background-color: #16181A;
+  background-color: #16181a;
   width: 100%;
   height: 100%;
 }
@@ -959,7 +1039,7 @@ header {
   background: -moz-linear-gradient(left, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 50%, rgba(255, 0, 225, 0.24) 100%);
   background: -webkit-linear-gradient(left, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 50%, rgba(255, 0, 225, 0.24) 100%);
   background: linear-gradient(to right, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 50%, rgba(255, 0, 225, 0.24) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dff00e1', endColorstr='#3dff00e1',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3dff00e1', endColorstr='#3dff00e1',GradientType=1 );
 }
 
 /* line 114, ../sass/xpfp2.scss */
@@ -973,7 +1053,7 @@ header {
   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
   background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
   background: radial-gradient(ellipse at center, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
 }
 
 /* line 125, ../sass/xpfp2.scss */
@@ -987,7 +1067,7 @@ header {
   background: -moz-linear-gradient(top, #050505 0%, rgba(5, 5, 5, 0) 40%, rgba(5, 5, 5, 0) 60%, #050505 100%);
   background: -webkit-linear-gradient(top, #050505 0%, rgba(5, 5, 5, 0) 40%, rgba(5, 5, 5, 0) 60%, #050505 100%);
   background: linear-gradient(to bottom, #050505 0%, rgba(5, 5, 5, 0) 40%, rgba(5, 5, 5, 0) 60%, #050505 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f45', endColorstr='#000f45',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000f45', endColorstr='#000f45',GradientType=0 );
 }
 
 /* line 136, ../sass/xpfp2.scss */
@@ -1001,7 +1081,7 @@ header {
   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
   background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
   background: radial-gradient(ellipse at center, rgba(255, 0, 225, 0.24) 0%, rgba(0, 207, 255, 0.12) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0fff00e1', endColorstr='#0800cfff',GradientType=1 );
 }
 
 /* line 147, ../sass/xpfp2.scss */
@@ -1014,7 +1094,7 @@ header {
   height: 38px;
   padding: 0 20px;
   margin: 5px;
-  color: #16181A;
+  color: #16181a;
   border-color: #f69213;
   background: #ffff4c;
   background-image: -webkit-linear-gradient(top, #ffff4c, #f69213);
@@ -1060,8 +1140,8 @@ header {
 
 /* line 184, ../sass/xpfp2.scss */
 .shadowed {
-  -webkit-filter: drop-shadow(0px 10px 20px #111);
-  filter: drop-shadow(0px 10px 20px #111);
+  -webkit-filter: drop-shadow(0px 10px 20px #111111);
+  filter: drop-shadow(0px 10px 20px #111111);
 }
 
 /*	animation: name duration timing-function delay iteration-count direction fill-mode animation-play-state: */
@@ -1180,7 +1260,7 @@ header {
 .sec-showcases li {
   position: relative;
   display: inline-block;
-  background-color: #16181A;
+  background-color: #16181a;
   border-bottom: 1px solid #050505;
   width: 100%;
   height: 95vh;
@@ -1501,7 +1581,7 @@ header {
   margin: 2.5% 5%;
   border-bottom: 1px solid #00cfff;
   color: #cccccc;
-  background-color: #16181A;
+  background-color: #16181a;
 }
 /* line 524, ../sass/xpfp2.scss */
 .sec-contact .contacter li.fewlines {
@@ -1522,7 +1602,7 @@ header {
   justify-content: center;
   width: 100%;
   height: 250px;
-  background-color: #1B1D1F;
+  background-color: #1b1d1f;
 }
 @media (max-width: 770px) {
   /* line 538, ../sass/xpfp2.scss */
@@ -1560,7 +1640,7 @@ header {
 
 /* line 570, ../sass/xpfp2.scss */
 .footer {
-  background-color: #16181A;
+  background-color: #16181a;
 }
 /* line 572, ../sass/xpfp2.scss */
 .footer .menu-footer {
@@ -1592,85 +1672,129 @@ header {
 }
 
 @keyframes fadin {
+  /* line 595, ../sass/xpfp2.scss */
   0% {
     opacity: 0;
   }
+
+  /* line 596, ../sass/xpfp2.scss */
   100% {
     opacity: 1;
   }
 }
+
 @keyframes fadout {
+  /* line 599, ../sass/xpfp2.scss */
   0% {
     opacity: 1;
   }
+
+  /* line 600, ../sass/xpfp2.scss */
   100% {
     opacity: 0;
   }
 }
+
 @keyframes fadin-out {
+  /* line 603, ../sass/xpfp2.scss */
   0% {
     opacity: 0;
   }
+
+  /* line 604, ../sass/xpfp2.scss */
   20% {
     opacity: 1;
   }
+
+  /* line 605, ../sass/xpfp2.scss */
   80% {
     opacity: 1;
   }
+
+  /* line 606, ../sass/xpfp2.scss */
   100% {
     opacity: 0;
   }
 }
+
 @keyframes flicker {
+  /* line 610, ../sass/xpfp2.scss */
   0% {
     opacity: 0.9;
   }
+
+  /* line 611, ../sass/xpfp2.scss */
   50% {
     opacity: 1.0;
   }
+
+  /* line 612, ../sass/xpfp2.scss */
   100% {
     opacity: 0.9;
   }
 }
+
 @keyframes flash {
+  /* line 616, ../sass/xpfp2.scss */
   0% {
     opacity: 0.5;
   }
+
+  /* line 617, ../sass/xpfp2.scss */
   50% {
     opacity: 0.0;
   }
+
+  /* line 618, ../sass/xpfp2.scss */
   100% {
     opacity: 0.5;
   }
 }
+
 @keyframes bob-a {
+  /* line 622, ../sass/xpfp2.scss */
   0%, 100% {
     transform: translate(0, 0);
   }
+
+  /* line 623, ../sass/xpfp2.scss */
   0% {
     transform: translate(0, 5px);
   }
+
+  /* line 624, ../sass/xpfp2.scss */
   50% {
     transform: translate(0, -5px);
   }
+
+  /* line 625, ../sass/xpfp2.scss */
   100% {
     transform: translate(0, 5px);
   }
 }
+
 @keyframes bob-b {
+  /* line 628, ../sass/xpfp2.scss */
   0%, 100% {
     transform: translate(0, 0);
   }
+
+  /* line 629, ../sass/xpfp2.scss */
   0% {
     transform: translate(0, -5px);
   }
+
+  /* line 630, ../sass/xpfp2.scss */
   50% {
     transform: translate(0, 5px);
   }
+
+  /* line 631, ../sass/xpfp2.scss */
   100% {
     transform: translate(0, -5px);
   }
 }
+
 /* line 634, ../sass/xpfp2.scss */
 #xplogo {
   position: absolute;
@@ -1678,8 +1802,8 @@ header {
   left: 15px;
 }
 /* line 638, ../sass/xpfp2.scss */
-#xplogo :root {
-  --font-size: 400px;
+#xplogo root {
+  font-size: 400px;
 }
 /* line 641, ../sass/xpfp2.scss */
 #xplogo html, #xplogo body {

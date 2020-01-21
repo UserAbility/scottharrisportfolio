@@ -93,6 +93,22 @@ $clr-disabled: 	#c7cbd6;
 $clr-info: 		$clr-cool3; 
 
 /*--- brands ---*/
+$clr-tri:		#d61920;
+$clr-trim:		lighten($clr-tri, 30%);
+$clr-tril:		darken($clr-tri, 20%);
+.clr-tri		{color: $clr-tri}
+.clr-tril		{color: $clr-tril}
+.clr-tri-bg		{background-color: $clr-tri}
+.clr-tril-bg	{background-color: $clr-tril}
+
+$clr-xperiel:	#d61920;
+$clr-xperielm:	#6FAAF6;
+$clr-xperiell:	#CAE7F9;
+.clr-xperiel	{color: $clr-xperiel}
+.clr-xperiell	{color: $clr-xperiell}
+.clr-xperiel-bg	{background-color: $clr-xperiel}
+.clr-xperiell-bg{background-color: $clr-xperiell}
+
 $clr-gigya:		#1F5BA7;
 $clr-gigyam:	#6FAAF6;
 $clr-gigyal:	#CAE7F9;

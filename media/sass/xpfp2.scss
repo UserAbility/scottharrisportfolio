@@ -635,8 +635,8 @@ header{
 	position: absolute;
 	top: 15px;
 	left: 15px;
-	:root {
-	  --font-size: 400px;
+	root {
+	  font-size: 400px;
 	}
 	html, body {
 		height: 100%;
