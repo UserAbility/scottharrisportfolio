@@ -255,6 +255,7 @@ section{
 .projectblocks{
 	@media (max-width: 1250px) {
 		padding: 0 2% 2% 2%;
+		overflow: hidden;
 	}
 	li{
 		height: 250px;
@@ -307,6 +308,11 @@ section{
 				width: 60%;
 				margin-left: 20%;
 			}
+		}
+		.alert{
+			margin-top: .3rem;
+			transform: rotate(-10deg); 
+			border-radius: 3px;
 		}
 		p{
 			position: absolute;
